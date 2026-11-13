@@ -119,7 +119,7 @@ test('history, favorites, independent category picks and settings survive a relo
   const dinner = catalog.Dinner[0];
   record(state, breakfast, 100);
   record(state, dinner, 200);
-  state.plan.Dinner = dinner.id;
+  state.plan.Dinner = [dinner.id];
   state.favorites.push(dinner.id);
   state.excluded.push(breakfast.id);
   state.preferences = ['Western Food'];
