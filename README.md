@@ -1,5 +1,7 @@
 # What to Eat
 
+本项目由 Silas Huang 制作，OpenAI Codex 参与开发。
+
 What to Eat 是一个开源的中英双语美食选择工具，适配手机和桌面。你可以用转盘决定早餐、午餐、晚餐、夜宵或茶饮，也可以一键安排一日菜单、查询品牌茶饮、收藏喜欢的条目，并把不想吃的选项从转盘中排除。偏好与历史记录保存在当前浏览器。
 
 [打开 What to Eat](https://auraliushale-rgb.github.io/what-to-eat/)
