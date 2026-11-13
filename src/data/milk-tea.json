@@ -987,7 +987,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "港澳",
+    "region": "Hong Kong and Macao"
   },
   {
     "id": "heytea-document-coconut-blue-mango",
@@ -1002,7 +1004,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "港澳",
+    "region": "Hong Kong and Macao"
   },
   {
     "id": "heytea-document-grassland-salted-milk-tea",
@@ -1017,7 +1021,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "内蒙古",
+    "region": "Inner Mongolia"
   },
   {
     "id": "heytea-document-hand-stirred-licorice-four-fruits-ice",
@@ -1032,7 +1038,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "深圳",
+    "region": "Shenzhen"
   },
   {
     "id": "heytea-document-hand-stirred-coconut-ice",
@@ -1047,7 +1055,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "深圳",
+    "region": "Shenzhen"
   },
   {
     "id": "heytea-document-french-toast-bobo-hk-milk-tea",
@@ -1062,7 +1072,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "广东",
+    "region": "Guangdong"
   },
   {
     "id": "heytea-document-tipsy-wampee-grape",
@@ -1077,7 +1089,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "广东",
+    "region": "Guangdong"
   },
   {
     "id": "heytea-document-tipsy-wampee-peach",
@@ -1092,7 +1106,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "广东",
+    "region": "Guangdong"
   },
   {
     "id": "heytea-document-cantonese-fresh-yuba-soy-milk",
@@ -1107,7 +1123,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "广东",
+    "region": "Guangdong"
   },
   {
     "id": "heytea-document-jiangbianli-cheezo-ganpu",
@@ -1122,7 +1140,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "江门",
+    "region": "Jiangmen"
   },
   {
     "id": "heytea-document-sandapao-tea-ice",
@@ -1137,7 +1157,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "成都",
+    "region": "Chengdu"
   },
   {
     "id": "heytea-document-cheezo-berry-berry-mango",
@@ -1152,7 +1174,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "华南",
+    "region": "South China"
   },
   {
     "id": "heytea-document-ruby-grape-cheese",
@@ -1167,7 +1191,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "江浙沪+新疆",
+    "region": "Jiangsu, Zhejiang, Shanghai and Xinjiang"
   },
   {
     "id": "nayuki-document-orange-fruit-tea",
@@ -2862,7 +2888,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "福建、广东、广西、江西",
+    "region": "Fujian, Guangdong, Guangxi and Jiangxi"
   },
   {
     "id": "goodme-document-super-rich-oil-mandarin",
@@ -2877,7 +2905,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "部分区域",
+    "region": "Selected regions"
   },
   {
     "id": "chabaidao-document-mango-pomelo-sago",
@@ -3447,7 +3477,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "广东、广西、福建、海南",
+    "region": "Guangdong, Guangxi, Fujian and Hainan"
   },
   {
     "id": "chabaidao-document-watermelon-bobo-red-rice-milk-tea",
@@ -3462,7 +3494,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "四川、重庆、贵州、云南",
+    "region": "Sichuan, Chongqing, Guizhou and Yunnan"
   },
   {
     "id": "chabaidao-document-mango-coconut",
@@ -3477,7 +3511,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "北京、东北、华北等",
+    "region": "Beijing, Northeast China, North China and other areas"
   },
   {
     "id": "chabaidao-document-jasmine-guava-pudding-guava-green-grape-yogurt",
@@ -3492,7 +3528,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "区域上新",
+    "region": "Regional release"
   },
   {
     "id": "chagee-document-bo-ya-jasmine-green-milk-tea",
@@ -3501,7 +3539,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3516,7 +3554,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3531,7 +3569,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3546,7 +3584,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3561,7 +3599,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3576,7 +3614,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3591,7 +3629,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3606,7 +3644,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3621,7 +3659,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3636,7 +3674,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3651,7 +3689,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3681,7 +3719,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3696,7 +3734,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3741,7 +3779,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3756,7 +3794,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3771,7 +3809,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3801,7 +3839,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3816,7 +3854,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3831,7 +3869,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3846,7 +3884,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3876,7 +3914,7 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
@@ -3891,13 +3929,15 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "贵州",
+    "region": "Guizhou"
   },
   {
     "id": "chagee-document-yunnan-rose-milk-baijiu",
@@ -3906,13 +3946,15 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "云南",
+    "region": "Yunnan"
   },
   {
     "id": "chagee-document-cloud-flowing-butter-beer",
@@ -3921,13 +3963,15 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "山东",
+    "region": "Shandong"
   },
   {
     "id": "chagee-document-evening-mountain-red-mist",
@@ -3936,13 +3980,15 @@
     "brand": "CHAGEE",
     "category": "Milk Tea",
     "cuisine": "Chinese",
-    "productCategory": "Other",
+    "productCategory": "Fresh Milk Tea",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "重庆",
+    "region": "Chongqing"
   },
   {
     "id": "chagee-document-pistachio-gelato",
@@ -3957,7 +4003,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "旗舰店专属",
+    "region": "Flagship stores only"
   },
   {
     "id": "auntea-jenny-document-red-rice-milk-tea",
@@ -4497,7 +4545,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "availability": "regional",
-    "source": "User-provided menu document"
+    "source": "User-provided menu document",
+    "regionChinese": "山东",
+    "region": "Shandong"
   },
   {
     "id": "shuyi-document-signature-grass-jelly-milk-tea",
