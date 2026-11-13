@@ -225,7 +225,9 @@ function me() {
 function favorites() {
   const history = library === 'history';
   const records = history ? state.history : state.favorites.map(id => ({id}));
-  return heading('Favorites', 'Save something for later or revisit past picks.', history && records.length ? button('Clear History', 'confirm-history') : '') +
+  return heading(history ? copy('History', '历史记录') : 'Favorites',
+    history ? copy('Revisit your past picks.', '回顾之前抽到的菜品和饮品。') : 'Save something for later or revisit past picks.',
+    history && records.length ? button('Clear History', 'confirm-history') : '') +
 
     (records.length ? '<div class="tile-grid">' + records.map(entry => {
       const item = byId.get(entry.id);

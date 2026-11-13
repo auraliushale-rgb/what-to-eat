@@ -253,6 +253,8 @@ dialog::backdrop{background:#392d255e;animation:backdrop-in var(--motion) both}
   .result{margin-top:12px;min-height:56px;padding:10px}
   .segmented{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));width:100%}
   .segmented a,.segmented button{justify-content:center;text-align:center;line-height:1.15}
+  .account-nav{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .account-nav button{min-width:0;overflow-wrap:anywhere}
   .category-card:last-child:nth-child(odd){grid-column:1/-1}
 }
 
