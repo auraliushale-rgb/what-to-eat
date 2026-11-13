@@ -12,6 +12,7 @@ let storage;
 try { storage = window.localStorage; } catch { storage = null; }
 const state = loadState(storage);
 let language = 'en';
+let languageAnimation;
 try { if (storage?.getItem('what-to-eat:language') === 'zh') language = 'zh'; } catch {}
 const t = value => translate(value, language);
 const itemName = item => language === 'zh' ? (namesZh[item.id] || item.nameChinese || item.name) : item.name;
@@ -371,9 +372,17 @@ document.addEventListener('click', event => {
   const {action, value} = control.dataset;
   if (action === 'language') {
     if (spinning) return;
+    control.dataset.animated = '';
     language = language === 'en' ? 'zh' : 'en';
     try { storage?.setItem('what-to-eat:language', language); } catch {}
     render();
+    languageAnimation?.cancel();
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      languageAnimation = main.animate([{opacity: .35}, {opacity: 1}], {
+        duration: 240,
+        easing: 'cubic-bezier(.2,.7,.3,1)'
+      });
+    }
     return;
   }
   if (action === 'spin') { void spin(value); return; }
