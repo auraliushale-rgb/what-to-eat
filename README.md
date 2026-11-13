@@ -1,35 +1,36 @@
 # What to Eat
 
-What to Eat is a responsive, English-language food picker inspired by GPAway. Spin independent wheels for breakfast, lunch, dinner, a late-night snack, or a branded tea-shop product. Build a daily plan, search Chinese tea menus, save favorites, and exclude individual items. Preferences and past picks stay in browser storage.
+What to Eat 是一个开源的中英双语美食选择工具，适配手机和桌面。你可以用转盘决定早餐、午餐、晚餐、夜宵或茶饮，也可以一键安排一日菜单、查询品牌茶饮、收藏喜欢的条目，并把不想吃的选项从转盘中排除。偏好与历史记录保存在当前浏览器。
 
-![What to Eat desktop home](docs/home-desktop.png)
-![What to Eat mobile roulette](docs/roulette-mobile.png)
+[打开 What to Eat](https://auraliushale-rgb.github.io/what-to-eat/)
 
-## Catalog
+本项目是温州肯恩大学 ESL 0303 W43 课程作业《Infomercial Group Invention》的一部分，指导老师为 Benjamin Dudley。
 
-| Wheel | Records |
+## 食品数据库
+
+| 转盘 | 条目数 |
 | --- | ---: |
-| Breakfast | 79 |
-| Lunch | 96 |
-| Dinner | 95 |
-| Late-night Snack | 58 |
-| Milk Tea Explorer | 269 |
-| **Total** | **597** |
+| 早餐 | 79 |
+| 午餐 | 96 |
+| 晚餐 | 95 |
+| 夜宵 | 58 |
+| 品牌茶饮 | 269 |
+| **合计** | **597** |
 
-The tea catalog covers 12 brands and includes 59 records classified as milk tea or fresh milk tea. The Milk Tea wheel includes the brands' other named menu products, such as fruit tea, brewed tea, coffee, soft serve, and desserts. The [catalog guide](docs/catalog.md) lists each brand's count and menu sources.
+茶饮数据库覆盖 12 个品牌，其中 59 款归为奶茶或鲜奶茶。其余条目包括水果茶、纯茶、咖啡、冰淇淋和甜点。各品牌的条目数量和菜单出处见[数据库说明](docs/catalog.md)。
 
-Each spin draws a uniformly shuffled sample of up to eight eligible records from the category's full pool. The winner is chosen uniformly from those segments and the wheel stops with the pointer inside the winning segment. The previous result is skipped when a second eligible option exists. Meal plans use the same eligibility logic.
+每次转动从当前分类的合格条目中随机选出最多八个候选，再从中等概率抽取结果。只要有其他合格选项，转盘就会避开上一次的结果。一日菜单使用相同的筛选逻辑。
 
-## Run locally
+## 本地运行
 
-Use Node.js 22.12 or later and npm.
+需要 Node.js 22.12 或更新版本及 npm。
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Open the printed local URL. The frontend uses JavaScript ES modules and CSS with Vite. There is no runtime API, account requirement, or backend.
+打开终端显示的本地地址。项目使用 JavaScript、CSS 和 Vite，无需注册账号或启动后端。
 
 ```sh
 npm test
@@ -37,17 +38,17 @@ npm run build
 npm run preview
 ```
 
-## Deploy to GitHub Pages
+## 部署到 GitHub Pages
 
-Push the project files to a public repository on the `main` branch. In **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**. Run **Deploy to GitHub Pages** from the Actions tab if the first push occurred before Pages was enabled. The workflow runs catalog and roulette tests, builds `dist/`, then uploads and deploys it. The deployment job publishes the URL.
+将源码推送到公开仓库的 `main` 分支，在仓库的 Pages 设置中将部署来源设为 GitHub Actions。部署流程会运行数据库与转盘测试，再构建并发布 `dist/`。Vite 使用相对路径，仓库子路径下可直接打开各页面与转盘。
 
-Vite uses a relative base path. Hash navigation works under a repository subpath and supports direct links to pages and wheels.
+## 项目贡献者
 
-## Contribute
+- 制作者：Silas Huang
+- 协助制作：Nike Chen、Yulin Gu、Codex（OpenAI）
 
-Create a branch and run `npm ci`. Use the [catalog guide](docs/catalog.md) when adding dishes, correcting menu data, or updating availability. Keep existing IDs stable so saved favorites and exclusions continue to work. Run `npm test` and `npm run build` before opening a pull request. Include source links for menu changes and describe which flows you verified.
+欢迎提交改进。增补菜品或修订品牌菜单时，请参考[数据库说明](docs/catalog.md)，保留已有条目的 ID。提交拉取请求前请运行 `npm test` 和 `npm run build`，并为菜单变更附上来源链接。
 
-## License
+## 许可证
 
-Project code and original documentation are available under the [MIT License](LICENSE). Brand and product names identify the products documented in the menu sources.
-
+项目代码和原创文档采用 [MIT 许可证](LICENSE)。品牌与产品名称用于标识菜单来源中的对应商品。
