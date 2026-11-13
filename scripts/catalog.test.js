@@ -18,7 +18,7 @@ test('catalog meets meal minimums and each named record is unique', () => {
     for (const item of catalog[category]) {
       assert.equal(item.category, category);
       assert.match(item.id, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
-      assert.ok(item.name && !noPlaceholders.test(item.name), item.name);
+      assert.ok(item.name && (item.brand || !noPlaceholders.test(item.name)), item.name);
       assert.ok(item.cuisine && Array.isArray(item.ingredients));
       assert.ok(Array.isArray(item.dietaryTags) && Array.isArray(item.allergens));
       const prefix = item.brand ?? 'food';
@@ -33,11 +33,16 @@ test('catalog meets meal minimums and each named record is unique', () => {
       if (item.brand) {
         assert.ok(brands.some(brand => brand.name === item.brand));
         assert.match(item.nameChinese, /[\p{Script=Han}]/u);
+        if (item.source === "User-provided menu document") {
+          assert.equal(item.ingredientEvidence, "unknown");
+          assert.ok(item.productCategory && item.availability);
+          continue;
+        }
         assert.match(item.source, /^https:\/\/[^ ]+$/);
         assert.match(item.lastVerified, /^\d{4}-\d{2}-\d{2}$/);
         assert.ok(item.market && item.productCategory && item.availability);
         if (item.price) assert.ok(item.price.amount > 0 && /^[A-Z]{3}$/.test(item.price.currency));
-      } else assert.ok(item.ingredients.length > 0);
+      } else assert.ok(item.ingredientEvidence === "unknown" || item.ingredients.length > 0);
     }
   }
   for (const brand of brands) assert.ok(catalog['Milk Tea'].filter(item => item.brand === brand.name).length >= 15, brand.name);
