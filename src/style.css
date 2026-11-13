@@ -28,7 +28,7 @@ svg{width:20px;height:20px;flex:none;vertical-align:middle}
 .wrap{width:min(100% - 48px,1120px);margin-inline:auto}
 .skip{position:fixed;top:8px;left:8px;z-index:10;background:var(--surface);padding:10px;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}
 .skip:focus{clip-path:none;width:auto;height:auto;overflow:visible}
-.masthead{background:var(--field);border-bottom:1px solid var(--line)}
+.masthead{background:var(--field)}
 .masthead-inner{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .wordmark{display:inline-flex;align-items:center;gap:10px;white-space:nowrap;text-decoration:none;font-weight:760;font-size:20px;letter-spacing:-.045em}
 .logo{width:33px;height:33px;display:grid;place-items:center;border-radius:8px;background:var(--navy);color:#fff;font:700 19px/1 Georgia,serif}
@@ -91,7 +91,7 @@ h3{font-size:17px;line-height:1.35}
 .category-card p{color:var(--muted);font-size:13px;margin-top:5px;margin-bottom:17px}
 .category-count{margin-top:auto;display:flex;width:100%;justify-content:space-between;align-items:center;gap:6px;font-weight:650;color:var(--navy);font-size:13px}
 .category-count svg{width:17px;height:17px}
-.footer{display:flex;justify-content:space-between;gap:12px;padding-block:19px 25px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+.footer{display:flex;justify-content:space-between;gap:12px;padding-block:19px 25px;color:var(--muted);font-size:13px}
 .segmented{display:flex;width:fit-content;max-width:100%;flex-wrap:wrap;gap:3px;padding:4px;background:var(--soft);border-radius:11px;margin-bottom:16px}
 .segmented a,.segmented button{padding:9px 14px;min-height:44px;display:flex;align-items:center;border:0;background:transparent;border-radius:8px;color:var(--navy);font-size:14px;text-decoration:none;transition:background var(--motion)}
 .segmented [aria-current],.segmented [aria-pressed="true"],.segmented [aria-current]:hover,.segmented [aria-pressed="true"]:hover{background:var(--navy);color:#fff}
@@ -245,7 +245,6 @@ dialog[open]{animation:dialog-in 260ms cubic-bezier(.2,.7,.3,1) both}
   justify-content: flex-end;
   align-items: center;
   gap: 4px 10px;
-  border-top: 1px solid var(--line);
 }
 .project-links .text-button {
   min-height: 44px;
