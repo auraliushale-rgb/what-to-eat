@@ -1,3 +1,4 @@
+import placements from './data/meal-placements.json' with { type: 'json' };
 import breakfast from './data/breakfast.json' with { type: 'json' };
 import lunch from './data/lunch.json' with { type: 'json' };
 import dinner from './data/dinner.json' with { type: 'json' };
@@ -6,12 +7,22 @@ import tea from './data/milk-tea.json' with { type: 'json' };
 import brands from './data/brands.json' with { type: 'json' };
 
 export { brands };
-export const catalog = {
+const baseCatalog = {
   Breakfast: breakfast, Lunch: lunch, Dinner: dinner, 'Late-night Snack': snack, 'Milk Tea': tea,
 };
-export const categories = Object.keys(catalog);
-export const items = Object.values(catalog).flat();
+export const items = Object.values(baseCatalog).flat();
 export const byId = new Map(items.map(item => [item.id, item]));
+export const categories = Object.keys(baseCatalog);
+export const catalog = Object.fromEntries(categories.map(category => {
+  const meal = new Map(baseCatalog[category].map(item => [item.id, item]));
+  for (const [id, cuisines] of Object.entries(placements[category] || {})) {
+    const item = byId.get(id);
+    meal.set(id, {...item, category, cuisine:cuisines[0], cuisineAliases:cuisines.slice(1)});
+  }
+  return [category, [...meal.values()]];
+}));
+export const belongsToMeal = (id, category) =>
+  byId.get(id)?.category === category || Object.hasOwn(placements[category] || {}, id);
 export const chinese = new Set([
   'Northern Chinese', 'Shanghai', 'Cantonese', 'Jiangsu', 'Zhejiang', 'Hubei', 'Henan', 'Fujian',
   'Taiwanese', 'Sichuan', 'Hunan', 'Shandong', 'Anhui', 'Northeastern Chinese', 'Shaanxi',

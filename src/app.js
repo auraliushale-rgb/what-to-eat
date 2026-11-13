@@ -2,7 +2,7 @@ import { namesZh, ingredientsZh } from './catalog-zh.js';
 import heroImage from './home-menu.jpeg';
 import supportCode from './support-qr.jpg';
 import { translate, localize, celebrate } from './interface.js';
-import { brands, byId, catalog, categories, eligible, menuEligible, preferences, restrictions, searchable, normalize, shuffle, stopAngle, wheelDraw } from './catalog.js';
+import { brands, items, byId, catalog, categories, eligible, menuEligible, preferences, restrictions, searchable, normalize, shuffle, stopAngle, wheelDraw } from './catalog.js';
 import { loadState, record, saveState } from './state.js';
 
 const main = document.querySelector('main');
@@ -94,7 +94,7 @@ function persist(message) {
 }
 
 function home() {
-  const foodCount = categories.slice(0,4).reduce((sum, category) => sum + catalog[category].length, 0);
+  const foodCount = items.filter(item => !item.brand).length;
   return '<section class="hero card"><div class="hero-content"><h1>What are we<br class="hero-break"> eating today?</h1><p class="lede">Let the wheel decide.</p><div class="actions">' +
     link(icon('roulette') + ' Open food roulette', 'roulette/breakfast', true) +
     button(icon('shuffle') + ' Random All', 'random-all') +
@@ -111,9 +111,10 @@ function tile(item, subtitle = '', compact = false) {
 function grouped(items) {
   const groups = new Map();
   for (const item of items) {
-    const key = subtype(item);
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(item);
+    for (const key of subgroup && !item.brand ? [subgroup] : groupsOf(item)) {
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(item);
+    }
   }
   return [...groups].sort(([a],[b]) => t(a).localeCompare(t(b),language)).map(([group, entries]) => '<details class="food-group"><summary>' + escape(t(group)) + ' <span>' + entries.length + '</span></summary>' + entries.map(item => tile(item, '', true)).join('') + '</details>').join('');
 }
@@ -121,7 +122,7 @@ function grouped(items) {
 function wheelPanel(category) {
   const pool = wheelPool(category);
   const groups = [...new Set(eligible(category, state).flatMap(groupsOf))].sort((a,b) => t(a).localeCompare(t(b),language));
-  const previous = byId.get(state.last[category]);
+  const previous = pool.find(item => item.id === state.last[category]);
   const visibleResult = previous && pool.some(item => item.id === previous.id) ? previous : null;
   const hasFrame = frame?.category === category && (!visibleResult || frame.result === visibleResult.id || spinning === frame) && frame.segments.every(item => pool.some(candidate => candidate.id === item.id));
   const preview = visibleResult ? [visibleResult, ...shuffle(pool.filter(item => item.id !== visibleResult.id)).slice(0, 7)] : shuffle(pool).slice(0, 8);
@@ -174,12 +175,12 @@ function renderTeaItems() {
 }
 
 const plannedIds = category => state.plan[category] || [];
-function removeFromMenu(id) {
-  const category = byId.get(id)?.category;
-  if (!category) return;
-  const ids = plannedIds(category).filter(pick => pick !== id);
-  if (ids.length) state.plan[category] = ids;
-  else delete state.plan[category];
+function removeFromMenu(id, meals = categories) {
+  for (const meal of meals) {
+    const ids = plannedIds(meal).filter(pick => pick !== id);
+    if (ids.length) state.plan[meal] = ids;
+    else delete state.plan[meal];
+  }
 }
 function plan() {
   const clear = Object.keys(state.plan).length ? button(copy('Clear menu','清空菜单'), 'clear-menu') : '';
@@ -187,9 +188,9 @@ function plan() {
     '<div class="plan-grid">' + categories.map(category => {
       const add = copy('Add to ','添加到') + t(category);
       const picks = plannedIds(category).map(id => {
-        const item = byId.get(id);
+        const item = catalog[category].find(entry => entry.id === id);
         return '<li><span>' + escape(itemName(item)) + '</span><button class="icon-button" data-action="remove-menu" data-value="' +
-          escape(id) + '" aria-label="' + escape(copy('Remove ','移除') + itemName(item)) + '">×</button></li>';
+          escape(id) + '" data-meal="' + escape(category) + '" aria-label="' + escape(copy('Remove ','移除') + itemName(item)) + '">×</button></li>';
       }).join('');
       return '<section class="card plan-card"><div class="plan-card-heading"><h2>' + t(category) +
         '</h2><a class="icon-button plan-add" href="#' + categoryLink(category) + '" aria-label="' + escape(add) +
@@ -524,13 +525,13 @@ document.addEventListener('click', event => {
   if (action === 'clear-menu' || action === 'clear-category' || action === 'remove-menu') {
     if (action === 'clear-menu') state.plan = {};
     else if (action === 'clear-category') delete state.plan[value];
-    else removeFromMenu(value);
+    else removeFromMenu(value, [control.dataset.meal]);
     persist();
     render({refocus:'.plan-add'});
     return;
   }
   if (action === 'add-menu') {
-    const item = byId.get(value);
+    const item = catalog[current.category]?.find(candidate => candidate.id === value);
     if (!item) return;
     state.plan[item.category] = [...new Set([...plannedIds(item.category), item.id])];
     persist();

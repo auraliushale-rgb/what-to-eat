@@ -1,4 +1,4 @@
-import { brands, byId, categories, preferences, restrictions } from './catalog.js';
+import { brands, belongsToMeal, byId, categories, preferences, restrictions } from './catalog.js';
 
 const key = 'what-to-eat:v1';
 const initial = () => ({
@@ -26,9 +26,9 @@ export function loadState(storage) {
     }
     for (const category of categories) {
       const last = raw.last?.[category];
-      if (byId.get(last)?.category === category) state.last[category] = last;
+      if (belongsToMeal(last, category)) state.last[category] = last;
       const saved = raw.plan?.[category];
-      const picks = [...new Set((Array.isArray(saved) ? saved : [saved]).filter(id => byId.get(id)?.category === category))];
+      const picks = [...new Set((Array.isArray(saved) ? saved : [saved]).filter(id => belongsToMeal(id, category)))];
       if (picks.length) state.plan[category] = picks;
     }
     return state;
