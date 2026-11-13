@@ -11,6 +11,12 @@ const dialog = document.querySelector('#details');
 let storage;
 try { storage = window.localStorage; } catch { storage = null; }
 const state = loadState(storage);
+const projectInfo = document.createElement('button');
+projectInfo.type = 'button';
+projectInfo.className = 'text-button';
+projectInfo.dataset.action = 'project-info';
+document.querySelector('#support-project').after(projectInfo);
+
 let language = 'en';
 let languageAnimation;
 try { if (storage?.getItem('what-to-eat:language') === 'zh') language = 'zh'; } catch {}
@@ -203,6 +209,7 @@ function render({navigate = false, refocus} = {}) {
   main.innerHTML = pages[current.page]();
   document.querySelector('#project-credits').textContent = t('Credits');
   document.querySelector('#support-project').textContent = t('Support the project');
+  projectInfo.textContent = language === 'zh' ? '项目说明' : 'About this project';
   localize(main, language);
   document.title = current.page === 'home' ? 'What to Eat' : t(routes[current.page]) + ' · ' + 'What to Eat';
   if (current.page === 'tea') renderTeaItems();
@@ -390,7 +397,25 @@ document.addEventListener('click', event => {
   if (action === 'credits') {
     showDialog('<div class="dialog-head"><h2 id="detail-title">Credits</h2><button class="icon-button" type="button" data-action="close" aria-label="Close details">×</button></div>' +
       '<div class="dialog-body credits-body"><h3>Creators</h3><ul><li>Xingyi Huang (Silas)</li><li>Codex ChatGPT</li></ul>' +
-      '<h3>Contributors</h3><ul><li>Nike Chen</li><li>Yulin Gu</li></ul></div>', control);
+      '<h3>Contributors</h3><ul><li>Nike Chen</li><li>Yulin Gu</li><li>Codex</li></ul></div>', control);
+    return;
+  }
+  if (action === 'project-info') {
+    const chinese = language === 'zh';
+    const title = projectInfo.textContent;
+    const description = chinese
+      ? '本项目是温州肯恩大学 ESL 0303 W43 课程作业《Infomercial Group Invention》的一部分。'
+      : 'This project is part of the “Infomercial Group Invention” assignment for ESL 0303 W43 at Wenzhou-Kean University.';
+    showDialog(
+      '<div class="dialog-head"><h2 id="detail-title">' + title + '</h2>' +
+      '<button class="icon-button" type="button" data-action="close" aria-label="Close details">×</button></div>' +
+      '<div class="dialog-body credits-body"><p>' + description + '</p>' +
+      '<p><strong>' + (chinese ? '指导老师' : 'Instructor') + '</strong> · Benjamin Dudley</p>' +
+      '<h3>' + (chinese ? '联系 Xingyi Huang' : 'Contact Xingyi Huang') + '</h3>' +
+      '<ul><li>' + (chinese ? '个人邮箱' : 'Personal email') +
+      ' · <a href="mailto:Philosel@outlook.com">Philosel@outlook.com</a></li>' +
+      '<li>' + (chinese ? '学校邮箱' : 'University email') +
+      ' · <a href="mailto:huangxi@kean.edu">huangxi@kean.edu</a></li></ul></div>', control);
     return;
   }
   if (action === 'support') {
