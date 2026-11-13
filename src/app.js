@@ -1,4 +1,5 @@
 import { namesZh, ingredientsZh } from './catalog-zh.js';
+import heroImage from './home-menu.jpeg';
 import supportCode from './support-qr.jpg';
 import { translate, localize, celebrate } from './interface.js';
 import { brands, byId, catalog, categories, eligible, menuEligible, preferences, restrictions, searchable, normalize, shuffle, stopAngle, wheelDraw } from './catalog.js';
@@ -20,11 +21,16 @@ document.querySelector('#support-project').after(projectInfo);
 let language = 'en';
 let languageAnimation;
 try { if (storage?.getItem('what-to-eat:language') === 'zh') language = 'zh'; } catch {}
-const t = value => translate(value, language);
+const copy = (en, zh) => language === 'zh' ? zh : en;
+const extraLabels = {'Chinese Home Cooking':'家常菜', 'Ice Cream':'冰淇淋', Other:'其他', Me:'我'};
+const t = value => language === 'zh' && extraLabels[value] ? extraLabels[value] : translate(value, language);
+const brandName = name => language === 'zh' ? brands.find(brand => brand.name === name)?.nameChinese || name : name;
+const groupsOf = item => [item.productCategory || item.cuisine, ...(item.cuisineAliases || [])];
+const homeGroup = category => ['Breakfast','Lunch','Dinner'].includes(category) ? 'Chinese Home Cooking' : '';
 const itemName = item => language === 'zh' ? (namesZh[item.id] || item.nameChinese || item.name) : item.name;
 let subgroup = '';
 const subtype = item => item.productCategory || item.cuisine;
-const wheelPool = category => eligible(category, state).filter(item => !subgroup || subtype(item) === subgroup);
+const wheelPool = category => eligible(category, state).filter(item => !subgroup || groupsOf(item).includes(subgroup));
 const routes = {home: 'Home', roulette: 'Food Roulette', plan: 'Daily Meal Plan', tea: 'Milk Tea Explorer', favorites: 'Favorites', preferences: 'Preferences'};
 const symbols = {
   home:'<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/><path d="M9 21v-7h6v7"/>',
@@ -65,7 +71,7 @@ let dialogTrigger;
 
 function route() {
   const [page, slug] = location.hash.slice(1).split('/');
-  return {page: Object.hasOwn(routes, page) ? page : 'home', category: categories.slice(0,4).find(category => categoryLink(category).endsWith('/' + slug)) ?? 'Breakfast'};
+  return {page: page === 'me' ? 'me' : Object.hasOwn(routes, page) ? page : 'home', category: categories.slice(0,4).find(category => categoryLink(category).endsWith('/' + slug)) ?? 'Breakfast'};
 }
 
 function notify(message) {
@@ -85,14 +91,13 @@ function home() {
   return '<section class="hero card"><div class="hero-content"><h1>What are we<br class="hero-break"> eating today?</h1><p class="lede">Let the wheel decide.</p><div class="actions">' +
     link(icon('roulette') + ' Open food roulette', 'roulette/breakfast', true) +
     button(icon('shuffle') + ' Random All', 'random-all') +
-    '</div></div><div class="hero-art" aria-hidden="true"><div class="plate-mat"><div class="plate"><div class="plate-inner">' + icon('lunch') +
-    '</div></div><i class="fork"></i><i class="knife"></i></div></div></section>' +
+    '</div></div><div class="hero-art"><img src="' + heroImage + '" alt="' + copy('Illustrated food menu','美食菜单插图') + '"></div></section>' +
     '<section class="home-categories" aria-labelledby="category-heading"><div class="section-heading"><h2 id="category-heading">Choose a wheel</h2><p>' + foodCount + ' dishes and ' + catalog['Milk Tea'].length + ' branded products</p></div><div class="category-grid">' +
     categories.map((category, i) => '<a class="card category-card tone-' + i + '" href="#' + categoryLink(category) + '"><span class="tile-icon">' + icon(categoryIcons[i]) + '</span><h3>' + category + '</h3><p>' + blurbs[i] + '</p><span class="category-count">' + catalog[category].length + ' ' + (i === 4 ? 'products' : 'dishes') + icon('arrow') + '</span></a>').join('') + '</div></section>';
 }
 
 function tile(item, subtitle = '', compact = false) {
-  return '<article class="list-tile ' + (compact ? '' : 'card') + '"><div><button class="text-button item-title" data-action="details" data-value="' + item.id + '">' + escape(itemName(item)) + '</button><p class="muted">' + escape(subtitle || (item.brand ? item.brand + ' · ' + t(item.productCategory) : t(item.cuisine))) + '</p></div>' +
+  return '<article class="list-tile ' + (compact ? '' : 'card') + '"><div><strong class="item-title">' + escape(itemName(item)) + '</strong><p class="muted">' + escape(subtitle || (item.brand ? brandName(item.brand) + ' · ' + t(item.productCategory) : t(item.cuisine))) + '</p></div>' +
     '<button class="icon-button heart" title="' + (state.favorites.includes(item.id) ? 'Remove favorite' : 'Save favorite') + '" aria-label="' + (state.favorites.includes(item.id) ? 'Remove ' : 'Save ') + escape(itemName(item)) + (state.favorites.includes(item.id) ? ' from favorites' : ' to favorites') + '" aria-pressed="' + state.favorites.includes(item.id) + '" data-action="favorite" data-value="' + item.id + '">' + icon('favorites') + '</button></article>';
 }
 
@@ -108,7 +113,7 @@ function grouped(items) {
 
 function wheelPanel(category) {
   const pool = wheelPool(category);
-  const groups = [...new Set(eligible(category, state).map(subtype))].sort((a,b) => t(a).localeCompare(t(b),language));
+  const groups = [...new Set(eligible(category, state).flatMap(groupsOf))].sort((a,b) => t(a).localeCompare(t(b),language));
   const previous = byId.get(state.last[category]);
   const visibleResult = previous && pool.some(item => item.id === previous.id) ? previous : null;
   const hasFrame = frame?.category === category && (!visibleResult || frame.result === visibleResult.id || spinning === frame) && frame.segments.every(item => pool.some(candidate => candidate.id === item.id));
@@ -121,28 +126,28 @@ function wheelPanel(category) {
     '<div class="wheel-wrap"><div class="wheel-shell"><span class="pointer" aria-hidden="true"></span><canvas id="wheel" width="840" height="840" aria-label="Wheel segments: ' +
     escape(selection.segments.map(itemName).join(', ')) + '" role="img"></canvas><span class="wheel-hub" aria-hidden="true">' + icon(categoryIcons[categories.indexOf(category)]) + '</span></div></div>' +
     '<div class="wheel-copy"><label class="wheel-filter">' + t(category === 'Milk Tea' ? 'Product type' : 'Cuisine') + '<select id="wheel-group"' + (spinning ? ' disabled' : '') + '>' + option('', t('All types'), !subgroup) + groups.map(group => option(group,t(group),subgroup === group)).join('') + '</select></label><span class="pill">' + count(pool.length, 'eligible option') + '</span><h2>' + category + ' wheel</h2><p class="lede">Choose a category, then spin.</p>' +
-    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(itemName(result)) + '</h3><p class="muted">' + escape(result.brand ? result.brand : t(result.cuisine)) + '</p>' :
+    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(itemName(result)) + '</h3><p class="muted">' + escape(result.brand ? brandName(result.brand) : t(result.cuisine)) + '</p>' :
     '<p class="muted">' + (busy ? 'Spinning…' : pool.length ? 'Ready when you are.' : 'No eligible items. Try another brand or review your preferences and exclusions.') + '</p>') + '</div>' +
     '<div class="actions"><button id="spin" class="button primary" data-action="spin" data-value="' + category + '"' + (pool.length && !spinning ? '' : ' disabled') + '>' +
     icon('roulette') + (previous ? ' Spin Again' : ' Spin the Wheel') + '</button>' +
-    (result ? button('Details', 'details', result.id) + button('Exclude', 'exclude', result.id) + button(state.favorites.includes(result.id) ? 'Saved' : 'Save', 'favorite', result.id) : '') +
+    (result ? (result.brand ? '' : button(copy('Add to menu','加入菜单'), 'add-menu', result.id)) + button('Exclude', 'exclude', result.id) + button(state.favorites.includes(result.id) ? 'Saved' : 'Save', 'favorite', result.id) : '') +
     (pool.length ? '' : link('Preferences', 'preferences')) + '</div></div></section>';
 }
 
 function roulette() {
   return heading('Food Roulette', 'Pick a meal and give the wheel a spin.', button(icon('shuffle') + ' Random All', 'random-all')) +
     '<nav class="segmented" aria-label="Meal wheels">' + categories.slice(0,4).map(category => '<a href="#' + categoryLink(category) + '"' + (category === current.category ? ' aria-current="page"' : '') + '>' + category + '</a>').join('') +
-    '</nav>' + wheelPanel(current.category) + '<details class="card pool"><summary>Browse eligible dishes</summary><div class="list">' +
+    '<a class="tea-nav" href="#tea">' + copy('Milk Tea Explorer','奶茶专区') + '</a></nav>' + wheelPanel(current.category) + '<details class="card pool"><summary>Browse eligible dishes</summary><div class="list">' +
     grouped(wheelPool(current.category)) + '</div></details>';
 }
 
 function tea() {
-  const brandOptions = option('', 'All brands', !state.brand) + brands.map(brand => option(brand.name, brand.name, brand.name === state.brand)).join('');
+  const brandOptions = option('', 'All brands', !state.brand) + brands.map(brand => option(brand.name, brandName(brand.name), brand.name === state.brand)).join('');
   const teaCategories = [...new Set(catalog['Milk Tea'].map(item => item.productCategory))].sort();
   return heading('Milk Tea Explorer', 'Browse bilingual menus, choose a brand, or let the wheel pick.') +
     '<section class="card toolbar"><label>Choose a brand<select id="brand">' + brandOptions + '</select></label>' + button(icon('shuffle') + ' Random Brand', 'random-brand') + '</section>' +
-    wheelPanel('Milk Tea') +
-    '<section class="tea-menu"><div class="section-heading"><h2>' + escape(state.brand ? state.brand : 'All brands') + ' menu</h2><p>Availability varies by store and season.</p></div>' +
+    '<p><a href="#roulette">' + copy('Back to food wheels','返回美食转盘') + '</a></p>' + wheelPanel('Milk Tea') +
+    '<section class="tea-menu"><div class="section-heading"><h2>' + escape(state.brand ? brandName(state.brand) : 'All brands') + ' menu</h2><p>Availability varies by store and season.</p></div>' +
     '<div class="card toolbar menu-toolbar"><label>Find a product<input type="search" id="tea-search" placeholder="Name, brand, or ingredient" value="' + escape(teaSearch) + '"></label><label>Product type<select id="tea-type">' +
     option('', 'All types', !teaType) + teaCategories.map(type => option(type, t(type), teaType === type)).join('') + '</select></label></div><div id="tea-items"></div></section>';
 }
@@ -159,28 +164,31 @@ function renderTeaItems() {
 }
 
 function plan() {
-  const hasPlan = Object.keys(state.plan).length > 0;
-  return heading('Daily Meal Plan', 'One pick for each meal, with room for a snack and milk tea.',
-    button(icon('shuffle') + (hasPlan ? ' Regenerate All' : ' Generate My Day'), 'generate', '', true)) +
-    '<section class="card toolbar plan-options" aria-label="Optional meals"><label class="check"><input type="checkbox" id="includeSnack"' + checked(state.includeSnack) + '> Include late-night snack</label><label class="check"><input type="checkbox" id="includeTea"' + checked(state.includeTea) + '> Include milk tea</label></section>' +
-    '<div class="plan-grid">' + activePlanCategories().map(category => {
-      const pool = eligible(category, state);
-      const item = pool.find(candidate => candidate.id === state.plan[category]);
-      const i = categories.indexOf(category);
-      return '<section class="card plan-card tone-' + i + '"><span class="tile-icon">' + icon(categoryIcons[i]) + '</span><h2>' + category + '</h2>' +
-        (item ? tile(item, '', true) : '<p class="muted">' + (pool.length ? 'Ready to generate.' : 'No eligible options.') + '</p>') +
-        '<div class="actions">' + (pool.length ? button(item ? 'Regenerate' : 'Generate', 'generate-one', category) : link('Preferences', 'preferences')) + '</div></section>';
-    }).join('') + '</div>';
+  return heading('Daily Meal Plan', copy('Add a result from Food Roulette or use Plan My Day to fill this menu.', '从美食转盘把抽到的菜品加入菜单，或用「一键安排今天」生成。')) +
+    '<div class="plan-grid">' + categories.map(category => {
+      const item = byId.get(state.plan[category]);
+      if (!item) return '';
+      return '<section class="card plan-card"><h2>' + t(category) + '</h2><h3>' + escape(itemName(item)) +
+        '</h3><p class="muted">' + escape(item.brand ? brandName(item.brand) : t(item.cuisine)) + '</p></section>';
+    }).join('') + '</div>' + (Object.keys(state.plan).length ? '' : '<p class="card empty">' + copy('Your menu is empty.','菜单暂时为空。') + '</p>');
 }
 
+let accountSection = 'saved';
+function me() {
+  const sections = [['saved',copy('My favorites','我的收藏')],['history',copy('History','历史记录')],['preferences',copy('Preferences','偏好设置')]];
+  library = accountSection;
+  return '<nav class="segmented account-nav" aria-label="' + copy('My account','我的栏目') + '">' + sections.map(([key,label]) =>
+    '<button aria-pressed="' + (accountSection === key) + '" data-action="account-section" data-value="' + key + '">' + label + '</button>').join('') +
+    '</nav><div class="arrive">' + (accountSection === 'preferences' ? settings() : favorites()) + '</div>';
+}
 function favorites() {
   const history = library === 'history';
   const records = history ? state.history : state.favorites.map(id => ({id}));
   return heading('Favorites', 'Save something for later or revisit past picks.', history && records.length ? button('Clear History', 'confirm-history') : '') +
-    '<div class="segmented" aria-label="Collection views">' + ['saved','history'].map(key => '<button aria-pressed="' + (library === key) + '" data-action="library" data-value="' + key + '">' + (key === 'saved' ? 'Saved items' : 'History') + '</button>').join('') + '</div>' +
+
     (records.length ? '<div class="tile-grid">' + records.map(entry => {
       const item = byId.get(entry.id);
-      const subtitle = history ? [item.brand || t(item.category), new Date(entry.at).toLocaleString(language, {dateStyle:'medium', timeStyle:'short'})].join(' · ') : '';
+      const subtitle = history ? [brandName(item.brand) || t(item.category), new Date(entry.at).toLocaleString(language, {dateStyle:'medium', timeStyle:'short'})].join(' · ') : '';
       return tile(item, subtitle);
     }).join('') + '</div>' : '<p class="card empty">' + (history ? 'Your past roulette and meal plan picks will appear here.' : 'Save a dish or a drink to see it here.') + '</p>');
 }
@@ -190,18 +198,72 @@ function settings() {
   return heading('Preferences', 'Set what you like and what to leave out.') +
     '<div class="settings-grid"><fieldset class="card settings-card"><legend>Food preferences</legend><p class="muted">Matching foods are prioritized when available.</p><div class="check-grid">' +
     '<label class="check"><input type="checkbox" id="no-preference"' + checked(!state.preferences.length) + '> No Preference</label>' +
-    choices(preferences, 'preferences') + '</div></fieldset><fieldset class="card settings-card"><legend>Food restrictions</legend><p class="muted">Seafood, egg, dairy, and peanut filters require a complete verified ingredient declaration. The catalog currently has recipe summaries and partial menu information.</p><div class="check-grid">' +
-    choices(restrictions, 'restrictions') + '</div></fieldset><form class="card settings-card" id="custom-form"><h2>Custom restrictions</h2><label for="custom">Foods or ingredients to avoid</label><textarea id="custom" rows="3" maxlength="1000" placeholder="Separate entries with commas or new lines">' + escape(state.custom) +
-    '</textarea><div class="actions"><button class="button primary" type="submit">Save restrictions</button></div></form><section class="card settings-card"><h2>Excluded items</h2>' +
+    choices(preferences, 'preferences') + '</div></fieldset><fieldset class="card settings-card"><legend>Food restrictions</legend><p class="muted">' + copy('Ingredient information may be incomplete, so filters cannot guarantee that all restrictions are met.', '配料信息可能不完整，筛选结果无法保证满足所有饮食限制。') + '</p><div class="check-grid">' +
+    choices(restrictions, 'restrictions') + button(copy('Custom','自定义'), 'custom') + '</div></fieldset><section class="card settings-card"><h2>Excluded items</h2>' +
     (state.excluded.length ? '<ul class="exclusions">' + state.excluded.map(id => {
       const item = byId.get(id);
-      return '<li><span>' + escape(itemName(item)) + (item.brand ? ' · ' + escape(item.brand) : '') + '</span>' + button('Restore', 'restore', id) + '</li>';
+      return '<li><span>' + escape(itemName(item)) + (item.brand ? ' · ' + escape(brandName(item.brand)) : '') + '</span>' + button('Restore', 'restore', id) + '</li>';
     }).join('') + '</ul>' : '<p class="muted">Items you exclude from a wheel or product detail appear here.</p>') + '</section></div>';
 }
 
-const pages = {home, roulette, plan, tea, favorites, preferences:settings};
+const pages = {home, roulette, plan, tea, favorites:me, preferences:me, me};
+function enhanceSelects(root) {
+  for (const select of root.querySelectorAll('select')) {
+    if (select.hidden || select.disabled) continue;
+    const field = document.createElement('details');
+    field.className = 'site-select';
+    const summary = document.createElement('summary');
+    summary.textContent = select.selectedOptions[0]?.textContent || '';
+    const choices = document.createElement('div');
+    choices.className = 'site-select-options';
+    for (const option of select.options) {
+      const choice = document.createElement('button');
+      choice.type = 'button';
+      choice.textContent = option.textContent;
+      choice.setAttribute('aria-pressed', String(option.selected));
+      choice.addEventListener('click', event => {
+        event.preventDefault();
+        select.value = option.value;
+        summary.textContent = option.textContent;
+        for (const button of choices.children) button.setAttribute('aria-pressed', String(button === choice));
+        closeChoices();
+        select.dispatchEvent(new Event('change', {bubbles:true}));
+        (summary.isConnected ? summary : document.getElementById(select.id)?.nextElementSibling?.querySelector('summary'))?.focus();
+      });
+      choices.append(choice);
+    }
+    let closing;
+    function closeChoices() {
+      if (!field.open || closing) return;
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        field.open = false;
+        return;
+      }
+      closing = choices.animate([{opacity:1, transform:'translateY(0)'}, {opacity:0, transform:'translateY(-4px)'}], {duration:140, easing:'ease-in'});
+      closing.onfinish = () => { field.open = false; closing = null; };
+    }
+    summary.addEventListener('click', event => {
+      if (!field.open) return;
+      event.preventDefault();
+      closeChoices();
+    });
+    field.addEventListener('keydown', event => {
+      if (event.key !== 'Escape' || !field.open) return;
+      event.preventDefault();
+      event.stopPropagation();
+      closeChoices();
+      summary.focus();
+    });
+    field.append(summary, choices);
+    select.hidden = true;
+    select.after(field);
+  }
+}
 function render({navigate = false, refocus} = {}) {
-  navigation.innerHTML = Object.entries(routes).map(([page, title]) => '<a href="#' + page + '"' + (page === current.page ? ' aria-current="page"' : '') + '>' + icon(page) + '<span>' + t(title) + '</span></a>').join('');
+  const mainRoutes = ['home', 'roulette', 'plan', 'me'];
+  const active = {tea:'roulette', favorites:'me', preferences:'me'}[current.page] || current.page;
+  navigation.innerHTML = mainRoutes.map(page => '<a href="#' + page + '"' + (page === active ? ' aria-current="page"' : '') +
+    '>' + icon(page === 'me' ? 'favorites' : page) + '<span>' + t(routes[page] || 'Me') + '</span></a>').join('');
   document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
   document.querySelector('#language').setAttribute('aria-pressed', String(language === 'zh'));
   document.querySelector('.skip').textContent = t('Skip to content');
@@ -211,8 +273,9 @@ function render({navigate = false, refocus} = {}) {
   document.querySelector('#support-project').textContent = t('Support the project');
   projectInfo.textContent = language === 'zh' ? '项目说明' : 'About this project';
   localize(main, language);
-  document.title = current.page === 'home' ? 'What to Eat' : t(routes[current.page]) + ' · ' + 'What to Eat';
+  document.title = current.page === 'home' ? 'What to Eat' : t(routes[current.page] || 'Me') + ' · ' + 'What to Eat';
   if (current.page === 'tea') renderTeaItems();
+  enhanceSelects(main);
   const canvas = document.querySelector('#wheel');
   if (canvas && frame) {
     paintWheel(canvas, frame.segments);
@@ -233,7 +296,9 @@ function syncRoute() {
   if (current.page === next.page && current.category === next.category) return;
   if (dialog.open) dialog.close();
   current = next;
-  subgroup = '';
+  if (next.page === 'preferences') accountSection = 'preferences';
+  if (next.page === 'favorites') accountSection = 'saved';
+  subgroup = next.page === 'roulette' ? homeGroup(next.category) : '';
   frame = null;
   render({navigate:true});
 }
@@ -341,6 +406,7 @@ function showDialog(html, trigger) {
   if (!dialog.open) dialogTrigger = trigger;
   dialog.innerHTML = html;
   localize(dialog, language);
+  enhanceSelects(dialog);
   if (!dialog.open) dialog.showModal();
 }
 dialog.addEventListener('close', () => {
@@ -351,18 +417,14 @@ dialog.addEventListener('close', () => {
   }
   dialogTrigger = null;
 });
-function detail(item, trigger, winner = false) {
-  const identity = [item.brand || t(item.cuisine), t(item.productCategory || item.category)].filter(Boolean).join(' · ');
-  const ingredients = item.ingredients.length ? item.ingredients.map(value => language === 'zh' ? ingredientsZh[value] : value).join(language === 'zh' ? '、' : ', ') : 'Ingredient information unavailable.';
-  const evidence = {'typical-recipe':'Typical recipe ingredients', 'published-highlights':'Published ingredient highlights', unknown:'Ingredient information', 'verified-complete':'Verified ingredient declaration'}[item.ingredientEvidence];
-  const price = item.price ? new Intl.NumberFormat('en', {style:'currency', currency:item.price.currency}).format(item.price.amount) : 'Price unavailable';
-  showDialog('<div class="dialog-head"><div><p class="eyebrow">' + escape(winner ? t('Your pick') + ' · ' + t(item.category) : identity) + '</p><h2 id="detail-title">' + escape(itemName(item)) + '</h2>' +
-    (item.brand && item.nameChinese && language === 'en' ? '<p lang="zh" class="muted">' + escape(item.nameChinese) + '</p>' : '') + '</div><button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
-    '<div class="dialog-body"><h3>' + evidence + '</h3><p>' + escape(ingredients) + '</p><h3>Recorded allergens</h3><p>' + escape(item.allergens.map(t).join(language === 'zh' ? '、' : ', ') || 'Unavailable') + '</p>' +
-    (item.ingredientEvidence !== 'verified-complete' ? '<p class="muted">Ingredient and cross-contact information is incomplete.</p>' : '') +
-    (item.brand ? '<h3>Menu reference</h3><p>' + escape(t(statusLabel(item.availability)) + ' · ' + t(item.market) + ' · ' + t(price)) + '</p><p>' + t('Checked') + ' ' + escape(item.lastVerified) + ' · <a href="' + escape(item.source) + '" target="_blank" rel="noopener noreferrer">View source</a></p>' : '') +
-    '</div><div class="dialog-actions">' + button(state.favorites.includes(item.id) ? 'Remove Favorite' : 'Save Favorite', 'favorite', item.id, true) +
-    button(state.excluded.includes(item.id) ? 'Restore to Wheel' : 'Exclude from Wheel', state.excluded.includes(item.id) ? 'restore' : 'exclude', item.id) + '</div>', trigger);
+function detail(item, trigger) {
+  const identity = item.brand ? brandName(item.brand) + ' · ' + t(item.productCategory) : t(item.cuisine);
+  showDialog('<div class="dialog-head"><div><p class="eyebrow">' + t('Your pick') +
+    '</p><h2 id="detail-title">' + escape(itemName(item)) + '</h2><p class="muted">' + escape(identity) +
+    '</p><p class="muted" role="status" id="menu-feedback"></p></div>' +
+    '<button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
+    '<div class="dialog-actions">' + (item.brand ? '' : button(copy('Add to menu','加入菜单'), 'add-menu', item.id, true)) +
+    button(state.favorites.includes(item.id) ? 'Remove Favorite' : 'Save Favorite', 'favorite', item.id) + '</div>', trigger);
 }
 function toggle(list, value) {
   return list.includes(value) ? list.filter(item => item !== value) : [...list, value];
@@ -393,11 +455,22 @@ document.addEventListener('click', event => {
     return;
   }
   if (action === 'spin') { void spin(value); return; }
-  if (action === 'details') { detail(byId.get(value), control); return; }
+  if (action === 'account-section') { accountSection = value; rerenderAction(control); return; }
+  if (action === 'add-menu') {
+    const item = byId.get(value);
+    if (!item || item.brand) return;
+    state.plan[item.category] = item.id;
+    persist();
+    const message = copy('You can see this dish in Daily Meal Plan.', '您可以在一日菜单中看到此菜品。');
+    const feedback = dialog.querySelector('#menu-feedback');
+    if (dialog.open && feedback) { feedback.textContent = message; feedback.classList.add('arrive'); }
+    else notify(message);
+    return;
+  }
   if (action === 'credits') {
-    showDialog('<div class="dialog-head"><h2 id="detail-title">Credits</h2><button class="icon-button" type="button" data-action="close" aria-label="Close details">×</button></div>' +
-      '<div class="dialog-body credits-body"><h3>Creators</h3><ul><li>Xingyi Huang (Silas)</li><li>Codex ChatGPT</li></ul>' +
-      '<h3>Contributors</h3><ul><li>Nike Chen</li><li>Yulin Gu</li><li>Codex</li></ul></div>', control);
+    showDialog('<div class="dialog-head"><h2 id="detail-title">Credits</h2><button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
+      '<div class="dialog-body credits-body"><h3>Creators</h3><ul><li>' + copy('Xingyi Huang (Silas)','黄兴翊') +
+      '</li></ul><h3>Contributors</h3><ul><li>' + copy('Nike Chen','陈妮可') + '</li><li>' + copy('Yulin Gu','古钰琳') + '</li></ul></div>', control);
     return;
   }
   if (action === 'project-info') {
@@ -439,10 +512,26 @@ document.addEventListener('click', event => {
     if (nextItem) { nextItem.closest('details').open = true; nextItem.focus(); }
     return;
   }
-  if (action === 'random-all') { state.includeSnack = true; state.includeTea = true; generate(categories); location.hash = 'plan'; return; }
-  if (action === 'generate') generate(activePlanCategories());
-  if (action === 'generate-one') generate([value]);
-  if (action === 'library') library = value;
+  if (action === 'random-all') {
+    showDialog('<div class="dialog-head"><h2 id="detail-title">' + copy('Plan My Day','一键安排今天') +
+      '</h2><button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
+      '<form class="dialog-body" id="plan-form"><label class="check"><input type="checkbox" name="snack">' +
+      copy('Include late-night snack','安排夜宵') + '</label><label class="check"><input type="checkbox" name="tea">' +
+      copy('Include milk tea','安排奶茶') + '</label><div id="plan-brand-field" hidden><label>' + copy('Tea brand','茶饮品牌') +
+      '<select name="brand">' + option('',copy('All brands','全部品牌'),true) +
+      brands.map(brand => option(brand.name,brandName(brand.name),false)).join('') +
+      '</select></label></div><div class="actions"><button class="button primary" type="submit">' +
+      copy('Confirm','确定') + '</button></div></form>', control);
+    return;
+  }
+  if (action === 'custom') {
+    showDialog('<div class="dialog-head"><h2 id="detail-title">Custom restrictions</h2>' +
+      '<button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
+      '<form class="dialog-body" id="custom-form"><label for="custom">Foods or ingredients to avoid</label>' +
+      '<textarea id="custom" rows="3" maxlength="1000">' + escape(state.custom) + '</textarea>' +
+      '<div class="actions"><button class="button primary" type="submit">Save restrictions</button></div></form>', control);
+    return;
+  }
   if (action === 'clear-history') { dialog.close(); state.history = []; persist('History cleared.'); }
   if (action === 'random-brand') {
     const available = [...new Set(eligible('Milk Tea', state, '').filter(menuEligible).map(item => item.brand))];
@@ -496,11 +585,27 @@ main.addEventListener('change', event => {
   persist(input.id === 'brand' ? undefined : 'Preferences saved.');
   render({refocus:input.id ? '#' + input.id : '[data-setting="' + input.dataset.setting + '"][value="' + CSS.escape(input.value) + '"]'});
 });
-main.addEventListener('submit', event => {
-  if (event.target.id !== 'custom-form') return;
+dialog.addEventListener('change', event => {
+  if (event.target.name === 'tea') dialog.querySelector('#plan-brand-field').hidden = !event.target.checked;
+});
+dialog.addEventListener('submit', event => {
   event.preventDefault();
-  state.custom = document.querySelector('#custom').value.trim();
-  persist('Custom restrictions saved.');
+  if (event.target.id === 'custom-form') {
+    state.custom = dialog.querySelector('#custom').value.trim();
+    persist('Custom restrictions saved.');
+    dialog.close();
+    return;
+  }
+  if (event.target.id !== 'plan-form') return;
+  const form = new FormData(event.target);
+  state.includeSnack = form.has('snack');
+  state.includeTea = form.has('tea');
+  if (state.includeTea) state.brand = form.get('brand');
+  if (!state.includeSnack) delete state.plan['Late-night Snack'];
+  if (!state.includeTea) delete state.plan['Milk Tea'];
+  generate(activePlanCategories());
+  dialog.close();
+  location.hash = 'plan';
 });
 syncRoute();
 
