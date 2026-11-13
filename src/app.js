@@ -1,3 +1,5 @@
+import supportCode from './support-qr.jpg';
+import { translate, localize, celebrate } from './interface.js';
 import { brands, byId, catalog, categories, eligible, menuEligible, preferences, restrictions, searchable, normalize, shuffle, stopAngle, wheelDraw } from './catalog.js';
 import { loadState, record, saveState } from './state.js';
 
@@ -8,6 +10,13 @@ const dialog = document.querySelector('#details');
 let storage;
 try { storage = window.localStorage; } catch { storage = null; }
 const state = loadState(storage);
+let language = 'en';
+try { if (storage?.getItem('what-to-eat:language') === 'zh') language = 'zh'; } catch {}
+const t = value => translate(value, language);
+const itemName = item => language === 'zh' && item.nameChinese && !/[\u3040-\u30ff\uac00-\ud7af]/u.test(item.nameChinese) ? item.nameChinese : item.name;
+let subgroup = '';
+const subtype = item => item.productCategory || item.cuisine;
+const wheelPool = category => eligible(category, state).filter(item => !subgroup || subtype(item) === subgroup);
 const routes = {home: 'Home', roulette: 'Food Roulette', plan: 'Daily Meal Plan', tea: 'Milk Tea Explorer', favorites: 'Favorites', preferences: 'Preferences'};
 const symbols = {
   home:'<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/><path d="M9 21v-7h6v7"/>',
@@ -53,7 +62,7 @@ function route() {
 
 function notify(message) {
   clearTimeout(toastTimer);
-  toast.textContent = message;
+  toast.textContent = t(message);
   toastTimer = setTimeout(() => { toast.textContent = ''; }, 4500);
 }
 
@@ -75,12 +84,23 @@ function home() {
 }
 
 function tile(item, subtitle = '', compact = false) {
-  return '<article class="list-tile ' + (compact ? '' : 'card') + '"><div><button class="text-button item-title" data-action="details" data-value="' + item.id + '">' + escape(item.name) + '</button><p class="muted">' + escape(subtitle || (item.brand ? item.brand + ' · ' + item.productCategory : item.cuisine)) + '</p></div>' +
-    '<button class="icon-button heart" title="' + (state.favorites.includes(item.id) ? 'Remove favorite' : 'Save favorite') + '" aria-label="' + (state.favorites.includes(item.id) ? 'Remove ' : 'Save ') + escape(item.name) + (state.favorites.includes(item.id) ? ' from favorites' : ' to favorites') + '" aria-pressed="' + state.favorites.includes(item.id) + '" data-action="favorite" data-value="' + item.id + '">' + icon('favorites') + '</button></article>';
+  return '<article class="list-tile ' + (compact ? '' : 'card') + '"><div><button class="text-button item-title" data-action="details" data-value="' + item.id + '">' + escape(itemName(item)) + '</button><p class="muted">' + escape(subtitle || (item.brand ? item.brand + ' · ' + item.productCategory : item.cuisine)) + '</p></div>' +
+    '<button class="icon-button heart" title="' + (state.favorites.includes(item.id) ? 'Remove favorite' : 'Save favorite') + '" aria-label="' + (state.favorites.includes(item.id) ? 'Remove ' : 'Save ') + escape(itemName(item)) + (state.favorites.includes(item.id) ? ' from favorites' : ' to favorites') + '" aria-pressed="' + state.favorites.includes(item.id) + '" data-action="favorite" data-value="' + item.id + '">' + icon('favorites') + '</button></article>';
+}
+
+function grouped(items) {
+  const groups = new Map();
+  for (const item of items) {
+    const key = subtype(item);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
+  }
+  return [...groups].sort(([a],[b]) => t(a).localeCompare(t(b),language)).map(([group, entries]) => '<details class="food-group"><summary>' + escape(t(group)) + ' <span>' + entries.length + '</span></summary>' + entries.map(item => tile(item, '', true)).join('') + '</details>').join('');
 }
 
 function wheelPanel(category) {
-  const pool = eligible(category, state);
+  const pool = wheelPool(category);
+  const groups = [...new Set(eligible(category, state).map(subtype))].sort((a,b) => t(a).localeCompare(t(b),language));
   const previous = byId.get(state.last[category]);
   const visibleResult = previous && pool.some(item => item.id === previous.id) ? previous : null;
   const hasFrame = frame?.category === category && (!visibleResult || frame.result === visibleResult.id || spinning === frame) && frame.segments.every(item => pool.some(candidate => candidate.id === item.id));
@@ -91,9 +111,9 @@ function wheelPanel(category) {
   const result = busy ? null : visibleResult;
   return '<section class="card wheel-panel" aria-label="' + category + ' roulette">' +
     '<div class="wheel-wrap"><div class="wheel-shell"><span class="pointer" aria-hidden="true"></span><canvas id="wheel" width="840" height="840" aria-label="Wheel segments: ' +
-    escape(selection.segments.map(item => item.name).join(', ')) + '" role="img"></canvas><span class="wheel-hub" aria-hidden="true">' + icon(categoryIcons[categories.indexOf(category)]) + '</span></div></div>' +
-    '<div class="wheel-copy"><span class="pill">' + count(pool.length, 'eligible option') + '</span><h2>' + category + ' wheel</h2><p class="lede">Each spin draws from the full eligible pool.</p>' +
-    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(result.name) + '</h3><p class="muted">' + escape(result.brand || result.cuisine) + '</p>' :
+    escape(selection.segments.map(itemName).join(', ')) + '" role="img"></canvas><span class="wheel-hub" aria-hidden="true">' + icon(categoryIcons[categories.indexOf(category)]) + '</span></div></div>' +
+    '<div class="wheel-copy"><label class="wheel-filter">' + t(category === 'Milk Tea' ? 'Product type' : 'Cuisine') + '<select id="wheel-group"' + (spinning ? ' disabled' : '') + '>' + option('', t('All types'), !subgroup) + groups.map(group => option(group,t(group),subgroup === group)).join('') + '</select></label><span class="pill">' + count(pool.length, 'eligible option') + '</span><h2>' + category + ' wheel</h2><p class="lede">Choose a category, then spin.</p>' +
+    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(itemName(result)) + '</h3><p class="muted">' + escape(result.brand || result.cuisine) + '</p>' :
     '<p class="muted">' + (busy ? 'Spinning…' : pool.length ? 'Ready when you are.' : 'No eligible items. Try another brand or review your preferences and exclusions.') + '</p>') + '</div>' +
     '<div class="actions"><button id="spin" class="button primary" data-action="spin" data-value="' + category + '"' + (pool.length && !spinning ? '' : ' disabled') + '>' +
     icon('roulette') + (previous ? ' Spin Again' : ' Spin the Wheel') + '</button>' +
@@ -103,9 +123,9 @@ function wheelPanel(category) {
 
 function roulette() {
   return heading('Food Roulette', 'Pick a meal and give the wheel a spin.', button(icon('shuffle') + ' Random All', 'random-all')) +
-    '<nav class="segmented" aria-label="Meal wheels">' + categories.map(category => '<a href="#' + categoryLink(category) + '"' + (category === current.category ? ' aria-current="page"' : '') + '>' + category + '</a>').join('') +
+    '<nav class="segmented" aria-label="Meal wheels">' + categories.slice(0,4).map(category => '<a href="#' + categoryLink(category) + '"' + (category === current.category ? ' aria-current="page"' : '') + '>' + category + '</a>').join('') +
     '</nav>' + wheelPanel(current.category) + '<details class="card pool"><summary>Browse eligible dishes</summary><div class="list">' +
-    eligible(current.category, state).map(item => tile(item, '', true)).join('') + '</div></details>';
+    grouped(wheelPool(current.category)) + '</div></details>';
 }
 
 function tea() {
@@ -123,10 +143,11 @@ function renderTeaItems() {
   const container = document.querySelector('#tea-items');
   if (!container) return;
   const query = normalize(teaSearch);
-  const products = catalog['Milk Tea'].filter(item => (!state.brand || item.brand === state.brand) && (!teaType || item.productCategory === teaType) && (!query || searchable(item).includes(query)));
+  const products = [...catalog['Milk Tea']].sort((a,b) => subtype(a).localeCompare(subtype(b))).filter(item => (!state.brand || item.brand === state.brand) && (!teaType || item.productCategory === teaType) && (!query || searchable(item).includes(query)));
   container.innerHTML = '<p class="list-count" aria-live="polite">' + count(products.length, 'product') + '</p>' +
-    (products.length ? '<div class="tile-grid">' + products.slice(0, teaLimit).map(item => tile(item, item.brand + ' · ' + item.productCategory + ' · ' + statusLabel(item.availability))).join('') + '</div>' : '<p class="card empty">No matching menu products.</p>') +
+    (products.length ? '<div class="tile-grid">' + grouped(products.slice(0, teaLimit)) + '</div>' : '<p class="card empty">No matching menu products.</p>') +
     (products.length > teaLimit ? '<div class="actions">' + button('Show more products', 'tea-more') + '</div>' : '');
+  localize(container, language);
 }
 
 function plan() {
@@ -166,15 +187,23 @@ function settings() {
     '</textarea><div class="actions"><button class="button primary" type="submit">Save restrictions</button></div></form><section class="card settings-card"><h2>Excluded items</h2>' +
     (state.excluded.length ? '<ul class="exclusions">' + state.excluded.map(id => {
       const item = byId.get(id);
-      return '<li><span>' + escape(item.name) + (item.brand ? ' · ' + escape(item.brand) : '') + '</span>' + button('Restore', 'restore', id) + '</li>';
+      return '<li><span>' + escape(itemName(item)) + (item.brand ? ' · ' + escape(item.brand) : '') + '</span>' + button('Restore', 'restore', id) + '</li>';
     }).join('') + '</ul>' : '<p class="muted">Items you exclude from a wheel or product detail appear here.</p>') + '</section></div>';
 }
 
 const pages = {home, roulette, plan, tea, favorites, preferences:settings};
 function render({navigate = false, refocus} = {}) {
-  navigation.innerHTML = Object.entries(routes).map(([page, title]) => '<a href="#' + page + '"' + (page === current.page ? ' aria-current="page"' : '') + '>' + icon(page) + '<span>' + title + '</span></a>').join('');
+  navigation.innerHTML = Object.entries(routes).map(([page, title]) => '<a href="#' + page + '"' + (page === current.page ? ' aria-current="page"' : '') + '>' + icon(page) + '<span>' + t(title) + '</span></a>').join('');
+  document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
+  document.querySelector('#language').setAttribute('aria-pressed', String(language === 'zh'));
+  document.querySelector('.wordmark span').textContent = t('What to Eat');
+  document.querySelector('footer span').textContent = t('What to Eat');
+  document.querySelector('footer a').textContent = t('Preferences and exclusions');
   main.innerHTML = pages[current.page]();
-  document.title = current.page === 'home' ? 'What to Eat' : routes[current.page] + ' · What to Eat';
+  document.querySelector('#project-credits').textContent = t('Credits');
+  document.querySelector('#support-project').textContent = t('Support the project');
+  localize(main, language);
+  document.title = current.page === 'home' ? t('What to Eat') : t(routes[current.page]) + ' · ' + t('What to Eat');
   if (current.page === 'tea') renderTeaItems();
   const canvas = document.querySelector('#wheel');
   if (canvas && frame) {
@@ -196,6 +225,7 @@ function syncRoute() {
   if (current.page === next.page && current.category === next.category) return;
   if (dialog.open) dialog.close();
   current = next;
+  subgroup = '';
   frame = null;
   render({navigate:true});
 }
@@ -237,10 +267,10 @@ function paintWheel(canvas, segments) {
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillStyle = '#294253';
-    ctx.font = '650 30px system-ui, sans-serif';
+    ctx.font = '700 32px "Times New Roman", SimSun, "Songti SC", serif';
     const lines = [];
     let line = '';
-    for (const word of segments[i].name.split(' ')) {
+    for (const word of itemName(segments[i]).split(' ')) {
       const next = line ? line + ' ' + word : word;
       if (ctx.measureText(next).width > 170 && line) { lines.push(line); line = word; }
       else line = next;
@@ -254,7 +284,7 @@ function paintWheel(canvas, segments) {
 
 async function spin(category) {
   if (spinning) return;
-  const draw = wheelDraw(eligible(category, state), state.last[category]);
+  const draw = wheelDraw(wheelPool(category), state.last[category]);
   if (!draw.result) return;
   const angle = stopAngle(draw.index, draw.segments.length);
   frame = {category, segments: draw.segments, angle:0, result:draw.result.id};
@@ -269,7 +299,9 @@ async function spin(category) {
   }
   if (spinning !== task) return;
   spinning = null;
-  if (eligible(category, state).some(item => item.id === draw.result.id)) {
+  const accepted = wheelPool(category).some(item => item.id === draw.result.id);
+  const reveal = accepted && frame === task;
+  if (accepted) {
     record(state, draw.result);
     persist();
   }
@@ -278,6 +310,10 @@ async function spin(category) {
     const focused = document.activeElement;
     const refocus = focused?.id ? '#' + CSS.escape(focused.id) : undefined;
     render({refocus});
+    if (reveal && !dialog.open) {
+      detail(draw.result, document.querySelector('#spin'), true);
+      celebrate(dialog);
+    }
   }
 }
 
@@ -296,6 +332,7 @@ function generate(targets) {
 function showDialog(html, trigger) {
   if (!dialog.open) dialogTrigger = trigger;
   dialog.innerHTML = html;
+  localize(dialog, language);
   if (!dialog.open) dialog.showModal();
 }
 dialog.addEventListener('close', () => {
@@ -306,13 +343,13 @@ dialog.addEventListener('close', () => {
   }
   dialogTrigger = null;
 });
-function detail(item, trigger) {
+function detail(item, trigger, winner = false) {
   const identity = [item.brand || item.cuisine, item.productCategory || item.category].filter(Boolean).join(' · ');
   const ingredients = item.ingredients.length ? item.ingredients.join(', ') : 'Ingredient information unavailable.';
   const evidence = {'typical-recipe':'Typical recipe ingredients', 'published-highlights':'Published ingredient highlights', unknown:'Ingredient information', 'verified-complete':'Verified ingredient declaration'}[item.ingredientEvidence];
   const price = item.price ? new Intl.NumberFormat('en', {style:'currency', currency:item.price.currency}).format(item.price.amount) : 'Price unavailable';
-  showDialog('<div class="dialog-head"><div><p class="eyebrow">' + escape(identity) + '</p><h2 id="detail-title">' + escape(item.name) + '</h2>' +
-    (item.brand && item.nameChinese ? '<p lang="zh" class="muted">' + escape(item.nameChinese) + '</p>' : '') + '</div><button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
+  showDialog('<div class="dialog-head"><div><p class="eyebrow">' + escape(winner ? t('Your pick') + ' · ' + t(item.category) : identity) + '</p><h2 id="detail-title">' + escape(itemName(item)) + '</h2>' +
+    (item.brand && item.nameChinese && language === 'en' ? '<p lang="zh" class="muted">' + escape(item.nameChinese) + '</p>' : '') + '</div><button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
     '<div class="dialog-body"><h3>' + evidence + '</h3><p>' + escape(ingredients) + '</p><h3>Recorded allergens</h3><p>' + escape(item.allergens.join(', ') || 'Unavailable') + '</p>' +
     (item.ingredientEvidence !== 'verified-complete' ? '<p class="muted">Ingredient and cross-contact information is incomplete.</p>' : '') +
     (item.brand ? '<h3>Menu reference</h3><p>' + escape(statusLabel(item.availability) + ' · ' + item.market + ' · ' + price) + '</p><p>Checked ' + escape(item.lastVerified) + ' · <a href="' + escape(item.source) + '" target="_blank" rel="noopener noreferrer">View source</a></p>' : '') +
@@ -332,8 +369,28 @@ document.addEventListener('click', event => {
   const control = event.target.closest('[data-action]');
   if (!control) return;
   const {action, value} = control.dataset;
+  if (action === 'language') {
+    if (spinning) return;
+    language = language === 'en' ? 'zh' : 'en';
+    try { storage?.setItem('what-to-eat:language', language); } catch {}
+    render();
+    return;
+  }
   if (action === 'spin') { void spin(value); return; }
   if (action === 'details') { detail(byId.get(value), control); return; }
+  if (action === 'credits') {
+    showDialog('<div class="dialog-head"><h2 id="detail-title">Credits</h2><button class="icon-button" type="button" data-action="close" aria-label="Close details">×</button></div>' +
+      '<div class="dialog-body credits-body"><h3>Creators</h3><ul><li>Xingyi Huang (Silas)</li><li>Codex ChatGPT</li></ul>' +
+      '<h3>Contributors</h3><ul><li>Nike Chen</li><li>Yulin Gu</li></ul></div>', control);
+    return;
+  }
+  if (action === 'support') {
+    showDialog('<div class="dialog-head"><h2 id="detail-title">Support the project</h2><button class="icon-button" type="button" data-action="close" aria-label="Close details">×</button></div>' +
+      '<div class="dialog-body support-body"><p>If this site helped you decide what to eat, you can leave an optional tip through WeChat.</p>' +
+      '<img class="support-qr" src="' + supportCode + '" alt="WeChat tipping QR code"><p>Scan with WeChat. On the same phone, save the image and open it from WeChat Scan.</p>' +
+      '<a class="button secondary" href="' + supportCode + '" download="what-to-eat-wechat.jpg">Save QR code</a></div>', control);
+    return;
+  }
   if (action === 'close') { dialog.close(); return; }
   if (action === 'confirm-history') {
     showDialog('<div class="dialog-head"><h2 id="detail-title">Clear history?</h2></div><div class="dialog-body"><p>Remove all past picks from this device.</p></div><div class="dialog-actions">' +
@@ -344,7 +401,8 @@ document.addEventListener('click', event => {
     const index = teaLimit;
     teaLimit += 24;
     renderTeaItems();
-    document.querySelectorAll('#tea-items .item-title')[index]?.focus();
+    const nextItem = document.querySelectorAll('#tea-items .item-title')[index];
+    if (nextItem) { nextItem.closest('details').open = true; nextItem.focus(); }
     return;
   }
   if (action === 'random-all') { state.includeSnack = true; state.includeTea = true; generate(categories); location.hash = 'plan'; return; }
@@ -356,6 +414,7 @@ document.addEventListener('click', event => {
     const available = [...new Set(eligible('Milk Tea', state, '').filter(menuEligible).map(item => item.brand))];
     const other = available.filter(brand => brand !== state.brand);
     if (!available.length) { notify('No brands match your restrictions.'); return; }
+    subgroup = '';
     state.brand = shuffle(other.length ? other : available)[0];
     frame = null; teaLimit = 24;
     persist(state.brand + ' selected.');
@@ -390,8 +449,9 @@ main.addEventListener('input', event => {
 });
 main.addEventListener('change', event => {
   const input = event.target;
+  if (input.id === 'wheel-group') { subgroup = input.value; frame = null; render({refocus:'#wheel-group'}); return; }
   if (input.id === 'tea-type') { teaType = input.value; teaLimit = 24; renderTeaItems(); return; }
-  if (input.id === 'brand') { state.brand = input.value; frame = null; teaLimit = 24; }
+  if (input.id === 'brand') { subgroup = ''; state.brand = input.value; frame = null; teaLimit = 24; }
   else if (input.id === 'includeTea' || input.id === 'includeSnack') state[input.id] = input.checked;
   else if (input.id === 'no-preference') {
     if (!input.checked) { input.checked = true; return; }
