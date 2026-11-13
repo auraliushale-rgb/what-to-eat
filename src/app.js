@@ -570,7 +570,7 @@ document.addEventListener('click', event => {
       '<button class="icon-button" type="button" data-action="close" aria-label="Close details">×</button></div>' +
       '<div class="dialog-body credits-body"><p>' + description + '</p>' +
       '<p><strong>' + (chinese ? '指导老师' : 'Instructor') + '</strong> · Benjamin Dudley</p>' +
-      '<h3>' + (chinese ? '联系 Xingyi Huang' : 'Contact Xingyi Huang') + '</h3>' +
+      '<h3>' + copy('Contact Xingyi Huang', '联系黄兴翊') + '</h3>' +
       '<ul><li>' + (chinese ? '个人邮箱' : 'Personal email') +
       ' · <a href="mailto:Philosel@outlook.com">Philosel@outlook.com</a></li>' +
       '<li>' + (chinese ? '学校邮箱' : 'University email') +
