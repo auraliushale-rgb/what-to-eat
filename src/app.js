@@ -470,7 +470,7 @@ document.addEventListener('click', event => {
   if (action === 'credits') {
     showDialog('<div class="dialog-head"><h2 id="detail-title">Credits</h2><button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
       '<div class="dialog-body credits-body"><h3>Creators</h3><ul><li>' + copy('Xingyi Huang (Silas)','黄兴翊') +
-      '</li></ul><h3>Contributors</h3><ul><li>' + copy('Nike Chen','陈妮可') + '</li><li>' + copy('Yulin Gu','古钰琳') + '</li></ul></div>', control);
+      '</li><li>Codex</li></ul><h3>Contributors</h3><ul><li>' + copy('Nike Chen','陈妮可') + '</li><li>' + copy('Yulin Gu','古钰琳') + '</li></ul></div>', control);
     return;
   }
   if (action === 'project-info') {
