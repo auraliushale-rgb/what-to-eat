@@ -232,12 +232,29 @@ dialog[open]{animation:dialog-in 260ms cubic-bezier(.2,.7,.3,1) both}
 }
 
 
-.footer-links{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:0 16px}
-.footer-links a,.footer-links button{display:inline-flex;align-items:center;min-height:44px}
 .support-body{text-align:center;display:grid;justify-items:center;gap:14px}
 .support-qr{display:block;width:min(100%,252px);height:auto}
-@media(max-width:540px){.footer{align-items:flex-start}.footer>span{padding-block:12px}.footer-links{gap:0 12px}}
 
 .credits-body ul{margin:0;padding-inline-start:20px}
 .credits-body h3:not(:first-child){margin-top:18px}
 
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px 10px;
+  border-top: 1px solid var(--line);
+}
+.project-links .text-button {
+  min-height: 44px;
+  padding-inline: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: background var(--motion);
+}
+.project-links .text-button:hover { background: var(--soft); }
+@media (max-width: 540px) {
+  .project-links { justify-content: center; }
+}

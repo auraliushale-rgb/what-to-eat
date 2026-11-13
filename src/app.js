@@ -199,7 +199,6 @@ function render({navigate = false, refocus} = {}) {
   document.querySelector('#language').setAttribute('aria-pressed', String(language === 'zh'));
   document.querySelector('.skip').textContent = t('Skip to content');
   navigation.setAttribute('aria-label', t('Main navigation'));
-  document.querySelector('footer a').textContent = t('Preferences and exclusions');
   main.innerHTML = pages[current.page]();
   document.querySelector('#project-credits').textContent = t('Credits');
   document.querySelector('#support-project').textContent = t('Support the project');
