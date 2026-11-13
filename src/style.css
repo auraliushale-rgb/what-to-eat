@@ -154,7 +154,7 @@ dialog::backdrop{background:#392d255e;animation:backdrop-in 180ms ease-out both}
   body{padding-bottom:calc(68px + env(safe-area-inset-bottom))}
   .wrap{width:calc(100% - 32px)}
   .masthead-inner{min-height:57px;justify-content:center}
-  #navigation{position:fixed;bottom:0;left:0;right:0;z-index:5;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1px;max-width:680px;margin-inline:auto;padding:5px 5px calc(5px + env(safe-area-inset-bottom));background:var(--surface);border:1px solid var(--line);border-bottom:0;border-radius:15px 15px 0 0}
+  #navigation{position:fixed;bottom:0;left:0;right:0;z-index:5;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;max-width:680px;margin-inline:auto;padding:5px 5px calc(5px + env(safe-area-inset-bottom));background:var(--surface);border:1px solid var(--line);border-bottom:0;border-radius:15px 15px 0 0}
   #navigation a{white-space:normal;flex-direction:column;justify-content:center;text-align:center;line-height:1.05;font-size:10px;padding:4px 2px;gap:4px;min-height:52px}
   #navigation svg{display:block;width:18px;height:18px}
   main{min-height:calc(100svh - 203px)}
@@ -238,7 +238,7 @@ dialog[open]{animation:dialog-in 260ms cubic-bezier(.2,.7,.3,1) both}
 @media(max-width:860px){
   body{padding-bottom:calc(68px + env(safe-area-inset-bottom))}
   .masthead-inner{min-height:60px;justify-content:space-between}
-  #navigation{position:fixed;bottom:0;left:0;right:0;z-index:5;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:1px;max-width:680px;margin-inline:auto;padding:5px 4px calc(5px + env(safe-area-inset-bottom));background:var(--surface);border:1px solid var(--line);border-bottom:0;border-radius:15px 15px 0 0}
+  #navigation{position:fixed;bottom:0;left:0;right:0;z-index:5;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;max-width:680px;margin-inline:auto;padding:5px 4px calc(5px + env(safe-area-inset-bottom));background:var(--surface);border:1px solid var(--line);border-bottom:0;border-radius:15px 15px 0 0}
   #navigation a{white-space:normal;flex-direction:column;justify-content:center;text-align:center;line-height:1.05;font-size:11px;padding:4px 2px;gap:4px;min-height:52px}
   #navigation svg{display:block;width:18px;height:18px}
 }
