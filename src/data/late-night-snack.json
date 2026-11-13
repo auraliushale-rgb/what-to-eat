@@ -130,52 +130,6 @@
     "source": null
   },
   {
-    "id": "chongqing-hot-and-sour-glass-noodles",
-    "name": "Chongqing Hot and Sour Glass Noodles",
-    "nameChinese": "酸辣粉",
-    "category": "Late-night Snack",
-    "cuisine": "Chongqing",
-    "ingredients": [
-      "sweet potato noodles",
-      "chili oil",
-      "vinegar",
-      "peanuts",
-      "pork broth"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "peanuts"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "northeastern-grilled-cold-noodles",
-    "name": "Northeastern Grilled Cold Noodles",
-    "nameChinese": "烤冷面",
-    "category": "Late-night Snack",
-    "cuisine": "Northeastern Chinese",
-    "ingredients": [
-      "wheat noodle sheets",
-      "egg",
-      "onion",
-      "cilantro",
-      "chili sauce"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "yunnan-grilled-milk-fan",
     "name": "Yunnan Grilled Milk Fan",
     "nameChinese": "烤乳扇",
@@ -209,87 +163,6 @@
     "dietaryTags": [],
     "allergens": [
       "wheat"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "taiwanese-salt-and-pepper-popcorn-chicken",
-    "name": "Taiwanese Salt and Pepper Popcorn Chicken",
-    "nameChinese": "盐酥鸡",
-    "category": "Late-night Snack",
-    "cuisine": "Taiwanese",
-    "ingredients": [
-      "chicken",
-      "sweet potato starch",
-      "basil",
-      "white pepper"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "taiwanese-gua-bao",
-    "name": "Taiwanese Gua Bao",
-    "nameChinese": "刈包",
-    "category": "Late-night Snack",
-    "cuisine": "Taiwanese",
-    "ingredients": [
-      "wheat bun",
-      "braised pork belly",
-      "mustard greens",
-      "cilantro",
-      "peanuts"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "peanuts",
-      "mustard"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "taiwanese-coffin-bread",
-    "name": "Taiwanese Coffin Bread",
-    "nameChinese": "棺材板",
-    "category": "Late-night Snack",
-    "cuisine": "Taiwanese",
-    "ingredients": [
-      "wheat bread",
-      "chicken",
-      "milk",
-      "butter",
-      "peas"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "taiwanese-black-pepper-bun",
-    "name": "Taiwanese Black Pepper Bun",
-    "nameChinese": "胡椒饼",
-    "category": "Late-night Snack",
-    "cuisine": "Taiwanese",
-    "ingredients": [
-      "wheat dough",
-      "pork",
-      "scallion",
-      "black pepper",
-      "sesame"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "sesame"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -531,27 +404,6 @@
     "source": null
   },
   {
-    "id": "xiamen-five-spice-pork-roll",
-    "name": "Xiamen Five-Spice Pork Roll",
-    "nameChinese": "炸五香",
-    "category": "Late-night Snack",
-    "cuisine": "Fujian",
-    "ingredients": [
-      "pork",
-      "water chestnut",
-      "tofu skin",
-      "five-spice powder",
-      "onion"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "soy",
-      "tree nuts"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "changsha-black-stinky-tofu",
     "name": "Changsha Black Stinky Tofu",
     "nameChinese": "长沙臭豆腐",
@@ -727,29 +579,6 @@
     "allergens": [
       "wheat",
       "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "tteokbokki",
-    "name": "Tteokbokki",
-    "nameChinese": "떡볶이",
-    "category": "Late-night Snack",
-    "cuisine": "Korean",
-    "ingredients": [
-      "rice cakes",
-      "fish cakes",
-      "anchovy stock",
-      "gochujang"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "soy",
-      "fish"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null

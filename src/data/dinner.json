@@ -1,193 +1,5 @@
 [
   {
-    "id": "twice-cooked-pork",
-    "name": "Twice-Cooked Pork",
-    "nameChinese": "回锅肉",
-    "category": "Dinner",
-    "cuisine": "Sichuan",
-    "ingredients": [
-      "pork belly",
-      "garlic shoots",
-      "chili bean paste",
-      "fermented black beans"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "sichuan-boiled-fish",
-    "name": "Sichuan Boiled Fish",
-    "nameChinese": "水煮鱼",
-    "category": "Dinner",
-    "cuisine": "Sichuan",
-    "ingredients": [
-      "white fish",
-      "bean sprouts",
-      "dried chili",
-      "Sichuan pepper",
-      "egg white"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "eggs",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "fish-fragrant-shredded-pork",
-    "name": "Fish-Fragrant Shredded Pork",
-    "nameChinese": "鱼香肉丝",
-    "category": "Dinner",
-    "cuisine": "Sichuan",
-    "ingredients": [
-      "pork",
-      "wood ear mushroom",
-      "bamboo shoot",
-      "pickled chili",
-      "vinegar"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "sichuan-dry-fried-green-beans",
-    "name": "Sichuan Dry-Fried Green Beans",
-    "nameChinese": "干煸四季豆",
-    "category": "Dinner",
-    "cuisine": "Sichuan",
-    "ingredients": [
-      "green beans",
-      "minced pork",
-      "preserved mustard",
-      "dried chili"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "mustard"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "sichuan-dry-pot-cauliflower",
-    "name": "Sichuan Dry Pot Cauliflower",
-    "nameChinese": "干锅花菜",
-    "category": "Dinner",
-    "cuisine": "Sichuan",
-    "ingredients": [
-      "cauliflower",
-      "pork belly",
-      "dried chili",
-      "garlic",
-      "soy sauce"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chengdu-clear-broth-cabbage",
-    "name": "Chengdu Clear Broth Cabbage",
-    "nameChinese": "开水白菜",
-    "category": "Dinner",
-    "cuisine": "Sichuan",
-    "ingredients": [
-      "napa cabbage",
-      "chicken",
-      "pork",
-      "ham",
-      "duck"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "sichuan-steamed-pork-with-rice-flour",
-    "name": "Sichuan Steamed Pork with Rice Flour",
-    "nameChinese": "粉蒸肉",
-    "category": "Dinner",
-    "cuisine": "Sichuan",
-    "ingredients": [
-      "pork belly",
-      "ground rice",
-      "chili bean paste",
-      "sweet potato"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Healthy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "cantonese-white-cut-chicken",
-    "name": "Cantonese White Cut Chicken",
-    "nameChinese": "白切鸡",
-    "category": "Dinner",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "whole chicken",
-      "ginger",
-      "scallion",
-      "peanut oil"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "peanuts"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "steamed-sea-bass-with-ginger",
-    "name": "Steamed Sea Bass with Ginger",
-    "nameChinese": "清蒸鲈鱼",
-    "category": "Dinner",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "sea bass",
-      "ginger",
-      "scallion",
-      "soy sauce"
-    ],
-    "dietaryTags": [
-      "Seafood",
-      "Healthy"
-    ],
-    "allergens": [
-      "wheat",
-      "soy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "cantonese-sweet-and-sour-pork",
     "name": "Cantonese Sweet and Sour Pork",
     "nameChinese": "咕噜肉",
@@ -471,46 +283,6 @@
     "source": null
   },
   {
-    "id": "lions-head-meatballs",
-    "name": "Lion's Head Meatballs",
-    "nameChinese": "狮子头",
-    "category": "Dinner",
-    "cuisine": "Jiangsu",
-    "ingredients": [
-      "pork",
-      "water chestnut",
-      "egg",
-      "napa cabbage",
-      "soy sauce"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "soy",
-      "tree nuts"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "nanjing-duck-blood-vermicelli-soup",
-    "name": "Nanjing Duck Blood Vermicelli Soup",
-    "nameChinese": "鸭血粉丝汤",
-    "category": "Dinner",
-    "cuisine": "Jiangsu",
-    "ingredients": [
-      "duck blood",
-      "duck offal",
-      "sweet potato vermicelli",
-      "duck broth"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "suzhou-stuffed-gluten-puffs",
     "name": "Suzhou Stuffed Gluten Puffs",
     "nameChinese": "肉酿面筋",
@@ -531,29 +303,6 @@
     "source": null
   },
   {
-    "id": "buddha-jumps-over-the-wall",
-    "name": "Buddha Jumps Over the Wall",
-    "nameChinese": "佛跳墙",
-    "category": "Dinner",
-    "cuisine": "Fujian",
-    "ingredients": [
-      "abalone",
-      "sea cucumber",
-      "dried scallop",
-      "ham",
-      "chicken stock",
-      "Shaoxing wine"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "molluscs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "fuzhou-red-wine-lees-chicken",
     "name": "Fuzhou Red Wine Lees Chicken",
     "nameChinese": "红糟鸡",
@@ -568,184 +317,6 @@
     "dietaryTags": [],
     "allergens": [
       "sesame"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "fuzhou-lychee-pork",
-    "name": "Fuzhou Lychee Pork",
-    "nameChinese": "荔枝肉",
-    "category": "Dinner",
-    "cuisine": "Fujian",
-    "ingredients": [
-      "pork",
-      "water chestnut",
-      "red wine lees",
-      "vinegar",
-      "sugar"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "tree nuts"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "braised-sea-cucumber-with-scallions",
-    "name": "Braised Sea Cucumber with Scallions",
-    "nameChinese": "葱烧海参",
-    "category": "Dinner",
-    "cuisine": "Shandong",
-    "ingredients": [
-      "sea cucumber",
-      "scallions",
-      "chicken stock",
-      "soy sauce"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "dezhou-braised-chicken",
-    "name": "Dezhou Braised Chicken",
-    "nameChinese": "德州扒鸡",
-    "category": "Dinner",
-    "cuisine": "Shandong",
-    "ingredients": [
-      "whole chicken",
-      "soy sauce",
-      "maltose",
-      "star anise",
-      "clove"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "nine-turn-pork-intestines",
-    "name": "Nine-Turn Pork Intestines",
-    "nameChinese": "九转大肠",
-    "category": "Dinner",
-    "cuisine": "Shandong",
-    "ingredients": [
-      "pork intestine",
-      "vinegar",
-      "sugar",
-      "cinnamon",
-      "sand ginger"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "huizhou-stinky-mandarin-fish",
-    "name": "Huizhou Stinky Mandarin Fish",
-    "nameChinese": "臭鳜鱼",
-    "category": "Dinner",
-    "cuisine": "Anhui",
-    "ingredients": [
-      "fermented mandarin fish",
-      "pork belly",
-      "chili",
-      "bamboo shoot",
-      "ginger"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "huizhou-steamed-pork-and-bamboo-soup",
-    "name": "Huizhou Steamed Pork and Bamboo Soup",
-    "nameChinese": "问政山笋",
-    "category": "Dinner",
-    "cuisine": "Anhui",
-    "ingredients": [
-      "bamboo shoots",
-      "Chinese ham",
-      "pork stock",
-      "rice wine"
-    ],
-    "dietaryTags": [
-      "Healthy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "northeastern-chicken-and-mushroom-stew",
-    "name": "Northeastern Chicken and Mushroom Stew",
-    "nameChinese": "小鸡炖蘑菇",
-    "category": "Dinner",
-    "cuisine": "Northeastern Chinese",
-    "ingredients": [
-      "chicken",
-      "hazel mushroom",
-      "glass noodles",
-      "soy sauce"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "pork-belly-and-napa-sauerkraut-stew",
-    "name": "Pork Belly and Napa Sauerkraut Stew",
-    "nameChinese": "酸菜白肉",
-    "category": "Dinner",
-    "cuisine": "Northeastern Chinese",
-    "ingredients": [
-      "pork belly",
-      "pickled napa cabbage",
-      "pork stock",
-      "scallion"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "northeastern-pork-and-glass-noodle-stew",
-    "name": "Northeastern Pork and Glass Noodle Stew",
-    "nameChinese": "猪肉炖粉条",
-    "category": "Dinner",
-    "cuisine": "Northeastern Chinese",
-    "ingredients": [
-      "pork belly",
-      "sweet potato noodles",
-      "soy sauce",
-      "star anise"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -784,73 +355,6 @@
     "allergens": [
       "wheat",
       "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shanghai-four-joy-wheat-gluten",
-    "name": "Shanghai Four-Joy Wheat Gluten",
-    "nameChinese": "四喜烤麸",
-    "category": "Dinner",
-    "cuisine": "Shanghai",
-    "ingredients": [
-      "wheat gluten",
-      "wood ear mushroom",
-      "shiitake",
-      "dried lily buds",
-      "peanuts",
-      "soy sauce"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "peanuts",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shanghai-pickled-pork-and-bamboo-soup",
-    "name": "Shanghai Pickled Pork and Bamboo Soup",
-    "nameChinese": "腌笃鲜",
-    "category": "Dinner",
-    "cuisine": "Shanghai",
-    "ingredients": [
-      "salted pork",
-      "fresh pork",
-      "bamboo shoots",
-      "tofu knots"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shanghai-oil-braised-river-shrimp",
-    "name": "Shanghai Oil-Braised River Shrimp",
-    "nameChinese": "油爆虾",
-    "category": "Dinner",
-    "cuisine": "Shanghai",
-    "ingredients": [
-      "river shrimp",
-      "scallion",
-      "soy sauce",
-      "sugar"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "soy",
-      "crustaceans"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -899,27 +403,6 @@
     "allergens": [
       "fish"
     ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chongqing-duck-blood-curd-stew",
-    "name": "Chongqing Duck Blood Curd Stew",
-    "nameChinese": "毛血旺",
-    "category": "Dinner",
-    "cuisine": "Chongqing",
-    "ingredients": [
-      "duck blood",
-      "beef tripe",
-      "luncheon pork",
-      "bean sprouts",
-      "chili",
-      "Sichuan pepper"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [],
     "ingredientEvidence": "typical-recipe",
     "source": null
   },
@@ -1121,26 +604,6 @@
     "source": null
   },
   {
-    "id": "chinese-chive-and-egg-stir-fry",
-    "name": "Chinese Chive and Egg Stir-Fry",
-    "nameChinese": "韭菜炒鸡蛋",
-    "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
-    "ingredients": [
-      "Chinese chives",
-      "egg",
-      "vegetable oil"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "braised-tofu-with-shiitake",
     "name": "Braised Tofu with Shiitake",
     "nameChinese": "香菇烧豆腐",
@@ -1245,30 +708,6 @@
     "allergens": [
       "soy",
       "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "sukiyaki",
-    "name": "Sukiyaki",
-    "nameChinese": "すき焼き",
-    "category": "Dinner",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "beef",
-      "tofu",
-      "napa cabbage",
-      "shiitake",
-      "shirataki",
-      "egg",
-      "soy sauce"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "soy"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -1665,7 +1104,7 @@
   {
     "id": "beef-bourguignon",
     "name": "Beef Bourguignon",
-    "nameChinese": null,
+    "nameChinese": "红酒炖牛肉",
     "category": "Dinner",
     "cuisine": "French",
     "ingredients": [
@@ -1687,7 +1126,7 @@
   {
     "id": "coq-au-vin",
     "name": "Coq au Vin",
-    "nameChinese": null,
+    "nameChinese": "勃艮第红酒炖鸡",
     "category": "Dinner",
     "cuisine": "French",
     "ingredients": [
@@ -1729,7 +1168,7 @@
   {
     "id": "bouillabaisse",
     "name": "Bouillabaisse",
-    "nameChinese": null,
+    "nameChinese": "马赛鱼汤",
     "category": "Dinner",
     "cuisine": "French",
     "ingredients": [
@@ -1997,7 +1436,7 @@
   {
     "id": "tom-yum-goong",
     "name": "Tom Yum Goong",
-    "nameChinese": null,
+    "nameChinese": "冬阴功汤",
     "category": "Dinner",
     "cuisine": "Thai",
     "ingredients": [
@@ -2043,7 +1482,7 @@
   {
     "id": "doro-wat",
     "name": "Doro Wat",
-    "nameChinese": null,
+    "nameChinese": "埃塞俄比亚炖鸡",
     "category": "Dinner",
     "cuisine": "Ethiopian",
     "ingredients": [
@@ -2061,6 +1500,3110 @@
       "dairy"
     ],
     "ingredientEvidence": "typical-recipe",
-    "source": null
+    "source": null,
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "dinner-doc-yebeg-wat",
+    "name": "Yebeg Wat",
+    "nameChinese": "埃塞俄比亚炖羊肉",
+    "category": "Dinner",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "dinner-doc-misir-wat",
+    "name": "Misir Wat",
+    "nameChinese": "埃塞俄比亚扁豆泥",
+    "category": "Dinner",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "dinner-doc-shiro-wat",
+    "name": "Shiro Wat",
+    "nameChinese": "埃塞俄比亚鹰嘴豆泥",
+    "category": "Dinner",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "dinner-doc-kitfo",
+    "name": "Kitfo",
+    "nameChinese": "埃塞俄比亚生牛肉",
+    "category": "Dinner",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "dinner-doc-quanta-firfir",
+    "name": "Quanta Firfir",
+    "nameChinese": "埃塞俄比亚干煸牛肉",
+    "category": "Dinner",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "dinner-doc-alicha-doro-wat",
+    "name": "Alicha Doro Wat",
+    "nameChinese": "埃塞俄比亚香料黄油鸡",
+    "category": "Dinner",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "dinner-doc-chongqing-hot-pot",
+    "name": "Chongqing Hot Pot",
+    "nameChinese": "重庆火锅",
+    "category": "Dinner",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-laifeng-fish",
+    "name": "Laifeng Fish",
+    "nameChinese": "来凤鱼",
+    "category": "Dinner",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-bishan-rabbit",
+    "name": "Bishan Rabbit",
+    "nameChinese": "璧山兔",
+    "category": "Dinner",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-qianjiang-chicken-giblets",
+    "name": "Qianjiang Chicken Giblets",
+    "nameChinese": "黔江鸡杂",
+    "category": "Dinner",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-roasted-rooster-pot",
+    "name": "Roasted Rooster Pot",
+    "nameChinese": "烧鸡公",
+    "category": "Dinner",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-youting-crucian-carp",
+    "name": "Youting Crucian Carp",
+    "nameChinese": "邮亭鲫鱼",
+    "category": "Dinner",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-fish-with-pickled-cabbage",
+    "name": "Fish with Pickled Cabbage",
+    "nameChinese": "酸菜鱼",
+    "category": "Dinner",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "dinner-doc-geleshan-spicy-chicken",
+    "name": "Geleshan Spicy Chicken",
+    "nameChinese": "歌乐山辣子鸡",
+    "category": "Dinner",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-boiled-beef-in-chili-oil",
+    "name": "Boiled Beef in Chili Oil",
+    "nameChinese": "水煮牛肉",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-camphor-and-tea-smoked-duck",
+    "name": "Camphor and Tea Smoked Duck",
+    "nameChinese": "樟茶鸭",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-spicy-rabbit-head",
+    "name": "Spicy Rabbit Head",
+    "nameChinese": "老妈兔头",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-bobo-chicken",
+    "name": "Bobo Chicken",
+    "nameChinese": "钵钵鸡",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-cold-spicy-rabbit",
+    "name": "Cold Spicy Rabbit",
+    "nameChinese": "冷吃兔",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-fresh-pot-rabbit",
+    "name": "Fresh Pot Rabbit",
+    "nameChinese": "鲜锅兔",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-roasted-brains",
+    "name": "Roasted Brains",
+    "nameChinese": "烤脑花",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-liver-and-kidney",
+    "name": "Stir-fried Liver and Kidney",
+    "nameChinese": "肝腰合炒",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-sliced-pork-with-crispy-rice",
+    "name": "Sliced Pork with Crispy Rice",
+    "nameChinese": "锅巴肉片",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-yu-xiang-eggplant-cakes",
+    "name": "Yu Xiang Eggplant Cakes",
+    "nameChinese": "鱼香茄饼",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-dry-braised-eel",
+    "name": "Dry-braised Eel",
+    "nameChinese": "干烧鳝段",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-boiled-bullfrog",
+    "name": "Boiled Bullfrog",
+    "nameChinese": "水煮牛蛙",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-snowflake-chicken",
+    "name": "Snowflake Chicken",
+    "nameChinese": "雪花鸡淖",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-chicken-tofu-pudding",
+    "name": "Chicken Tofu Pudding",
+    "nameChinese": "鸡豆花",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-hibiscus-chicken-slices",
+    "name": "Hibiscus Chicken Slices",
+    "nameChinese": "芙蓉鸡片",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-dry-fried-shredded-beef",
+    "name": "Dry-fried Shredded Beef",
+    "nameChinese": "干煸牛肉丝",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-steamed-beef-with-rice-flour",
+    "name": "Steamed Beef with Rice Flour",
+    "nameChinese": "粉蒸牛肉",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-small-fried-chicken",
+    "name": "Small Fried Chicken",
+    "nameChinese": "小煎鸡",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-sichuan-peppercorn-chicken",
+    "name": "Sichuan Peppercorn Chicken",
+    "nameChinese": "花椒鸡",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-braised-duck-with-konjac",
+    "name": "Braised Duck with Konjac",
+    "nameChinese": "魔芋烧鸭",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-old-duck-soup-with-pickled-radish",
+    "name": "Old Duck Soup with Pickled Radish",
+    "nameChinese": "酸萝卜老鸭汤",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pig-trotter-soup",
+    "name": "Pig Trotter Soup",
+    "nameChinese": "蹄花汤",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-savory-steamed-pork-belly",
+    "name": "Savory Steamed Pork Belly",
+    "nameChinese": "咸烧白",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-sweet-steamed-pork-belly",
+    "name": "Sweet Steamed Pork Belly",
+    "nameChinese": "甜烧白",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pickled-pepper-chicken-feet",
+    "name": "Pickled Pepper Chicken Feet",
+    "nameChinese": "泡椒凤爪",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-oil-scalded-duck",
+    "name": "Oil-scalded Duck",
+    "nameChinese": "油烫鸭",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-spicy-incense-pot",
+    "name": "Spicy Incense Pot",
+    "nameChinese": "麻辣香锅",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-dry-pot-pork-intestines",
+    "name": "Dry Pot Pork Intestines",
+    "nameChinese": "干锅肥肠",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-dry-pot-spare-ribs",
+    "name": "Dry Pot Spare Ribs",
+    "nameChinese": "干锅排骨",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-northeast-mixed-stew",
+    "name": "Northeast Mixed Stew",
+    "nameChinese": "东北乱炖",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-snowy-red-bean-paste",
+    "name": "Snowy Red Bean Paste",
+    "nameChinese": "雪绵豆沙",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-vegetable-platter-with-soybean-paste",
+    "name": "Vegetable Platter with Soybean Paste",
+    "nameChinese": "蘸酱菜",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-tiger-salad",
+    "name": "Tiger Salad",
+    "nameChinese": "老虎菜",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stewed-catfish-with-eggplant",
+    "name": "Stewed Catfish with Eggplant",
+    "nameChinese": "鲶鱼炖茄子",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-demoli-stewed-fish",
+    "name": "Demoli Stewed Fish",
+    "nameChinese": "得莫利炖鱼",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-braised-crucian-carp",
+    "name": "Braised Crucian Carp",
+    "nameChinese": "酱焖鲫鱼",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-braised-pork-hock",
+    "name": "Braised Pork Hock",
+    "nameChinese": "红烧肘子",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-pork-liver",
+    "name": "Stir-fried Pork Liver",
+    "nameChinese": "熘肝尖",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-guota-tofu",
+    "name": "Guota Tofu",
+    "nameChinese": "锅塌豆腐",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stewed-chicken-with-hazel-mushrooms",
+    "name": "Stewed Chicken with Hazel Mushrooms",
+    "nameChinese": "榛蘑炖小鸡",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-deep-fried-pork-cubes",
+    "name": "Deep-fried Pork Cubes",
+    "nameChinese": "干炸肉段",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-crispy-fried-pork-cubes",
+    "name": "Crispy Fried Pork Cubes",
+    "nameChinese": "焦熘肉段",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-northeast-mixed-salad",
+    "name": "Northeast Mixed Salad",
+    "nameChinese": "东北大拌菜",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-red-sausage-with-wood-ear",
+    "name": "Stir-fried Red Sausage with Wood Ear",
+    "nameChinese": "红肠炒木耳",
+    "category": "Dinner",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pan-seared-duck-breast",
+    "name": "Pan-seared Duck Breast",
+    "nameChinese": "煎鸭胸肉",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-steak-frites",
+    "name": "Steak Frites",
+    "nameChinese": "香煎牛排配薯条",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-steak-au-poivre",
+    "name": "Steak au Poivre",
+    "nameChinese": "黑椒牛排",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-quiche-lorraine",
+    "name": "Quiche Lorraine",
+    "nameChinese": "洛林咸派",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-p-t-lorrain",
+    "name": "Pâté Lorrain",
+    "nameChinese": "法式洛林肉饼",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-confit-de-canard",
+    "name": "Confit de Canard",
+    "nameChinese": "油封鸭腿",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-ratatouille",
+    "name": "Ratatouille",
+    "nameChinese": "普罗旺斯炖菜",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-french-lamb-chops",
+    "name": "French Lamb Chops",
+    "nameChinese": "法式羊排",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-beef-wellington",
+    "name": "Beef Wellington",
+    "nameChinese": "惠灵顿牛排",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-chicken-with-mushroom-cream-sauce",
+    "name": "Chicken with Mushroom Cream Sauce",
+    "nameChinese": "奶油蘑菇鸡",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-veal-normande",
+    "name": "Veal Normande",
+    "nameChinese": "诺曼底煎小牛肉",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-seafood-platter",
+    "name": "Seafood Platter",
+    "nameChinese": "法式海鲜拼盘",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pan-seared-foie-gras",
+    "name": "Pan-seared Foie Gras",
+    "nameChinese": "香煎鹅肝",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-mussels-marini-re",
+    "name": "Mussels Marinière",
+    "nameChinese": "白酒煮青口",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-sole-meuni-re",
+    "name": "Sole Meunière",
+    "nameChinese": "柠檬黄油煎鳎鱼",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-navarin-of-lamb",
+    "name": "Navarin of Lamb",
+    "nameChinese": "法式炖羊肉",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stuffed-tomatoes",
+    "name": "Stuffed Tomatoes",
+    "nameChinese": "番茄酿肉",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-gratin-dauphinois",
+    "name": "Gratin Dauphinois",
+    "nameChinese": "奶油焗土豆",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-salade-ni-oise",
+    "name": "Salade Niçoise",
+    "nameChinese": "尼斯沙拉",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-salade-lyonnaise",
+    "name": "Salade Lyonnaise",
+    "nameChinese": "里昂沙拉",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-cassoulet",
+    "name": "Cassoulet",
+    "nameChinese": "卡酥来砂锅",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-burgundy-escargot",
+    "name": "Burgundy Escargot",
+    "nameChinese": "勃艮第蜗牛",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-terrine",
+    "name": "Terrine",
+    "nameChinese": "法式肉冻",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-duck-p-t",
+    "name": "Duck Pâté",
+    "nameChinese": "鸭肝酱",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pan-seared-sea-bass",
+    "name": "Pan-seared Sea Bass",
+    "nameChinese": "煎海鲈鱼",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-seafood-stew",
+    "name": "Seafood Stew",
+    "nameChinese": "法式烩海鲜",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-blanquette-de-veau",
+    "name": "Blanquette de Veau",
+    "nameChinese": "白汁炖小牛肉",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-roast-leg-of-lamb",
+    "name": "Roast Leg of Lamb",
+    "nameChinese": "烤羊腿",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-french-pork-chop",
+    "name": "French Pork Chop",
+    "nameChinese": "法式猪排",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-sausage-and-mash",
+    "name": "Sausage and Mash",
+    "nameChinese": "土豆泥配肉肠",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-baked-brie",
+    "name": "Baked Brie",
+    "nameChinese": "烤布里奶酪",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-coquilles-saint-jacques",
+    "name": "Coquilles Saint-Jacques",
+    "nameChinese": "圣雅克扇贝",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-cream-of-mushroom-soup",
+    "name": "Cream of Mushroom Soup",
+    "nameChinese": "法式奶油蘑菇汤",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-lobster-bisque",
+    "name": "Lobster Bisque",
+    "nameChinese": "法式龙虾汤",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-duck-l-orange",
+    "name": "Duck à l'Orange",
+    "nameChinese": "橙香鸭",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-chicken-in-white-wine",
+    "name": "Chicken in White Wine",
+    "nameChinese": "白葡萄酒炖鸡",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stuffed-mushrooms",
+    "name": "Stuffed Mushrooms",
+    "nameChinese": "法式酿蘑菇",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-garlic-butter-baguette",
+    "name": "Garlic Butter Baguette",
+    "nameChinese": "蒜香黄油法棍",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-french-onion-beef-stew",
+    "name": "French Onion Beef Stew",
+    "nameChinese": "法式洋葱炖牛肉",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-bacon-and-egg-tart",
+    "name": "Bacon and Egg Tart",
+    "nameChinese": "洛林培根蛋挞",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-consomm",
+    "name": "Consommé",
+    "nameChinese": "法式清汤",
+    "category": "Dinner",
+    "cuisine": "French",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-sinigang",
+    "name": "Sinigang",
+    "nameChinese": "菲律宾酸汤",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-lechon",
+    "name": "Lechon",
+    "nameChinese": "菲律宾烤乳猪",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-adobo",
+    "name": "Adobo",
+    "nameChinese": "菲律宾红烧肉",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-lumpia",
+    "name": "Lumpia",
+    "nameChinese": "菲律宾春卷",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pancit",
+    "name": "Pancit",
+    "nameChinese": "菲律宾炒面",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-lechon-kawali",
+    "name": "Lechon Kawali",
+    "nameChinese": "菲律宾脆皮五花肉",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-bulalo",
+    "name": "Bulalo",
+    "nameChinese": "菲律宾牛骨汤",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-kinilaw",
+    "name": "Kinilaw",
+    "nameChinese": "菲律宾酸橘汁腌鱼",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-mango-salad",
+    "name": "Mango Salad",
+    "nameChinese": "菲律宾芒果沙拉",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-kare-kare",
+    "name": "Kare-Kare",
+    "nameChinese": "菲律宾炖牛肉",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-chicken-inasal",
+    "name": "Chicken Inasal",
+    "nameChinese": "菲律宾烤鸡",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-dinuguan",
+    "name": "Dinuguan",
+    "nameChinese": "菲律宾血炖肉",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-paksiw",
+    "name": "Paksiw",
+    "nameChinese": "菲律宾番茄炖鱼",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-barbecue-chicken",
+    "name": "Barbecue Chicken",
+    "nameChinese": "菲律宾甜辣酱烤鸡",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-longganisa",
+    "name": "Longganisa",
+    "nameChinese": "菲律宾猪肉肠",
+    "category": "Dinner",
+    "cuisine": "Filipino",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-cured-meat-with-fish-mint",
+    "name": "Stir-fried Cured Meat with Fish Mint",
+    "nameChinese": "折耳根炒腊肉",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-siwawa",
+    "name": "Siwawa",
+    "nameChinese": "丝娃娃",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-changwang-noodles",
+    "name": "Changwang Noodles",
+    "nameChinese": "肠旺面",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-bean-hot-pot",
+    "name": "Bean Hot Pot",
+    "nameChinese": "豆米火锅",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-crispy-fish-with-fermented-chili",
+    "name": "Crispy Fish with Fermented Chili",
+    "nameChinese": "糟辣脆皮鱼",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-huajiang-dog-meat",
+    "name": "Huajiang Dog Meat",
+    "nameChinese": "花江狗肉",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pork-belly-with-pickled-vegetables",
+    "name": "Pork Belly with Pickled Vegetables",
+    "nameChinese": "盐酸菜扣肉",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-wujiang-fish",
+    "name": "Wujiang Fish",
+    "nameChinese": "乌江鱼",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-sour-soup-beef",
+    "name": "Sour Soup Beef",
+    "nameChinese": "酸汤肥牛",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pickled-pepper-beef-tendon",
+    "name": "Pickled Pepper Beef Tendon",
+    "nameChinese": "泡椒板筋",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-twice-cooked-pork-with-fermented-chili",
+    "name": "Twice-Cooked Pork with Fermented Chili",
+    "nameChinese": "糟辣回锅肉",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-miao-sour-soup-ribs",
+    "name": "Miao Sour Soup Ribs",
+    "nameChinese": "苗家酸汤排骨",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-dry-pot-mutton",
+    "name": "Dry Pot Mutton",
+    "nameChinese": "干锅羊肉",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-pork-with-fern",
+    "name": "Stir-fried Pork with Fern",
+    "nameChinese": "蕨菜炒肉",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-glutinous-rice-balls-with-pickled-cabbage",
+    "name": "Stir-fried Glutinous Rice Balls with Pickled Cabbage",
+    "nameChinese": "酸菜炒汤圆",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-guizhou-grilled-fish",
+    "name": "Guizhou Grilled Fish",
+    "nameChinese": "贵州烤鱼",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-rice-tofu",
+    "name": "Rice Tofu",
+    "nameChinese": "米豆腐",
+    "category": "Dinner",
+    "cuisine": "Guizhou",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-korean-bbq",
+    "name": "Korean BBQ",
+    "nameChinese": "韩式烤肉",
+    "category": "Dinner",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-bossam",
+    "name": "Bossam",
+    "nameChinese": "韩式包肉",
+    "category": "Dinner",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-gamjatang",
+    "name": "Gamjatang",
+    "nameChinese": "土豆脊骨汤",
+    "category": "Dinner",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pollack-soup",
+    "name": "Pollack Soup",
+    "nameChinese": "明太鱼汤",
+    "category": "Dinner",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-spicy-braised-chicken",
+    "name": "Spicy Braised Chicken",
+    "nameChinese": "辣炖鸡块",
+    "category": "Dinner",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-andong-jjimdak",
+    "name": "Andong Jjimdak",
+    "nameChinese": "安东炖鸡",
+    "category": "Dinner",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-galbijjim",
+    "name": "Galbijjim",
+    "nameChinese": "炖牛排骨",
+    "category": "Dinner",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-seafood-hot-pot",
+    "name": "Seafood Hot Pot",
+    "nameChinese": "海鲜锅",
+    "category": "Dinner",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-spicy-stir-fried-pork",
+    "name": "Spicy Stir-fried Pork",
+    "nameChinese": "辣炒猪肉",
+    "category": "Dinner",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pork-rib-and-lotus-root-soup",
+    "name": "Pork Rib and Lotus Root Soup",
+    "nameChinese": "排骨藕汤",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-braised-wuchang-fish",
+    "name": "Braised Wuchang Fish",
+    "nameChinese": "红烧武昌鱼",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-huangpi-three-delicacies",
+    "name": "Huangpi Three Delicacies",
+    "nameChinese": "黄陂三鲜",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-qianjiang-braised-crayfish",
+    "name": "Qianjiang Braised Crayfish",
+    "nameChinese": "潜江油焖大虾",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-gong-an-beef",
+    "name": "Gong'an Beef",
+    "nameChinese": "公安牛肉",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-clay-pot-chicken-soup",
+    "name": "Clay Pot Chicken Soup",
+    "nameChinese": "瓦罐鸡汤",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-zhongxiang-coiled-eel",
+    "name": "Zhongxiang Coiled Eel",
+    "nameChinese": "钟祥盘鳝",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-jingsha-soft-shelled-turtle",
+    "name": "Jingsha Soft-shelled Turtle",
+    "nameChinese": "荆沙甲鱼",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-sliced-pork-belly-with-preserved-vegetables",
+    "name": "Sliced Pork Belly with Preserved Vegetables",
+    "nameChinese": "千张肉",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pearl-meatballs",
+    "name": "Pearl Meatballs",
+    "nameChinese": "珍珠丸子",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-shredded-eel",
+    "name": "Stir-fried Shredded Eel",
+    "nameChinese": "皮条鳝鱼",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-orange-petal-fish-balls",
+    "name": "Orange Petal Fish Balls",
+    "nameChinese": "橘瓣鱼圆",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-dupo-chicken",
+    "name": "Dupo Chicken",
+    "nameChinese": "杜婆鸡",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-panlong-dish",
+    "name": "Panlong Dish",
+    "nameChinese": "盘龙菜",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-hot-and-sour-lotus-root-shoots",
+    "name": "Hot and Sour Lotus Root Shoots",
+    "nameChinese": "酸辣藕带",
+    "category": "Dinner",
+    "cuisine": "Hubei",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-braised-civet",
+    "name": "Braised Civet",
+    "nameChinese": "红烧果子狸",
+    "category": "Dinner",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-huizhou-cured-pork",
+    "name": "Huizhou Cured Pork",
+    "nameChinese": "徽州刀板香",
+    "category": "Dinner",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-huangshan-stewed-pigeon",
+    "name": "Huangshan Stewed Pigeon",
+    "nameChinese": "黄山炖鸽",
+    "category": "Dinner",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-fang-la-fish",
+    "name": "Fang La Fish",
+    "nameChinese": "方腊鱼",
+    "category": "Dinner",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-wuwei-pressed-duck",
+    "name": "Wuwei Pressed Duck",
+    "nameChinese": "无为板鸭",
+    "category": "Dinner",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-clay-pot-soup",
+    "name": "Clay Pot Soup",
+    "nameChinese": "瓦罐汤",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-cured-meat-with-artemisia",
+    "name": "Stir-fried Cured Meat with Artemisia",
+    "nameChinese": "藜蒿炒腊肉",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-jinggang-smoked-bamboo-shoots",
+    "name": "Jinggang Smoked Bamboo Shoots",
+    "nameChinese": "井冈烟笋",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-lianhua-blood-duck",
+    "name": "Lianhua Blood Duck",
+    "nameChinese": "莲花血鸭",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-ningdu-three-cup-chicken",
+    "name": "Ningdu Three Cup Chicken",
+    "nameChinese": "宁都三杯鸡",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-lushan-stone-frog",
+    "name": "Lushan Stone Frog",
+    "nameChinese": "庐山石鸡",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-gannan-stir-fried-fish",
+    "name": "Gannan Stir-fried Fish",
+    "nameChinese": "赣南小炒鱼",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-poyang-lake-fish-head",
+    "name": "Poyang Lake Fish Head",
+    "nameChinese": "鄱阳湖胖鱼头",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-nanchang-mixed-rice-noodles",
+    "name": "Nanchang Mixed Rice Noodles",
+    "nameChinese": "南昌拌粉",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pingxiang-stir-fried-pork",
+    "name": "Pingxiang Stir-fried Pork",
+    "nameChinese": "萍乡小炒肉",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-xinyu-fried-rice-noodles",
+    "name": "Xinyu Fried Rice Noodles",
+    "nameChinese": "新余炒粉",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-xingguo-steamed-fish-with-rice-flour",
+    "name": "Xingguo Steamed Fish with Rice Flour",
+    "nameChinese": "兴国米粉鱼",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-ruijin-beef-soup",
+    "name": "Ruijin Beef Soup",
+    "nameChinese": "瑞金牛肉汤",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-linchuan-beef-offal",
+    "name": "Linchuan Beef Offal",
+    "nameChinese": "临川牛杂",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-pork-with-chili",
+    "name": "Stir-fried Pork with Chili",
+    "nameChinese": "辣椒炒肉",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-cured-meat-with-winter-bamboo-shoots",
+    "name": "Stir-fried Cured Meat with Winter Bamboo Shoots",
+    "nameChinese": "冬笋炒腊肉",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-fermented-rice-wine-fish",
+    "name": "Fermented Rice Wine Fish",
+    "nameChinese": "酒糟鱼",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-steamed-red-carp",
+    "name": "Steamed Red Carp",
+    "nameChinese": "清蒸荷包红鲤鱼",
+    "category": "Dinner",
+    "cuisine": "Jiangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-oil-exploded-double-crispy",
+    "name": "Oil-exploded Double Crispy",
+    "nameChinese": "油爆双脆",
+    "category": "Dinner",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-pork-tripe-with-cilantro",
+    "name": "Stir-fried Pork Tripe with Cilantro",
+    "nameChinese": "芫爆肚丝",
+    "category": "Dinner",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-dry-braised-pomfret",
+    "name": "Dry-braised Pomfret",
+    "nameChinese": "干烧鲳鱼",
+    "category": "Dinner",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-steamed-sea-bream",
+    "name": "Steamed Sea Bream",
+    "nameChinese": "清蒸加吉鱼",
+    "category": "Dinner",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-vinegar-and-pepper-fish-soup",
+    "name": "Vinegar and Pepper Fish Soup",
+    "nameChinese": "醋椒鱼",
+    "category": "Dinner",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-new-york-strip-steak",
+    "name": "New York Strip Steak",
+    "nameChinese": "纽约客牛排",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-filet-mignon",
+    "name": "Filet Mignon",
+    "nameChinese": "菲力牛排",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-ribeye-steak",
+    "name": "Ribeye Steak",
+    "nameChinese": "肋眼牛排",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-smoked-brisket",
+    "name": "Smoked Brisket",
+    "nameChinese": "烟熏牛胸肉",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pulled-pork-sandwich",
+    "name": "Pulled Pork Sandwich",
+    "nameChinese": "手撕猪肉汉堡",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-fried-shrimp",
+    "name": "Fried Shrimp",
+    "nameChinese": "炸虾",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-new-england-clam-chowder",
+    "name": "New England Clam Chowder",
+    "nameChinese": "新英格兰蛤蜊浓汤",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-creamed-corn",
+    "name": "Creamed Corn",
+    "nameChinese": "奶油玉米",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-mashed-potatoes",
+    "name": "Mashed Potatoes",
+    "nameChinese": "土豆泥",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-roasted-vegetables",
+    "name": "Roasted Vegetables",
+    "nameChinese": "烤蔬菜",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-american-beef-stew",
+    "name": "American Beef Stew",
+    "nameChinese": "美式炖牛肉",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-roasted-pork-chop",
+    "name": "Roasted Pork Chop",
+    "nameChinese": "烤猪排",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-country-fried-steak",
+    "name": "Country Fried Steak",
+    "nameChinese": "乡村炸牛排",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-american-omelette",
+    "name": "American Omelette",
+    "nameChinese": "美式煎蛋卷",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-bacon-and-eggs",
+    "name": "Bacon and Eggs",
+    "nameChinese": "培根配煎蛋",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-corn-dog",
+    "name": "Corn Dog",
+    "nameChinese": "玉米热狗",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-american-pizza",
+    "name": "American Pizza",
+    "nameChinese": "美式披萨",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-chicago-deep-dish-pizza",
+    "name": "Chicago Deep Dish Pizza",
+    "nameChinese": "芝加哥深盘披萨",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-california-roll",
+    "name": "California Roll",
+    "nameChinese": "加州卷",
+    "category": "Dinner",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-salt-and-wine-hetian-chicken",
+    "name": "Salt and Wine Hetian Chicken",
+    "nameChinese": "盐酒河田鸡",
+    "category": "Dinner",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-chicken-broth-with-sea-clams",
+    "name": "Chicken Broth with Sea Clams",
+    "nameChinese": "鸡汤汆海蚌",
+    "category": "Dinner",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-bamboo-shoots-with-pickled-cabbage",
+    "name": "Stir-fried Bamboo Shoots with Pickled Cabbage",
+    "nameChinese": "酸菜炒笋",
+    "category": "Dinner",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-moroccan-tagine",
+    "name": "Moroccan Tagine",
+    "nameChinese": "摩洛哥塔吉锅",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-couscous",
+    "name": "Couscous",
+    "nameChinese": "摩洛哥库斯库斯",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-mechoui",
+    "name": "Mechoui",
+    "nameChinese": "摩洛哥烤羊腿",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-harira-soup",
+    "name": "Harira Soup",
+    "nameChinese": "摩洛哥哈里拉汤",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pastilla",
+    "name": "Pastilla",
+    "nameChinese": "摩洛哥肉馅饼",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-brochettes",
+    "name": "Brochettes",
+    "nameChinese": "摩洛哥烤串",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-moroccan-chicken-stew",
+    "name": "Moroccan Chicken Stew",
+    "nameChinese": "摩洛哥炖鸡",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-moroccan-salad",
+    "name": "Moroccan Salad",
+    "nameChinese": "摩洛哥沙拉",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-chermoula-fish",
+    "name": "Chermoula Fish",
+    "nameChinese": "摩洛哥烤鱼",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-zaalouk",
+    "name": "Zaalouk",
+    "nameChinese": "摩洛哥茄子泥",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-hummus",
+    "name": "Hummus",
+    "nameChinese": "摩洛哥鹰嘴豆泥",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-merguez",
+    "name": "Merguez",
+    "nameChinese": "摩洛哥香肠",
+    "category": "Dinner",
+    "cuisine": "Moroccan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-shabu-shabu",
+    "name": "Shabu-shabu",
+    "nameChinese": "日式涮涮锅",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-yakiniku",
+    "name": "Yakiniku",
+    "nameChinese": "日式烧肉",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-sashimi-platter",
+    "name": "Sashimi Platter",
+    "nameChinese": "刺身拼盘",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-yakitori",
+    "name": "Yakitori",
+    "nameChinese": "烤鸡肉串",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-robatayaki-fish",
+    "name": "Robatayaki Fish",
+    "nameChinese": "居酒屋烤鱼",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-monjayaki",
+    "name": "Monjayaki",
+    "nameChinese": "文字烧",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-salt-grilled-saury",
+    "name": "Salt-grilled Saury",
+    "nameChinese": "盐烤秋刀鱼",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-grilled-mackerel",
+    "name": "Grilled Mackerel",
+    "nameChinese": "烤青花鱼",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-kakuni",
+    "name": "Kakuni",
+    "nameChinese": "日式红烧肉",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-nikujaga",
+    "name": "Nikujaga",
+    "nameChinese": "土豆炖牛肉",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-chikuzenni",
+    "name": "Chikuzenni",
+    "nameChinese": "筑前煮",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-wasabi-octopus",
+    "name": "Wasabi Octopus",
+    "nameChinese": "芥末章鱼",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-agedashi-tofu",
+    "name": "Agedashi Tofu",
+    "nameChinese": "日式炸豆腐",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-japanese-bbq-with-lettuce",
+    "name": "Japanese BBQ with Lettuce",
+    "nameChinese": "日式烤肉配生菜",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-wagyu-steak",
+    "name": "Wagyu Steak",
+    "nameChinese": "和牛牛排",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-nabe",
+    "name": "Nabe",
+    "nameChinese": "日式火锅",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-tsukune-nabe",
+    "name": "Tsukune Nabe",
+    "nameChinese": "鸡肉丸子锅",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-chankonabe",
+    "name": "Chankonabe",
+    "nameChinese": "相扑火锅",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-ika-yaki",
+    "name": "Ika Yaki",
+    "nameChinese": "日式烤鱿鱼",
+    "category": "Dinner",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-braised-pork-intestines-with-clover",
+    "name": "Braised Pork Intestines with Clover",
+    "nameChinese": "草头圈子",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stuffed-gluten-balls",
+    "name": "Stuffed Gluten Balls",
+    "nameChinese": "油面筋塞肉",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-braised-pork-with-tofu-knots",
+    "name": "Braised Pork with Tofu Knots",
+    "nameChinese": "百叶结烧肉",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-shanghai-fried-noodles",
+    "name": "Shanghai Fried Noodles",
+    "nameChinese": "上海炒面",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-hairy-crab-with-rice-cakes",
+    "name": "Hairy Crab with Rice Cakes",
+    "nameChinese": "毛蟹年糕",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-steamed-hairy-crab",
+    "name": "Steamed Hairy Crab",
+    "nameChinese": "清蒸大闸蟹",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-crab-meat-with-tofu",
+    "name": "Crab Meat with Tofu",
+    "nameChinese": "蟹粉豆腐",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-crystal-shrimp",
+    "name": "Crystal Shrimp",
+    "nameChinese": "水晶虾仁",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-salt-and-pepper-pork-strips",
+    "name": "Salt and Pepper Pork Strips",
+    "nameChinese": "椒盐排条",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-shredded-pork-with-cabbage",
+    "name": "Stir-fried Shredded Pork with Cabbage",
+    "nameChinese": "烂糊肉丝",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-shepherd-s-purse-and-pork-soup",
+    "name": "Shepherd's Purse and Pork Soup",
+    "nameChinese": "荠菜肉丝豆腐羹",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-borscht-shanghai-style",
+    "name": "Borscht (Shanghai Style)",
+    "nameChinese": "罗宋汤",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-fried-pork-chop",
+    "name": "Fried Pork Chop",
+    "nameChinese": "炸猪排",
+    "category": "Dinner",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-salted-duck",
+    "name": "Salted Duck",
+    "nameChinese": "盐水鸭",
+    "category": "Dinner",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-taihu-white-shrimp",
+    "name": "Taihu White Shrimp",
+    "nameChinese": "太湖白虾",
+    "category": "Dinner",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-yangcheng-lake-hairy-crab",
+    "name": "Yangcheng Lake Hairy Crab",
+    "nameChinese": "阳澄湖大闸蟹",
+    "category": "Dinner",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-crystal-cured-pork",
+    "name": "Crystal Cured Pork",
+    "nameChinese": "水晶肴肉",
+    "category": "Dinner",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stewed-silver-carp-head",
+    "name": "Stewed Silver Carp Head",
+    "nameChinese": "拆烩鲢鱼头",
+    "category": "Dinner",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-three-nested-duck",
+    "name": "Three-nested Duck",
+    "nameChinese": "三套鸭",
+    "category": "Dinner",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-liangxi-crispy-eel",
+    "name": "Liangxi Crispy Eel",
+    "nameChinese": "梁溪脆鳝",
+    "category": "Dinner",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-mirror-box-tofu",
+    "name": "Mirror Box Tofu",
+    "nameChinese": "镜箱豆腐",
+    "category": "Dinner",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-farewell-my-concubine",
+    "name": "Farewell My Concubine",
+    "nameChinese": "霸王别姬",
+    "category": "Dinner",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-green-curry-chicken",
+    "name": "Green Curry Chicken",
+    "nameChinese": "泰式绿咖喱鸡",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-red-curry-duck",
+    "name": "Red Curry Duck",
+    "nameChinese": "泰式红咖喱鸭",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-yellow-curry-beef",
+    "name": "Yellow Curry Beef",
+    "nameChinese": "泰式黄咖喱牛",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pad-thai",
+    "name": "Pad Thai",
+    "nameChinese": "泰式炒河粉",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pineapple-fried-rice",
+    "name": "Pineapple Fried Rice",
+    "nameChinese": "泰式菠萝炒饭",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-gai-yang",
+    "name": "Gai Yang",
+    "nameChinese": "泰式烤鸡",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-som-tum",
+    "name": "Som Tum",
+    "nameChinese": "泰式青木瓜沙拉",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-steamed-fish-with-lemon",
+    "name": "Steamed Fish with Lemon",
+    "nameChinese": "泰式柠檬鱼",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-grilled-fish-with-lemongrass",
+    "name": "Grilled Fish with Lemongrass",
+    "nameChinese": "泰式香茅烤鱼",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-curry-crab",
+    "name": "Curry Crab",
+    "nameChinese": "泰式咖喱蟹",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-tod-mun-pla",
+    "name": "Tod Mun Pla",
+    "nameChinese": "泰式炸鱼饼",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-grilled-pork-neck",
+    "name": "Grilled Pork Neck",
+    "nameChinese": "泰式猪颈肉",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-pad-kra-pao",
+    "name": "Pad Kra Pao",
+    "nameChinese": "泰式打抛猪肉",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-basil-chicken",
+    "name": "Basil Chicken",
+    "nameChinese": "罗勒叶炒鸡",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-thai-spring-rolls",
+    "name": "Thai Spring Rolls",
+    "nameChinese": "泰式春卷",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-seafood-salad",
+    "name": "Seafood Salad",
+    "nameChinese": "泰式海鲜沙拉",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-beef-salad",
+    "name": "Beef Salad",
+    "nameChinese": "泰式牛肉沙拉",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-tom-kha-gai",
+    "name": "Tom Kha Gai",
+    "nameChinese": "椰汁鸡汤",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-thai-bbq-ribs",
+    "name": "Thai BBQ Ribs",
+    "nameChinese": "泰式烤猪排",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-stir-fried-morning-glory",
+    "name": "Stir-fried Morning Glory",
+    "nameChinese": "泰式炒空心菜",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-curry-shrimp",
+    "name": "Curry Shrimp",
+    "nameChinese": "泰式咖喱虾",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "dinner-doc-seafood-pineapple-fried-rice",
+    "name": "Seafood Pineapple Fried Rice",
+    "nameChinese": "泰式菠萝海鲜饭",
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
   }
 ]

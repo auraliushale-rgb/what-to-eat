@@ -19,7 +19,10 @@
       "soy"
     ],
     "ingredientEvidence": "typical-recipe",
-    "source": null
+    "source": null,
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
   },
   {
     "id": "kung-pao-chicken",
@@ -43,7 +46,10 @@
       "soy"
     ],
     "ingredientEvidence": "typical-recipe",
-    "source": null
+    "source": null,
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
   },
   {
     "id": "dan-dan-noodles",
@@ -131,7 +137,10 @@
     ],
     "allergens": [],
     "ingredientEvidence": "typical-recipe",
-    "source": null
+    "source": null,
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
   },
   {
     "id": "sichuan-yuxiang-eggplant",
@@ -211,29 +220,6 @@
     "allergens": [
       "wheat",
       "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "cantonese-wonton-noodle-soup",
-    "name": "Cantonese Wonton Noodle Soup",
-    "nameChinese": "云吞面",
-    "category": "Lunch",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "egg noodles",
-      "shrimp",
-      "pork",
-      "dried flounder broth"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "eggs",
-      "fish",
-      "crustaceans"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -385,7 +371,10 @@
       "soy"
     ],
     "ingredientEvidence": "typical-recipe",
-    "source": null
+    "source": null,
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
   },
   {
     "id": "longjing-shrimp",
@@ -446,67 +435,6 @@
     "allergens": [
       "wheat",
       "crustaceans"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "yangzhou-fried-rice",
-    "name": "Yangzhou Fried Rice",
-    "nameChinese": "扬州炒饭",
-    "category": "Lunch",
-    "cuisine": "Jiangsu",
-    "ingredients": [
-      "rice",
-      "egg",
-      "shrimp",
-      "roast pork",
-      "peas",
-      "scallion"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "eggs",
-      "crustaceans"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "nanjing-salted-duck",
-    "name": "Nanjing Salted Duck",
-    "nameChinese": "盐水鸭",
-    "category": "Lunch",
-    "cuisine": "Jiangsu",
-    "ingredients": [
-      "duck",
-      "Sichuan pepper",
-      "salt",
-      "star anise"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "wuxi-braised-pork-spareribs",
-    "name": "Wuxi Braised Pork Spareribs",
-    "nameChinese": "无锡排骨",
-    "category": "Lunch",
-    "cuisine": "Jiangsu",
-    "ingredients": [
-      "pork ribs",
-      "rock sugar",
-      "soy sauce",
-      "rice wine"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -735,7 +663,10 @@
       "soy"
     ],
     "ingredientEvidence": "typical-recipe",
-    "source": null
+    "source": null,
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
   },
   {
     "id": "guo-bao-rou",
@@ -753,7 +684,10 @@
     "dietaryTags": [],
     "allergens": [],
     "ingredientEvidence": "typical-recipe",
-    "source": null
+    "source": null,
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
   },
   {
     "id": "northeastern-pork-and-sauerkraut-dumplings",
@@ -797,46 +731,6 @@
     "source": null
   },
   {
-    "id": "pork-xiaolongbao",
-    "name": "Pork Xiaolongbao",
-    "nameChinese": "小笼包",
-    "category": "Lunch",
-    "cuisine": "Shanghai",
-    "ingredients": [
-      "wheat flour",
-      "pork",
-      "pork aspic",
-      "ginger"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shanghai-pork-chop-rice-cakes",
-    "name": "Shanghai Pork Chop Rice Cakes",
-    "nameChinese": "排骨年糕",
-    "category": "Lunch",
-    "cuisine": "Shanghai",
-    "ingredients": [
-      "pork chop",
-      "rice cake",
-      "wheat flour",
-      "soy sauce",
-      "sugar"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "shanghai-salted-pork-vegetable-rice",
     "name": "Shanghai Salted Pork Vegetable Rice",
     "nameChinese": "咸肉菜饭",
@@ -850,27 +744,6 @@
     ],
     "dietaryTags": [],
     "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "taiwanese-braised-pork-rice",
-    "name": "Taiwanese Braised Pork Rice",
-    "nameChinese": "卤肉饭",
-    "category": "Lunch",
-    "cuisine": "Taiwanese",
-    "ingredients": [
-      "pork belly",
-      "rice",
-      "shallot",
-      "soy sauce",
-      "five-spice"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
     "ingredientEvidence": "typical-recipe",
     "source": null
   },
@@ -914,25 +787,6 @@
     "allergens": [
       "eggs",
       "molluscs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shaanxi-roujiamo",
-    "name": "Shaanxi Roujiamo",
-    "nameChinese": "肉夹馍",
-    "category": "Lunch",
-    "cuisine": "Shaanxi",
-    "ingredients": [
-      "wheat flatbread",
-      "braised pork",
-      "star anise",
-      "cinnamon"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -1235,7 +1089,10 @@
       "soy"
     ],
     "ingredientEvidence": "typical-recipe",
-    "source": null
+    "source": null,
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
   },
   {
     "id": "scallion-tofu-salad",
@@ -1326,73 +1183,6 @@
     "source": null
   },
   {
-    "id": "oyakodon",
-    "name": "Oyakodon",
-    "nameChinese": "親子丼",
-    "category": "Lunch",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "chicken",
-      "egg",
-      "onion",
-      "rice",
-      "bonito dashi",
-      "soy sauce"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "soy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "gyudon",
-    "name": "Gyudon",
-    "nameChinese": "牛丼",
-    "category": "Lunch",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "beef",
-      "onion",
-      "rice",
-      "soy sauce",
-      "mirin"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "yakisoba",
-    "name": "Yakisoba",
-    "nameChinese": "焼きそば",
-    "category": "Lunch",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "wheat noodles",
-      "pork",
-      "cabbage",
-      "carrot",
-      "yakisoba sauce"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "kitsune-udon",
     "name": "Kitsune Udon",
     "nameChinese": "きつねうどん",
@@ -1441,32 +1231,6 @@
     "source": null
   },
   {
-    "id": "bibimbap",
-    "name": "Bibimbap",
-    "nameChinese": "비빔밥",
-    "category": "Lunch",
-    "cuisine": "Korean",
-    "ingredients": [
-      "rice",
-      "beef",
-      "egg",
-      "spinach",
-      "sprouts",
-      "gochujang",
-      "sesame oil"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "eggs",
-      "soy",
-      "sesame"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "japchae",
     "name": "Japchae",
     "nameChinese": "잡채",
@@ -1483,52 +1247,6 @@
     "dietaryTags": [],
     "allergens": [
       "wheat",
-      "soy",
-      "sesame"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "jajangmyeon",
-    "name": "Jajangmyeon",
-    "nameChinese": "짜장면",
-    "category": "Lunch",
-    "cuisine": "Korean",
-    "ingredients": [
-      "wheat noodles",
-      "pork",
-      "black bean paste",
-      "onion",
-      "zucchini"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "kimchi-fried-rice",
-    "name": "Kimchi Fried Rice",
-    "nameChinese": "김치볶음밥",
-    "category": "Lunch",
-    "cuisine": "Korean",
-    "ingredients": [
-      "rice",
-      "kimchi",
-      "pork",
-      "egg",
-      "gochujang",
-      "sesame oil"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "eggs",
       "soy",
       "sesame"
     ],
@@ -1702,7 +1420,7 @@
   {
     "id": "philly-cheesesteak",
     "name": "Philly Cheesesteak",
-    "nameChinese": null,
+    "nameChinese": "费城牛肉芝士三明治",
     "category": "Lunch",
     "cuisine": "American",
     "ingredients": [
@@ -1724,7 +1442,7 @@
   {
     "id": "cobb-salad",
     "name": "Cobb Salad",
-    "nameChinese": null,
+    "nameChinese": "科布沙拉",
     "category": "Lunch",
     "cuisine": "American",
     "ingredients": [
@@ -2024,7 +1742,7 @@
   {
     "id": "lomo-saltado",
     "name": "Lomo Saltado",
-    "nameChinese": null,
+    "nameChinese": "秘鲁炒牛肉",
     "category": "Lunch",
     "cuisine": "Peruvian",
     "ingredients": [
@@ -2113,5 +1831,2730 @@
     "allergens": [],
     "ingredientEvidence": "typical-recipe",
     "source": null
+  },
+  {
+    "id": "lunch-doc-mao-xue-wang-duck-blood-curd-in-spicy-broth",
+    "name": "Mao Xue Wang (Duck Blood Curd in Spicy Broth)",
+    "nameChinese": "毛血旺",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-boiled-fish-in-spicy-broth",
+    "name": "Boiled Fish in Spicy Broth",
+    "nameChinese": "水煮鱼",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-spicy-popcorn-chicken",
+    "name": "Spicy Popcorn Chicken",
+    "nameChinese": "辣子鸡",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-tofu-pudding-with-rice",
+    "name": "Tofu Pudding with Rice",
+    "nameChinese": "豆花饭",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-twice-cooked-pork",
+    "name": "Twice-Cooked Pork",
+    "nameChinese": "回锅肉",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-pickled-pepper-bullfrog",
+    "name": "Pickled Pepper Bullfrog",
+    "nameChinese": "泡椒牛蛙",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-steamed-pork-belly-with-preserved-vegetables",
+    "name": "Steamed Pork Belly with Preserved Vegetables",
+    "nameChinese": "烧白",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-steamed-pork-with-rice-flour",
+    "name": "Steamed Pork with Rice Flour",
+    "nameChinese": "粉蒸肉",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-wanzhou-grilled-fish",
+    "name": "Wanzhou Grilled Fish",
+    "nameChinese": "万州烤鱼",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-hot-and-sour-sweet-potato-noodles",
+    "name": "Hot and Sour Sweet Potato Noodles",
+    "nameChinese": "酸辣粉",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-chongqing-hotpot-single-maocai",
+    "name": "Chongqing Hotpot (Single/Maocai)",
+    "nameChinese": "重庆火锅（单人/冒菜）",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sliced-pork-with-garlic-sauce",
+    "name": "Sliced Pork with Garlic Sauce",
+    "nameChinese": "蒜泥白肉",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-spring-water-chicken",
+    "name": "Spring Water Chicken",
+    "nameChinese": "泉水鸡",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-chicken-with-taro",
+    "name": "Chicken with Taro",
+    "nameChinese": "芋儿鸡",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-dry-fried-green-beans",
+    "name": "Dry-fried Green Beans",
+    "nameChinese": "干煸四季豆",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-yu-xiang-shredded-pork",
+    "name": "Yu Xiang Shredded Pork",
+    "nameChinese": "鱼香肉丝",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-zhong-dumplings",
+    "name": "Zhong Dumplings",
+    "nameChinese": "钟水饺",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-boiled-sliced-pork-in-spicy-broth",
+    "name": "Boiled Sliced Pork in Spicy Broth",
+    "nameChinese": "水煮肉片",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-twice-cooked-pork-salted-style",
+    "name": "Twice-Cooked Pork (Salted Style)",
+    "nameChinese": "盐煎肉",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-fish-with-chili-bean-paste",
+    "name": "Fish with Chili Bean Paste",
+    "nameChinese": "豆瓣鱼",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-boiled-cabbage-in-superior-broth",
+    "name": "Boiled Cabbage in Superior Broth",
+    "nameChinese": "开水白菜",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sweet-roasted-duck",
+    "name": "Sweet Roasted Duck",
+    "nameChinese": "甜皮鸭",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-dongpo-braised-pork-hock",
+    "name": "Dongpo Braised Pork Hock",
+    "nameChinese": "东坡肘子",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-spicy-shrimp",
+    "name": "Spicy Shrimp",
+    "nameChinese": "香辣虾",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-dry-pot-cauliflower",
+    "name": "Dry Pot Cauliflower",
+    "nameChinese": "干锅花菜",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-stir-fried-pork-with-garlic-sprouts",
+    "name": "Stir-fried Pork with Garlic Sprouts",
+    "nameChinese": "蒜苔炒肉",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-kung-pao-shrimp",
+    "name": "Kung Pao Shrimp",
+    "nameChinese": "宫保虾球",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stir-fried-pork-kidneys",
+    "name": "Stir-fried Pork Kidneys",
+    "nameChinese": "爆炒腰花",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-cold-tossed-fish-mint",
+    "name": "Cold Tossed Fish Mint",
+    "nameChinese": "凉拌折耳根",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sichuan-pickles",
+    "name": "Sichuan Pickles",
+    "nameChinese": "四川泡菜",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-lai-tangyuan-sweet-glutinous-rice-balls",
+    "name": "Lai Tangyuan (Sweet Glutinous Rice Balls)",
+    "nameChinese": "赖汤圆",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-braised-pork-with-glass-noodles",
+    "name": "Braised Pork with Glass Noodles",
+    "nameChinese": "猪肉炖粉条",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-chicken-stew-with-mushrooms",
+    "name": "Chicken Stew with Mushrooms",
+    "nameChinese": "小鸡炖蘑菇",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-fried-pork-cubes",
+    "name": "Fried Pork Cubes",
+    "nameChinese": "溜肉段",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-pork-belly-with-pickled-cabbage",
+    "name": "Pork Belly with Pickled Cabbage",
+    "nameChinese": "酸菜白肉",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-candied-sweet-potato",
+    "name": "Candied Sweet Potato",
+    "nameChinese": "拔丝地瓜",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-braised-pork-bones-in-soy-sauce",
+    "name": "Braised Pork Bones in Soy Sauce",
+    "nameChinese": "酱大骨",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-pig-slaughter-stew-pork-sauerkraut-and-blood-sausage",
+    "name": "Pig Slaughter Stew (Pork, Sauerkraut and Blood Sausage)",
+    "nameChinese": "杀猪菜",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-braised-ribs-with-green-beans",
+    "name": "Braised Ribs with Green Beans",
+    "nameChinese": "排骨炖豆角",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stir-fried-dried-tofu-with-green-pepper",
+    "name": "Stir-fried Dried Tofu with Green Pepper",
+    "nameChinese": "尖椒干豆腐",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-scallions-with-soybean-paste",
+    "name": "Scallions with Soybean Paste",
+    "nameChinese": "大葱蘸酱",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-iron-pot-stewed-goose",
+    "name": "Iron Pot Stewed Goose",
+    "nameChinese": "铁锅炖大鹅",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-liangpi-cold-skin-noodles",
+    "name": "Liangpi (Cold Skin Noodles)",
+    "nameChinese": "酿皮",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-jiangshui-noodles-fermented-vegetable-soup-noodles",
+    "name": "Jiangshui Noodles (Fermented Vegetable Soup Noodles)",
+    "nameChinese": "浆水面",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-hand-grabbed-mutton",
+    "name": "Hand-grabbed Mutton",
+    "nameChinese": "手抓羊肉",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-braised-mutton",
+    "name": "Braised Mutton",
+    "nameChinese": "黄焖羊肉",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-gray-pea-soup",
+    "name": "Gray Pea Soup",
+    "nameChinese": "灰豆子",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sweet-fermented-oats",
+    "name": "Sweet Fermented Oats",
+    "nameChinese": "甜醅子",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-mutton-skewers",
+    "name": "Mutton Skewers",
+    "nameChinese": "烤羊肉串",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-tianshui-gua-gua-buckwheat-jelly",
+    "name": "Tianshui Gua Gua (Buckwheat Jelly)",
+    "nameChinese": "天水呱呱",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-longxi-cured-meat",
+    "name": "Longxi Cured Meat",
+    "nameChinese": "陇西腊肉",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-jingning-roast-chicken",
+    "name": "Jingning Roast Chicken",
+    "nameChinese": "静宁烧鸡",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-luosifen-snail-rice-noodles",
+    "name": "Luosifen (Snail Rice Noodles)",
+    "nameChinese": "螺蛳粉",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-laoyou-rice-noodles",
+    "name": "Laoyou Rice Noodles",
+    "nameChinese": "老友粉",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-taro-with-pork-belly",
+    "name": "Taro with Pork Belly",
+    "nameChinese": "荔浦芋扣肉",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-beer-fish-yangshuo-style",
+    "name": "Beer Fish (Yangshuo Style)",
+    "nameChinese": "啤酒鱼",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stir-fried-pork-with-sour-bamboo-shoots",
+    "name": "Stir-fried Pork with Sour Bamboo Shoots",
+    "nameChinese": "酸笋炒肉",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-lemon-duck",
+    "name": "Lemon Duck",
+    "nameChinese": "柠檬鸭",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-boiled-chicken",
+    "name": "Boiled Chicken",
+    "nameChinese": "白切鸡",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-paper-wrapped-chicken",
+    "name": "Paper-wrapped Chicken",
+    "nameChinese": "纸包鸡",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-yulin-beef-jerky",
+    "name": "Yulin Beef Jerky",
+    "nameChinese": "玉林牛巴",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-hengxian-raw-fish",
+    "name": "Hengxian Raw Fish",
+    "nameChinese": "横县鱼生",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-bama-roast-suckling-pig",
+    "name": "Bama Roast Suckling Pig",
+    "nameChinese": "巴马香猪",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-rolled-rice-noodles",
+    "name": "Rolled Rice Noodles",
+    "nameChinese": "卷筒粉",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stir-fried-rice-noodle-worms",
+    "name": "Stir-fried Rice Noodle Worms",
+    "nameChinese": "炒粉虫",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-gongcheng-oil-tea",
+    "name": "Gongcheng Oil Tea",
+    "nameChinese": "恭城油茶",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-hainan-rice-noodles",
+    "name": "Hainan Rice Noodles",
+    "nameChinese": "海南粉",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-baoluo-rice-noodles",
+    "name": "Baoluo Rice Noodles",
+    "nameChinese": "抱罗粉",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-qingbuliang-coconut-milk-dessert-soup",
+    "name": "Qingbuliang (Coconut Milk Dessert Soup)",
+    "nameChinese": "清补凉",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-coconut-chicken-soup",
+    "name": "Coconut Chicken Soup",
+    "nameChinese": "椰子鸡",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-wenchang-chicken",
+    "name": "Wenchang Chicken",
+    "nameChinese": "文昌鸡",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-jiaji-duck",
+    "name": "Jiaji Duck",
+    "nameChinese": "加积鸭",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-dongshan-mutton",
+    "name": "Dongshan Mutton",
+    "nameChinese": "东山羊",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-hele-crab",
+    "name": "Hele Crab",
+    "nameChinese": "和乐蟹",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-lingshui-sour-rice-noodles",
+    "name": "Lingshui Sour Rice Noodles",
+    "nameChinese": "陵水酸粉",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-coconut-rice",
+    "name": "Coconut Rice",
+    "nameChinese": "椰子饭",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-zaobo-vinegar-hotpot",
+    "name": "Zaobo Vinegar Hotpot",
+    "nameChinese": "糟粕醋",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-kimchi-stew",
+    "name": "Kimchi Stew",
+    "nameChinese": "泡菜汤",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-army-stew",
+    "name": "Army Stew",
+    "nameChinese": "部队锅",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-seafood-scallion-pancake",
+    "name": "Seafood Scallion Pancake",
+    "nameChinese": "海鲜葱饼",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-soft-tofu-stew",
+    "name": "Soft Tofu Stew",
+    "nameChinese": "嫩豆腐汤",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-korean-braised-pig-s-trotters",
+    "name": "Korean Braised Pig's Trotters",
+    "nameChinese": "韩式猪脚",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-spicy-stir-fried-squid",
+    "name": "Spicy Stir-fried Squid",
+    "nameChinese": "辣炒鱿鱼",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-ginseng-chicken-soup",
+    "name": "Ginseng Chicken Soup",
+    "nameChinese": "参鸡汤",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stone-pot-bibimbap",
+    "name": "Stone Pot Bibimbap",
+    "nameChinese": "石锅拌饭",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stinky-mandarin-fish",
+    "name": "Stinky Mandarin Fish",
+    "nameChinese": "臭鳜鱼",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-hairy-tofu",
+    "name": "Hairy Tofu",
+    "nameChinese": "毛豆腐",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-huizhou-meatballs",
+    "name": "Huizhou Meatballs",
+    "nameChinese": "徽州圆子",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-huangshan-sesame-cake",
+    "name": "Huangshan Sesame Cake",
+    "nameChinese": "黄山烧饼",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stewed-soft-shelled-turtle-with-ham",
+    "name": "Stewed Soft-shelled Turtle with Ham",
+    "nameChinese": "火腿炖甲鱼",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-wenzheng-bamboo-shoots",
+    "name": "Wenzheng Bamboo Shoots",
+    "nameChinese": "问政山笋",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-li-hongzhang-hotchpotch",
+    "name": "Li Hongzhang Hotchpotch",
+    "nameChinese": "李鸿章大杂烩",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-fuliji-roast-chicken",
+    "name": "Fuliji Roast Chicken",
+    "nameChinese": "符离集烧鸡",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-bagongshan-tofu",
+    "name": "Bagongshan Tofu",
+    "nameChinese": "八公山豆腐",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-hu-shi-s-yipin-pot",
+    "name": "Hu Shi's Yipin Pot",
+    "nameChinese": "胡适一品锅",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-tabbouleh",
+    "name": "Tabbouleh",
+    "nameChinese": "塔布勒沙拉",
+    "category": "Lunch",
+    "cuisine": "Lebanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-fattoush",
+    "name": "Fattoush",
+    "nameChinese": "法图什沙拉",
+    "category": "Lunch",
+    "cuisine": "Lebanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-shawarma-wrap",
+    "name": "Shawarma Wrap",
+    "nameChinese": "沙威玛卷饼",
+    "category": "Lunch",
+    "cuisine": "Lebanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-shish-taouk",
+    "name": "Shish Taouk",
+    "nameChinese": "黎巴嫩烤肉串",
+    "category": "Lunch",
+    "cuisine": "Lebanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-kibbeh",
+    "name": "Kibbeh",
+    "nameChinese": "基贝 (碎肉炸丸子)",
+    "category": "Lunch",
+    "cuisine": "Lebanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-baba-ghanoush",
+    "name": "Baba Ghanoush",
+    "nameChinese": "巴巴加努什 (烤茄子泥)",
+    "category": "Lunch",
+    "cuisine": "Lebanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-manakish",
+    "name": "Manakish",
+    "nameChinese": "黎巴嫩披萨 (肉馅薄饼)",
+    "category": "Lunch",
+    "cuisine": "Lebanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stuffed-grape-leaves",
+    "name": "Stuffed Grape Leaves",
+    "nameChinese": "酿葡萄叶",
+    "category": "Lunch",
+    "cuisine": "Lebanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-braised-pork-intestines",
+    "name": "Braised Pork Intestines",
+    "nameChinese": "九转大肠",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-scallion-sea-cucumber",
+    "name": "Scallion Sea Cucumber",
+    "nameChinese": "葱烧海参",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-bazi-meat-braised-pork-belly",
+    "name": "Bazi Meat (Braised Pork Belly)",
+    "nameChinese": "把子肉",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-dezhou-braised-chicken",
+    "name": "Dezhou Braised Chicken",
+    "nameChinese": "德州扒鸡",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-moo-shu-pork",
+    "name": "Moo Shu Pork",
+    "nameChinese": "木须肉",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-four-joy-meatballs",
+    "name": "Four Joy Meatballs",
+    "nameChinese": "四喜丸子",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-pot-braised-pork",
+    "name": "Pot-braised Pork",
+    "nameChinese": "坛子肉",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-braised-prawns",
+    "name": "Braised Prawns",
+    "nameChinese": "油焖大虾",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-shandong-pancake-with-scallions",
+    "name": "Shandong Pancake with Scallions",
+    "nameChinese": "山东煎饼卷大葱",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-milky-soup-with-cattail-shoots",
+    "name": "Milky Soup with Cattail Shoots",
+    "nameChinese": "奶汤蒲菜",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sliced-fish-in-wine-sauce",
+    "name": "Sliced Fish in Wine Sauce",
+    "nameChinese": "糟溜鱼片",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stir-fried-shredded-pork-tenderloin",
+    "name": "Stir-fried Shredded Pork Tenderloin",
+    "nameChinese": "滑炒里脊丝",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-classic-hamburger",
+    "name": "Classic Hamburger",
+    "nameChinese": "经典汉堡",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-bbq-ribs",
+    "name": "BBQ Ribs",
+    "nameChinese": "美式烤肋排",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-club-sandwich",
+    "name": "Club Sandwich",
+    "nameChinese": "俱乐部三明治",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-reuben-sandwich",
+    "name": "Reuben Sandwich",
+    "nameChinese": "鲁本三明治",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-pancakes-with-maple-syrup",
+    "name": "Pancakes with Maple Syrup",
+    "nameChinese": "美式煎饼配枫糖浆",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-fish-and-chips",
+    "name": "Fish and Chips",
+    "nameChinese": "炸鱼薯条",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-caesar-salad",
+    "name": "Caesar Salad",
+    "nameChinese": "凯撒沙拉",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-roast-turkey-sandwich",
+    "name": "Roast Turkey Sandwich",
+    "nameChinese": "烤火鸡三明治",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-new-york-style-hot-dog",
+    "name": "New York Style Hot Dog",
+    "nameChinese": "纽约热狗",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-chili-con-carne",
+    "name": "Chili con Carne",
+    "nameChinese": "辣肉酱汤",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-onion-rings",
+    "name": "Onion Rings",
+    "nameChinese": "炸洋葱圈",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-buffalo-wings",
+    "name": "Buffalo Wings",
+    "nameChinese": "布法罗辣鸡翅",
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-ceviche",
+    "name": "Ceviche",
+    "nameChinese": "酸橘汁腌鱼",
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-peruvian-roast-chicken",
+    "name": "Peruvian Roast Chicken",
+    "nameChinese": "秘鲁烤鸡",
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-quinoa-soup",
+    "name": "Quinoa Soup",
+    "nameChinese": "藜麦汤",
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-anticuchos",
+    "name": "Anticuchos",
+    "nameChinese": "烤牛心串",
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-causa-rellena",
+    "name": "Causa Rellena",
+    "nameChinese": "秘鲁土豆沙拉",
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-aji-de-gallina",
+    "name": "Aji de Gallina",
+    "nameChinese": "秘鲁黄辣椒炖鸡",
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-grilled-beef-heart",
+    "name": "Grilled Beef Heart",
+    "nameChinese": "秘鲁烤牛心",
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-chicha-morada",
+    "name": "Chicha Morada",
+    "nameChinese": "紫玉米汁",
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-arroz-con-mariscos",
+    "name": "Arroz con Mariscos",
+    "nameChinese": "秘鲁海鲜饭",
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-buddha-jumps-over-the-wall",
+    "name": "Buddha Jumps Over the Wall",
+    "nameChinese": "佛跳墙",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-shaxian-delicacies-peanut-noodles-meat-wontons",
+    "name": "Shaxian Delicacies (Peanut Noodles/Meat Wontons)",
+    "nameChinese": "沙县小吃 (拌面/扁肉)",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-red-yeast-rice-pork",
+    "name": "Red Yeast Rice Pork",
+    "nameChinese": "红糟肉",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-boiled-hetian-chicken",
+    "name": "Boiled Hetian Chicken",
+    "nameChinese": "白斩河田鸡",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-ginger-duck",
+    "name": "Ginger Duck",
+    "nameChinese": "姜母鸭",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-misua-paste",
+    "name": "Misua Paste",
+    "nameChinese": "面线糊",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-minnan-savory-rice",
+    "name": "Minnan Savory Rice",
+    "nameChinese": "闽南咸饭",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-zhangzhou-braised-noodles",
+    "name": "Zhangzhou Braised Noodles",
+    "nameChinese": "漳州卤面",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-nachos-with-guacamole",
+    "name": "Nachos with Guacamole",
+    "nameChinese": "玉米片配牛油果酱",
+    "category": "Lunch",
+    "cuisine": "Mexican",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-aguachile",
+    "name": "Aguachile",
+    "nameChinese": "墨西哥酸橘汁腌虾",
+    "category": "Lunch",
+    "cuisine": "Mexican",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-chicken-enchiladas",
+    "name": "Chicken Enchiladas",
+    "nameChinese": "墨西哥鸡肉卷",
+    "category": "Lunch",
+    "cuisine": "Mexican",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-fajitas",
+    "name": "Fajitas",
+    "nameChinese": "法基塔 (烤鸡肉/牛肉丝)",
+    "category": "Lunch",
+    "cuisine": "Mexican",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-mexican-salad",
+    "name": "Mexican Salad",
+    "nameChinese": "墨西哥沙拉",
+    "category": "Lunch",
+    "cuisine": "Mexican",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-salsa-and-chips",
+    "name": "Salsa and Chips",
+    "nameChinese": "莎莎酱配薯片",
+    "category": "Lunch",
+    "cuisine": "Mexican",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sushi-platter",
+    "name": "Sushi Platter",
+    "nameChinese": "寿司拼盘",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-ramen",
+    "name": "Ramen",
+    "nameChinese": "拉面",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-teishoku-set-meal",
+    "name": "Teishoku (Set Meal)",
+    "nameChinese": "日式定食",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-udon",
+    "name": "Udon",
+    "nameChinese": "乌冬面",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-soba",
+    "name": "Soba",
+    "nameChinese": "荞麦面",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-kaisendon-seafood-bowl",
+    "name": "Kaisendon (Seafood Bowl)",
+    "nameChinese": "海鲜丼",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-chawanmushi",
+    "name": "Chawanmushi",
+    "nameChinese": "茶碗蒸",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sukiyaki",
+    "name": "Sukiyaki",
+    "nameChinese": "日式牛肉饭",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-oil-sprayed-noodles",
+    "name": "Oil-sprayed Noodles",
+    "nameChinese": "油泼面",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-saozi-noodles",
+    "name": "Saozi Noodles",
+    "nameChinese": "臊子面",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-hulutou-pork-intestine-soup",
+    "name": "Hulutou (Pork Intestine Soup)",
+    "nameChinese": "葫芦头",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-meatball-hu-la-tang",
+    "name": "Meatball Hu La Tang",
+    "nameChinese": "肉丸胡辣汤",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-bingfeng-soda-local-drink",
+    "name": "Bingfeng Soda (Local Drink)",
+    "nameChinese": "冰峰汽水",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-water-basin-mutton",
+    "name": "Water Basin Mutton",
+    "nameChinese": "水盆羊肉",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-zenggao-sticky-rice-with-jujube",
+    "name": "Zenggao (Sticky Rice with Jujube)",
+    "nameChinese": "甑糕",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-hanzhong-hot-rice-noodles",
+    "name": "Hanzhong Hot Rice Noodles",
+    "nameChinese": "汉中热米皮",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-youcha-mahua",
+    "name": "Youcha Mahua",
+    "nameChinese": "油茶麻花",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sour-soup-dumplings",
+    "name": "Sour Soup Dumplings",
+    "nameChinese": "酸汤水饺",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-braised-pork-belly",
+    "name": "Braised Pork Belly",
+    "nameChinese": "红烧肉",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-pork-chop-noodles",
+    "name": "Pork Chop Noodles",
+    "nameChinese": "大排面",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-four-joy-braised-wheat-gluten",
+    "name": "Four Joy Braised Wheat Gluten",
+    "nameChinese": "四喜烤麸",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-salted-pork-and-bamboo-shoot-soup",
+    "name": "Salted Pork and Bamboo Shoot Soup",
+    "nameChinese": "腌笃鲜",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-oil-exploded-shrimp",
+    "name": "Oil-exploded Shrimp",
+    "nameChinese": "油爆虾",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stir-fried-eel-shreds",
+    "name": "Stir-fried Eel Shreds",
+    "nameChinese": "响油鳝丝",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-eight-treasure-spicy-sauce",
+    "name": "Eight Treasure Spicy Sauce",
+    "nameChinese": "八宝辣酱",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-shanghai-smoked-fish",
+    "name": "Shanghai Smoked Fish",
+    "nameChinese": "上海熏鱼",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-shanghai-vegetable-rice",
+    "name": "Shanghai Vegetable Rice",
+    "nameChinese": "菜饭",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-fermented-rice-wine-balls",
+    "name": "Fermented Rice Wine Balls",
+    "nameChinese": "酒酿圆子",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-tofu-puff-and-vermicelli-soup",
+    "name": "Tofu Puff and Vermicelli Soup",
+    "nameChinese": "油豆腐线粉汤",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-braised-duck-in-soy-sauce",
+    "name": "Braised Duck in Soy Sauce",
+    "nameChinese": "酱鸭",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-squirrel-mandarin-fish",
+    "name": "Squirrel Mandarin Fish",
+    "nameChinese": "松鼠桂鱼",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-lion-s-head-meatballs",
+    "name": "Lion's Head Meatballs",
+    "nameChinese": "狮子头",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-crab-meat-soup-dumplings",
+    "name": "Crab Meat Soup Dumplings",
+    "nameChinese": "蟹粉小笼包",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stir-fried-eel-with-hot-oil",
+    "name": "Stir-fried Eel with Hot Oil",
+    "nameChinese": "响油鳝糊",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-beggar-s-chicken",
+    "name": "Beggar's Chicken",
+    "nameChinese": "叫花鸡",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-azao-noodles",
+    "name": "Azao Noodles",
+    "nameChinese": "奥灶面",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-jinling-roast-duck",
+    "name": "Jinling Roast Duck",
+    "nameChinese": "金陵烤鸭",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-pot-cover-noodles",
+    "name": "Pot Cover Noodles",
+    "nameChinese": "锅盖面",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sweet-and-sour-spare-ribs",
+    "name": "Sweet and Sour Spare Ribs",
+    "nameChinese": "糖醋排骨",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-taihu-white-fish",
+    "name": "Taihu White Fish",
+    "nameChinese": "太湖白鱼",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stewed-crab-meat-meatballs",
+    "name": "Stewed Crab Meat Meatballs",
+    "nameChinese": "清炖蟹粉狮子头",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-pingqiao-tofu",
+    "name": "Pingqiao Tofu",
+    "nameChinese": "平桥豆腐",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-braised-eel",
+    "name": "Braised Eel",
+    "nameChinese": "软兜长鱼",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-zhenjiang-cured-pork",
+    "name": "Zhenjiang Cured Pork",
+    "nameChinese": "镇江肴肉",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-pork-chop-rice",
+    "name": "Pork Chop Rice",
+    "nameChinese": "排骨饭",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-chicken-leg-rice",
+    "name": "Chicken Leg Rice",
+    "nameChinese": "鸡腿饭",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-danzai-noodles",
+    "name": "Danzai Noodles",
+    "nameChinese": "担仔面",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-taiwanese-popcorn-chicken",
+    "name": "Taiwanese Popcorn Chicken",
+    "nameChinese": "盐酥鸡",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-bubble-tea",
+    "name": "Bubble Tea",
+    "nameChinese": "珍珠奶茶",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-sesame-oil-chicken",
+    "name": "Sesame Oil Chicken",
+    "nameChinese": "麻油鸡",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-three-cup-chicken",
+    "name": "Three Cup Chicken",
+    "nameChinese": "三杯鸡",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-taiwanese-stir-fry",
+    "name": "Taiwanese Stir-fry",
+    "nameChinese": "台湾热炒",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-stinky-tofu",
+    "name": "Stinky Tofu",
+    "nameChinese": "臭豆腐",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-iron-eggs",
+    "name": "Iron Eggs",
+    "nameChinese": "铁蛋",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "lunch-doc-tomato-and-egg-stir-fry",
+    "name": "Tomato and Egg Stir-fry",
+    "nameChinese": "番茄炒蛋",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-hot-and-sour-shredded-potatoes",
+    "name": "Hot and Sour Shredded Potatoes",
+    "nameChinese": "酸辣土豆丝",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-seaweed-egg-drop-soup",
+    "name": "Seaweed Egg Drop Soup",
+    "nameChinese": "紫菜蛋花汤",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-tomato-and-egg-soup",
+    "name": "Tomato and Egg Soup",
+    "nameChinese": "西红柿鸡蛋汤",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-coca-cola-chicken-wings",
+    "name": "Coca-Cola Chicken Wings",
+    "nameChinese": "可乐鸡翅",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-sweet-and-sour-pork-tenderloin",
+    "name": "Sweet and Sour Pork Tenderloin",
+    "nameChinese": "糖醋里脊",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-garlic-broccoli",
+    "name": "Garlic Broccoli",
+    "nameChinese": "蒜蓉西兰花",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-hand-torn-cabbage",
+    "name": "Hand-torn Cabbage",
+    "nameChinese": "手撕包菜",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-braised-eggplant",
+    "name": "Braised Eggplant",
+    "nameChinese": "红烧茄子",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-minced-pork-with-eggplant",
+    "name": "Minced Pork with Eggplant",
+    "nameChinese": "肉末茄子",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-steamed-chicken-with-mushrooms",
+    "name": "Steamed Chicken with Mushrooms",
+    "nameChinese": "香菇滑鸡",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-steamed-sea-bass",
+    "name": "Steamed Sea Bass",
+    "nameChinese": "清蒸鲈鱼",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-braised-beef-brisket-with-potatoes",
+    "name": "Braised Beef Brisket with Potatoes",
+    "nameChinese": "土豆烧牛腩",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-stir-fried-chives-with-eggs",
+    "name": "Stir-fried Chives with Eggs",
+    "nameChinese": "韭菜炒鸡蛋",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-ribs-and-winter-melon-soup",
+    "name": "Ribs and Winter Melon Soup",
+    "nameChinese": "排骨炖冬瓜",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-winter-melon-meatball-soup",
+    "name": "Winter Melon Meatball Soup",
+    "nameChinese": "冬瓜丸子汤",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-smashed-cucumber-salad",
+    "name": "Smashed Cucumber Salad",
+    "nameChinese": "凉拌黄瓜",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-century-egg-with-tofu",
+    "name": "Century Egg with Tofu",
+    "nameChinese": "皮蛋豆腐",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-stir-fried-pork-with-onions",
+    "name": "Stir-fried Pork with Onions",
+    "nameChinese": "洋葱炒肉",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-vinegar-stir-fried-cabbage",
+    "name": "Vinegar Stir-fried Cabbage",
+    "nameChinese": "醋溜白菜",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-lotus-root-stir-fry",
+    "name": "Lotus Root Stir-fry",
+    "nameChinese": "荷塘小炒",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-stir-fried-seasonal-vegetables",
+    "name": "Stir-fried Seasonal Vegetables",
+    "nameChinese": "清炒时蔬",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-tomato-beef-brisket",
+    "name": "Tomato Beef Brisket",
+    "nameChinese": "番茄牛腩",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-mushroom-with-bok-choy",
+    "name": "Mushroom with Bok Choy",
+    "nameChinese": "香菇青菜",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-home-style-tofu",
+    "name": "Home-style Tofu",
+    "nameChinese": "家常豆腐",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-spicy-chicken-cubes",
+    "name": "Spicy Chicken Cubes",
+    "nameChinese": "辣子鸡丁",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-stir-fried-shrimp-with-cucumber",
+    "name": "Stir-fried Shrimp with Cucumber",
+    "nameChinese": "黄瓜炒虾仁",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-steamed-egg-custard",
+    "name": "Steamed Egg Custard",
+    "nameChinese": "鸡蛋羹",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-stir-fried-mixed-vegetables",
+    "name": "Stir-fried Mixed Vegetables",
+    "nameChinese": "炒合菜",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-stewed-tofu-with-cabbage",
+    "name": "Stewed Tofu with Cabbage",
+    "nameChinese": "白菜炖豆腐",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-pork-with-preserved-mustard-greens",
+    "name": "Pork with Preserved Mustard Greens",
+    "nameChinese": "梅菜扣肉",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
+  },
+  {
+    "id": "lunch-doc-tomato-gravy-noodles",
+    "name": "Tomato Gravy Noodles",
+    "nameChinese": "西红柿打卤面",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [],
+    "allergens": [],
+    "dietaryTags": [],
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Chinese Home Cooking"
+    ]
   }
 ]
