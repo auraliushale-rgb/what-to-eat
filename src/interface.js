@@ -1,5 +1,30 @@
 const phrases = new Map(`
-What to Eat|今天吃什么
+Skip to content|跳到正文
+Main navigation|主导航
+Meal wheels|用餐时段
+Wheel segments|转盘选项
+Checked|核对日期
+Hong Kong|香港
+Mainland China|中国大陆
+Taiwan|台湾
+Israeli|以色列风味
+Ethiopian|埃塞俄比亚风味
+Peruvian|秘鲁风味
+Lebanese|黎巴嫩风味
+Moroccan|摩洛哥风味
+Brazilian|巴西风味
+Tea shop|茶饮店
+eggs|蛋类
+soy|大豆
+wheat|小麦
+dairy|乳制品
+crustaceans|甲壳类
+mustard|芥末
+sesame|芝麻
+tree nuts|树坚果
+peanuts|花生
+molluscs|软体动物
+fish|鱼类
 Credits|制作人员
 Creators|制作者
 Contributors|协助制作者
@@ -17,9 +42,9 @@ Preferences|偏好
 Preferences and exclusions|偏好和排除名单
 What are we eating today?|今天吃什么？
 Let the wheel decide.|让转盘替你决定。
-Open food roulette|打开美食转盘
-Random All|随机搭配一天
-Choose a wheel|选择用餐时段
+Open food roulette|转一下，选道菜
+Random All|一键安排今天
+Choose a wheel|想吃哪一顿？
 Breakfast|早餐
 Lunch|午餐
 Dinner|晚餐
@@ -31,7 +56,7 @@ Home-style dishes and dinner classics.|家常菜与经典晚餐。
 Skewers, street snacks, and sweets.|烤串、街头小吃和甜点。
 Explore real menus from 12 tea brands.|探索 12 个茶饮品牌的真实菜单。
 Pick a meal and give the wheel a spin.|先选用餐时段，再选菜系或直接抽取。
-Choose a category, then spin.|选好分类后，点击抽取。
+Choose a category, then spin.|可以先缩小范围，也可以直接转。
 Cuisine|菜系
 Product type|产品类别
 All types|全部
@@ -39,7 +64,7 @@ All brands|全部品牌
 Choose a brand|选择品牌
 Random Brand|随机品牌
 Browse eligible dishes|按菜系查看候选菜品
-Ready when you are.|准备好了，点击下方开始。
+Ready when you are.|拿不定主意？转一下试试。
 Spinning…|抽取中…
 Spin the Wheel|开始抽取
 Spin Again|再抽一次
@@ -204,6 +229,8 @@ export function translate(value, language) {
   if (/^\d+ (dishes|products?)$/.test(value)) return value.replace(/ dishes$/, ' 道菜').replace(/ products?$/, ' 款产品');
   if (/^\d+ meal picks? generated\.$/.test(value)) return '已生成 ' + parseInt(value, 10) + ' 项。';
   if (/^(Breakfast|Lunch|Dinner|Late-night Snack|Milk Tea) wheel$/.test(value)) return phrases.get(value.slice(0, -6)) + '转盘';
+  const catalogCount = /^(\d+) dishes and (\d+) branded products$/.exec(value);
+  if (catalogCount) return catalogCount[1] + ' 道菜 · ' + catalogCount[2] + ' 款品牌产品';
   if (value.endsWith(' menu')) return translate(value.slice(0,-5),language) + '菜单';
   return value;
 }
@@ -233,34 +260,38 @@ export function celebrate(dialog) {
   const canvas = document.createElement('canvas');
   canvas.className = 'confetti';
   canvas.setAttribute('aria-hidden', 'true');
-  dialog.append(canvas);
-  const width = canvas.width = innerWidth;
-  const height = canvas.height = innerHeight;
+  const banner = dialog.querySelector(".dialog-head");
+  banner.append(canvas);
+  const width = canvas.width = banner.clientWidth;
+  const height = canvas.height = banner.clientHeight;
   const ctx = canvas.getContext('2d');
   if (!ctx) { canvas.remove(); return; }
   const palette = ['#c67558','#d7a14d','#9da771','#708c9d','#b885a1'];
-  const particles = Array.from({length: 84}, (_, index) => {
+  const particles = Array.from({length: 44}, (_, index) => {
     const right = index % 2;
-    return {x: width * (right ? .84 : .16), y: height * .72, dx: (right ? -1 : 1) * (1 + Math.random()*7), dy: -5-Math.random()*11, angle: Math.random()*6, color: palette[index % palette.length]};
+    return {x: width * (right ? .96 : .04), y: height * .95, dx: (right ? -1 : 1) * (0.5 + Math.random()*2.8), dy: -2-Math.random()*5, angle: Math.random()*6, color: palette[index % palette.length]};
   });
   const start = performance.now();
   function draw(now) {
     const elapsed = now - start;
-    if (!dialog.open || !canvas.isConnected || elapsed > 1450) { canvas.remove(); return; }
+    if (!dialog.open || !canvas.isConnected || elapsed > 1050) { canvas.remove(); return; }
     ctx.clearRect(0,0,width,height);
-    ctx.globalAlpha = Math.min(1, (1450-elapsed)/400);
+    ctx.globalAlpha = Math.min(1, (1050-elapsed)/400);
     const time = elapsed / 16.667;
     for (const p of particles) {
       ctx.save();
-      ctx.translate(p.x + p.dx*time, p.y + p.dy*time + .12*time*time);
+      ctx.translate(p.x + p.dx*time, p.y + p.dy*time + .085*time*time);
       ctx.rotate(p.angle + time*.11);
       ctx.fillStyle = p.color;
-      ctx.fillRect(-4,-3,8,5);
+      ctx.fillRect(-3,-2,6,4);
       ctx.restore();
     }
     requestAnimationFrame(draw);
   }
   requestAnimationFrame(draw);
 }
+
+
+
 
 

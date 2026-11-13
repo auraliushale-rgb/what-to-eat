@@ -1,3 +1,4 @@
+import { namesZh, ingredientsZh } from './catalog-zh.js';
 import supportCode from './support-qr.jpg';
 import { translate, localize, celebrate } from './interface.js';
 import { brands, byId, catalog, categories, eligible, menuEligible, preferences, restrictions, searchable, normalize, shuffle, stopAngle, wheelDraw } from './catalog.js';
@@ -13,7 +14,7 @@ const state = loadState(storage);
 let language = 'en';
 try { if (storage?.getItem('what-to-eat:language') === 'zh') language = 'zh'; } catch {}
 const t = value => translate(value, language);
-const itemName = item => language === 'zh' && item.nameChinese && !/[\u3040-\u30ff\uac00-\ud7af]/u.test(item.nameChinese) ? item.nameChinese : item.name;
+const itemName = item => language === 'zh' ? (namesZh[item.id] || item.nameChinese || item.name) : item.name;
 let subgroup = '';
 const subtype = item => item.productCategory || item.cuisine;
 const wheelPool = category => eligible(category, state).filter(item => !subgroup || subtype(item) === subgroup);
@@ -84,7 +85,7 @@ function home() {
 }
 
 function tile(item, subtitle = '', compact = false) {
-  return '<article class="list-tile ' + (compact ? '' : 'card') + '"><div><button class="text-button item-title" data-action="details" data-value="' + item.id + '">' + escape(itemName(item)) + '</button><p class="muted">' + escape(subtitle || (item.brand ? item.brand + ' · ' + item.productCategory : item.cuisine)) + '</p></div>' +
+  return '<article class="list-tile ' + (compact ? '' : 'card') + '"><div><button class="text-button item-title" data-action="details" data-value="' + item.id + '">' + escape(itemName(item)) + '</button><p class="muted">' + escape(subtitle || (item.brand ? item.brand + ' · ' + t(item.productCategory) : t(item.cuisine))) + '</p></div>' +
     '<button class="icon-button heart" title="' + (state.favorites.includes(item.id) ? 'Remove favorite' : 'Save favorite') + '" aria-label="' + (state.favorites.includes(item.id) ? 'Remove ' : 'Save ') + escape(itemName(item)) + (state.favorites.includes(item.id) ? ' from favorites' : ' to favorites') + '" aria-pressed="' + state.favorites.includes(item.id) + '" data-action="favorite" data-value="' + item.id + '">' + icon('favorites') + '</button></article>';
 }
 
@@ -113,7 +114,7 @@ function wheelPanel(category) {
     '<div class="wheel-wrap"><div class="wheel-shell"><span class="pointer" aria-hidden="true"></span><canvas id="wheel" width="840" height="840" aria-label="Wheel segments: ' +
     escape(selection.segments.map(itemName).join(', ')) + '" role="img"></canvas><span class="wheel-hub" aria-hidden="true">' + icon(categoryIcons[categories.indexOf(category)]) + '</span></div></div>' +
     '<div class="wheel-copy"><label class="wheel-filter">' + t(category === 'Milk Tea' ? 'Product type' : 'Cuisine') + '<select id="wheel-group"' + (spinning ? ' disabled' : '') + '>' + option('', t('All types'), !subgroup) + groups.map(group => option(group,t(group),subgroup === group)).join('') + '</select></label><span class="pill">' + count(pool.length, 'eligible option') + '</span><h2>' + category + ' wheel</h2><p class="lede">Choose a category, then spin.</p>' +
-    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(itemName(result)) + '</h3><p class="muted">' + escape(result.brand || result.cuisine) + '</p>' :
+    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(itemName(result)) + '</h3><p class="muted">' + escape(result.brand ? result.brand : t(result.cuisine)) + '</p>' :
     '<p class="muted">' + (busy ? 'Spinning…' : pool.length ? 'Ready when you are.' : 'No eligible items. Try another brand or review your preferences and exclusions.') + '</p>') + '</div>' +
     '<div class="actions"><button id="spin" class="button primary" data-action="spin" data-value="' + category + '"' + (pool.length && !spinning ? '' : ' disabled') + '>' +
     icon('roulette') + (previous ? ' Spin Again' : ' Spin the Wheel') + '</button>' +
@@ -134,16 +135,16 @@ function tea() {
   return heading('Milk Tea Explorer', 'Browse bilingual menus, choose a brand, or let the wheel pick.') +
     '<section class="card toolbar"><label>Choose a brand<select id="brand">' + brandOptions + '</select></label>' + button(icon('shuffle') + ' Random Brand', 'random-brand') + '</section>' +
     wheelPanel('Milk Tea') +
-    '<section class="tea-menu"><div class="section-heading"><h2>' + escape(state.brand || 'All brands') + ' menu</h2><p>Availability varies by store and season.</p></div>' +
+    '<section class="tea-menu"><div class="section-heading"><h2>' + escape(state.brand ? state.brand : 'All brands') + ' menu</h2><p>Availability varies by store and season.</p></div>' +
     '<div class="card toolbar menu-toolbar"><label>Find a product<input type="search" id="tea-search" placeholder="Name, brand, or ingredient" value="' + escape(teaSearch) + '"></label><label>Product type<select id="tea-type">' +
-    option('', 'All types', !teaType) + teaCategories.map(type => option(type, type, teaType === type)).join('') + '</select></label></div><div id="tea-items"></div></section>';
+    option('', 'All types', !teaType) + teaCategories.map(type => option(type, t(type), teaType === type)).join('') + '</select></label></div><div id="tea-items"></div></section>';
 }
 
 function renderTeaItems() {
   const container = document.querySelector('#tea-items');
   if (!container) return;
   const query = normalize(teaSearch);
-  const products = [...catalog['Milk Tea']].sort((a,b) => subtype(a).localeCompare(subtype(b))).filter(item => (!state.brand || item.brand === state.brand) && (!teaType || item.productCategory === teaType) && (!query || searchable(item).includes(query)));
+  const products = [...catalog['Milk Tea']].sort((a,b) => subtype(a).localeCompare(subtype(b))).filter(item => (!state.brand || item.brand === state.brand) && (!teaType || item.productCategory === teaType) && (!query || (searchable(item).includes(query) || normalize(itemName(item)).includes(query))));
   container.innerHTML = '<p class="list-count" aria-live="polite">' + count(products.length, 'product') + '</p>' +
     (products.length ? '<div class="tile-grid">' + grouped(products.slice(0, teaLimit)) + '</div>' : '<p class="card empty">No matching menu products.</p>') +
     (products.length > teaLimit ? '<div class="actions">' + button('Show more products', 'tea-more') + '</div>' : '');
@@ -172,7 +173,7 @@ function favorites() {
     '<div class="segmented" aria-label="Collection views">' + ['saved','history'].map(key => '<button aria-pressed="' + (library === key) + '" data-action="library" data-value="' + key + '">' + (key === 'saved' ? 'Saved items' : 'History') + '</button>').join('') + '</div>' +
     (records.length ? '<div class="tile-grid">' + records.map(entry => {
       const item = byId.get(entry.id);
-      const subtitle = history ? [item.brand || item.category, new Date(entry.at).toLocaleString('en', {dateStyle:'medium', timeStyle:'short'})].join(' · ') : '';
+      const subtitle = history ? [item.brand || t(item.category), new Date(entry.at).toLocaleString(language, {dateStyle:'medium', timeStyle:'short'})].join(' · ') : '';
       return tile(item, subtitle);
     }).join('') + '</div>' : '<p class="card empty">' + (history ? 'Your past roulette and meal plan picks will appear here.' : 'Save a dish or a drink to see it here.') + '</p>');
 }
@@ -196,14 +197,14 @@ function render({navigate = false, refocus} = {}) {
   navigation.innerHTML = Object.entries(routes).map(([page, title]) => '<a href="#' + page + '"' + (page === current.page ? ' aria-current="page"' : '') + '>' + icon(page) + '<span>' + t(title) + '</span></a>').join('');
   document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
   document.querySelector('#language').setAttribute('aria-pressed', String(language === 'zh'));
-  document.querySelector('.wordmark span').textContent = t('What to Eat');
-  document.querySelector('footer span').textContent = t('What to Eat');
+  document.querySelector('.skip').textContent = t('Skip to content');
+  navigation.setAttribute('aria-label', t('Main navigation'));
   document.querySelector('footer a').textContent = t('Preferences and exclusions');
   main.innerHTML = pages[current.page]();
   document.querySelector('#project-credits').textContent = t('Credits');
   document.querySelector('#support-project').textContent = t('Support the project');
   localize(main, language);
-  document.title = current.page === 'home' ? t('What to Eat') : t(routes[current.page]) + ' · ' + t('What to Eat');
+  document.title = current.page === 'home' ? 'What to Eat' : t(routes[current.page]) + ' · ' + 'What to Eat';
   if (current.page === 'tea') renderTeaItems();
   const canvas = document.querySelector('#wheel');
   if (canvas && frame) {
@@ -292,9 +293,9 @@ async function spin(category) {
   const task = spinning;
   render({refocus:'#spin'});
   const canvas = document.querySelector('#wheel');
-  const duration = matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 2750;
+  const duration = matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 2350;
   if (canvas?.animate && duration) {
-    const animation = canvas.animate([{transform:'rotate(0deg)'}, {transform:'rotate(' + angle + 'deg)'}], {duration, easing:'cubic-bezier(.12,.7,.15,1)', fill:'forwards'});
+    const animation = canvas.animate([{transform:'rotate(0deg)'}, {transform:'rotate(' + angle + 'deg)'}], {duration, easing:'cubic-bezier(.16,.65,.13,1)', fill:'forwards'});
     try { await animation.finished; } catch { /* The route may have changed. */ }
   }
   if (spinning !== task) return;
@@ -344,15 +345,15 @@ dialog.addEventListener('close', () => {
   dialogTrigger = null;
 });
 function detail(item, trigger, winner = false) {
-  const identity = [item.brand || item.cuisine, item.productCategory || item.category].filter(Boolean).join(' · ');
-  const ingredients = item.ingredients.length ? item.ingredients.join(', ') : 'Ingredient information unavailable.';
+  const identity = [item.brand || t(item.cuisine), t(item.productCategory || item.category)].filter(Boolean).join(' · ');
+  const ingredients = item.ingredients.length ? item.ingredients.map(value => language === 'zh' ? ingredientsZh[value] : value).join(language === 'zh' ? '、' : ', ') : 'Ingredient information unavailable.';
   const evidence = {'typical-recipe':'Typical recipe ingredients', 'published-highlights':'Published ingredient highlights', unknown:'Ingredient information', 'verified-complete':'Verified ingredient declaration'}[item.ingredientEvidence];
   const price = item.price ? new Intl.NumberFormat('en', {style:'currency', currency:item.price.currency}).format(item.price.amount) : 'Price unavailable';
   showDialog('<div class="dialog-head"><div><p class="eyebrow">' + escape(winner ? t('Your pick') + ' · ' + t(item.category) : identity) + '</p><h2 id="detail-title">' + escape(itemName(item)) + '</h2>' +
     (item.brand && item.nameChinese && language === 'en' ? '<p lang="zh" class="muted">' + escape(item.nameChinese) + '</p>' : '') + '</div><button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
-    '<div class="dialog-body"><h3>' + evidence + '</h3><p>' + escape(ingredients) + '</p><h3>Recorded allergens</h3><p>' + escape(item.allergens.join(', ') || 'Unavailable') + '</p>' +
+    '<div class="dialog-body"><h3>' + evidence + '</h3><p>' + escape(ingredients) + '</p><h3>Recorded allergens</h3><p>' + escape(item.allergens.map(t).join(language === 'zh' ? '、' : ', ') || 'Unavailable') + '</p>' +
     (item.ingredientEvidence !== 'verified-complete' ? '<p class="muted">Ingredient and cross-contact information is incomplete.</p>' : '') +
-    (item.brand ? '<h3>Menu reference</h3><p>' + escape(statusLabel(item.availability) + ' · ' + item.market + ' · ' + price) + '</p><p>Checked ' + escape(item.lastVerified) + ' · <a href="' + escape(item.source) + '" target="_blank" rel="noopener noreferrer">View source</a></p>' : '') +
+    (item.brand ? '<h3>Menu reference</h3><p>' + escape(t(statusLabel(item.availability)) + ' · ' + t(item.market) + ' · ' + t(price)) + '</p><p>' + t('Checked') + ' ' + escape(item.lastVerified) + ' · <a href="' + escape(item.source) + '" target="_blank" rel="noopener noreferrer">View source</a></p>' : '') +
     '</div><div class="dialog-actions">' + button(state.favorites.includes(item.id) ? 'Remove Favorite' : 'Save Favorite', 'favorite', item.id, true) +
     button(state.excluded.includes(item.id) ? 'Restore to Wheel' : 'Exclude from Wheel', state.excluded.includes(item.id) ? 'restore' : 'exclude', item.id) + '</div>', trigger);
 }
@@ -417,7 +418,7 @@ document.addEventListener('click', event => {
     subgroup = '';
     state.brand = shuffle(other.length ? other : available)[0];
     frame = null; teaLimit = 24;
-    persist(state.brand + ' selected.');
+    persist(state.brand + (language === 'zh' ? ' 已选中。' : ' selected.'));
   }
   if (action === 'favorite') {
     state.favorites = toggle(state.favorites, value);
@@ -469,3 +470,6 @@ main.addEventListener('submit', event => {
   persist('Custom restrictions saved.');
 });
 syncRoute();
+
+
+

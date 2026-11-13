@@ -135,11 +135,11 @@ legend{padding:0 6px;font-weight:700;color:var(--navy);font-size:19px}
 .check input{width:18px;height:18px;accent-color:var(--navy);margin:0;flex:none}
 .exclusions{padding:0;margin:0;list-style:none}
 .exclusions li{display:flex;justify-content:space-between;gap:10px;align-items:center;border-top:1px solid var(--line);padding:7px 0}
-dialog{width:min(100% - 24px,570px);padding:0;max-height:90dvh;color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+dialog{width:min(100% - 24px,570px);padding:0;max-height:90dvh;color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden;box-shadow:0 22px 70px #38291e33}
 dialog[open]{display:flex;flex-direction:column;animation:arrive 200ms ease both}
-dialog::backdrop{background:#24333b66}
+dialog::backdrop{background:#392d255e;animation:backdrop-in 180ms ease-out both}
 .dialog-head,.dialog-actions{padding:16px 20px;display:flex;gap:10px;justify-content:space-between;border-bottom:1px solid var(--line)}
-.dialog-body{padding:16px 20px;overflow:auto}
+.dialog-body{min-height:0;padding:16px 20px;overflow:auto;overscroll-behavior:contain}
 .dialog-body h3{margin:12px 0 4px}
 .dialog-body h3:first-child{margin-top:0}
 .dialog-body p{overflow-wrap:anywhere}
@@ -197,8 +197,19 @@ dialog::backdrop{background:#24333b66}
 .food-group summary{padding:10px 0;cursor:pointer;font-weight:bold;color:var(--navy)}
 .food-group summary span{margin-left:8px;color:var(--muted);font-weight:normal}
 .wheel-filter{display:block;margin-bottom:12px}
-.confetti{position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:2;border-radius:0}
-.arrive,dialog[open],.result h3{animation:arrive 220ms cubic-bezier(.2,.7,.3,1) both}
+.dialog-head{position:relative;isolation:isolate;overflow:hidden;background:var(--field)}
+.dialog-head,.dialog-actions{flex:none}
+.dialog-head > :not(canvas){position:relative;z-index:1;min-width:0}
+.dialog-head h2{overflow-wrap:anywhere}
+.confetti{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;border-radius:0}
+@keyframes backdrop-in{from{opacity:0}to{opacity:1}}
+@keyframes dialog-in{from{opacity:0;transform:translateY(8px) scale(.985)}to{opacity:1;transform:none}}
+.arrive,.result h3{animation:arrive 220ms cubic-bezier(.2,.7,.3,1) both}
+dialog[open]{animation:dialog-in 260ms cubic-bezier(.2,.7,.3,1) both}
+@media(max-width:540px){
+  .dialog-head,.dialog-actions,.dialog-body{padding:12px 14px}
+  .dialog-actions .button{flex:1 1 128px}
+}
 @media(max-width:860px){
   body{padding-bottom:calc(68px + env(safe-area-inset-bottom))}
   .masthead-inner{min-height:60px;justify-content:space-between}
@@ -229,3 +240,4 @@ dialog::backdrop{background:#24333b66}
 
 .credits-body ul{margin:0;padding-inline-start:20px}
 .credits-body h3:not(:first-child){margin-top:18px}
+
