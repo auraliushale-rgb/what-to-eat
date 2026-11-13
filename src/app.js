@@ -19,12 +19,26 @@ projectInfo.dataset.action = 'project-info';
 document.querySelector('#support-project').after(projectInfo);
 
 let language = 'en';
+function interfaceMotion() {
+  const style = getComputedStyle(document.documentElement);
+  return {
+    duration: Number(style.getPropertyValue('--motion-ms')),
+    easing: style.getPropertyValue('--motion-easing').trim()
+  };
+}
 let languageAnimation;
 try { if (storage?.getItem('what-to-eat:language') === 'zh') language = 'zh'; } catch {}
 const copy = (en, zh) => language === 'zh' ? zh : en;
 const extraLabels = {'Chinese Home Cooking':'家常菜', 'Ice Cream':'冰淇淋', Other:'其他', Me:'我'};
 const t = value => language === 'zh' && extraLabels[value] ? extraLabels[value] : translate(value, language);
 const brandName = name => language === 'zh' ? brands.find(brand => brand.name === name)?.nameChinese || name : name;
+const regionLabel = item => {
+  if (item.availability !== 'regional') return '';
+  const region = copy(item.region, item.regionChinese);
+  return region ? copy('Regional exclusive: ', '区域限定：') + region :
+    copy('Regional exclusive · Location not specified', '区域限定 · 文档未注明地区');
+};
+const withRegion = (label, item) => [label, regionLabel(item)].filter(Boolean).join(' · ');
 const cuisineCorrections = {
   "Ye'abesha Gomen":'Ethiopian', 'Tikil Gomen':'Ethiopian', 'Spiced Cauliflower':'Ethiopian',
   'Roasted Cauliflower':'Nordic', Kimchi:'Korean', Coleslaw:'American',
@@ -104,7 +118,7 @@ function home() {
 }
 
 function tile(item, subtitle = '', compact = false) {
-  return '<article class="list-tile ' + (compact ? '' : 'card') + '"><div><strong class="item-title">' + escape(itemName(item)) + '</strong><p class="muted">' + escape(subtitle || (item.brand ? brandName(item.brand) + ' · ' + t(item.productCategory) : t(cuisineOf(item)))) + '</p></div>' +
+  return '<article class="list-tile ' + (compact ? '' : 'card') + '"><div><strong class="item-title">' + escape(itemName(item)) + '</strong><p class="muted">' + escape(withRegion(subtitle || (item.brand ? brandName(item.brand) + ' · ' + t(item.productCategory) : t(cuisineOf(item))), item)) + '</p></div>' +
     '<button class="icon-button heart" title="' + (state.favorites.includes(item.id) ? 'Remove favorite' : 'Save favorite') + '" aria-label="' + escape(t(state.favorites.includes(item.id) ? 'Remove favorite' : 'Save favorite') + ' · ' + itemName(item)) + '" aria-pressed="' + state.favorites.includes(item.id) + '" data-action="favorite" data-value="' + item.id + '">' + icon('favorites') + '</button></article>';
 }
 
@@ -134,7 +148,7 @@ function wheelPanel(category) {
     '<div class="wheel-wrap"><div class="wheel-shell"><span class="pointer" aria-hidden="true"></span><canvas id="wheel" width="840" height="840" aria-label="' + t('Wheel segments') + ': ' +
     escape(selection.segments.map(itemName).join(', ')) + '" role="img"></canvas><span class="wheel-hub" aria-hidden="true">' + icon(categoryIcons[categories.indexOf(category)]) + '</span></div></div>' +
     '<div class="wheel-copy"><label class="wheel-filter">' + t(category === 'Milk Tea' ? 'Product type' : 'Cuisine') + '<select id="wheel-group"' + (spinning ? ' disabled' : '') + '>' + option('', t('All types'), !subgroup) + groups.map(group => option(group,t(group),subgroup === group)).join('') + '</select></label><span class="pill">' + count(pool.length, 'eligible option') + '</span><h2>' + category + ' wheel</h2><p class="lede">Choose a category, then spin.</p>' +
-    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(itemName(result)) + '</h3><p class="muted">' + escape(result.brand ? brandName(result.brand) : t(cuisineOf(result))) + '</p>' :
+    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(itemName(result)) + '</h3><p class="muted">' + escape(withRegion(result.brand ? brandName(result.brand) : t(cuisineOf(result)), result)) + '</p>' :
     '<p class="muted">' + (busy ? 'Spinning…' : pool.length ? 'Ready when you are.' : 'No eligible items. Try another brand or review your preferences and exclusions.') + '</p>') + '</div>' +
     '<div class="actions"><button id="spin" class="button primary" data-action="spin" data-value="' + category + '"' + (pool.length && !spinning ? '' : ' disabled') + '>' +
     icon('roulette') + (previous ? ' Spin Again' : ' Spin the Wheel') + '</button>' +
@@ -159,7 +173,7 @@ function tea() {
   return '<section class="card toolbar"><label>Choose a brand<select id="brand">' + brandOptions + '</select></label>' + button(icon('shuffle') + ' Random Brand', 'random-brand') + '</section>' +
     wheelPanel('Milk Tea') +
     '<section class="tea-menu"><div class="section-heading"><h2>' + escape(state.brand ? brandName(state.brand) : 'All brands') + ' menu</h2><p>Availability varies by store and season.</p></div>' +
-    '<div class="card toolbar menu-toolbar"><label>Find a product<input type="search" id="tea-search" placeholder="Name or brand" value="' + escape(teaSearch) + '"></label><label>Product type<select id="tea-type">' +
+    '<div class="card toolbar menu-toolbar"><label>Find a product<input type="search" id="tea-search" placeholder="Name, brand, or region" value="' + escape(teaSearch) + '"></label><label>Product type<select id="tea-type">' +
     option('', 'All types', !teaType) + teaCategories.map(type => option(type, t(type), teaType === type)).join('') + '</select></label></div><div id="tea-items"></div></section>';
 }
 
@@ -167,7 +181,7 @@ function renderTeaItems() {
   const container = document.querySelector('#tea-items');
   if (!container) return;
   const query = normalize(teaSearch);
-  const products = [...catalog['Milk Tea']].sort((a,b) => subtype(a).localeCompare(subtype(b))).filter(item => (!state.brand || item.brand === state.brand) && (!teaType || item.productCategory === teaType) && (!query || (searchable(item).includes(query) || normalize(itemName(item)).includes(query) || normalize(brandName(item.brand)).includes(query))));
+  const products = [...catalog['Milk Tea']].sort((a,b) => subtype(a).localeCompare(subtype(b))).filter(item => (!state.brand || item.brand === state.brand) && (!teaType || item.productCategory === teaType) && (!query || (searchable(item).includes(query) || normalize(itemName(item)).includes(query) || normalize(brandName(item.brand)).includes(query) || normalize(item.region || '').includes(query) || normalize(item.regionChinese || '').includes(query))));
   container.innerHTML = '<p class="list-count" aria-live="polite">' + count(products.length, 'product') + '</p>' +
     (products.length ? '<div class="tile-grid">' + grouped(products.slice(0, teaLimit)) + '</div>' : '<p class="card empty">No matching menu products.</p>') +
     (products.length > teaLimit ? '<div class="actions">' + button('Show more products', 'tea-more') + '</div>' : '');
@@ -189,7 +203,7 @@ function plan() {
       const add = copy('Add to ','添加到') + t(category);
       const picks = plannedIds(category).map(id => {
         const item = catalog[category].find(entry => entry.id === id);
-        return '<li><span>' + escape(itemName(item)) + '</span><button class="icon-button" data-action="remove-menu" data-value="' +
+        return '<li><span>' + escape(withRegion(itemName(item), item)) + '</span><button class="icon-button" data-action="remove-menu" data-value="' +
           escape(id) + '" data-meal="' + escape(category) + '" aria-label="' + escape(copy('Remove ','移除') + itemName(item)) + '">×</button></li>';
       }).join('');
       return '<section class="card plan-card"><div class="plan-card-heading"><h2>' + t(category) +
@@ -287,7 +301,7 @@ function enhanceSelects(root) {
         field.open = false;
         return;
       }
-      closing = panel.animate([{opacity:1, transform:'translateY(0)'}, {opacity:0, transform:'translateY(-4px)'}], {duration:140, easing:'ease-in'});
+      closing = panel.animate([{opacity:1, transform:'translateY(0)'}, {opacity:0, transform:'translateY(-4px)'}], interfaceMotion());
       closing.onfinish = () => { field.open = false; closing = null; };
     }
     summary.addEventListener('click', event => {
@@ -486,7 +500,7 @@ dialog.addEventListener('close', () => {
 function detail(item, trigger) {
   const identity = item.brand ? brandName(item.brand) + ' · ' + t(item.productCategory) : t(cuisineOf(item));
   showDialog('<div class="dialog-head"><div><p class="eyebrow">' + t('Your pick') +
-    '</p><h2 id="detail-title">' + escape(itemName(item)) + '</h2><p class="muted">' + escape(identity) +
+    '</p><h2 id="detail-title">' + escape(itemName(item)) + '</h2><p class="muted">' + escape(withRegion(identity, item)) +
     '</p></div>' +
     '<button class="icon-button" data-action="close" aria-label="Close details">×</button></div>' +
     '<div class="dialog-actions">' + button(copy('Add to menu','加入菜单'), 'add-menu', item.id, true) +
@@ -513,10 +527,7 @@ document.addEventListener('click', event => {
     render();
     languageAnimation?.cancel();
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      languageAnimation = main.animate([{opacity: .35}, {opacity: 1}], {
-        duration: 240,
-        easing: 'cubic-bezier(.2,.7,.3,1)'
-      });
+      languageAnimation = main.animate([{opacity: .35}, {opacity: 1}], interfaceMotion());
     }
     return;
   }

@@ -50,6 +50,7 @@ Lunch|午餐
 Dinner|晚餐
 Late-night Snack|夜宵
 Milk Tea|奶茶
+Fresh Milk Tea|牛乳茶
 From jianbing to eggs Benedict.|从煎饼果子到班尼迪克蛋。
 Rice bowls, noodles, and regional favorites.|盖饭、面食与地方风味。
 Home-style dishes and dinner classics.|家常菜与经典晚餐。
@@ -224,7 +225,7 @@ Fruit Tea|水果茶
 Ice Cream|冰淇淋
 Other|其他
 Wheel segments|转盘候选
-Name or brand|名称或品牌
+Name, brand, or region|名称、品牌或地区
 No brands match your restrictions.|没有符合当前限制的品牌。
 `.trim().split('\n').map(line => line.split('|')));
 
