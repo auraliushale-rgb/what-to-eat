@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f3ee">
   <meta name="description" content="Spin for a meal, plan your day, and explore real milk tea menus.">
-  <link rel="icon" href="./favicon.svg">
+  <link rel="icon" href="./logo.png">
   <link rel="stylesheet" href="./src/style.css">
   <title>What to Eat</title>
 </head>
@@ -13,12 +13,12 @@
   <a class="skip" href="#main">Skip to content</a>
   <header class="masthead">
     <div class="wrap masthead-inner">
-      <a class="wordmark" href="#home"><span class="logo" aria-hidden="true">W</span>What to Eat</a>
-      <nav aria-label="Main navigation" id="navigation"></nav>
+      <a class="wordmark" href="#home"><img class="logo" src="./logo.png" alt=""><span>What to Eat</span></a>
+      <nav aria-label="Main navigation" id="navigation"></nav><button id="language" type="button" data-action="language" aria-label="中文 / English"><span lang="zh">中文</span><span lang="en">English</span></button>
     </div>
   </header>
   <main class="wrap" id="main" tabindex="-1"></main>
-  <footer class="wrap footer"><span>What to Eat</span><a href="#preferences">Preferences and exclusions</a></footer>
+  <footer class="wrap footer"><span>What to Eat</span><div class="footer-links"><a href="#preferences">Preferences and exclusions</a><button type="button" class="text-button" data-action="credits" id="project-credits">Credits</button><button type="button" class="text-button" data-action="support" id="support-project">Support the project</button></div></footer>
   <dialog id="details" aria-labelledby="detail-title"></dialog>
   <p class="toast" role="status" id="toast"></p>
   <script type="module" src="./src/app.js"></script>
