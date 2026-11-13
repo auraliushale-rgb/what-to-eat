@@ -1,0 +1,4695 @@
+{
+  "Breakfast": {
+    "breakfast-doc-injera": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-misir-wot": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-shiro-wot": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-inkulal": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-tibs": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-injera-firfir": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-whole-boiled-egg": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-gomen": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-ayib": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-kolo": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-quanta": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-doro-wot": [
+      "Ethiopian"
+    ],
+    "document-food-1401": [
+      "Ethiopian"
+    ],
+    "document-food-1402": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-yebeg-tibs": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-azifa": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-beetroot-salad": [
+      "Ethiopian"
+    ],
+    "document-food-1403": [
+      "Ethiopian"
+    ],
+    "document-food-1404": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-roasted-corn": [
+      "Ethiopian",
+      "Hubei"
+    ],
+    "breakfast-doc-popcorn": [
+      "Ethiopian",
+      "American"
+    ],
+    "breakfast-doc-chickpea-salad": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-minchet-abish": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-fasolia": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-roasted-sweet-potato": [
+      "Ethiopian",
+      "Henan",
+      "Hubei",
+      "Swiss",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-boiled-lentils": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-falafel": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-roasted-pumpkin": [
+      "Ethiopian",
+      "Australian",
+      "Mexican",
+      "Swiss"
+    ],
+    "breakfast-doc-siga-tibs": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-awaze": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-boiled-green-beans": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-yogurt-with-oats": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-roasted-yam": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-sambusa": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-mushroom-tibs": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-boiled-chickpeas": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-injera-wrap": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-roasted-almonds": [
+      "Ethiopian"
+    ],
+    "document-food-1405": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-boiled-purple-potato": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-nut-and-cheese-mix": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-spicy-mashed-potato": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-roasted-cashews": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-grilled-lamb-chops": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-meat-pie": [
+      "Ethiopian",
+      "Australian",
+      "Swiss"
+    ],
+    "breakfast-doc-lentils-with-sweet-potato": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-roasted-chickpeas": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-roasted-chicken": [
+      "Ethiopian",
+      "Mexican"
+    ],
+    "breakfast-doc-mixed-grain-injera": [
+      "Ethiopian"
+    ],
+    "vegemite-toast": [
+      "Australian"
+    ],
+    "breakfast-doc-avocado-toast": [
+      "Australian",
+      "Mexican"
+    ],
+    "breakfast-doc-bacon-and-egg-roll": [
+      "Australian"
+    ],
+    "breakfast-doc-pikelets": [
+      "Australian"
+    ],
+    "breakfast-doc-lamington": [
+      "Australian"
+    ],
+    "breakfast-doc-sausage-roll": [
+      "Australian"
+    ],
+    "breakfast-doc-hash-browns": [
+      "Australian",
+      "American",
+      "Swiss"
+    ],
+    "breakfast-doc-grilled-kangaroo": [
+      "Australian"
+    ],
+    "breakfast-doc-boiled-egg": [
+      "Australian",
+      "Nordic",
+      "Swiss"
+    ],
+    "breakfast-doc-macadamia-oatmeal": [
+      "Australian"
+    ],
+    "breakfast-doc-aussie-toast": [
+      "Australian"
+    ],
+    "breakfast-doc-aussie-bagel": [
+      "Australian"
+    ],
+    "breakfast-doc-muffin": [
+      "Australian",
+      "American"
+    ],
+    "breakfast-doc-fried-fish": [
+      "Australian"
+    ],
+    "breakfast-doc-hot-chips": [
+      "Australian"
+    ],
+    "breakfast-doc-aussie-salad": [
+      "Australian"
+    ],
+    "breakfast-doc-cheese-platter": [
+      "Australian",
+      "French",
+      "Swiss"
+    ],
+    "breakfast-doc-aussie-sandwich": [
+      "Australian"
+    ],
+    "breakfast-doc-donut": [
+      "Australian",
+      "American"
+    ],
+    "breakfast-doc-fruit-salad": [
+      "Australian"
+    ],
+    "breakfast-doc-grilled-tomatoes": [
+      "Australian"
+    ],
+    "breakfast-doc-saut-ed-mushrooms": [
+      "Australian"
+    ],
+    "breakfast-doc-baked-ham": [
+      "Australian",
+      "American"
+    ],
+    "breakfast-doc-croissant": [
+      "Australian",
+      "French",
+      "Swiss"
+    ],
+    "breakfast-doc-baked-oats": [
+      "Australian"
+    ],
+    "breakfast-doc-fried-egg": [
+      "Australian",
+      "French",
+      "Japanese",
+      "Swiss",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-grilled-sausage": [
+      "Australian",
+      "Taiwanese"
+    ],
+    "breakfast-doc-veggie-wrap": [
+      "Australian"
+    ],
+    "breakfast-doc-waffles": [
+      "Australian",
+      "American"
+    ],
+    "breakfast-doc-egg-tart": [
+      "Australian"
+    ],
+    "breakfast-doc-lamb-chop": [
+      "Australian"
+    ],
+    "breakfast-doc-bacon": [
+      "Australian",
+      "French",
+      "American",
+      "Swiss"
+    ],
+    "breakfast-doc-baked-potato": [
+      "Australian",
+      "Nordic",
+      "American",
+      "Swiss"
+    ],
+    "breakfast-doc-chunky-meat-pie": [
+      "Australian"
+    ],
+    "breakfast-doc-cheese-toastie": [
+      "Australian"
+    ],
+    "breakfast-doc-veggie-patty": [
+      "Australian"
+    ],
+    "breakfast-doc-chicken-nuggets": [
+      "Australian"
+    ],
+    "breakfast-doc-ham-egg-muffin": [
+      "Australian"
+    ],
+    "breakfast-doc-corn-on-the-cob": [
+      "Australian",
+      "American"
+    ],
+    "breakfast-doc-boiled-prawns": [
+      "Australian"
+    ],
+    "breakfast-doc-grilled-pineapple": [
+      "Australian"
+    ],
+    "breakfast-doc-chocolate-biscuit": [
+      "Australian"
+    ],
+    "breakfast-doc-jam-toast": [
+      "Australian"
+    ],
+    "breakfast-doc-peanut-butter-toast": [
+      "Australian"
+    ],
+    "breakfast-doc-salad-wrap": [
+      "Australian"
+    ],
+    "breakfast-doc-roasted-eggplant": [
+      "Australian"
+    ],
+    "breakfast-doc-fish-fillet": [
+      "Australian",
+      "American"
+    ],
+    "breakfast-doc-muesli-bar": [
+      "Australian"
+    ],
+    "breakfast-doc-rye-bread": [
+      "Nordic",
+      "French"
+    ],
+    "breakfast-doc-smoked-salmon": [
+      "Nordic"
+    ],
+    "breakfast-doc-pickled-herring": [
+      "Nordic"
+    ],
+    "breakfast-doc-oatmeal": [
+      "Nordic",
+      "American"
+    ],
+    "breakfast-doc-lingonberry-jam": [
+      "Nordic"
+    ],
+    "breakfast-doc-cheese-slices": [
+      "Nordic"
+    ],
+    "breakfast-doc-danish-pastry": [
+      "Nordic",
+      "Swiss"
+    ],
+    "breakfast-doc-cinnamon-roll": [
+      "Nordic",
+      "American",
+      "Swiss"
+    ],
+    "breakfast-doc-crispbread": [
+      "Nordic"
+    ],
+    "breakfast-doc-nordic-meatballs": [
+      "Nordic"
+    ],
+    "breakfast-doc-pickled-cucumber": [
+      "Nordic",
+      "Korean",
+      "Japanese",
+      "Swiss"
+    ],
+    "breakfast-doc-smoked-ham": [
+      "Nordic"
+    ],
+    "breakfast-doc-kaviar": [
+      "Nordic"
+    ],
+    "breakfast-doc-liver-p-t": [
+      "Nordic"
+    ],
+    "breakfast-doc-whole-wheat-wrap": [
+      "Nordic"
+    ],
+    "breakfast-doc-vegetable-salad": [
+      "Nordic"
+    ],
+    "breakfast-doc-omelette": [
+      "Nordic",
+      "French",
+      "Mexican",
+      "Swiss"
+    ],
+    "breakfast-doc-nordic-sausage": [
+      "Nordic"
+    ],
+    "breakfast-doc-almond-pudding": [
+      "Nordic"
+    ],
+    "breakfast-doc-berry-platter": [
+      "Nordic"
+    ],
+    "breakfast-doc-muesli-bowl": [
+      "Nordic"
+    ],
+    "breakfast-doc-roasted-pumpkin-seeds": [
+      "Nordic"
+    ],
+    "breakfast-doc-smoked-trout": [
+      "Nordic"
+    ],
+    "breakfast-doc-rye-crisps": [
+      "Nordic"
+    ],
+    "breakfast-doc-butter-mushrooms": [
+      "Nordic"
+    ],
+    "breakfast-doc-roasted-asparagus": [
+      "Nordic"
+    ],
+    "breakfast-doc-roasted-beetroot": [
+      "Nordic"
+    ],
+    "breakfast-doc-apple-baked-oats": [
+      "Nordic"
+    ],
+    "breakfast-doc-potato-pancake": [
+      "Nordic",
+      "Korean"
+    ],
+    "breakfast-doc-pickled-beets": [
+      "Nordic"
+    ],
+    "breakfast-doc-roasted-cod": [
+      "Nordic"
+    ],
+    "breakfast-doc-venison-slices": [
+      "Nordic"
+    ],
+    "breakfast-doc-mustard-sausage": [
+      "Nordic"
+    ],
+    "breakfast-doc-whole-wheat-roll": [
+      "Nordic"
+    ],
+    "breakfast-doc-berry-muffin": [
+      "Nordic"
+    ],
+    "document-food-1406": [
+      "Nordic"
+    ],
+    "breakfast-doc-boiled-broccoli": [
+      "Nordic"
+    ],
+    "breakfast-doc-nordic-crispbread": [
+      "Nordic"
+    ],
+    "breakfast-doc-herb-boiled-potatoes": [
+      "Nordic"
+    ],
+    "breakfast-doc-smoked-cheese": [
+      "Nordic"
+    ],
+    "breakfast-doc-roasted-carrots": [
+      "Nordic",
+      "Swiss"
+    ],
+    "breakfast-doc-oat-biscuit": [
+      "Nordic"
+    ],
+    "breakfast-doc-boiled-quail-eggs": [
+      "Nordic"
+    ],
+    "breakfast-doc-roasted-mushrooms": [
+      "Nordic",
+      "Swiss"
+    ],
+    "breakfast-doc-rye-sandwich": [
+      "Nordic"
+    ],
+    "breakfast-doc-herb-pickled-shrimp": [
+      "Nordic"
+    ],
+    "breakfast-doc-grilled-chicken-breast": [
+      "Nordic"
+    ],
+    "breakfast-doc-oat-nut-balls": [
+      "Nordic"
+    ],
+    "breakfast-doc-pain-au-chocolat": [
+      "French"
+    ],
+    "breakfast-doc-baguette": [
+      "French"
+    ],
+    "breakfast-doc-croque-monsieur": [
+      "French"
+    ],
+    "breakfast-doc-poached-egg": [
+      "French",
+      "Shanghai",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-french-toast": [
+      "French",
+      "American"
+    ],
+    "breakfast-doc-madeleine": [
+      "French"
+    ],
+    "breakfast-doc-crepe": [
+      "French"
+    ],
+    "breakfast-doc-fruit-tart": [
+      "French",
+      "Swiss"
+    ],
+    "pain-aux-raisins": [
+      "French"
+    ],
+    "butter-croissant": [
+      "French"
+    ],
+    "breakfast-doc-jambon": [
+      "French"
+    ],
+    "breakfast-doc-gruy-re-cheese": [
+      "French"
+    ],
+    "breakfast-doc-apple-tart": [
+      "French"
+    ],
+    "breakfast-doc-french-yogurt": [
+      "French"
+    ],
+    "breakfast-doc-salad": [
+      "French"
+    ],
+    "breakfast-doc-roasted-tomatoes": [
+      "French",
+      "Swiss"
+    ],
+    "breakfast-doc-sausage": [
+      "French",
+      "American",
+      "Swiss"
+    ],
+    "breakfast-doc-saut-ed-potatoes": [
+      "French"
+    ],
+    "breakfast-doc-mushrooms": [
+      "French"
+    ],
+    "breakfast-doc-cr-me-br-l-e": [
+      "French"
+    ],
+    "breakfast-doc-souffl": [
+      "French"
+    ],
+    "breakfast-doc-palmier": [
+      "French"
+    ],
+    "breakfast-doc-sandwich": [
+      "French"
+    ],
+    "breakfast-doc-jambon-beurre": [
+      "French"
+    ],
+    "breakfast-doc-onion-soup": [
+      "French"
+    ],
+    "breakfast-doc-snails": [
+      "French"
+    ],
+    "breakfast-doc-foie-gras": [
+      "French"
+    ],
+    "breakfast-doc-duck-confit": [
+      "French"
+    ],
+    "breakfast-doc-galette": [
+      "French"
+    ],
+    "breakfast-doc-choux": [
+      "French"
+    ],
+    "breakfast-doc-macaron": [
+      "French"
+    ],
+    "breakfast-doc-opera-cake": [
+      "French"
+    ],
+    "breakfast-doc-roast-chicken": [
+      "French"
+    ],
+    "breakfast-doc-duck-breast": [
+      "French"
+    ],
+    "breakfast-doc-baked-beans": [
+      "French",
+      "American"
+    ],
+    "breakfast-doc-p-t": [
+      "French"
+    ],
+    "breakfast-doc-charcuterie": [
+      "French"
+    ],
+    "breakfast-doc-cornichons": [
+      "French"
+    ],
+    "breakfast-doc-walnut-bread": [
+      "French"
+    ],
+    "breakfast-doc-figs": [
+      "French"
+    ],
+    "breakfast-doc-grapes": [
+      "French"
+    ],
+    "breakfast-doc-baba-au-rhum": [
+      "French"
+    ],
+    "breakfast-doc-sausages-in-cider": [
+      "French"
+    ],
+    "document-food-1407": [
+      "Korean"
+    ],
+    "breakfast-doc-gimbap": [
+      "Korean"
+    ],
+    "breakfast-doc-tteokbokki": [
+      "Korean"
+    ],
+    "breakfast-doc-soybean-paste-soup": [
+      "Korean"
+    ],
+    "breakfast-doc-gyeran-jjim": [
+      "Korean"
+    ],
+    "breakfast-doc-jeon": [
+      "Korean"
+    ],
+    "breakfast-doc-bibimbap": [
+      "Korean"
+    ],
+    "breakfast-doc-roasted-seaweed": [
+      "Korean",
+      "Japanese"
+    ],
+    "breakfast-doc-bulgogi": [
+      "Korean"
+    ],
+    "breakfast-doc-kimchi-pancake": [
+      "Korean"
+    ],
+    "breakfast-doc-pan-fried-tofu": [
+      "Korean"
+    ],
+    "document-food-1408": [
+      "Korean"
+    ],
+    "japchae": [
+      "Korean"
+    ],
+    "breakfast-doc-grilled-pork-belly": [
+      "Korean"
+    ],
+    "breakfast-doc-spicy-pork": [
+      "Korean"
+    ],
+    "breakfast-doc-braised-chicken": [
+      "Korean"
+    ],
+    "breakfast-doc-seaweed-soup": [
+      "Korean"
+    ],
+    "document-food-1409": [
+      "Korean"
+    ],
+    "breakfast-doc-chive-pancake": [
+      "Korean"
+    ],
+    "breakfast-doc-fish-cake": [
+      "Korean",
+      "Japanese"
+    ],
+    "breakfast-doc-spicy-fish-cake": [
+      "Korean"
+    ],
+    "breakfast-doc-egg-roll": [
+      "Korean",
+      "Japanese"
+    ],
+    "breakfast-doc-pickled-radish": [
+      "Korean",
+      "Japanese"
+    ],
+    "breakfast-doc-bean-sprout-salad": [
+      "Korean"
+    ],
+    "document-food-1410": [
+      "Korean"
+    ],
+    "document-food-1411": [
+      "Korean"
+    ],
+    "breakfast-doc-korean-fried-chicken": [
+      "Korean"
+    ],
+    "breakfast-doc-spicy-chicken-feet": [
+      "Korean"
+    ],
+    "breakfast-doc-sundae": [
+      "Korean"
+    ],
+    "breakfast-doc-rice-sausage": [
+      "Korean"
+    ],
+    "breakfast-doc-stir-fried-glass-noodles": [
+      "Korean"
+    ],
+    "breakfast-doc-seafood-pancake": [
+      "Korean"
+    ],
+    "breakfast-doc-kimchi-fried-rice": [
+      "Korean"
+    ],
+    "breakfast-doc-beef-soup": [
+      "Korean"
+    ],
+    "breakfast-doc-pork-rib-soup": [
+      "Korean"
+    ],
+    "breakfast-doc-cold-noodles": [
+      "Korean",
+      "Hubei",
+      "Taiwanese"
+    ],
+    "breakfast-doc-jajangmyeon": [
+      "Korean"
+    ],
+    "breakfast-doc-jjamppong": [
+      "Korean"
+    ],
+    "breakfast-doc-jumeokbap": [
+      "Korean"
+    ],
+    "breakfast-doc-spicy-squid": [
+      "Korean"
+    ],
+    "breakfast-doc-braised-tofu": [
+      "Korean",
+      "Henan"
+    ],
+    "breakfast-doc-braised-potatoes": [
+      "Korean"
+    ],
+    "breakfast-doc-grilled-eel": [
+      "Korean"
+    ],
+    "breakfast-doc-kimchi-wrap": [
+      "Korean"
+    ],
+    "breakfast-doc-pumpkin-porridge": [
+      "Korean",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-hotteok": [
+      "Korean"
+    ],
+    "breakfast-doc-songpyeon": [
+      "Korean"
+    ],
+    "breakfast-doc-fried-seaweed-roll": [
+      "Korean"
+    ],
+    "henan-pepper-soup": [
+      "Henan",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-pan-fried-buns": [
+      "Henan",
+      "Hubei",
+      "Taiwanese"
+    ],
+    "chinese-fried-dough-sticks": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-you-mo-tou": [
+      "Henan"
+    ],
+    "breakfast-doc-tofu-pudding": [
+      "Henan",
+      "Hubei",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-soup-dumplings": [
+      "Henan",
+      "Hubei",
+      "Shanghai"
+    ],
+    "breakfast-doc-braised-noodles": [
+      "Henan",
+      "Fujian"
+    ],
+    "breakfast-doc-steamed-dumplings": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Taiwanese",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-fried-vegetable-dumplings": [
+      "Henan"
+    ],
+    "breakfast-doc-sesame-flatbread": [
+      "Henan"
+    ],
+    "breakfast-doc-xiaolongbao": [
+      "Henan",
+      "Shanghai",
+      "Jiangsu",
+      "Taiwanese",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-egg-filled-pancake": [
+      "Henan",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-roujiamo": [
+      "Henan",
+      "Shanghai",
+      "Chinese Home Cooking"
+    ],
+    "tianjin-jianbing-guozi": [
+      "Henan",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-vegetable-box": [
+      "Henan"
+    ],
+    "breakfast-doc-youxuan": [
+      "Henan"
+    ],
+    "breakfast-doc-potstickers": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Taiwanese",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-shaomai": [
+      "Henan",
+      "Hubei",
+      "Japanese",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-steamed-noodles": [
+      "Henan"
+    ],
+    "breakfast-doc-luomo": [
+      "Henan"
+    ],
+    "breakfast-doc-fried-jelly": [
+      "Henan"
+    ],
+    "breakfast-doc-sauce-pancake": [
+      "Henan",
+      "Hubei",
+      "Jiangsu"
+    ],
+    "breakfast-doc-shredded-pancake": [
+      "Henan",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-tea-egg": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-braised-egg": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-steamed-bun": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-steamed-twisted-roll": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-split-steamed-bun": [
+      "Henan"
+    ],
+    "breakfast-doc-fried-sugar-cake": [
+      "Henan",
+      "Shanghai",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-sesame-ball": [
+      "Henan",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-glutinous-rice-cake": [
+      "Henan",
+      "Hubei",
+      "Fujian",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-chive-box": [
+      "Henan",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-meatloaf": [
+      "Henan",
+      "American"
+    ],
+    "shandong-scallion-pancake": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-thousand-layer-pancake": [
+      "Henan",
+      "Hubei"
+    ],
+    "breakfast-doc-hu-la-soup-with-youtiao": [
+      "Henan"
+    ],
+    "breakfast-doc-fried-veggie-dumpling": [
+      "Henan"
+    ],
+    "breakfast-doc-beef-box": [
+      "Henan"
+    ],
+    "breakfast-doc-steamed-sweet-potato": [
+      "Henan",
+      "Hubei",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-boiled-corn": [
+      "Henan",
+      "Hubei",
+      "Swiss",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-salted-duck-egg": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-century-egg": [
+      "Henan",
+      "Shanghai"
+    ],
+    "breakfast-doc-meat-bun": [
+      "Henan",
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-veggie-bun": [
+      "Henan",
+      "Hubei",
+      "Shanghai"
+    ],
+    "breakfast-doc-red-bean-bun": [
+      "Henan",
+      "Shanghai",
+      "Jiangsu"
+    ],
+    "breakfast-doc-flatbread-with-meat": [
+      "Henan"
+    ],
+    "wuhan-hot-dry-noodles": [
+      "Hubei",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-doupi": [
+      "Hubei"
+    ],
+    "breakfast-doc-mianwo": [
+      "Hubei"
+    ],
+    "breakfast-doc-sticky-rice-wrap": [
+      "Hubei"
+    ],
+    "breakfast-doc-huanxituo": [
+      "Hubei"
+    ],
+    "breakfast-doc-hu-tang-fen": [
+      "Hubei"
+    ],
+    "breakfast-doc-guokui": [
+      "Hubei"
+    ],
+    "breakfast-doc-beef-noodles": [
+      "Hubei",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-zhajiang-noodles": [
+      "Hubei",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-dumplings": [
+      "Hubei"
+    ],
+    "breakfast-doc-rice-wine-glutinous-rice-balls": [
+      "Hubei"
+    ],
+    "breakfast-doc-fried-pancake": [
+      "Hubei",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-chicken-crown-dumpling": [
+      "Hubei"
+    ],
+    "breakfast-doc-crispy-dumpling": [
+      "Hubei"
+    ],
+    "breakfast-doc-mung-bean-soup": [
+      "Hubei"
+    ],
+    "breakfast-doc-rice-noodles": [
+      "Hubei",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-poached-egg-sweet-potato-noodles": [
+      "Hubei"
+    ],
+    "breakfast-doc-xiangyang-beef-noodles": [
+      "Hubei"
+    ],
+    "breakfast-doc-braised-meat-wrap": [
+      "Hubei"
+    ],
+    "breakfast-doc-sugar-bun": [
+      "Hubei"
+    ],
+    "breakfast-doc-fried-sesame-ball": [
+      "Hubei"
+    ],
+    "breakfast-doc-spring-roll": [
+      "Hubei",
+      "Fujian",
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-fried-dumplings": [
+      "Hubei",
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-beef-pie": [
+      "Hubei"
+    ],
+    "breakfast-doc-egg-soft-pancake": [
+      "Hubei"
+    ],
+    "breakfast-doc-fish-balls": [
+      "Hubei",
+      "Fujian"
+    ],
+    "breakfast-doc-meat-balls": [
+      "Hubei"
+    ],
+    "breakfast-doc-nasi-lemak": [
+      "Malaysian"
+    ],
+    "breakfast-doc-roti-canai": [
+      "Malaysian"
+    ],
+    "breakfast-doc-laksa": [
+      "Malaysian"
+    ],
+    "breakfast-doc-char-kway-teow": [
+      "Malaysian"
+    ],
+    "breakfast-doc-curry-puff": [
+      "Malaysian"
+    ],
+    "breakfast-doc-hainanese-chicken-rice": [
+      "Malaysian"
+    ],
+    "breakfast-doc-apam-balik": [
+      "Malaysian"
+    ],
+    "breakfast-doc-satay": [
+      "Malaysian"
+    ],
+    "lotus-leaf-sticky-rice-with-chicken": [
+      "Malaysian"
+    ],
+    "breakfast-doc-prawn-noodles": [
+      "Malaysian"
+    ],
+    "breakfast-doc-ondeh-ondeh": [
+      "Malaysian"
+    ],
+    "breakfast-doc-nyonya-kuih": [
+      "Malaysian"
+    ],
+    "breakfast-doc-curry-chicken": [
+      "Malaysian"
+    ],
+    "breakfast-doc-pan-mee": [
+      "Malaysian"
+    ],
+    "breakfast-doc-pork-noodles": [
+      "Malaysian"
+    ],
+    "breakfast-doc-fried-radish-cake": [
+      "Malaysian",
+      "Shanghai"
+    ],
+    "breakfast-doc-chee-cheong-fun": [
+      "Malaysian"
+    ],
+    "breakfast-doc-fried-banana": [
+      "Malaysian"
+    ],
+    "breakfast-doc-mee-goreng": [
+      "Malaysian"
+    ],
+    "breakfast-doc-hokkien-mee": [
+      "Malaysian"
+    ],
+    "breakfast-doc-fish-ball-soup": [
+      "Malaysian",
+      "Taiwanese"
+    ],
+    "breakfast-doc-yong-tau-foo": [
+      "Malaysian"
+    ],
+    "breakfast-doc-sambal": [
+      "Malaysian"
+    ],
+    "breakfast-doc-fried-chicken": [
+      "Malaysian",
+      "American"
+    ],
+    "breakfast-doc-nasi-goreng": [
+      "Malaysian"
+    ],
+    "breakfast-doc-satay-skewers": [
+      "Malaysian"
+    ],
+    "breakfast-doc-nasi-kandar": [
+      "Malaysian"
+    ],
+    "breakfast-doc-fish-head-curry": [
+      "Malaysian"
+    ],
+    "breakfast-doc-prawn-crackers": [
+      "Malaysian"
+    ],
+    "breakfast-doc-fried-tofu": [
+      "Malaysian"
+    ],
+    "breakfast-doc-lor-bak": [
+      "Malaysian"
+    ],
+    "breakfast-doc-popiah": [
+      "Malaysian"
+    ],
+    "breakfast-doc-curry-mee": [
+      "Malaysian"
+    ],
+    "breakfast-doc-wonton-mee": [
+      "Malaysian"
+    ],
+    "breakfast-doc-toast": [
+      "Malaysian",
+      "American",
+      "Swiss"
+    ],
+    "breakfast-doc-half-boiled-eggs": [
+      "Malaysian"
+    ],
+    "breakfast-doc-kaya-toast": [
+      "Malaysian"
+    ],
+    "breakfast-doc-pulut-inti": [
+      "Malaysian"
+    ],
+    "breakfast-doc-tapioca-cake": [
+      "Malaysian"
+    ],
+    "breakfast-doc-nasi-lemak-bungkus": [
+      "Malaysian"
+    ],
+    "breakfast-doc-grilled-fish-cake": [
+      "Malaysian"
+    ],
+    "breakfast-doc-fried-fish-cake": [
+      "Malaysian"
+    ],
+    "breakfast-doc-pandan-chicken": [
+      "Malaysian"
+    ],
+    "breakfast-doc-prawn-mee-soup": [
+      "Malaysian"
+    ],
+    "breakfast-doc-bak-kut-teh": [
+      "Malaysian"
+    ],
+    "breakfast-doc-ketupat": [
+      "Malaysian"
+    ],
+    "breakfast-doc-fried-spring-roll": [
+      "Malaysian",
+      "Jiangsu"
+    ],
+    "breakfast-doc-vegetable-curry": [
+      "Malaysian"
+    ],
+    "breakfast-doc-fried-rice-noodles": [
+      "Malaysian",
+      "Fujian"
+    ],
+    "breakfast-doc-pancakes": [
+      "American"
+    ],
+    "breakfast-doc-scrambled-eggs": [
+      "American",
+      "Shanghai"
+    ],
+    "breakfast-doc-bagel": [
+      "American"
+    ],
+    "dinner-doc-american-omelette": [
+      "American"
+    ],
+    "breakfast-doc-biscuits": [
+      "American"
+    ],
+    "breakfast-doc-gravy": [
+      "American"
+    ],
+    "breakfast-doc-grits": [
+      "American"
+    ],
+    "breakfast-doc-pb-j-sandwich": [
+      "American"
+    ],
+    "breakfast-doc-mac-cheese": [
+      "American"
+    ],
+    "breakfast-doc-burger": [
+      "American"
+    ],
+    "breakfast-doc-hot-dog": [
+      "American"
+    ],
+    "breakfast-doc-fries": [
+      "American"
+    ],
+    "breakfast-doc-apple-pie": [
+      "American",
+      "Swiss"
+    ],
+    "breakfast-doc-waffle-fries": [
+      "American"
+    ],
+    "breakfast-doc-tater-tots": [
+      "American"
+    ],
+    "breakfast-doc-bacon-egg-burger": [
+      "American"
+    ],
+    "breakfast-doc-sausage-egg-muffin": [
+      "American"
+    ],
+    "breakfast-doc-chicken-sandwich": [
+      "American"
+    ],
+    "breakfast-doc-beef-sandwich": [
+      "American"
+    ],
+    "breakfast-doc-grilled-cheese": [
+      "American"
+    ],
+    "breakfast-doc-tomato-soup": [
+      "American"
+    ],
+    "document-food-1412": [
+      "American"
+    ],
+    "breakfast-doc-potato-salad": [
+      "American",
+      "Japanese"
+    ],
+    "breakfast-doc-chicken-tenders": [
+      "American"
+    ],
+    "breakfast-doc-roast-turkey": [
+      "American"
+    ],
+    "breakfast-doc-burrito": [
+      "American",
+      "Mexican"
+    ],
+    "breakfast-doc-taco": [
+      "American"
+    ],
+    "breakfast-doc-cheeseburger": [
+      "American"
+    ],
+    "breakfast-doc-potato-chips": [
+      "American"
+    ],
+    "breakfast-doc-pretzel": [
+      "American"
+    ],
+    "breakfast-doc-brownie": [
+      "American"
+    ],
+    "breakfast-doc-chocolate-chip-cookie": [
+      "American"
+    ],
+    "shaxian-peanut-sauce-noodles": [
+      "Fujian"
+    ],
+    "breakfast-doc-wonton": [
+      "Fujian"
+    ],
+    "breakfast-doc-guo-bian-hu": [
+      "Fujian"
+    ],
+    "breakfast-doc-oyster-omelette": [
+      "Fujian"
+    ],
+    "breakfast-doc-min-nan-hu": [
+      "Fujian"
+    ],
+    "breakfast-doc-man-jian-gao": [
+      "Fujian"
+    ],
+    "breakfast-doc-yam-paste": [
+      "Fujian"
+    ],
+    "breakfast-doc-meat-swallow": [
+      "Fujian"
+    ],
+    "xiamen-peanut-soup": [
+      "Fujian"
+    ],
+    "breakfast-doc-fuzhou-thin-noodles": [
+      "Fujian"
+    ],
+    "breakfast-doc-laohua": [
+      "Fujian"
+    ],
+    "breakfast-doc-water-chestnut-cake": [
+      "Fujian"
+    ],
+    "breakfast-doc-pork-zongzi": [
+      "Fujian"
+    ],
+    "breakfast-doc-guangbing": [
+      "Fujian"
+    ],
+    "breakfast-doc-zhengdong-bing": [
+      "Fujian"
+    ],
+    "breakfast-doc-oyster-cake": [
+      "Fujian"
+    ],
+    "breakfast-doc-fried-five-spice-rolls": [
+      "Fujian"
+    ],
+    "breakfast-doc-bowl-cake": [
+      "Fujian"
+    ],
+    "breakfast-doc-cunzao": [
+      "Fujian"
+    ],
+    "breakfast-doc-orange-cake": [
+      "Fujian"
+    ],
+    "breakfast-doc-gongtang": [
+      "Fujian"
+    ],
+    "breakfast-doc-fish-slide": [
+      "Fujian"
+    ],
+    "breakfast-doc-meat-slide": [
+      "Fujian"
+    ],
+    "breakfast-doc-taiping-yan": [
+      "Fujian"
+    ],
+    "breakfast-doc-fried-noodles": [
+      "Fujian",
+      "Shanghai"
+    ],
+    "breakfast-doc-peanut-butter-noodles": [
+      "Fujian"
+    ],
+    "breakfast-doc-pig-blood-soup": [
+      "Fujian"
+    ],
+    "breakfast-doc-beef-thick-soup": [
+      "Fujian"
+    ],
+    "breakfast-doc-salted-rice": [
+      "Fujian"
+    ],
+    "breakfast-doc-radish-rice": [
+      "Fujian"
+    ],
+    "breakfast-doc-mustard-green-rice": [
+      "Fujian"
+    ],
+    "breakfast-doc-braised-pork": [
+      "Fujian",
+      "Japanese"
+    ],
+    "breakfast-doc-lychee-pork": [
+      "Fujian"
+    ],
+    "breakfast-doc-drunken-spare-ribs": [
+      "Fujian"
+    ],
+    "breakfast-doc-southern-fried-liver": [
+      "Fujian"
+    ],
+    "breakfast-doc-fried-eel": [
+      "Fujian"
+    ],
+    "breakfast-doc-fish-roll": [
+      "Fujian"
+    ],
+    "breakfast-doc-radish-cake": [
+      "Fujian",
+      "Jiangsu",
+      "Taiwanese"
+    ],
+    "breakfast-doc-taro-cake": [
+      "Fujian"
+    ],
+    "breakfast-doc-nine-layer-cake": [
+      "Fujian"
+    ],
+    "breakfast-doc-grass-jelly": [
+      "Fujian"
+    ],
+    "breakfast-doc-shihua-gao": [
+      "Fujian"
+    ],
+    "breakfast-doc-four-fruit-soup": [
+      "Fujian"
+    ],
+    "breakfast-doc-pork-floss": [
+      "Fujian"
+    ],
+    "breakfast-doc-pork-jerky": [
+      "Fujian"
+    ],
+    "breakfast-doc-tacos": [
+      "Mexican"
+    ],
+    "breakfast-doc-tamales": [
+      "Mexican"
+    ],
+    "breakfast-doc-chilaquiles": [
+      "Mexican"
+    ],
+    "breakfast-doc-huevos-rancheros": [
+      "Mexican"
+    ],
+    "breakfast-doc-guacamole": [
+      "Mexican"
+    ],
+    "breakfast-doc-quesadilla": [
+      "Mexican"
+    ],
+    "breakfast-doc-refried-beans": [
+      "Mexican"
+    ],
+    "breakfast-doc-salsa": [
+      "Mexican"
+    ],
+    "breakfast-doc-elote": [
+      "Mexican"
+    ],
+    "breakfast-doc-tortilla-chips": [
+      "Mexican"
+    ],
+    "breakfast-doc-chorizo": [
+      "Mexican"
+    ],
+    "breakfast-doc-carne-asada": [
+      "Mexican"
+    ],
+    "breakfast-doc-carnitas": [
+      "Mexican"
+    ],
+    "breakfast-doc-barbacoa": [
+      "Mexican"
+    ],
+    "breakfast-doc-cactus-salad": [
+      "Mexican"
+    ],
+    "breakfast-doc-mexican-rice": [
+      "Mexican"
+    ],
+    "breakfast-doc-black-beans": [
+      "Mexican"
+    ],
+    "breakfast-doc-roasted-peppers": [
+      "Mexican"
+    ],
+    "breakfast-doc-queso": [
+      "Mexican"
+    ],
+    "breakfast-doc-sour-cream": [
+      "Mexican"
+    ],
+    "breakfast-doc-tomato-salad": [
+      "Mexican"
+    ],
+    "breakfast-doc-pan-dulce": [
+      "Mexican"
+    ],
+    "breakfast-doc-chicharrones": [
+      "Mexican"
+    ],
+    "breakfast-doc-tamal": [
+      "Mexican"
+    ],
+    "breakfast-doc-chicken-taco": [
+      "Mexican"
+    ],
+    "breakfast-doc-fish-taco": [
+      "Mexican"
+    ],
+    "breakfast-doc-shrimp-taco": [
+      "Mexican"
+    ],
+    "breakfast-doc-beef-burrito": [
+      "Mexican"
+    ],
+    "breakfast-doc-chicken-burrito": [
+      "Mexican"
+    ],
+    "breakfast-doc-cheese-quesadilla": [
+      "Mexican"
+    ],
+    "breakfast-doc-mexican-pancake": [
+      "Mexican"
+    ],
+    "breakfast-doc-mexican-scrambled-eggs": [
+      "Mexican"
+    ],
+    "breakfast-doc-mexican-potatoes": [
+      "Mexican"
+    ],
+    "breakfast-doc-skewers": [
+      "Mexican"
+    ],
+    "breakfast-doc-corn-soup": [
+      "Mexican"
+    ],
+    "document-food-1413": [
+      "Mexican"
+    ],
+    "breakfast-doc-jalapeno": [
+      "Mexican"
+    ],
+    "breakfast-doc-pickled-onions": [
+      "Mexican",
+      "Swiss"
+    ],
+    "breakfast-doc-pickled-carrots": [
+      "Mexican"
+    ],
+    "document-food-1414": [
+      "Mexican"
+    ],
+    "breakfast-doc-lime-wedges": [
+      "Mexican"
+    ],
+    "breakfast-doc-avocado-slices": [
+      "Mexican"
+    ],
+    "document-food-1415": [
+      "Mexican"
+    ],
+    "breakfast-doc-fried-beans": [
+      "Mexican"
+    ],
+    "breakfast-doc-sweet-bread": [
+      "Mexican"
+    ],
+    "breakfast-doc-onigiri": [
+      "Japanese",
+      "Taiwanese"
+    ],
+    "breakfast-doc-miso-soup": [
+      "Japanese"
+    ],
+    "breakfast-doc-grilled-fish": [
+      "Japanese"
+    ],
+    "breakfast-doc-tamagoyaki": [
+      "Japanese"
+    ],
+    "breakfast-doc-natto": [
+      "Japanese"
+    ],
+    "breakfast-doc-tkg": [
+      "Japanese"
+    ],
+    "breakfast-doc-gyoza": [
+      "Japanese"
+    ],
+    "breakfast-doc-takoyaki": [
+      "Japanese"
+    ],
+    "breakfast-doc-dorayaki": [
+      "Japanese"
+    ],
+    "breakfast-doc-japanese-curry": [
+      "Japanese"
+    ],
+    "breakfast-doc-umeboshi": [
+      "Japanese"
+    ],
+    "breakfast-doc-grilled-salmon": [
+      "Japanese"
+    ],
+    "breakfast-doc-grilled-saury": [
+      "Japanese"
+    ],
+    "breakfast-doc-cold-tofu": [
+      "Japanese"
+    ],
+    "breakfast-doc-karaage": [
+      "Japanese"
+    ],
+    "breakfast-doc-tempura": [
+      "Japanese",
+      "Taiwanese"
+    ],
+    "breakfast-doc-pork-cutlet": [
+      "Japanese"
+    ],
+    "breakfast-doc-oyakodon": [
+      "Japanese"
+    ],
+    "breakfast-doc-gyudon": [
+      "Japanese"
+    ],
+    "breakfast-doc-unadon": [
+      "Japanese"
+    ],
+    "breakfast-doc-yakisoba": [
+      "Japanese"
+    ],
+    "breakfast-doc-okonomiyaki": [
+      "Japanese"
+    ],
+    "breakfast-doc-dango": [
+      "Japanese"
+    ],
+    "breakfast-doc-daifuku": [
+      "Japanese"
+    ],
+    "breakfast-doc-taiyaki": [
+      "Japanese"
+    ],
+    "breakfast-doc-senbei": [
+      "Japanese"
+    ],
+    "breakfast-doc-matcha-cake": [
+      "Japanese"
+    ],
+    "breakfast-doc-yokan": [
+      "Japanese"
+    ],
+    "breakfast-doc-japanese-sausage": [
+      "Japanese"
+    ],
+    "breakfast-doc-seaweed-salad": [
+      "Japanese"
+    ],
+    "breakfast-doc-boiled-pumpkin": [
+      "Japanese"
+    ],
+    "breakfast-doc-boiled-eggplant": [
+      "Japanese"
+    ],
+    "breakfast-doc-boiled-radish": [
+      "Japanese"
+    ],
+    "breakfast-doc-onigiri-roll": [
+      "Japanese"
+    ],
+    "breakfast-doc-grilled-onigiri": [
+      "Japanese"
+    ],
+    "dinner-doc-agedashi-tofu": [
+      "Japanese"
+    ],
+    "breakfast-doc-pan-fried-fish": [
+      "Japanese"
+    ],
+    "breakfast-doc-tonkatsu": [
+      "Japanese"
+    ],
+    "breakfast-doc-korokke": [
+      "Japanese"
+    ],
+    "breakfast-doc-nikuman": [
+      "Japanese"
+    ],
+    "breakfast-doc-muesli": [
+      "Swiss"
+    ],
+    "breakfast-doc-swiss-cheese": [
+      "Swiss"
+    ],
+    "breakfast-doc-bundnerfleisch": [
+      "Swiss"
+    ],
+    "breakfast-doc-r-sti": [
+      "Swiss"
+    ],
+    "breakfast-doc-chocolate": [
+      "Swiss"
+    ],
+    "breakfast-doc-yogurt": [
+      "Swiss"
+    ],
+    "breakfast-doc-butter-bread": [
+      "Swiss"
+    ],
+    "breakfast-doc-swiss-ham": [
+      "Swiss"
+    ],
+    "breakfast-doc-gruy-re": [
+      "Swiss"
+    ],
+    "breakfast-doc-emmental": [
+      "Swiss"
+    ],
+    "breakfast-doc-swiss-jam": [
+      "Swiss"
+    ],
+    "breakfast-doc-honey": [
+      "Swiss"
+    ],
+    "breakfast-doc-nut-platter": [
+      "Swiss"
+    ],
+    "breakfast-doc-chocolate-bread": [
+      "Swiss"
+    ],
+    "breakfast-doc-grilled-bacon": [
+      "Swiss"
+    ],
+    "breakfast-doc-swiss-sausage": [
+      "Swiss"
+    ],
+    "breakfast-doc-cream-cake": [
+      "Swiss"
+    ],
+    "breakfast-doc-baked-apple": [
+      "Swiss"
+    ],
+    "breakfast-doc-muesli-porridge": [
+      "Swiss"
+    ],
+    "breakfast-doc-nut-oatmeal": [
+      "Swiss"
+    ],
+    "breakfast-doc-cheese-fondue-with-bread": [
+      "Swiss"
+    ],
+    "breakfast-doc-raclette": [
+      "Swiss"
+    ],
+    "breakfast-doc-smoked-meat": [
+      "Swiss"
+    ],
+    "breakfast-doc-meat-roll": [
+      "Swiss"
+    ],
+    "breakfast-doc-chocolate-cookie": [
+      "Swiss"
+    ],
+    "sheng-jian-bao": [
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "shanghai-sticky-rice-roll": [
+      "Shanghai"
+    ],
+    "breakfast-doc-shanghai-flatbread": [
+      "Shanghai"
+    ],
+    "breakfast-doc-pork-chop-with-rice-cake": [
+      "Shanghai"
+    ],
+    "breakfast-doc-pork-and-vegetable-wontons": [
+      "Shanghai"
+    ],
+    "shanghai-small-pork-wontons": [
+      "Shanghai"
+    ],
+    "breakfast-doc-crab-shell-pastry": [
+      "Shanghai",
+      "Taiwanese"
+    ],
+    "breakfast-doc-tiger-claw-bread": [
+      "Shanghai"
+    ],
+    "breakfast-doc-baojiaobu": [
+      "Shanghai"
+    ],
+    "breakfast-doc-tiaotou-gao": [
+      "Shanghai"
+    ],
+    "breakfast-doc-shuangniang-tuan": [
+      "Shanghai"
+    ],
+    "breakfast-doc-qingtuan": [
+      "Shanghai"
+    ],
+    "breakfast-doc-leisha-yuan": [
+      "Shanghai"
+    ],
+    "shanghai-scallion-oil-noodles": [
+      "Shanghai",
+      "Jiangsu"
+    ],
+    "breakfast-doc-spicy-pork-noodles": [
+      "Shanghai"
+    ],
+    "breakfast-doc-pork-intestine-noodles": [
+      "Shanghai"
+    ],
+    "breakfast-doc-braised-pork-noodles": [
+      "Shanghai"
+    ],
+    "breakfast-doc-fried-fish-noodles": [
+      "Shanghai"
+    ],
+    "breakfast-doc-vegetable-noodles": [
+      "Shanghai"
+    ],
+    "breakfast-doc-two-face-yellow-noodles": [
+      "Shanghai"
+    ],
+    "breakfast-doc-shengjian-mantou": [
+      "Shanghai"
+    ],
+    "breakfast-doc-glutinous-rice-shaomai": [
+      "Shanghai",
+      "Jiangsu"
+    ],
+    "breakfast-doc-sugar-dumpling": [
+      "Shanghai"
+    ],
+    "breakfast-doc-fried-wontons": [
+      "Shanghai"
+    ],
+    "breakfast-doc-scallion-roll": [
+      "Shanghai"
+    ],
+    "breakfast-doc-yangzhou-fried-rice": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-crab-roe-soup-dumplings": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-jade-shaomai": [
+      "Jiangsu"
+    ],
+    "yangzhou-thousand-layer-oil-cake": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-three-dice-buns": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-suzhou-noodles": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-duck-blood-vermicelli-soup": [
+      "Jiangsu"
+    ],
+    "yangzhou-steamed-dried-tofu-threads": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-plum-blossom-cake": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-begonia-cake": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-fermented-rice-cake": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-suzhou-mooncake": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-braised-dried-tofu": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-suzhou-sweet-porridge": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-red-bean-paste": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-osmanthus-taro-soup": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-wuxi-xiaolongbao": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-dried-shrimp-wontons": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-wuxi-spare-ribs": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-nanjing-salted-duck": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-duck-fat-pastry": [
+      "Jiangsu"
+    ],
+    "nanjing-beef-potstickers": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-mixed-veggie-bun": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-braised-pork-rice": [
+      "Taiwanese"
+    ],
+    "taiwanese-egg-crepe": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-shaobing-youtiao": [
+      "Taiwanese"
+    ],
+    "cantonese-turnip-cake": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-wa-gui": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-pork-thick-soup": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-oyster-vermicelli": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-scallion-pancake": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-teppanyaki-noodles": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-taiwanese-zongzi": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-gua-bao": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-pork-belly-bun": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-small-sausage-in-large-sausage": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-glutinous-rice-sausage": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-taiwanese-fried-chicken": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-fried-chicken-fillet": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-oden": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-a-gei": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-pork-ball-soup": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-tamsui-fish-balls": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-taiwanese-meatball": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-changhua-meatball": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-tube-rice-pudding": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-glutinous-oil-rice": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-chicken-rice": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-minced-pork-rice": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-southern-zongzi": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-northern-zongzi": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-pepper-bun": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-egg-yolk-pastry": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-pineapple-cake": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-sun-cake": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-wheel-cake": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-sweet-potato-balls": [
+      "Taiwanese"
+    ],
+    "taiwanese-oyster-omelet": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-coffin-bread": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-pork-thick-soup-noodles": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-squid-thick-soup": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-stinky-tofu-with-kimchi": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-steamed-veggie-buns": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-wontons": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-rice-noodle-roll": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-stir-fried-liver": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-plain-rice-porridge": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-millet-porridge": [
+      "Chinese Home Cooking"
+    ],
+    "century-egg-and-pork-congee": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-eight-treasure-porridge": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-sugar-fried-pancake": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-grilled-cold-noodles": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-steamed-corn-bread": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-lvdagun-glutinous-rice-rolls": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-aiwowo-steamed-rice-cakes": [
+      "Chinese Home Cooking"
+    ],
+    "breakfast-doc-pea-cake": [
+      "Chinese Home Cooking"
+    ]
+  },
+  "Lunch": {
+    "chongqing-spicy-noodles": [
+      "Chongqing"
+    ],
+    "chongqing-pea-and-minced-pork-noodles": [
+      "Chongqing"
+    ],
+    "lunch-doc-mao-xue-wang-duck-blood-curd-in-spicy-broth": [
+      "Chongqing"
+    ],
+    "lunch-doc-boiled-fish-in-spicy-broth": [
+      "Chongqing"
+    ],
+    "lunch-doc-spicy-popcorn-chicken": [
+      "Chongqing"
+    ],
+    "lunch-doc-tofu-pudding-with-rice": [
+      "Chongqing"
+    ],
+    "lunch-doc-twice-cooked-pork": [
+      "Chongqing",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-pickled-pepper-bullfrog": [
+      "Chongqing"
+    ],
+    "lunch-doc-steamed-pork-belly-with-preserved-vegetables": [
+      "Chongqing"
+    ],
+    "lunch-doc-steamed-pork-with-rice-flour": [
+      "Chongqing",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-wanzhou-grilled-fish": [
+      "Chongqing"
+    ],
+    "lunch-doc-hot-and-sour-sweet-potato-noodles": [
+      "Chongqing"
+    ],
+    "lunch-doc-chongqing-hotpot-single-maocai": [
+      "Chongqing"
+    ],
+    "lunch-doc-sliced-pork-with-garlic-sauce": [
+      "Chongqing"
+    ],
+    "lunch-doc-spring-water-chicken": [
+      "Chongqing"
+    ],
+    "lunch-doc-chicken-with-taro": [
+      "Chongqing"
+    ],
+    "lunch-doc-dry-fried-green-beans": [
+      "Chongqing",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-yu-xiang-shredded-pork": [
+      "Chongqing",
+      "Chinese Home Cooking"
+    ],
+    "kung-pao-chicken": [
+      "Chongqing",
+      "Chinese Home Cooking"
+    ],
+    "mapo-tofu": [
+      "Chongqing",
+      "Chinese Home Cooking"
+    ],
+    "dan-dan-noodles": [
+      "Sichuan"
+    ],
+    "lunch-doc-zhong-dumplings": [
+      "Sichuan"
+    ],
+    "fuqi-feipian": [
+      "Sichuan"
+    ],
+    "lunch-doc-boiled-sliced-pork-in-spicy-broth": [
+      "Sichuan",
+      "Chinese Home Cooking"
+    ],
+    "mouthwatering-chicken": [
+      "Sichuan"
+    ],
+    "lunch-doc-twice-cooked-pork-salted-style": [
+      "Sichuan"
+    ],
+    "lunch-doc-fish-with-chili-bean-paste": [
+      "Sichuan"
+    ],
+    "ants-climbing-a-tree": [
+      "Sichuan",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-boiled-cabbage-in-superior-broth": [
+      "Sichuan"
+    ],
+    "lunch-doc-sweet-roasted-duck": [
+      "Sichuan"
+    ],
+    "lunch-doc-dongpo-braised-pork-hock": [
+      "Sichuan"
+    ],
+    "lunch-doc-spicy-shrimp": [
+      "Sichuan"
+    ],
+    "lunch-doc-dry-pot-cauliflower": [
+      "Sichuan",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-pork-with-garlic-sprouts": [
+      "Sichuan",
+      "Chinese Home Cooking"
+    ],
+    "sichuan-yuxiang-eggplant": [
+      "Sichuan"
+    ],
+    "lunch-doc-kung-pao-shrimp": [
+      "Sichuan"
+    ],
+    "lunch-doc-stir-fried-pork-kidneys": [
+      "Sichuan",
+      "Shandong"
+    ],
+    "lunch-doc-cold-tossed-fish-mint": [
+      "Sichuan"
+    ],
+    "lunch-doc-sichuan-pickles": [
+      "Sichuan"
+    ],
+    "lunch-doc-lai-tangyuan-sweet-glutinous-rice-balls": [
+      "Sichuan"
+    ],
+    "guo-bao-rou": [
+      "Northeastern Chinese",
+      "Chinese Home Cooking"
+    ],
+    "di-san-xian": [
+      "Northeastern Chinese",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-braised-pork-with-glass-noodles": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-chicken-stew-with-mushrooms": [
+      "Northeastern Chinese",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-fried-pork-cubes": [
+      "Northeastern Chinese",
+      "Chinese Home Cooking"
+    ],
+    "northeastern-sesame-mung-bean-noodles": [
+      "Northeastern Chinese"
+    ],
+    "breakfast-doc-chive-box": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-pork-belly-with-pickled-cabbage": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-candied-sweet-potato": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-braised-pork-bones-in-soy-sauce": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-pig-slaughter-stew-pork-sauerkraut-and-blood-sausage": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-braised-ribs-with-green-beans": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-stir-fried-dried-tofu-with-green-pepper": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-scallions-with-soybean-paste": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-iron-pot-stewed-goose": [
+      "Northeastern Chinese"
+    ],
+    "lanzhou-beef-noodle-soup": [
+      "Gansu"
+    ],
+    "lunch-doc-liangpi-cold-skin-noodles": [
+      "Gansu"
+    ],
+    "lunch-doc-jiangshui-noodles-fermented-vegetable-soup-noodles": [
+      "Gansu"
+    ],
+    "lunch-doc-hand-grabbed-mutton": [
+      "Gansu"
+    ],
+    "xian-lamb-paomo": [
+      "Gansu",
+      "Shaanxi"
+    ],
+    "lunch-doc-braised-mutton": [
+      "Gansu"
+    ],
+    "lunch-doc-gray-pea-soup": [
+      "Gansu"
+    ],
+    "lunch-doc-sweet-fermented-oats": [
+      "Gansu"
+    ],
+    "lunch-doc-mutton-skewers": [
+      "Gansu"
+    ],
+    "lunch-doc-tianshui-gua-gua-buckwheat-jelly": [
+      "Gansu"
+    ],
+    "lunch-doc-longxi-cured-meat": [
+      "Gansu"
+    ],
+    "lunch-doc-jingning-roast-chicken": [
+      "Gansu"
+    ],
+    "guilin-rice-noodles-with-crispy-pork": [
+      "Guangxi"
+    ],
+    "lunch-doc-luosifen-snail-rice-noodles": [
+      "Guangxi"
+    ],
+    "lunch-doc-laoyou-rice-noodles": [
+      "Guangxi"
+    ],
+    "lunch-doc-taro-with-pork-belly": [
+      "Guangxi"
+    ],
+    "lunch-doc-beer-fish-yangshuo-style": [
+      "Guangxi"
+    ],
+    "lunch-doc-stir-fried-pork-with-sour-bamboo-shoots": [
+      "Guangxi"
+    ],
+    "lunch-doc-lemon-duck": [
+      "Guangxi"
+    ],
+    "lunch-doc-boiled-chicken": [
+      "Guangxi",
+      "Shanghai"
+    ],
+    "lunch-doc-paper-wrapped-chicken": [
+      "Guangxi"
+    ],
+    "lunch-doc-yulin-beef-jerky": [
+      "Guangxi"
+    ],
+    "lunch-doc-hengxian-raw-fish": [
+      "Guangxi"
+    ],
+    "lunch-doc-bama-roast-suckling-pig": [
+      "Guangxi"
+    ],
+    "lunch-doc-rolled-rice-noodles": [
+      "Guangxi"
+    ],
+    "lunch-doc-stir-fried-rice-noodle-worms": [
+      "Guangxi"
+    ],
+    "lunch-doc-gongcheng-oil-tea": [
+      "Guangxi"
+    ],
+    "breakfast-doc-hainanese-chicken-rice": [
+      "Hainan"
+    ],
+    "lunch-doc-hainan-rice-noodles": [
+      "Hainan"
+    ],
+    "lunch-doc-baoluo-rice-noodles": [
+      "Hainan"
+    ],
+    "lunch-doc-qingbuliang-coconut-milk-dessert-soup": [
+      "Hainan"
+    ],
+    "lunch-doc-coconut-chicken-soup": [
+      "Hainan"
+    ],
+    "lunch-doc-wenchang-chicken": [
+      "Hainan"
+    ],
+    "lunch-doc-jiaji-duck": [
+      "Hainan"
+    ],
+    "lunch-doc-dongshan-mutton": [
+      "Hainan"
+    ],
+    "lunch-doc-hele-crab": [
+      "Hainan"
+    ],
+    "lunch-doc-lingshui-sour-rice-noodles": [
+      "Hainan"
+    ],
+    "lunch-doc-coconut-rice": [
+      "Hainan"
+    ],
+    "lunch-doc-zaobo-vinegar-hotpot": [
+      "Hainan"
+    ],
+    "breakfast-doc-bibimbap": [
+      "Korean"
+    ],
+    "breakfast-doc-cold-noodles": [
+      "Korean"
+    ],
+    "lunch-doc-kimchi-stew": [
+      "Korean"
+    ],
+    "breakfast-doc-soybean-paste-soup": [
+      "Korean"
+    ],
+    "lunch-doc-army-stew": [
+      "Korean"
+    ],
+    "breakfast-doc-tteokbokki": [
+      "Korean"
+    ],
+    "breakfast-doc-gimbap": [
+      "Korean"
+    ],
+    "breakfast-doc-grilled-pork-belly": [
+      "Korean"
+    ],
+    "breakfast-doc-korean-fried-chicken": [
+      "Korean"
+    ],
+    "lunch-doc-seafood-scallion-pancake": [
+      "Korean"
+    ],
+    "lunch-doc-soft-tofu-stew": [
+      "Korean"
+    ],
+    "lunch-doc-korean-braised-pig-s-trotters": [
+      "Korean"
+    ],
+    "lunch-doc-spicy-stir-fried-squid": [
+      "Korean"
+    ],
+    "lunch-doc-ginseng-chicken-soup": [
+      "Korean"
+    ],
+    "lunch-doc-stone-pot-bibimbap": [
+      "Korean"
+    ],
+    "lunch-doc-stinky-mandarin-fish": [
+      "Anhui"
+    ],
+    "lunch-doc-hairy-tofu": [
+      "Anhui"
+    ],
+    "lunch-doc-huizhou-meatballs": [
+      "Anhui"
+    ],
+    "lunch-doc-huangshan-sesame-cake": [
+      "Anhui"
+    ],
+    "lunch-doc-stewed-soft-shelled-turtle-with-ham": [
+      "Anhui"
+    ],
+    "lunch-doc-wenzheng-bamboo-shoots": [
+      "Anhui"
+    ],
+    "lunch-doc-li-hongzhang-hotchpotch": [
+      "Anhui"
+    ],
+    "lunch-doc-fuliji-roast-chicken": [
+      "Anhui"
+    ],
+    "huainan-beef-soup": [
+      "Anhui"
+    ],
+    "lunch-doc-bagongshan-tofu": [
+      "Anhui"
+    ],
+    "lunch-doc-hu-shi-s-yipin-pot": [
+      "Anhui"
+    ],
+    "breakfast-doc-shiro-wot": [
+      "Lebanese"
+    ],
+    "lunch-doc-tabbouleh": [
+      "Lebanese"
+    ],
+    "lunch-doc-fattoush": [
+      "Lebanese"
+    ],
+    "lunch-doc-shawarma-wrap": [
+      "Lebanese"
+    ],
+    "breakfast-doc-falafel": [
+      "Lebanese"
+    ],
+    "lunch-doc-shish-taouk": [
+      "Lebanese"
+    ],
+    "lunch-doc-kibbeh": [
+      "Lebanese"
+    ],
+    "lunch-doc-baba-ghanoush": [
+      "Lebanese"
+    ],
+    "lunch-doc-manakish": [
+      "Lebanese"
+    ],
+    "lunch-doc-stuffed-grape-leaves": [
+      "Lebanese"
+    ],
+    "shandong-sweet-and-sour-carp": [
+      "Shandong"
+    ],
+    "lunch-doc-braised-pork-intestines": [
+      "Shandong"
+    ],
+    "lunch-doc-scallion-sea-cucumber": [
+      "Shandong"
+    ],
+    "lunch-doc-bazi-meat-braised-pork-belly": [
+      "Shandong"
+    ],
+    "lunch-doc-dezhou-braised-chicken": [
+      "Shandong"
+    ],
+    "lunch-doc-moo-shu-pork": [
+      "Shandong",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-four-joy-meatballs": [
+      "Shandong"
+    ],
+    "lunch-doc-pot-braised-pork": [
+      "Shandong"
+    ],
+    "lunch-doc-braised-prawns": [
+      "Shandong"
+    ],
+    "lunch-doc-shandong-pancake-with-scallions": [
+      "Shandong"
+    ],
+    "lunch-doc-milky-soup-with-cattail-shoots": [
+      "Shandong"
+    ],
+    "lunch-doc-sliced-fish-in-wine-sauce": [
+      "Shandong"
+    ],
+    "shandong-braised-chicken-and-rice": [
+      "Shandong"
+    ],
+    "lunch-doc-stir-fried-shredded-pork-tenderloin": [
+      "Shandong"
+    ],
+    "lunch-doc-classic-hamburger": [
+      "American"
+    ],
+    "breakfast-doc-cheeseburger": [
+      "American"
+    ],
+    "breakfast-doc-hot-dog": [
+      "American"
+    ],
+    "lunch-doc-bbq-ribs": [
+      "American"
+    ],
+    "breakfast-doc-fried-chicken": [
+      "American"
+    ],
+    "breakfast-doc-mac-cheese": [
+      "American"
+    ],
+    "lunch-doc-club-sandwich": [
+      "American"
+    ],
+    "philly-cheesesteak": [
+      "American"
+    ],
+    "lunch-doc-reuben-sandwich": [
+      "American"
+    ],
+    "lunch-doc-pancakes-with-maple-syrup": [
+      "American"
+    ],
+    "lunch-doc-fish-and-chips": [
+      "American"
+    ],
+    "lunch-doc-caesar-salad": [
+      "American"
+    ],
+    "cobb-salad": [
+      "American"
+    ],
+    "lunch-doc-roast-turkey-sandwich": [
+      "American"
+    ],
+    "lunch-doc-new-york-style-hot-dog": [
+      "American"
+    ],
+    "lunch-doc-chili-con-carne": [
+      "American",
+      "Mexican"
+    ],
+    "breakfast-doc-meatloaf": [
+      "American"
+    ],
+    "breakfast-doc-grilled-cheese": [
+      "American"
+    ],
+    "lunch-doc-onion-rings": [
+      "American"
+    ],
+    "lunch-doc-buffalo-wings": [
+      "American"
+    ],
+    "lunch-doc-ceviche": [
+      "Peruvian"
+    ],
+    "lunch-doc-peruvian-roast-chicken": [
+      "Peruvian"
+    ],
+    "lomo-saltado": [
+      "Peruvian"
+    ],
+    "lunch-doc-quinoa-soup": [
+      "Peruvian"
+    ],
+    "lunch-doc-anticuchos": [
+      "Peruvian"
+    ],
+    "lunch-doc-causa-rellena": [
+      "Peruvian"
+    ],
+    "lunch-doc-aji-de-gallina": [
+      "Peruvian"
+    ],
+    "lunch-doc-grilled-beef-heart": [
+      "Peruvian"
+    ],
+    "lunch-doc-chicha-morada": [
+      "Peruvian"
+    ],
+    "lunch-doc-arroz-con-mariscos": [
+      "Peruvian"
+    ],
+    "lunch-doc-buddha-jumps-over-the-wall": [
+      "Fujian"
+    ],
+    "lunch-doc-shaxian-delicacies-peanut-noodles-meat-wontons": [
+      "Fujian"
+    ],
+    "breakfast-doc-oyster-omelette": [
+      "Fujian"
+    ],
+    "breakfast-doc-lychee-pork": [
+      "Fujian"
+    ],
+    "breakfast-doc-drunken-spare-ribs": [
+      "Fujian"
+    ],
+    "lunch-doc-red-yeast-rice-pork": [
+      "Fujian"
+    ],
+    "fuzhou-fish-balls": [
+      "Fujian"
+    ],
+    "breakfast-doc-guo-bian-hu": [
+      "Fujian"
+    ],
+    "breakfast-doc-taiping-yan": [
+      "Fujian"
+    ],
+    "lunch-doc-boiled-hetian-chicken": [
+      "Fujian"
+    ],
+    "lunch-doc-ginger-duck": [
+      "Fujian"
+    ],
+    "lunch-doc-misua-paste": [
+      "Fujian"
+    ],
+    "lunch-doc-minnan-savory-rice": [
+      "Fujian"
+    ],
+    "lunch-doc-zhangzhou-braised-noodles": [
+      "Fujian"
+    ],
+    "putian-lor-mee": [
+      "Fujian"
+    ],
+    "breakfast-doc-tacos": [
+      "Mexican"
+    ],
+    "breakfast-doc-burrito": [
+      "Mexican"
+    ],
+    "breakfast-doc-quesadilla": [
+      "Mexican"
+    ],
+    "lunch-doc-nachos-with-guacamole": [
+      "Mexican"
+    ],
+    "breakfast-doc-tamales": [
+      "Mexican"
+    ],
+    "breakfast-doc-elote": [
+      "Mexican"
+    ],
+    "lunch-doc-aguachile": [
+      "Mexican"
+    ],
+    "breakfast-doc-huevos-rancheros": [
+      "Mexican"
+    ],
+    "lunch-doc-chicken-enchiladas": [
+      "Mexican"
+    ],
+    "lunch-doc-fajitas": [
+      "Mexican"
+    ],
+    "lunch-doc-mexican-salad": [
+      "Mexican"
+    ],
+    "breakfast-doc-guacamole": [
+      "Mexican"
+    ],
+    "lunch-doc-salsa-and-chips": [
+      "Mexican"
+    ],
+    "breakfast-doc-barbacoa": [
+      "Mexican"
+    ],
+    "lunch-doc-sushi-platter": [
+      "Japanese"
+    ],
+    "lunch-doc-ramen": [
+      "Japanese"
+    ],
+    "breakfast-doc-japanese-curry": [
+      "Japanese"
+    ],
+    "breakfast-doc-gyudon": [
+      "Japanese"
+    ],
+    "breakfast-doc-tempura": [
+      "Japanese"
+    ],
+    "lunch-doc-teishoku-set-meal": [
+      "Japanese"
+    ],
+    "breakfast-doc-unadon": [
+      "Japanese"
+    ],
+    "breakfast-doc-oyakodon": [
+      "Japanese"
+    ],
+    "breakfast-doc-pork-cutlet": [
+      "Japanese"
+    ],
+    "lunch-doc-udon": [
+      "Japanese"
+    ],
+    "lunch-doc-soba": [
+      "Japanese"
+    ],
+    "breakfast-doc-karaage": [
+      "Japanese"
+    ],
+    "breakfast-doc-miso-soup": [
+      "Japanese"
+    ],
+    "breakfast-doc-gyoza": [
+      "Japanese"
+    ],
+    "lunch-doc-kaisendon-seafood-bowl": [
+      "Japanese"
+    ],
+    "lunch-doc-chawanmushi": [
+      "Japanese"
+    ],
+    "breakfast-doc-okonomiyaki": [
+      "Japanese"
+    ],
+    "breakfast-doc-takoyaki": [
+      "Japanese"
+    ],
+    "lunch-doc-sukiyaki": [
+      "Japanese"
+    ],
+    "breakfast-doc-onigiri": [
+      "Japanese"
+    ],
+    "breakfast-doc-roujiamo": [
+      "Shaanxi"
+    ],
+    "liangpi-with-wheat-gluten": [
+      "Shaanxi"
+    ],
+    "lunch-doc-oil-sprayed-noodles": [
+      "Shaanxi"
+    ],
+    "lunch-doc-saozi-noodles": [
+      "Shaanxi"
+    ],
+    "lunch-doc-hulutou-pork-intestine-soup": [
+      "Shaanxi"
+    ],
+    "lunch-doc-meatball-hu-la-tang": [
+      "Shaanxi"
+    ],
+    "lunch-doc-bingfeng-soda-local-drink": [
+      "Shaanxi"
+    ],
+    "lunch-doc-water-basin-mutton": [
+      "Shaanxi"
+    ],
+    "lunch-doc-zenggao-sticky-rice-with-jujube": [
+      "Shaanxi"
+    ],
+    "breakfast-doc-guokui": [
+      "Shaanxi"
+    ],
+    "lunch-doc-hanzhong-hot-rice-noodles": [
+      "Shaanxi"
+    ],
+    "lunch-doc-youcha-mahua": [
+      "Shaanxi"
+    ],
+    "lunch-doc-sour-soup-dumplings": [
+      "Shaanxi"
+    ],
+    "biang-biang-noodles": [
+      "Shaanxi"
+    ],
+    "sheng-jian-bao": [
+      "Shanghai"
+    ],
+    "breakfast-doc-xiaolongbao": [
+      "Shanghai"
+    ],
+    "lunch-doc-braised-pork-belly": [
+      "Shanghai",
+      "Chinese Home Cooking"
+    ],
+    "shanghai-scallion-oil-noodles": [
+      "Shanghai"
+    ],
+    "lunch-doc-pork-chop-noodles": [
+      "Shanghai"
+    ],
+    "lunch-doc-four-joy-braised-wheat-gluten": [
+      "Shanghai"
+    ],
+    "lunch-doc-salted-pork-and-bamboo-shoot-soup": [
+      "Shanghai"
+    ],
+    "lunch-doc-oil-exploded-shrimp": [
+      "Shanghai"
+    ],
+    "lunch-doc-stir-fried-eel-shreds": [
+      "Shanghai"
+    ],
+    "lunch-doc-eight-treasure-spicy-sauce": [
+      "Shanghai"
+    ],
+    "lunch-doc-shanghai-smoked-fish": [
+      "Shanghai"
+    ],
+    "lunch-doc-shanghai-vegetable-rice": [
+      "Shanghai"
+    ],
+    "breakfast-doc-pork-chop-with-rice-cake": [
+      "Shanghai"
+    ],
+    "lunch-doc-fermented-rice-wine-balls": [
+      "Shanghai"
+    ],
+    "breakfast-doc-crab-shell-pastry": [
+      "Shanghai"
+    ],
+    "shanghai-sticky-rice-roll": [
+      "Shanghai"
+    ],
+    "savory-soy-milk": [
+      "Shanghai"
+    ],
+    "lunch-doc-tofu-puff-and-vermicelli-soup": [
+      "Shanghai"
+    ],
+    "lunch-doc-braised-duck-in-soy-sauce": [
+      "Shanghai"
+    ],
+    "lunch-doc-squirrel-mandarin-fish": [
+      "Jiangsu"
+    ],
+    "dinner-doc-salted-duck": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-yangzhou-fried-rice": [
+      "Jiangsu"
+    ],
+    "lunch-doc-lion-s-head-meatballs": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-duck-blood-vermicelli-soup": [
+      "Jiangsu"
+    ],
+    "yangzhou-steamed-dried-tofu-threads": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-wuxi-spare-ribs": [
+      "Jiangsu"
+    ],
+    "lunch-doc-crab-meat-soup-dumplings": [
+      "Jiangsu"
+    ],
+    "lunch-doc-stir-fried-eel-with-hot-oil": [
+      "Jiangsu"
+    ],
+    "lunch-doc-beggar-s-chicken": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-suzhou-noodles": [
+      "Jiangsu"
+    ],
+    "lunch-doc-azao-noodles": [
+      "Jiangsu"
+    ],
+    "lunch-doc-jinling-roast-duck": [
+      "Jiangsu"
+    ],
+    "lunch-doc-pot-cover-noodles": [
+      "Jiangsu"
+    ],
+    "lunch-doc-sweet-and-sour-spare-ribs": [
+      "Jiangsu"
+    ],
+    "lunch-doc-taihu-white-fish": [
+      "Jiangsu"
+    ],
+    "lunch-doc-stewed-crab-meat-meatballs": [
+      "Jiangsu"
+    ],
+    "lunch-doc-pingqiao-tofu": [
+      "Jiangsu"
+    ],
+    "lunch-doc-braised-eel": [
+      "Jiangsu"
+    ],
+    "lunch-doc-zhenjiang-cured-pork": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-braised-pork-rice": [
+      "Taiwanese"
+    ],
+    "taiwanese-beef-noodle-soup": [
+      "Taiwanese"
+    ],
+    "taiwanese-oyster-omelet": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-small-sausage-in-large-sausage": [
+      "Taiwanese"
+    ],
+    "lunch-doc-pork-chop-rice": [
+      "Taiwanese"
+    ],
+    "lunch-doc-chicken-leg-rice": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-pork-thick-soup-noodles": [
+      "Taiwanese"
+    ],
+    "lunch-doc-danzai-noodles": [
+      "Taiwanese"
+    ],
+    "lunch-doc-taiwanese-popcorn-chicken": [
+      "Taiwanese"
+    ],
+    "lunch-doc-bubble-tea": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-pork-belly-bun": [
+      "Taiwanese"
+    ],
+    "lunch-doc-sesame-oil-chicken": [
+      "Taiwanese"
+    ],
+    "lunch-doc-three-cup-chicken": [
+      "Taiwanese"
+    ],
+    "lunch-doc-taiwanese-stir-fry": [
+      "Taiwanese"
+    ],
+    "lunch-doc-stinky-tofu": [
+      "Taiwanese"
+    ],
+    "lunch-doc-iron-eggs": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-a-gei": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-fish-ball-soup": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-pork-ball-soup": [
+      "Taiwanese"
+    ],
+    "breakfast-doc-tube-rice-pudding": [
+      "Taiwanese"
+    ],
+    "lunch-doc-tomato-and-egg-stir-fry": [
+      "Chinese Home Cooking"
+    ],
+    "green-pepper-and-shredded-pork": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-hot-and-sour-shredded-potatoes": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-seaweed-egg-drop-soup": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-tomato-and-egg-soup": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-coca-cola-chicken-wings": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-sweet-and-sour-pork-tenderloin": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-garlic-broccoli": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-hand-torn-cabbage": [
+      "Chinese Home Cooking"
+    ],
+    "hunan-dried-tofu-with-celery": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-braised-eggplant": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-minced-pork-with-eggplant": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-steamed-chicken-with-mushrooms": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-steamed-sea-bass": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-braised-beef-brisket-with-potatoes": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-chives-with-eggs": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-ribs-and-winter-melon-soup": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-winter-melon-meatball-soup": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-smashed-cucumber-salad": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-century-egg-with-tofu": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-pork-with-onions": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-vinegar-stir-fried-cabbage": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-lotus-root-stir-fry": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-seasonal-vegetables": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-tomato-beef-brisket": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-mushroom-with-bok-choy": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-home-style-tofu": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-spicy-chicken-cubes": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-shrimp-with-cucumber": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-steamed-egg-custard": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-mixed-vegetables": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stewed-tofu-with-cabbage": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-pork-with-preserved-mustard-greens": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-tomato-gravy-noodles": [
+      "Chinese Home Cooking"
+    ]
+  },
+  "Dinner": {
+    "doro-wat": [
+      "Ethiopian"
+    ],
+    "dinner-doc-yebeg-wat": [
+      "Ethiopian"
+    ],
+    "dinner-doc-misir-wat": [
+      "Ethiopian"
+    ],
+    "dinner-doc-shiro-wat": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-injera": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-tibs": [
+      "Ethiopian"
+    ],
+    "dinner-doc-kitfo": [
+      "Ethiopian"
+    ],
+    "breakfast-doc-gomen": [
+      "Ethiopian"
+    ],
+    "dinner-doc-quanta-firfir": [
+      "Ethiopian"
+    ],
+    "dinner-doc-alicha-doro-wat": [
+      "Ethiopian"
+    ],
+    "dinner-doc-chongqing-hot-pot": [
+      "Chongqing"
+    ],
+    "lunch-doc-mao-xue-wang-duck-blood-curd-in-spicy-broth": [
+      "Chongqing",
+      "Sichuan"
+    ],
+    "lunch-doc-boiled-fish-in-spicy-broth": [
+      "Chongqing"
+    ],
+    "lunch-doc-spicy-popcorn-chicken": [
+      "Chongqing",
+      "Sichuan",
+      "Guizhou"
+    ],
+    "dinner-doc-laifeng-fish": [
+      "Chongqing"
+    ],
+    "dinner-doc-bishan-rabbit": [
+      "Chongqing"
+    ],
+    "lunch-doc-wanzhou-grilled-fish": [
+      "Chongqing"
+    ],
+    "dinner-doc-qianjiang-chicken-giblets": [
+      "Chongqing"
+    ],
+    "dinner-doc-roasted-rooster-pot": [
+      "Chongqing"
+    ],
+    "lunch-doc-chicken-with-taro": [
+      "Chongqing"
+    ],
+    "dinner-doc-youting-crucian-carp": [
+      "Chongqing"
+    ],
+    "dinner-doc-fish-with-pickled-cabbage": [
+      "Chongqing",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-pickled-pepper-bullfrog": [
+      "Chongqing"
+    ],
+    "lunch-doc-twice-cooked-pork": [
+      "Chongqing",
+      "Sichuan"
+    ],
+    "lunch-doc-steamed-pork-with-rice-flour": [
+      "Chongqing",
+      "Hubei",
+      "Jiangxi",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-steamed-pork-belly-with-preserved-vegetables": [
+      "Chongqing"
+    ],
+    "lunch-doc-sliced-pork-with-garlic-sauce": [
+      "Chongqing"
+    ],
+    "fuqi-feipian": [
+      "Chongqing"
+    ],
+    "lunch-doc-boiled-sliced-pork-in-spicy-broth": [
+      "Chongqing",
+      "Chinese Home Cooking"
+    ],
+    "dinner-doc-geleshan-spicy-chicken": [
+      "Chongqing"
+    ],
+    "dinner-doc-boiled-beef-in-chili-oil": [
+      "Sichuan"
+    ],
+    "mapo-tofu": [
+      "Sichuan",
+      "Chinese Home Cooking"
+    ],
+    "kung-pao-chicken": [
+      "Sichuan",
+      "Guizhou",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-yu-xiang-shredded-pork": [
+      "Sichuan",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-dry-fried-green-beans": [
+      "Sichuan",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-boiled-cabbage-in-superior-broth": [
+      "Sichuan"
+    ],
+    "lunch-doc-dongpo-braised-pork-hock": [
+      "Sichuan"
+    ],
+    "lunch-doc-fish-with-chili-bean-paste": [
+      "Sichuan"
+    ],
+    "ants-climbing-a-tree": [
+      "Sichuan",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-sweet-roasted-duck": [
+      "Sichuan"
+    ],
+    "dinner-doc-camphor-and-tea-smoked-duck": [
+      "Sichuan"
+    ],
+    "dinner-doc-spicy-rabbit-head": [
+      "Sichuan"
+    ],
+    "dinner-doc-bobo-chicken": [
+      "Sichuan"
+    ],
+    "dinner-doc-cold-spicy-rabbit": [
+      "Sichuan"
+    ],
+    "dinner-doc-fresh-pot-rabbit": [
+      "Sichuan"
+    ],
+    "dinner-doc-roasted-brains": [
+      "Sichuan"
+    ],
+    "lunch-doc-stir-fried-pork-kidneys": [
+      "Sichuan",
+      "Northeastern Chinese",
+      "Shandong"
+    ],
+    "dinner-doc-stir-fried-liver-and-kidney": [
+      "Sichuan"
+    ],
+    "lunch-doc-twice-cooked-pork-salted-style": [
+      "Sichuan"
+    ],
+    "dinner-doc-sliced-pork-with-crispy-rice": [
+      "Sichuan"
+    ],
+    "lunch-doc-sweet-and-sour-pork-tenderloin": [
+      "Sichuan"
+    ],
+    "dinner-doc-yu-xiang-eggplant-cakes": [
+      "Sichuan"
+    ],
+    "dinner-doc-dry-braised-eel": [
+      "Sichuan"
+    ],
+    "dinner-doc-boiled-bullfrog": [
+      "Sichuan"
+    ],
+    "lunch-doc-stir-fried-pork-with-garlic-sprouts": [
+      "Sichuan",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-spicy-shrimp": [
+      "Sichuan"
+    ],
+    "dinner-doc-snowflake-chicken": [
+      "Sichuan"
+    ],
+    "dinner-doc-chicken-tofu-pudding": [
+      "Sichuan"
+    ],
+    "dinner-doc-hibiscus-chicken-slices": [
+      "Sichuan",
+      "Shandong"
+    ],
+    "dinner-doc-dry-fried-shredded-beef": [
+      "Sichuan"
+    ],
+    "dinner-doc-steamed-beef-with-rice-flour": [
+      "Sichuan"
+    ],
+    "dinner-doc-small-fried-chicken": [
+      "Sichuan"
+    ],
+    "dinner-doc-sichuan-peppercorn-chicken": [
+      "Sichuan"
+    ],
+    "nanchang-beer-braised-duck": [
+      "Sichuan"
+    ],
+    "dinner-doc-braised-duck-with-konjac": [
+      "Sichuan"
+    ],
+    "dinner-doc-old-duck-soup-with-pickled-radish": [
+      "Sichuan"
+    ],
+    "dinner-doc-pig-trotter-soup": [
+      "Sichuan"
+    ],
+    "dinner-doc-savory-steamed-pork-belly": [
+      "Sichuan"
+    ],
+    "dinner-doc-sweet-steamed-pork-belly": [
+      "Sichuan"
+    ],
+    "mouthwatering-chicken": [
+      "Sichuan"
+    ],
+    "bang-bang-chicken": [
+      "Sichuan"
+    ],
+    "lunch-doc-cold-tossed-fish-mint": [
+      "Sichuan"
+    ],
+    "dinner-doc-pickled-pepper-chicken-feet": [
+      "Sichuan"
+    ],
+    "dinner-doc-oil-scalded-duck": [
+      "Sichuan"
+    ],
+    "dinner-doc-spicy-incense-pot": [
+      "Sichuan"
+    ],
+    "dinner-doc-dry-pot-pork-intestines": [
+      "Sichuan"
+    ],
+    "dinner-doc-dry-pot-spare-ribs": [
+      "Sichuan"
+    ],
+    "guo-bao-rou": [
+      "Northeastern Chinese",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-fried-pork-cubes": [
+      "Northeastern Chinese",
+      "Chinese Home Cooking"
+    ],
+    "di-san-xian": [
+      "Northeastern Chinese",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-chicken-stew-with-mushrooms": [
+      "Northeastern Chinese",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-braised-pork-with-glass-noodles": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-pig-slaughter-stew-pork-sauerkraut-and-blood-sausage": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-iron-pot-stewed-goose": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-braised-ribs-with-green-beans": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-braised-pork-bones-in-soy-sauce": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-stir-fried-dried-tofu-with-green-pepper": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-pork-belly-with-pickled-cabbage": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-northeast-mixed-stew": [
+      "Northeastern Chinese"
+    ],
+    "lunch-doc-braised-pork-belly": [
+      "Northeastern Chinese",
+      "Shanghai",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-candied-sweet-potato": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-snowy-red-bean-paste": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-vegetable-platter-with-soybean-paste": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-tiger-salad": [
+      "Northeastern Chinese"
+    ],
+    "northeastern-sesame-mung-bean-noodles": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-stewed-catfish-with-eggplant": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-demoli-stewed-fish": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-braised-crucian-carp": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-braised-pork-hock": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-stir-fried-pork-liver": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-guota-tofu": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-stewed-chicken-with-hazel-mushrooms": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-deep-fried-pork-cubes": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-crispy-fried-pork-cubes": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-northeast-mixed-salad": [
+      "Northeastern Chinese"
+    ],
+    "dinner-doc-stir-fried-red-sausage-with-wood-ear": [
+      "Northeastern Chinese"
+    ],
+    "beef-bourguignon": [
+      "French"
+    ],
+    "coq-au-vin": [
+      "French"
+    ],
+    "breakfast-doc-duck-confit": [
+      "French"
+    ],
+    "dinner-doc-pan-seared-duck-breast": [
+      "French"
+    ],
+    "breakfast-doc-onion-soup": [
+      "French"
+    ],
+    "bouillabaisse": [
+      "French"
+    ],
+    "dinner-doc-steak-frites": [
+      "French"
+    ],
+    "dinner-doc-steak-au-poivre": [
+      "French"
+    ],
+    "breakfast-doc-snails": [
+      "French"
+    ],
+    "dinner-doc-quiche-lorraine": [
+      "French"
+    ],
+    "dinner-doc-p-t-lorrain": [
+      "French"
+    ],
+    "dinner-doc-confit-de-canard": [
+      "French"
+    ],
+    "dinner-doc-ratatouille": [
+      "French"
+    ],
+    "dinner-doc-french-lamb-chops": [
+      "French"
+    ],
+    "dinner-doc-beef-wellington": [
+      "French"
+    ],
+    "dinner-doc-chicken-with-mushroom-cream-sauce": [
+      "French"
+    ],
+    "dinner-doc-veal-normande": [
+      "French"
+    ],
+    "dinner-doc-seafood-platter": [
+      "French"
+    ],
+    "dinner-doc-pan-seared-foie-gras": [
+      "French"
+    ],
+    "dinner-doc-mussels-marini-re": [
+      "French"
+    ],
+    "dinner-doc-sole-meuni-re": [
+      "French"
+    ],
+    "dinner-doc-navarin-of-lamb": [
+      "French"
+    ],
+    "dinner-doc-stuffed-tomatoes": [
+      "French"
+    ],
+    "dinner-doc-gratin-dauphinois": [
+      "French"
+    ],
+    "dinner-doc-salade-ni-oise": [
+      "French"
+    ],
+    "dinner-doc-salade-lyonnaise": [
+      "French"
+    ],
+    "breakfast-doc-roast-chicken": [
+      "French",
+      "American"
+    ],
+    "dinner-doc-cassoulet": [
+      "French"
+    ],
+    "dinner-doc-burgundy-escargot": [
+      "French"
+    ],
+    "dinner-doc-terrine": [
+      "French"
+    ],
+    "dinner-doc-duck-p-t": [
+      "French"
+    ],
+    "dinner-doc-pan-seared-sea-bass": [
+      "French"
+    ],
+    "dinner-doc-seafood-stew": [
+      "French"
+    ],
+    "dinner-doc-blanquette-de-veau": [
+      "French"
+    ],
+    "dinner-doc-roast-leg-of-lamb": [
+      "French"
+    ],
+    "dinner-doc-french-pork-chop": [
+      "French"
+    ],
+    "dinner-doc-sausage-and-mash": [
+      "French"
+    ],
+    "breakfast-doc-croque-monsieur": [
+      "French"
+    ],
+    "breakfast-doc-galette": [
+      "French"
+    ],
+    "dinner-doc-baked-brie": [
+      "French"
+    ],
+    "dinner-doc-coquilles-saint-jacques": [
+      "French"
+    ],
+    "dinner-doc-cream-of-mushroom-soup": [
+      "French"
+    ],
+    "dinner-doc-lobster-bisque": [
+      "French"
+    ],
+    "dinner-doc-duck-l-orange": [
+      "French"
+    ],
+    "dinner-doc-chicken-in-white-wine": [
+      "French"
+    ],
+    "dinner-doc-stuffed-mushrooms": [
+      "French"
+    ],
+    "dinner-doc-garlic-butter-baguette": [
+      "French"
+    ],
+    "dinner-doc-french-onion-beef-stew": [
+      "French"
+    ],
+    "dinner-doc-bacon-and-egg-tart": [
+      "French"
+    ],
+    "dinner-doc-consomm": [
+      "French"
+    ],
+    "dinner-doc-sinigang": [
+      "Filipino"
+    ],
+    "dinner-doc-lechon": [
+      "Filipino"
+    ],
+    "dinner-doc-adobo": [
+      "Filipino"
+    ],
+    "dinner-doc-lumpia": [
+      "Filipino"
+    ],
+    "dinner-doc-pancit": [
+      "Filipino"
+    ],
+    "dinner-doc-lechon-kawali": [
+      "Filipino"
+    ],
+    "dinner-doc-bulalo": [
+      "Filipino"
+    ],
+    "dinner-doc-kinilaw": [
+      "Filipino"
+    ],
+    "dinner-doc-mango-salad": [
+      "Filipino"
+    ],
+    "dinner-doc-kare-kare": [
+      "Filipino"
+    ],
+    "dinner-doc-chicken-inasal": [
+      "Filipino"
+    ],
+    "dinner-doc-dinuguan": [
+      "Filipino"
+    ],
+    "dinner-doc-paksiw": [
+      "Filipino"
+    ],
+    "dinner-doc-barbecue-chicken": [
+      "Filipino"
+    ],
+    "dinner-doc-longganisa": [
+      "Filipino"
+    ],
+    "guizhou-sour-soup-fish": [
+      "Guizhou"
+    ],
+    "dinner-doc-stir-fried-cured-meat-with-fish-mint": [
+      "Guizhou"
+    ],
+    "dinner-doc-siwawa": [
+      "Guizhou"
+    ],
+    "dinner-doc-changwang-noodles": [
+      "Guizhou"
+    ],
+    "dinner-doc-bean-hot-pot": [
+      "Guizhou"
+    ],
+    "dinner-doc-crispy-fish-with-fermented-chili": [
+      "Guizhou"
+    ],
+    "dinner-doc-huajiang-dog-meat": [
+      "Guizhou"
+    ],
+    "dinner-doc-pork-belly-with-pickled-vegetables": [
+      "Guizhou"
+    ],
+    "dinner-doc-wujiang-fish": [
+      "Guizhou"
+    ],
+    "dinner-doc-sour-soup-beef": [
+      "Guizhou"
+    ],
+    "dinner-doc-pickled-pepper-beef-tendon": [
+      "Guizhou"
+    ],
+    "dinner-doc-twice-cooked-pork-with-fermented-chili": [
+      "Guizhou"
+    ],
+    "dinner-doc-miao-sour-soup-ribs": [
+      "Guizhou"
+    ],
+    "dinner-doc-dry-pot-mutton": [
+      "Guizhou"
+    ],
+    "dinner-doc-stir-fried-pork-with-fern": [
+      "Guizhou"
+    ],
+    "dinner-doc-stir-fried-glutinous-rice-balls-with-pickled-cabbage": [
+      "Guizhou"
+    ],
+    "dinner-doc-guizhou-grilled-fish": [
+      "Guizhou"
+    ],
+    "dinner-doc-rice-tofu": [
+      "Guizhou"
+    ],
+    "dinner-doc-korean-bbq": [
+      "Korean"
+    ],
+    "lunch-doc-army-stew": [
+      "Korean"
+    ],
+    "lunch-doc-kimchi-stew": [
+      "Korean"
+    ],
+    "breakfast-doc-soybean-paste-soup": [
+      "Korean"
+    ],
+    "lunch-doc-ginseng-chicken-soup": [
+      "Korean"
+    ],
+    "breakfast-doc-tteokbokki": [
+      "Korean"
+    ],
+    "breakfast-doc-fried-chicken": [
+      "Korean",
+      "American"
+    ],
+    "japchae": [
+      "Korean"
+    ],
+    "lunch-doc-spicy-stir-fried-squid": [
+      "Korean"
+    ],
+    "lunch-doc-seafood-scallion-pancake": [
+      "Korean"
+    ],
+    "breakfast-doc-kimchi-pancake": [
+      "Korean"
+    ],
+    "lunch-doc-korean-braised-pig-s-trotters": [
+      "Korean"
+    ],
+    "dinner-doc-bossam": [
+      "Korean"
+    ],
+    "breakfast-doc-sundae": [
+      "Korean"
+    ],
+    "dinner-doc-gamjatang": [
+      "Korean"
+    ],
+    "dinner-doc-pollack-soup": [
+      "Korean"
+    ],
+    "lunch-doc-soft-tofu-stew": [
+      "Korean"
+    ],
+    "dinner-doc-spicy-braised-chicken": [
+      "Korean"
+    ],
+    "dinner-doc-andong-jjimdak": [
+      "Korean"
+    ],
+    "breakfast-doc-grilled-pork-belly": [
+      "Korean"
+    ],
+    "breakfast-doc-bulgogi": [
+      "Korean"
+    ],
+    "dinner-doc-galbijjim": [
+      "Korean"
+    ],
+    "dinner-doc-seafood-hot-pot": [
+      "Korean"
+    ],
+    "dinner-doc-spicy-stir-fried-pork": [
+      "Korean"
+    ],
+    "breakfast-doc-bibimbap": [
+      "Korean"
+    ],
+    "lunch-doc-stone-pot-bibimbap": [
+      "Korean"
+    ],
+    "breakfast-doc-cold-noodles": [
+      "Korean"
+    ],
+    "breakfast-doc-zhajiang-noodles": [
+      "Korean"
+    ],
+    "breakfast-doc-jjamppong": [
+      "Korean"
+    ],
+    "breakfast-doc-gimbap": [
+      "Korean"
+    ],
+    "dinner-doc-pork-rib-and-lotus-root-soup": [
+      "Hubei"
+    ],
+    "wuchang-steamed-bream": [
+      "Hubei"
+    ],
+    "dinner-doc-braised-wuchang-fish": [
+      "Hubei"
+    ],
+    "mianyang-three-steamed-dishes": [
+      "Hubei"
+    ],
+    "dinner-doc-huangpi-three-delicacies": [
+      "Hubei"
+    ],
+    "dinner-doc-qianjiang-braised-crayfish": [
+      "Hubei"
+    ],
+    "wuhan-hot-dry-noodles": [
+      "Hubei"
+    ],
+    "wuhan-three-delicacy-doupi": [
+      "Hubei"
+    ],
+    "dinner-doc-gong-an-beef": [
+      "Hubei"
+    ],
+    "dinner-doc-clay-pot-chicken-soup": [
+      "Hubei"
+    ],
+    "dinner-doc-zhongxiang-coiled-eel": [
+      "Hubei"
+    ],
+    "dinner-doc-jingsha-soft-shelled-turtle": [
+      "Hubei"
+    ],
+    "dinner-doc-sliced-pork-belly-with-preserved-vegetables": [
+      "Hubei"
+    ],
+    "dinner-doc-pearl-meatballs": [
+      "Hubei"
+    ],
+    "dinner-doc-stir-fried-shredded-eel": [
+      "Hubei"
+    ],
+    "dinner-doc-orange-petal-fish-balls": [
+      "Hubei"
+    ],
+    "dinner-doc-dupo-chicken": [
+      "Hubei"
+    ],
+    "dinner-doc-panlong-dish": [
+      "Hubei"
+    ],
+    "dinner-doc-hot-and-sour-lotus-root-shoots": [
+      "Hubei"
+    ],
+    "lunch-doc-stinky-mandarin-fish": [
+      "Anhui"
+    ],
+    "lunch-doc-hairy-tofu": [
+      "Anhui"
+    ],
+    "lunch-doc-huizhou-meatballs": [
+      "Anhui"
+    ],
+    "lunch-doc-stewed-soft-shelled-turtle-with-ham": [
+      "Anhui"
+    ],
+    "lunch-doc-wenzheng-bamboo-shoots": [
+      "Anhui"
+    ],
+    "lunch-doc-li-hongzhang-hotchpotch": [
+      "Anhui"
+    ],
+    "lunch-doc-fuliji-roast-chicken": [
+      "Anhui"
+    ],
+    "huainan-beef-soup": [
+      "Anhui"
+    ],
+    "lunch-doc-bagongshan-tofu": [
+      "Anhui"
+    ],
+    "lunch-doc-hu-shi-s-yipin-pot": [
+      "Anhui"
+    ],
+    "dinner-doc-braised-civet": [
+      "Anhui"
+    ],
+    "dinner-doc-huizhou-cured-pork": [
+      "Anhui"
+    ],
+    "dinner-doc-huangshan-stewed-pigeon": [
+      "Anhui"
+    ],
+    "dinner-doc-fang-la-fish": [
+      "Anhui"
+    ],
+    "dinner-doc-wuwei-pressed-duck": [
+      "Anhui"
+    ],
+    "dinner-doc-clay-pot-soup": [
+      "Jiangxi"
+    ],
+    "lunch-doc-three-cup-chicken": [
+      "Jiangxi"
+    ],
+    "dinner-doc-stir-fried-cured-meat-with-artemisia": [
+      "Jiangxi"
+    ],
+    "dinner-doc-jinggang-smoked-bamboo-shoots": [
+      "Jiangxi"
+    ],
+    "dinner-doc-lianhua-blood-duck": [
+      "Jiangxi"
+    ],
+    "dinner-doc-ningdu-three-cup-chicken": [
+      "Jiangxi"
+    ],
+    "dinner-doc-lushan-stone-frog": [
+      "Jiangxi"
+    ],
+    "dinner-doc-gannan-stir-fried-fish": [
+      "Jiangxi"
+    ],
+    "dinner-doc-poyang-lake-fish-head": [
+      "Jiangxi"
+    ],
+    "dinner-doc-nanchang-mixed-rice-noodles": [
+      "Jiangxi"
+    ],
+    "dinner-doc-pingxiang-stir-fried-pork": [
+      "Jiangxi"
+    ],
+    "dinner-doc-xinyu-fried-rice-noodles": [
+      "Jiangxi"
+    ],
+    "dinner-doc-xingguo-steamed-fish-with-rice-flour": [
+      "Jiangxi"
+    ],
+    "dinner-doc-ruijin-beef-soup": [
+      "Jiangxi"
+    ],
+    "dinner-doc-linchuan-beef-offal": [
+      "Jiangxi"
+    ],
+    "dinner-doc-stir-fried-pork-with-chili": [
+      "Jiangxi"
+    ],
+    "dinner-doc-stir-fried-cured-meat-with-winter-bamboo-shoots": [
+      "Jiangxi"
+    ],
+    "dinner-doc-fermented-rice-wine-fish": [
+      "Jiangxi"
+    ],
+    "dinner-doc-steamed-red-carp": [
+      "Jiangxi"
+    ],
+    "lunch-doc-scallion-sea-cucumber": [
+      "Shandong"
+    ],
+    "lunch-doc-braised-pork-intestines": [
+      "Shandong"
+    ],
+    "shandong-sweet-and-sour-carp": [
+      "Shandong"
+    ],
+    "lunch-doc-four-joy-meatballs": [
+      "Shandong"
+    ],
+    "lunch-doc-braised-prawns": [
+      "Shandong"
+    ],
+    "lunch-doc-dezhou-braised-chicken": [
+      "Shandong"
+    ],
+    "lunch-doc-bazi-meat-braised-pork-belly": [
+      "Shandong"
+    ],
+    "lunch-doc-pot-braised-pork": [
+      "Shandong"
+    ],
+    "lunch-doc-milky-soup-with-cattail-shoots": [
+      "Shandong"
+    ],
+    "lunch-doc-sliced-fish-in-wine-sauce": [
+      "Shandong"
+    ],
+    "lunch-doc-moo-shu-pork": [
+      "Shandong",
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-shredded-pork-tenderloin": [
+      "Shandong"
+    ],
+    "breakfast-doc-braised-chicken": [
+      "Shandong"
+    ],
+    "dinner-doc-oil-exploded-double-crispy": [
+      "Shandong"
+    ],
+    "dinner-doc-stir-fried-pork-tripe-with-cilantro": [
+      "Shandong"
+    ],
+    "dinner-doc-dry-braised-pomfret": [
+      "Shandong"
+    ],
+    "dinner-doc-steamed-sea-bream": [
+      "Shandong"
+    ],
+    "dinner-doc-vinegar-and-pepper-fish-soup": [
+      "Shandong"
+    ],
+    "lunch-doc-bbq-ribs": [
+      "American"
+    ],
+    "dinner-doc-new-york-strip-steak": [
+      "American"
+    ],
+    "dinner-doc-filet-mignon": [
+      "American"
+    ],
+    "dinner-doc-ribeye-steak": [
+      "American"
+    ],
+    "lunch-doc-classic-hamburger": [
+      "American"
+    ],
+    "breakfast-doc-cheeseburger": [
+      "American"
+    ],
+    "breakfast-doc-meatloaf": [
+      "American"
+    ],
+    "breakfast-doc-roast-turkey": [
+      "American"
+    ],
+    "lunch-doc-chili-con-carne": [
+      "American"
+    ],
+    "breakfast-doc-mac-cheese": [
+      "American"
+    ],
+    "cobb-salad": [
+      "American"
+    ],
+    "lunch-doc-caesar-salad": [
+      "American"
+    ],
+    "lunch-doc-fish-and-chips": [
+      "American"
+    ],
+    "lunch-doc-buffalo-wings": [
+      "American"
+    ],
+    "philly-cheesesteak": [
+      "American"
+    ],
+    "lunch-doc-reuben-sandwich": [
+      "American"
+    ],
+    "lunch-doc-club-sandwich": [
+      "American"
+    ],
+    "dinner-doc-smoked-brisket": [
+      "American"
+    ],
+    "dinner-doc-pulled-pork-sandwich": [
+      "American"
+    ],
+    "dinner-doc-fried-shrimp": [
+      "American"
+    ],
+    "breakfast-doc-grilled-salmon": [
+      "American"
+    ],
+    "dinner-doc-new-england-clam-chowder": [
+      "American"
+    ],
+    "breakfast-doc-baked-potato": [
+      "American"
+    ],
+    "dinner-doc-creamed-corn": [
+      "American"
+    ],
+    "dinner-doc-mashed-potatoes": [
+      "American"
+    ],
+    "dinner-doc-roasted-vegetables": [
+      "American"
+    ],
+    "dinner-doc-american-beef-stew": [
+      "American"
+    ],
+    "dinner-doc-roasted-pork-chop": [
+      "American"
+    ],
+    "lunch-doc-onion-rings": [
+      "American"
+    ],
+    "dinner-doc-country-fried-steak": [
+      "American"
+    ],
+    "dinner-doc-american-omelette": [
+      "American"
+    ],
+    "dinner-doc-bacon-and-eggs": [
+      "American"
+    ],
+    "dinner-doc-corn-dog": [
+      "American"
+    ],
+    "dinner-doc-american-pizza": [
+      "American"
+    ],
+    "dinner-doc-chicago-deep-dish-pizza": [
+      "American"
+    ],
+    "dinner-doc-california-roll": [
+      "American"
+    ],
+    "breakfast-doc-baked-ham": [
+      "American"
+    ],
+    "lunch-doc-buddha-jumps-over-the-wall": [
+      "Fujian"
+    ],
+    "breakfast-doc-lychee-pork": [
+      "Fujian"
+    ],
+    "breakfast-doc-oyster-omelette": [
+      "Fujian"
+    ],
+    "breakfast-doc-drunken-spare-ribs": [
+      "Fujian"
+    ],
+    "lunch-doc-red-yeast-rice-pork": [
+      "Fujian"
+    ],
+    "breakfast-doc-taiping-yan": [
+      "Fujian"
+    ],
+    "lunch-doc-boiled-hetian-chicken": [
+      "Fujian"
+    ],
+    "lunch-doc-ginger-duck": [
+      "Fujian"
+    ],
+    "lunch-doc-minnan-savory-rice": [
+      "Fujian"
+    ],
+    "lunch-doc-zhangzhou-braised-noodles": [
+      "Fujian"
+    ],
+    "putian-lor-mee": [
+      "Fujian"
+    ],
+    "fuzhou-fish-balls": [
+      "Fujian"
+    ],
+    "breakfast-doc-guo-bian-hu": [
+      "Fujian"
+    ],
+    "lunch-doc-misua-paste": [
+      "Fujian"
+    ],
+    "xiamen-satay-noodle-soup": [
+      "Fujian"
+    ],
+    "breakfast-doc-braised-pork": [
+      "Fujian"
+    ],
+    "stuffed-tofu-with-pork": [
+      "Fujian"
+    ],
+    "dinner-doc-salt-and-wine-hetian-chicken": [
+      "Fujian"
+    ],
+    "dinner-doc-chicken-broth-with-sea-clams": [
+      "Fujian"
+    ],
+    "dinner-doc-stir-fried-bamboo-shoots-with-pickled-cabbage": [
+      "Fujian"
+    ],
+    "dinner-doc-moroccan-tagine": [
+      "Moroccan"
+    ],
+    "dinner-doc-couscous": [
+      "Moroccan"
+    ],
+    "dinner-doc-mechoui": [
+      "Moroccan"
+    ],
+    "dinner-doc-harira-soup": [
+      "Moroccan"
+    ],
+    "dinner-doc-pastilla": [
+      "Moroccan"
+    ],
+    "dinner-doc-brochettes": [
+      "Moroccan"
+    ],
+    "dinner-doc-moroccan-chicken-stew": [
+      "Moroccan"
+    ],
+    "dinner-doc-moroccan-salad": [
+      "Moroccan"
+    ],
+    "dinner-doc-chermoula-fish": [
+      "Moroccan"
+    ],
+    "dinner-doc-zaalouk": [
+      "Moroccan"
+    ],
+    "dinner-doc-hummus": [
+      "Moroccan"
+    ],
+    "dinner-doc-merguez": [
+      "Moroccan"
+    ],
+    "lunch-doc-sukiyaki": [
+      "Japanese"
+    ],
+    "dinner-doc-shabu-shabu": [
+      "Japanese"
+    ],
+    "dinner-doc-yakiniku": [
+      "Japanese"
+    ],
+    "dinner-doc-sashimi-platter": [
+      "Japanese"
+    ],
+    "lunch-doc-sushi-platter": [
+      "Japanese"
+    ],
+    "breakfast-doc-tempura": [
+      "Japanese"
+    ],
+    "breakfast-doc-unadon": [
+      "Japanese"
+    ],
+    "breakfast-doc-japanese-curry": [
+      "Japanese"
+    ],
+    "breakfast-doc-tonkatsu": [
+      "Japanese"
+    ],
+    "breakfast-doc-karaage": [
+      "Japanese"
+    ],
+    "dinner-doc-yakitori": [
+      "Japanese"
+    ],
+    "dinner-doc-robatayaki-fish": [
+      "Japanese"
+    ],
+    "breakfast-doc-miso-soup": [
+      "Japanese"
+    ],
+    "lunch-doc-chawanmushi": [
+      "Japanese"
+    ],
+    "breakfast-doc-okonomiyaki": [
+      "Japanese"
+    ],
+    "dinner-doc-monjayaki": [
+      "Japanese"
+    ],
+    "breakfast-doc-oden": [
+      "Japanese"
+    ],
+    "breakfast-doc-gyoza": [
+      "Japanese"
+    ],
+    "breakfast-doc-gyudon": [
+      "Japanese"
+    ],
+    "breakfast-doc-oyakodon": [
+      "Japanese"
+    ],
+    "lunch-doc-kaisendon-seafood-bowl": [
+      "Japanese"
+    ],
+    "lunch-doc-ramen": [
+      "Japanese"
+    ],
+    "lunch-doc-udon": [
+      "Japanese"
+    ],
+    "lunch-doc-soba": [
+      "Japanese"
+    ],
+    "lunch-doc-teishoku-set-meal": [
+      "Japanese"
+    ],
+    "dinner-doc-salt-grilled-saury": [
+      "Japanese"
+    ],
+    "dinner-doc-grilled-mackerel": [
+      "Japanese"
+    ],
+    "dinner-doc-kakuni": [
+      "Japanese"
+    ],
+    "dinner-doc-nikujaga": [
+      "Japanese"
+    ],
+    "dinner-doc-chikuzenni": [
+      "Japanese"
+    ],
+    "breakfast-doc-cold-tofu": [
+      "Japanese"
+    ],
+    "dinner-doc-wasabi-octopus": [
+      "Japanese"
+    ],
+    "dinner-doc-agedashi-tofu": [
+      "Japanese"
+    ],
+    "breakfast-doc-tamagoyaki": [
+      "Japanese"
+    ],
+    "dinner-doc-japanese-bbq-with-lettuce": [
+      "Japanese"
+    ],
+    "dinner-doc-wagyu-steak": [
+      "Japanese"
+    ],
+    "dinner-doc-nabe": [
+      "Japanese"
+    ],
+    "dinner-doc-tsukune-nabe": [
+      "Japanese"
+    ],
+    "dinner-doc-chankonabe": [
+      "Japanese"
+    ],
+    "dinner-doc-ika-yaki": [
+      "Japanese"
+    ],
+    "lunch-doc-stir-fried-eel-shreds": [
+      "Shanghai"
+    ],
+    "lunch-doc-eight-treasure-spicy-sauce": [
+      "Shanghai"
+    ],
+    "lunch-doc-shanghai-smoked-fish": [
+      "Shanghai"
+    ],
+    "lunch-doc-oil-exploded-shrimp": [
+      "Shanghai"
+    ],
+    "lunch-doc-salted-pork-and-bamboo-shoot-soup": [
+      "Shanghai"
+    ],
+    "dinner-doc-braised-pork-intestines-with-clover": [
+      "Shanghai"
+    ],
+    "lunch-doc-braised-duck-in-soy-sauce": [
+      "Shanghai"
+    ],
+    "lunch-doc-boiled-chicken": [
+      "Shanghai"
+    ],
+    "lunch-doc-four-joy-braised-wheat-gluten": [
+      "Shanghai"
+    ],
+    "lunch-doc-sweet-and-sour-spare-ribs": [
+      "Shanghai",
+      "Jiangsu",
+      "Chinese Home Cooking"
+    ],
+    "dinner-doc-stuffed-gluten-balls": [
+      "Shanghai"
+    ],
+    "dinner-doc-braised-pork-with-tofu-knots": [
+      "Shanghai"
+    ],
+    "dinner-doc-shanghai-fried-noodles": [
+      "Shanghai"
+    ],
+    "dinner-doc-hairy-crab-with-rice-cakes": [
+      "Shanghai"
+    ],
+    "dinner-doc-steamed-hairy-crab": [
+      "Shanghai"
+    ],
+    "dinner-doc-crab-meat-with-tofu": [
+      "Shanghai"
+    ],
+    "dinner-doc-crystal-shrimp": [
+      "Shanghai"
+    ],
+    "lunch-doc-squirrel-mandarin-fish": [
+      "Shanghai",
+      "Jiangsu"
+    ],
+    "dinner-doc-salt-and-pepper-pork-strips": [
+      "Shanghai"
+    ],
+    "dinner-doc-stir-fried-shredded-pork-with-cabbage": [
+      "Shanghai"
+    ],
+    "dinner-doc-shepherd-s-purse-and-pork-soup": [
+      "Shanghai"
+    ],
+    "dinner-doc-borscht-shanghai-style": [
+      "Shanghai"
+    ],
+    "dinner-doc-fried-pork-chop": [
+      "Shanghai"
+    ],
+    "breakfast-doc-pork-chop-with-rice-cake": [
+      "Shanghai"
+    ],
+    "lunch-doc-lion-s-head-meatballs": [
+      "Jiangsu"
+    ],
+    "dinner-doc-salted-duck": [
+      "Jiangsu"
+    ],
+    "lunch-doc-jinling-roast-duck": [
+      "Jiangsu"
+    ],
+    "yangzhou-steamed-dried-tofu-threads": [
+      "Jiangsu"
+    ],
+    "lunch-doc-stir-fried-eel-with-hot-oil": [
+      "Jiangsu"
+    ],
+    "lunch-doc-beggar-s-chicken": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-wuxi-spare-ribs": [
+      "Jiangsu"
+    ],
+    "lunch-doc-stewed-crab-meat-meatballs": [
+      "Jiangsu"
+    ],
+    "lunch-doc-pingqiao-tofu": [
+      "Jiangsu"
+    ],
+    "lunch-doc-braised-eel": [
+      "Jiangsu"
+    ],
+    "lunch-doc-zhenjiang-cured-pork": [
+      "Jiangsu"
+    ],
+    "lunch-doc-taihu-white-fish": [
+      "Jiangsu"
+    ],
+    "dinner-doc-taihu-white-shrimp": [
+      "Jiangsu"
+    ],
+    "dinner-doc-yangcheng-lake-hairy-crab": [
+      "Jiangsu"
+    ],
+    "lunch-doc-crab-meat-soup-dumplings": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-yangzhou-fried-rice": [
+      "Jiangsu"
+    ],
+    "breakfast-doc-duck-blood-vermicelli-soup": [
+      "Jiangsu"
+    ],
+    "dinner-doc-crystal-cured-pork": [
+      "Jiangsu"
+    ],
+    "dinner-doc-stewed-silver-carp-head": [
+      "Jiangsu"
+    ],
+    "dinner-doc-three-nested-duck": [
+      "Jiangsu"
+    ],
+    "dinner-doc-liangxi-crispy-eel": [
+      "Jiangsu"
+    ],
+    "dinner-doc-mirror-box-tofu": [
+      "Jiangsu"
+    ],
+    "dinner-doc-farewell-my-concubine": [
+      "Jiangsu"
+    ],
+    "tom-yum-goong": [
+      "Thai"
+    ],
+    "thai-green-chicken-curry": [
+      "Thai"
+    ],
+    "dinner-doc-red-curry-duck": [
+      "Thai"
+    ],
+    "dinner-doc-yellow-curry-beef": [
+      "Thai"
+    ],
+    "dinner-doc-pad-thai": [
+      "Thai"
+    ],
+    "dinner-doc-pineapple-fried-rice": [
+      "Thai"
+    ],
+    "dinner-doc-gai-yang": [
+      "Thai"
+    ],
+    "dinner-doc-som-tum": [
+      "Thai"
+    ],
+    "dinner-doc-steamed-fish-with-lemon": [
+      "Thai"
+    ],
+    "dinner-doc-grilled-fish-with-lemongrass": [
+      "Thai"
+    ],
+    "dinner-doc-curry-crab": [
+      "Thai"
+    ],
+    "dinner-doc-tod-mun-pla": [
+      "Thai"
+    ],
+    "dinner-doc-grilled-pork-neck": [
+      "Thai"
+    ],
+    "dinner-doc-pad-kra-pao": [
+      "Thai"
+    ],
+    "dinner-doc-basil-chicken": [
+      "Thai"
+    ],
+    "dinner-doc-thai-spring-rolls": [
+      "Thai"
+    ],
+    "dinner-doc-seafood-salad": [
+      "Thai"
+    ],
+    "dinner-doc-beef-salad": [
+      "Thai"
+    ],
+    "dinner-doc-tom-kha-gai": [
+      "Thai"
+    ],
+    "dinner-doc-thai-bbq-ribs": [
+      "Thai"
+    ],
+    "dinner-doc-stir-fried-morning-glory": [
+      "Thai"
+    ],
+    "dinner-doc-curry-shrimp": [
+      "Thai"
+    ],
+    "dinner-doc-seafood-pineapple-fried-rice": [
+      "Thai"
+    ],
+    "breakfast-doc-pandan-chicken": [
+      "Thai"
+    ],
+    "lunch-doc-tomato-and-egg-stir-fry": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-hot-and-sour-shredded-potatoes": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-coca-cola-chicken-wings": [
+      "Chinese Home Cooking"
+    ],
+    "green-pepper-and-shredded-pork": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-braised-eggplant": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-minced-pork-with-eggplant": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-garlic-broccoli": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-hand-torn-cabbage": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-vinegar-stir-fried-cabbage": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-steamed-sea-bass": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-braised-beef-brisket-with-potatoes": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-steamed-chicken-with-mushrooms": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-chives-with-eggs": [
+      "Chinese Home Cooking"
+    ],
+    "hunan-dried-tofu-with-celery": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-pork-with-onions": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stewed-tofu-with-cabbage": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-ribs-and-winter-melon-soup": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-winter-melon-meatball-soup": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-tomato-and-egg-soup": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-seaweed-egg-drop-soup": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-smashed-cucumber-salad": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-century-egg-with-tofu": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-home-style-tofu": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-pork-with-preserved-mustard-greens": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-dry-pot-cauliflower": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-lotus-root-stir-fry": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-seasonal-vegetables": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-tomato-beef-brisket": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-mushroom-with-bok-choy": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-spicy-chicken-cubes": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-shrimp-with-cucumber": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-steamed-egg-custard": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-stir-fried-mixed-vegetables": [
+      "Chinese Home Cooking"
+    ],
+    "lunch-doc-tomato-gravy-noodles": [
+      "Chinese Home Cooking"
+    ]
+  }
+}
