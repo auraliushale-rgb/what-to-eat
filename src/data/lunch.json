@@ -1,0 +1,2117 @@
+[
+  {
+    "id": "mapo-tofu",
+    "name": "Mapo Tofu",
+    "nameChinese": "麻婆豆腐",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "tofu",
+      "beef",
+      "broad bean chili paste",
+      "Sichuan pepper",
+      "garlic"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "kung-pao-chicken",
+    "name": "Kung Pao Chicken",
+    "nameChinese": "宫保鸡丁",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "chicken",
+      "peanuts",
+      "dried chili",
+      "scallion",
+      "soy sauce"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat",
+      "peanuts",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "dan-dan-noodles",
+    "name": "Dan Dan Noodles",
+    "nameChinese": "担担面",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "wheat noodles",
+      "pork",
+      "preserved mustard",
+      "chili oil",
+      "sesame paste"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat",
+      "sesame",
+      "mustard"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "fuqi-feipian",
+    "name": "Fuqi Feipian",
+    "nameChinese": "夫妻肺片",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "beef",
+      "beef tripe",
+      "chili oil",
+      "Sichuan pepper",
+      "peanuts"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "peanuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "mouthwatering-chicken",
+    "name": "Mouthwatering Chicken",
+    "nameChinese": "口水鸡",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "chicken",
+      "chili oil",
+      "Sichuan pepper",
+      "sesame",
+      "peanuts"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "peanuts",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "ants-climbing-a-tree",
+    "name": "Ants Climbing a Tree",
+    "nameChinese": "蚂蚁上树",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "mung bean glass noodles",
+      "ground pork",
+      "chili bean paste",
+      "garlic"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "sichuan-yuxiang-eggplant",
+    "name": "Sichuan Yuxiang Eggplant",
+    "nameChinese": "鱼香茄子",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "eggplant",
+      "minced pork",
+      "pickled chili",
+      "vinegar",
+      "garlic"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "bang-bang-chicken",
+    "name": "Bang Bang Chicken",
+    "nameChinese": "棒棒鸡",
+    "category": "Lunch",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "chicken",
+      "sesame paste",
+      "chili oil",
+      "scallion"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "char-siu-rice",
+    "name": "Char Siu Rice",
+    "nameChinese": "叉烧饭",
+    "category": "Lunch",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "barbecue pork",
+      "rice",
+      "honey",
+      "soy sauce",
+      "greens"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "cantonese-roast-duck-rice",
+    "name": "Cantonese Roast Duck Rice",
+    "nameChinese": "烧鸭饭",
+    "category": "Lunch",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "roast duck",
+      "rice",
+      "five-spice",
+      "soy sauce"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "cantonese-wonton-noodle-soup",
+    "name": "Cantonese Wonton Noodle Soup",
+    "nameChinese": "云吞面",
+    "category": "Lunch",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "egg noodles",
+      "shrimp",
+      "pork",
+      "dried flounder broth"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "eggs",
+      "fish",
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "beef-chow-fun",
+    "name": "Beef Chow Fun",
+    "nameChinese": "干炒牛河",
+    "category": "Lunch",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "flat rice noodles",
+      "beef",
+      "bean sprouts",
+      "scallion",
+      "soy sauce"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "chicken-and-chinese-sausage-claypot-rice",
+    "name": "Chicken and Chinese Sausage Claypot Rice",
+    "nameChinese": "腊肠滑鸡煲仔饭",
+    "category": "Lunch",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "rice",
+      "chicken",
+      "Chinese sausage",
+      "soy sauce",
+      "ginger"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "steamed-chicken-with-shiitake",
+    "name": "Steamed Chicken with Shiitake",
+    "nameChinese": "冬菇蒸鸡",
+    "category": "Lunch",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "chicken",
+      "shiitake",
+      "ginger",
+      "rice wine",
+      "soy sauce"
+    ],
+    "dietaryTags": [
+      "Healthy"
+    ],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "cantonese-beef-brisket-and-radish",
+    "name": "Cantonese Beef Brisket and Radish",
+    "nameChinese": "萝卜牛腩",
+    "category": "Lunch",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "beef brisket",
+      "daikon",
+      "star anise",
+      "fermented soybean paste"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "hunan-stir-fried-pork",
+    "name": "Hunan Stir-Fried Pork",
+    "nameChinese": "小炒肉",
+    "category": "Lunch",
+    "cuisine": "Hunan",
+    "ingredients": [
+      "pork belly",
+      "green chili",
+      "garlic",
+      "fermented black beans"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "hunan-century-egg-with-roasted-peppers",
+    "name": "Hunan Century Egg with Roasted Peppers",
+    "nameChinese": "擂辣椒皮蛋",
+    "category": "Lunch",
+    "cuisine": "Hunan",
+    "ingredients": [
+      "preserved duck egg",
+      "green chili",
+      "garlic",
+      "sesame oil"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "eggs",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "hunan-dried-tofu-with-celery",
+    "name": "Hunan Dried Tofu with Celery",
+    "nameChinese": "芹菜炒香干",
+    "category": "Lunch",
+    "cuisine": "Hunan",
+    "ingredients": [
+      "dried tofu",
+      "celery",
+      "red chili",
+      "garlic",
+      "soy sauce"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "longjing-shrimp",
+    "name": "Longjing Shrimp",
+    "nameChinese": "龙井虾仁",
+    "category": "Lunch",
+    "cuisine": "Zhejiang",
+    "ingredients": [
+      "river shrimp",
+      "Longjing tea",
+      "egg white",
+      "rice wine"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "eggs",
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "ningbo-shepherds-purse-rice-cakes",
+    "name": "Ningbo Shepherd's Purse Rice Cakes",
+    "nameChinese": "荠菜炒年糕",
+    "category": "Lunch",
+    "cuisine": "Zhejiang",
+    "ingredients": [
+      "rice cake",
+      "shepherd's purse",
+      "pork",
+      "rice wine"
+    ],
+    "dietaryTags": [],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "hangzhou-cat-ear-noodles",
+    "name": "Hangzhou Cat Ear Noodles",
+    "nameChinese": "猫耳朵",
+    "category": "Lunch",
+    "cuisine": "Zhejiang",
+    "ingredients": [
+      "wheat flour",
+      "chicken",
+      "shrimp",
+      "ham",
+      "mushroom",
+      "bamboo shoots"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "yangzhou-fried-rice",
+    "name": "Yangzhou Fried Rice",
+    "nameChinese": "扬州炒饭",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [
+      "rice",
+      "egg",
+      "shrimp",
+      "roast pork",
+      "peas",
+      "scallion"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "eggs",
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "nanjing-salted-duck",
+    "name": "Nanjing Salted Duck",
+    "nameChinese": "盐水鸭",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [
+      "duck",
+      "Sichuan pepper",
+      "salt",
+      "star anise"
+    ],
+    "dietaryTags": [],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "wuxi-braised-pork-spareribs",
+    "name": "Wuxi Braised Pork Spareribs",
+    "nameChinese": "无锡排骨",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [
+      "pork ribs",
+      "rock sugar",
+      "soy sauce",
+      "rice wine"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "suzhou-three-shrimp-noodles",
+    "name": "Suzhou Three-Shrimp Noodles",
+    "nameChinese": "三虾面",
+    "category": "Lunch",
+    "cuisine": "Jiangsu",
+    "ingredients": [
+      "wheat noodles",
+      "shrimp meat",
+      "shrimp roe",
+      "shrimp brains",
+      "scallion"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "fuzhou-fish-balls",
+    "name": "Fuzhou Fish Balls",
+    "nameChinese": "福州鱼丸",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [
+      "fish paste",
+      "starch",
+      "ground pork",
+      "scallion"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "xiamen-satay-noodle-soup",
+    "name": "Xiamen Satay Noodle Soup",
+    "nameChinese": "沙茶面",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [
+      "wheat noodles",
+      "peanut satay",
+      "pork",
+      "tofu",
+      "shrimp"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "peanuts",
+      "soy",
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "putian-lor-mee",
+    "name": "Putian Lor Mee",
+    "nameChinese": "莆田卤面",
+    "category": "Lunch",
+    "cuisine": "Fujian",
+    "ingredients": [
+      "wheat noodles",
+      "clams",
+      "pork",
+      "dried shrimp",
+      "cabbage",
+      "shiitake"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "crustaceans",
+      "molluscs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "shandong-braised-chicken-and-rice",
+    "name": "Shandong Braised Chicken and Rice",
+    "nameChinese": "黄焖鸡米饭",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [
+      "chicken",
+      "shiitake",
+      "bell pepper",
+      "soy sauce",
+      "rice"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "shandong-sweet-and-sour-carp",
+    "name": "Shandong Sweet and Sour Carp",
+    "nameChinese": "糖醋鲤鱼",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [
+      "carp",
+      "wheat flour",
+      "vinegar",
+      "sugar",
+      "ginger"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "zibo-pork-wraps",
+    "name": "Zibo Pork Wraps",
+    "nameChinese": "淄博烧烤小饼",
+    "category": "Lunch",
+    "cuisine": "Shandong",
+    "ingredients": [
+      "pork skewers",
+      "wheat flatbread",
+      "scallion",
+      "chili paste"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "huainan-beef-soup",
+    "name": "Huainan Beef Soup",
+    "nameChinese": "淮南牛肉汤",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [
+      "beef",
+      "glass noodles",
+      "tofu skin",
+      "beef broth",
+      "chili oil"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "huizhou-hairy-tofu",
+    "name": "Huizhou Hairy Tofu",
+    "nameChinese": "徽州毛豆腐",
+    "category": "Lunch",
+    "cuisine": "Anhui",
+    "ingredients": [
+      "fermented tofu",
+      "chili paste",
+      "scallion",
+      "vegetable oil"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "di-san-xian",
+    "name": "Di San Xian",
+    "nameChinese": "地三鲜",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [
+      "potato",
+      "eggplant",
+      "green pepper",
+      "soy sauce",
+      "garlic"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "guo-bao-rou",
+    "name": "Guo Bao Rou",
+    "nameChinese": "锅包肉",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [
+      "pork loin",
+      "potato starch",
+      "vinegar",
+      "sugar",
+      "carrot"
+    ],
+    "dietaryTags": [],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "northeastern-pork-and-sauerkraut-dumplings",
+    "name": "Northeastern Pork and Sauerkraut Dumplings",
+    "nameChinese": "酸菜猪肉饺子",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [
+      "wheat flour",
+      "pork",
+      "pickled napa cabbage",
+      "scallion"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "northeastern-sesame-mung-bean-noodles",
+    "name": "Northeastern Sesame Mung Bean Noodles",
+    "nameChinese": "东北大拉皮",
+    "category": "Lunch",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [
+      "mung bean sheets",
+      "cucumber",
+      "carrot",
+      "sesame paste",
+      "garlic"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "pork-xiaolongbao",
+    "name": "Pork Xiaolongbao",
+    "nameChinese": "小笼包",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [
+      "wheat flour",
+      "pork",
+      "pork aspic",
+      "ginger"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "shanghai-pork-chop-rice-cakes",
+    "name": "Shanghai Pork Chop Rice Cakes",
+    "nameChinese": "排骨年糕",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [
+      "pork chop",
+      "rice cake",
+      "wheat flour",
+      "soy sauce",
+      "sugar"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "shanghai-salted-pork-vegetable-rice",
+    "name": "Shanghai Salted Pork Vegetable Rice",
+    "nameChinese": "咸肉菜饭",
+    "category": "Lunch",
+    "cuisine": "Shanghai",
+    "ingredients": [
+      "rice",
+      "salted pork",
+      "bok choy",
+      "lard"
+    ],
+    "dietaryTags": [],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-braised-pork-rice",
+    "name": "Taiwanese Braised Pork Rice",
+    "nameChinese": "卤肉饭",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "pork belly",
+      "rice",
+      "shallot",
+      "soy sauce",
+      "five-spice"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-beef-noodle-soup",
+    "name": "Taiwanese Beef Noodle Soup",
+    "nameChinese": "台湾牛肉面",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "beef shank",
+      "wheat noodles",
+      "spicy bean paste",
+      "tomato",
+      "bok choy"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-oyster-omelet",
+    "name": "Taiwanese Oyster Omelet",
+    "nameChinese": "蚵仔煎",
+    "category": "Lunch",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "oyster",
+      "egg",
+      "sweet potato starch",
+      "greens",
+      "sweet chili sauce"
+    ],
+    "dietaryTags": [
+      "Spicy",
+      "Seafood"
+    ],
+    "allergens": [
+      "eggs",
+      "molluscs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "shaanxi-roujiamo",
+    "name": "Shaanxi Roujiamo",
+    "nameChinese": "肉夹馍",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [
+      "wheat flatbread",
+      "braised pork",
+      "star anise",
+      "cinnamon"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "biang-biang-noodles",
+    "name": "Biang Biang Noodles",
+    "nameChinese": "油泼扯面",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [
+      "wheat noodles",
+      "chili flakes",
+      "garlic",
+      "black vinegar",
+      "rapeseed oil"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "liangpi-with-wheat-gluten",
+    "name": "Liangpi with Wheat Gluten",
+    "nameChinese": "凉皮",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [
+      "wheat starch noodles",
+      "wheat gluten",
+      "cucumber",
+      "chili oil",
+      "vinegar"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "xian-lamb-paomo",
+    "name": "Xi'an Lamb Paomo",
+    "nameChinese": "羊肉泡馍",
+    "category": "Lunch",
+    "cuisine": "Shaanxi",
+    "ingredients": [
+      "lamb",
+      "wheat flatbread",
+      "glass noodles",
+      "cilantro"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "lanzhou-beef-noodle-soup",
+    "name": "Lanzhou Beef Noodle Soup",
+    "nameChinese": "兰州牛肉面",
+    "category": "Lunch",
+    "cuisine": "Gansu",
+    "ingredients": [
+      "hand-pulled wheat noodles",
+      "beef",
+      "daikon",
+      "beef broth",
+      "chili oil"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "chongqing-spicy-noodles",
+    "name": "Chongqing Spicy Noodles",
+    "nameChinese": "重庆小面",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [
+      "wheat noodles",
+      "chili oil",
+      "Sichuan pepper",
+      "pickled mustard",
+      "soy sauce"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat",
+      "soy",
+      "mustard"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "chongqing-pea-and-minced-pork-noodles",
+    "name": "Chongqing Pea and Minced Pork Noodles",
+    "nameChinese": "豌杂面",
+    "category": "Lunch",
+    "cuisine": "Chongqing",
+    "ingredients": [
+      "wheat noodles",
+      "yellow peas",
+      "ground pork",
+      "chili oil",
+      "Sichuan pepper"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "crossing-the-bridge-rice-noodles",
+    "name": "Crossing-the-Bridge Rice Noodles",
+    "nameChinese": "过桥米线",
+    "category": "Lunch",
+    "cuisine": "Yunnan",
+    "ingredients": [
+      "rice noodles",
+      "chicken stock",
+      "pork",
+      "quail egg",
+      "chives"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "eggs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "yunnan-cold-chicken-rice-noodles",
+    "name": "Yunnan Cold Chicken Rice Noodles",
+    "nameChinese": "凉鸡米线",
+    "category": "Lunch",
+    "cuisine": "Yunnan",
+    "ingredients": [
+      "rice noodles",
+      "chicken",
+      "chili oil",
+      "vinegar",
+      "sesame"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "xinjiang-lamb-polo",
+    "name": "Xinjiang Lamb Polo",
+    "nameChinese": "新疆羊肉抓饭",
+    "category": "Lunch",
+    "cuisine": "Xinjiang",
+    "ingredients": [
+      "lamb",
+      "rice",
+      "carrot",
+      "onion",
+      "cumin"
+    ],
+    "dietaryTags": [],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "xinjiang-laghman",
+    "name": "Xinjiang Laghman",
+    "nameChinese": "新疆拉条子",
+    "category": "Lunch",
+    "cuisine": "Xinjiang",
+    "ingredients": [
+      "hand-pulled wheat noodles",
+      "lamb",
+      "bell pepper",
+      "tomato",
+      "onion"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "liuzhou-river-snail-rice-noodles",
+    "name": "Liuzhou River Snail Rice Noodles",
+    "nameChinese": "柳州螺蛳粉",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [
+      "rice noodles",
+      "river snail broth",
+      "sour bamboo",
+      "peanuts",
+      "chili oil"
+    ],
+    "dietaryTags": [
+      "Spicy",
+      "Seafood"
+    ],
+    "allergens": [
+      "peanuts",
+      "molluscs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "guilin-rice-noodles-with-crispy-pork",
+    "name": "Guilin Rice Noodles with Crispy Pork",
+    "nameChinese": "桂林米粉",
+    "category": "Lunch",
+    "cuisine": "Guangxi",
+    "ingredients": [
+      "rice noodles",
+      "pork",
+      "pickled beans",
+      "peanuts",
+      "pork stock"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "peanuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "tomato-and-scrambled-egg-rice",
+    "name": "Tomato and Scrambled Egg Rice",
+    "nameChinese": "番茄炒蛋盖饭",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [
+      "tomato",
+      "egg",
+      "rice",
+      "scallion",
+      "sugar"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "eggs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "green-pepper-and-shredded-pork",
+    "name": "Green Pepper and Shredded Pork",
+    "nameChinese": "青椒肉丝",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [
+      "pork",
+      "mild green pepper",
+      "soy sauce",
+      "ginger"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "scallion-tofu-salad",
+    "name": "Scallion Tofu Salad",
+    "nameChinese": "小葱拌豆腐",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [
+      "tofu",
+      "scallion",
+      "sesame oil",
+      "salt"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Healthy"
+    ],
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "meicai-pork-belly-with-rice",
+    "name": "Meicai Pork Belly with Rice",
+    "nameChinese": "梅菜扣肉饭",
+    "category": "Lunch",
+    "cuisine": "Chinese Home Cooking",
+    "ingredients": [
+      "pork belly",
+      "preserved mustard greens",
+      "rice",
+      "dark soy sauce",
+      "rock sugar"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy",
+      "mustard"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "tonkotsu-ramen",
+    "name": "Tonkotsu Ramen",
+    "nameChinese": "豚骨ラーメン",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "wheat ramen noodles",
+      "pork bones",
+      "pork belly",
+      "scallion",
+      "egg"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "eggs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "chicken-katsu-curry",
+    "name": "Chicken Katsu Curry",
+    "nameChinese": "チキンカツカレー",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "chicken",
+      "panko",
+      "egg",
+      "rice",
+      "potato",
+      "Japanese curry roux"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "eggs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "oyakodon",
+    "name": "Oyakodon",
+    "nameChinese": "親子丼",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "chicken",
+      "egg",
+      "onion",
+      "rice",
+      "bonito dashi",
+      "soy sauce"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "soy",
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "gyudon",
+    "name": "Gyudon",
+    "nameChinese": "牛丼",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "beef",
+      "onion",
+      "rice",
+      "soy sauce",
+      "mirin"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "yakisoba",
+    "name": "Yakisoba",
+    "nameChinese": "焼きそば",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "wheat noodles",
+      "pork",
+      "cabbage",
+      "carrot",
+      "yakisoba sauce"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "kitsune-udon",
+    "name": "Kitsune Udon",
+    "nameChinese": "きつねうどん",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "wheat udon",
+      "fried tofu",
+      "bonito dashi",
+      "soy sauce",
+      "mirin"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "soy",
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "tekka-don",
+    "name": "Tekka Don",
+    "nameChinese": "鉄火丼",
+    "category": "Lunch",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "tuna",
+      "sushi rice",
+      "nori",
+      "wasabi",
+      "soy sauce"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "soy",
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "bibimbap",
+    "name": "Bibimbap",
+    "nameChinese": "비빔밥",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [
+      "rice",
+      "beef",
+      "egg",
+      "spinach",
+      "sprouts",
+      "gochujang",
+      "sesame oil"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "eggs",
+      "soy",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "japchae",
+    "name": "Japchae",
+    "nameChinese": "잡채",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [
+      "sweet potato noodles",
+      "beef",
+      "spinach",
+      "mushroom",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "jajangmyeon",
+    "name": "Jajangmyeon",
+    "nameChinese": "짜장면",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [
+      "wheat noodles",
+      "pork",
+      "black bean paste",
+      "onion",
+      "zucchini"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "kimchi-fried-rice",
+    "name": "Kimchi Fried Rice",
+    "nameChinese": "김치볶음밥",
+    "category": "Lunch",
+    "cuisine": "Korean",
+    "ingredients": [
+      "rice",
+      "kimchi",
+      "pork",
+      "egg",
+      "gochujang",
+      "sesame oil"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "eggs",
+      "soy",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "spaghetti-carbonara",
+    "name": "Spaghetti Carbonara",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Italian",
+    "ingredients": [
+      "spaghetti",
+      "guanciale",
+      "egg",
+      "Pecorino Romano",
+      "black pepper"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "margherita-pizza",
+    "name": "Margherita Pizza",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Italian",
+    "ingredients": [
+      "wheat flour",
+      "tomato",
+      "mozzarella",
+      "basil",
+      "olive oil"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Fast Food"
+    ],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "genoese-pesto-trofie",
+    "name": "Genoese Pesto Trofie",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Italian",
+    "ingredients": [
+      "trofie pasta",
+      "basil",
+      "pine nuts",
+      "Parmesan",
+      "olive oil",
+      "garlic"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "dairy",
+      "tree nuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "piadina-with-prosciutto-and-squacquerone",
+    "name": "Piadina with Prosciutto and Squacquerone",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Italian",
+    "ingredients": [
+      "wheat flatbread",
+      "prosciutto",
+      "squacquerone",
+      "arugula"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "pasta-e-ceci",
+    "name": "Pasta e Ceci",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Italian",
+    "ingredients": [
+      "wheat pasta",
+      "chickpeas",
+      "tomato",
+      "rosemary",
+      "olive oil"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "american-cheeseburger",
+    "name": "American Cheeseburger",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [
+      "beef patty",
+      "cheddar",
+      "wheat bun",
+      "pickles",
+      "onion",
+      "mustard"
+    ],
+    "dietaryTags": [
+      "Fast Food"
+    ],
+    "allergens": [
+      "wheat",
+      "dairy",
+      "mustard"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "new-england-lobster-roll",
+    "name": "New England Lobster Roll",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [
+      "lobster",
+      "buttered wheat roll",
+      "mayonnaise",
+      "celery",
+      "lemon"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "philly-cheesesteak",
+    "name": "Philly Cheesesteak",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [
+      "beef",
+      "provolone",
+      "wheat hoagie roll",
+      "onion"
+    ],
+    "dietaryTags": [
+      "Fast Food"
+    ],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "cobb-salad",
+    "name": "Cobb Salad",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "American",
+    "ingredients": [
+      "chicken",
+      "bacon",
+      "egg",
+      "blue cheese",
+      "avocado",
+      "lettuce",
+      "tomato"
+    ],
+    "dietaryTags": [
+      "Healthy"
+    ],
+    "allergens": [
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "beer-battered-fish-and-chips",
+    "name": "Beer-Battered Fish and Chips",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "British",
+    "ingredients": [
+      "cod",
+      "wheat flour",
+      "beer",
+      "potatoes",
+      "malt vinegar"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "carne-asada-burrito",
+    "name": "Carne Asada Burrito",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Mexican",
+    "ingredients": [
+      "wheat tortilla",
+      "grilled beef",
+      "beans",
+      "rice",
+      "salsa",
+      "jalapeño"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "tacos-al-pastor",
+    "name": "Tacos al Pastor",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Mexican",
+    "ingredients": [
+      "corn tortilla",
+      "pork",
+      "pineapple",
+      "achiote",
+      "guajillo chili",
+      "onion"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "chicken-enchiladas-suizas",
+    "name": "Chicken Enchiladas Suizas",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Mexican",
+    "ingredients": [
+      "corn tortilla",
+      "chicken",
+      "tomatillo",
+      "serrano chili",
+      "crema",
+      "cheese"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "thai-green-chicken-curry",
+    "name": "Thai Green Chicken Curry",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Thai",
+    "ingredients": [
+      "chicken",
+      "green chili paste",
+      "shrimp paste",
+      "coconut milk",
+      "Thai eggplant",
+      "basil"
+    ],
+    "dietaryTags": [
+      "Spicy",
+      "Seafood"
+    ],
+    "allergens": [
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "pad-thai-with-shrimp",
+    "name": "Pad Thai with Shrimp",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Thai",
+    "ingredients": [
+      "rice noodles",
+      "shrimp",
+      "egg",
+      "tamarind",
+      "peanuts",
+      "fish sauce"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "eggs",
+      "peanuts",
+      "fish",
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "pad-kra-pao-moo",
+    "name": "Pad Kra Pao Moo",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Thai",
+    "ingredients": [
+      "pork",
+      "holy basil",
+      "bird's eye chili",
+      "garlic",
+      "fish sauce",
+      "rice"
+    ],
+    "dietaryTags": [
+      "Spicy",
+      "Seafood"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "banh-mi-thit-nuong",
+    "name": "Banh Mi Thit Nuong",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Vietnamese",
+    "ingredients": [
+      "wheat baguette",
+      "grilled pork",
+      "pickled carrot",
+      "daikon",
+      "cucumber",
+      "mayonnaise"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "eggs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "bun-cha",
+    "name": "Bun Cha",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Vietnamese",
+    "ingredients": [
+      "pork patties",
+      "rice vermicelli",
+      "fish sauce",
+      "green papaya",
+      "herbs"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "palak-paneer",
+    "name": "Palak Paneer",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Indian",
+    "ingredients": [
+      "spinach",
+      "paneer",
+      "onion",
+      "cumin",
+      "tomato",
+      "green chili"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "chana-masala",
+    "name": "Chana Masala",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Indian",
+    "ingredients": [
+      "chickpeas",
+      "tomato",
+      "onion",
+      "garam masala",
+      "green chili"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "pork-gyro-pita",
+    "name": "Pork Gyro Pita",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Greek",
+    "ingredients": [
+      "pork",
+      "pita",
+      "tomato",
+      "onion",
+      "yogurt",
+      "cucumber"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "lomo-saltado",
+    "name": "Lomo Saltado",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Peruvian",
+    "ingredients": [
+      "beef",
+      "potato fries",
+      "tomato",
+      "red onion",
+      "soy sauce",
+      "rice"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "falafel-pita-with-tahini",
+    "name": "Falafel Pita with Tahini",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Lebanese",
+    "ingredients": [
+      "chickpeas",
+      "parsley",
+      "pita",
+      "sesame tahini",
+      "cucumber",
+      "tomato"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "gado-gado",
+    "name": "Gado-Gado",
+    "nameChinese": null,
+    "category": "Lunch",
+    "cuisine": "Indonesian",
+    "ingredients": [
+      "tofu",
+      "tempeh",
+      "cabbage",
+      "potatoes",
+      "egg",
+      "peanuts",
+      "chili"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "eggs",
+      "peanuts",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "wenchang-chicken-rice",
+    "name": "Wenchang Chicken Rice",
+    "nameChinese": "文昌鸡饭",
+    "category": "Lunch",
+    "cuisine": "Hainan",
+    "ingredients": [
+      "poached chicken",
+      "rice",
+      "chicken broth",
+      "ginger",
+      "chili dip"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  }
+]

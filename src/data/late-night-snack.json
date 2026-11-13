@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "xian-cumin-lamb-skewers",
+    "name": "Xi'an Cumin Lamb Skewers",
+    "nameChinese": "孜然羊肉串",
+    "category": "Late-night Snack",
+    "cuisine": "Shaanxi",
+    "ingredients": [
+      "lamb",
+      "cumin",
+      "chili flakes",
+      "salt"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "xinjiang-roasted-naan-with-sesame",
+    "name": "Xinjiang Roasted Naan with Sesame",
+    "nameChinese": "芝麻馕",
+    "category": "Late-night Snack",
+    "cuisine": "Xinjiang",
+    "ingredients": [
+      "wheat flour",
+      "sesame",
+      "yeast",
+      "oil"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "sichuan-red-oil-wontons",
+    "name": "Sichuan Red Oil Wontons",
+    "nameChinese": "红油抄手",
+    "category": "Late-night Snack",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "wheat wrappers",
+      "pork",
+      "chili oil",
+      "soy sauce",
+      "sesame"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat",
+      "soy",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "sichuan-sweet-water-noodles",
+    "name": "Sichuan Sweet Water Noodles",
+    "nameChinese": "甜水面",
+    "category": "Late-night Snack",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "thick wheat noodles",
+      "sweet soy sauce",
+      "chili oil",
+      "sesame paste"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat",
+      "soy",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "chengdu-brown-sugar-ice-jelly",
+    "name": "Chengdu Brown Sugar Ice Jelly",
+    "nameChinese": "红糖冰粉",
+    "category": "Late-night Snack",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "ice jelly seeds",
+      "brown sugar",
+      "raisins",
+      "crushed peanuts"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "peanuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "sichuan-fried-brown-sugar-rice-cakes",
+    "name": "Sichuan Fried Brown Sugar Rice Cakes",
+    "nameChinese": "红糖糍粑",
+    "category": "Late-night Snack",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "glutinous rice",
+      "brown sugar",
+      "soybean flour"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "chongqing-hot-and-sour-glass-noodles",
+    "name": "Chongqing Hot and Sour Glass Noodles",
+    "nameChinese": "酸辣粉",
+    "category": "Late-night Snack",
+    "cuisine": "Chongqing",
+    "ingredients": [
+      "sweet potato noodles",
+      "chili oil",
+      "vinegar",
+      "peanuts",
+      "pork broth"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "peanuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "northeastern-grilled-cold-noodles",
+    "name": "Northeastern Grilled Cold Noodles",
+    "nameChinese": "烤冷面",
+    "category": "Late-night Snack",
+    "cuisine": "Northeastern Chinese",
+    "ingredients": [
+      "wheat noodle sheets",
+      "egg",
+      "onion",
+      "cilantro",
+      "chili sauce"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "yunnan-grilled-milk-fan",
+    "name": "Yunnan Grilled Milk Fan",
+    "nameChinese": "烤乳扇",
+    "category": "Late-night Snack",
+    "cuisine": "Yunnan",
+    "ingredients": [
+      "milk curd",
+      "rose jam"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "yunnan-rose-flower-cake",
+    "name": "Yunnan Rose Flower Cake",
+    "nameChinese": "鲜花饼",
+    "category": "Late-night Snack",
+    "cuisine": "Yunnan",
+    "ingredients": [
+      "wheat flour",
+      "rose petals",
+      "sugar",
+      "pork fat"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-salt-and-pepper-popcorn-chicken",
+    "name": "Taiwanese Salt and Pepper Popcorn Chicken",
+    "nameChinese": "盐酥鸡",
+    "category": "Late-night Snack",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "chicken",
+      "sweet potato starch",
+      "basil",
+      "white pepper"
+    ],
+    "dietaryTags": [],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-gua-bao",
+    "name": "Taiwanese Gua Bao",
+    "nameChinese": "刈包",
+    "category": "Late-night Snack",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "wheat bun",
+      "braised pork belly",
+      "mustard greens",
+      "cilantro",
+      "peanuts"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "peanuts",
+      "mustard"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-coffin-bread",
+    "name": "Taiwanese Coffin Bread",
+    "nameChinese": "棺材板",
+    "category": "Late-night Snack",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "wheat bread",
+      "chicken",
+      "milk",
+      "butter",
+      "peas"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-black-pepper-bun",
+    "name": "Taiwanese Black Pepper Bun",
+    "nameChinese": "胡椒饼",
+    "category": "Late-night Snack",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "wheat dough",
+      "pork",
+      "scallion",
+      "black pepper",
+      "sesame"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-sweet-tofu-pudding-with-ginger-syrup",
+    "name": "Taiwanese Sweet Tofu Pudding with Ginger Syrup",
+    "nameChinese": "姜汁豆花",
+    "category": "Late-night Snack",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "soybeans",
+      "ginger",
+      "brown sugar",
+      "gypsum"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-peanut-ice-cream-roll",
+    "name": "Taiwanese Peanut Ice Cream Roll",
+    "nameChinese": "花生卷冰淇淋",
+    "category": "Late-night Snack",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "wheat crepe",
+      "peanut brittle",
+      "ice cream",
+      "cilantro"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "dairy",
+      "peanuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "taiwanese-winter-melon-punch",
+    "name": "Taiwanese Winter Melon Punch",
+    "nameChinese": "冬瓜茶",
+    "category": "Late-night Snack",
+    "cuisine": "Taiwanese",
+    "ingredients": [
+      "winter melon",
+      "brown sugar",
+      "water"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "hong-kong-egg-waffle",
+    "name": "Hong Kong Egg Waffle",
+    "nameChinese": "鸡蛋仔",
+    "category": "Late-night Snack",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "egg",
+      "wheat flour",
+      "custard powder",
+      "evaporated milk"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "hong-kong-curry-fish-balls",
+    "name": "Hong Kong Curry Fish Balls",
+    "nameChinese": "咖喱鱼蛋",
+    "category": "Late-night Snack",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "fish paste",
+      "curry powder",
+      "chili",
+      "coconut milk"
+    ],
+    "dietaryTags": [
+      "Spicy",
+      "Seafood"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "cantonese-fried-sesame-balls",
+    "name": "Cantonese Fried Sesame Balls",
+    "nameChinese": "煎堆",
+    "category": "Late-night Snack",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "glutinous rice flour",
+      "sesame",
+      "red bean paste"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "hong-kong-condensed-milk-french-toast",
+    "name": "Hong Kong Condensed Milk French Toast",
+    "nameChinese": "港式西多士",
+    "category": "Late-night Snack",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "wheat bread",
+      "egg",
+      "peanut butter",
+      "butter",
+      "condensed milk"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "dairy",
+      "peanuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "hong-kong-mango-pomelo-sago",
+    "name": "Hong Kong Mango Pomelo Sago",
+    "nameChinese": "杨枝甘露",
+    "category": "Late-night Snack",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "mango",
+      "pomelo",
+      "sago",
+      "coconut milk",
+      "evaporated milk"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "cantonese-black-sesame-soup",
+    "name": "Cantonese Black Sesame Soup",
+    "nameChinese": "黑芝麻糊",
+    "category": "Late-night Snack",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "black sesame",
+      "rice flour",
+      "sugar"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "hong-kong-lemon-black-tea",
+    "name": "Hong Kong Lemon Black Tea",
+    "nameChinese": "冻柠茶",
+    "category": "Late-night Snack",
+    "cuisine": "Cantonese",
+    "ingredients": [
+      "black tea",
+      "lemon",
+      "sugar"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "macau-portuguese-egg-tart",
+    "name": "Macau Portuguese Egg Tart",
+    "nameChinese": "葡式蛋挞",
+    "category": "Late-night Snack",
+    "cuisine": "Macanese",
+    "ingredients": [
+      "wheat puff pastry",
+      "egg yolk",
+      "cream",
+      "milk",
+      "sugar"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "xiamen-five-spice-pork-roll",
+    "name": "Xiamen Five-Spice Pork Roll",
+    "nameChinese": "炸五香",
+    "category": "Late-night Snack",
+    "cuisine": "Fujian",
+    "ingredients": [
+      "pork",
+      "water chestnut",
+      "tofu skin",
+      "five-spice powder",
+      "onion"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "soy",
+      "tree nuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "changsha-black-stinky-tofu",
+    "name": "Changsha Black Stinky Tofu",
+    "nameChinese": "长沙臭豆腐",
+    "category": "Late-night Snack",
+    "cuisine": "Hunan",
+    "ingredients": [
+      "fermented tofu",
+      "chili",
+      "garlic",
+      "pickled vegetables",
+      "vegetable oil"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "osaka-takoyaki",
+    "name": "Osaka Takoyaki",
+    "nameChinese": "たこ焼き",
+    "category": "Late-night Snack",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "octopus",
+      "wheat flour",
+      "egg",
+      "dashi",
+      "mayonnaise",
+      "bonito flakes"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "fish",
+      "molluscs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "salmon-onigiri",
+    "name": "Salmon Onigiri",
+    "nameChinese": "鮭おにぎり",
+    "category": "Late-night Snack",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "rice",
+      "salmon",
+      "nori",
+      "salt"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "inari-sushi",
+    "name": "Inari Sushi",
+    "nameChinese": "いなり寿司",
+    "category": "Late-night Snack",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "rice",
+      "fried tofu pouches",
+      "soy sauce",
+      "mirin",
+      "vinegar"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "red-bean-taiyaki",
+    "name": "Red Bean Taiyaki",
+    "nameChinese": "たい焼き",
+    "category": "Late-night Snack",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "wheat flour",
+      "egg",
+      "milk",
+      "sweet red bean paste"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "mitarashi-dango",
+    "name": "Mitarashi Dango",
+    "nameChinese": "みたらし団子",
+    "category": "Late-night Snack",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "rice flour",
+      "sugar",
+      "soy sauce",
+      "potato starch"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "edamame-with-sea-salt",
+    "name": "Edamame with Sea Salt",
+    "nameChinese": "塩ゆで枝豆",
+    "category": "Late-night Snack",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "soybeans",
+      "sea salt"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Healthy"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "nagasaki-castella",
+    "name": "Nagasaki Castella",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Japanese",
+    "ingredients": [
+      "egg",
+      "wheat flour",
+      "sugar",
+      "honey"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "tteokbokki",
+    "name": "Tteokbokki",
+    "nameChinese": "떡볶이",
+    "category": "Late-night Snack",
+    "cuisine": "Korean",
+    "ingredients": [
+      "rice cakes",
+      "fish cakes",
+      "anchovy stock",
+      "gochujang"
+    ],
+    "dietaryTags": [
+      "Spicy",
+      "Seafood"
+    ],
+    "allergens": [
+      "soy",
+      "fish"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "korean-brown-sugar-hotteok",
+    "name": "Korean Brown Sugar Hotteok",
+    "nameChinese": "호떡",
+    "category": "Late-night Snack",
+    "cuisine": "Korean",
+    "ingredients": [
+      "wheat flour",
+      "brown sugar",
+      "cinnamon",
+      "peanuts",
+      "yeast"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "peanuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "bungeoppang",
+    "name": "Bungeoppang",
+    "nameChinese": "붕어빵",
+    "category": "Late-night Snack",
+    "cuisine": "Korean",
+    "ingredients": [
+      "wheat flour",
+      "egg",
+      "milk",
+      "red bean paste"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "korean-corn-cheese",
+    "name": "Korean Corn Cheese",
+    "nameChinese": "콘치즈",
+    "category": "Late-night Snack",
+    "cuisine": "Korean",
+    "ingredients": [
+      "sweet corn",
+      "mayonnaise",
+      "mozzarella",
+      "butter"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "shin-ramyun-noodle-soup",
+    "name": "Shin Ramyun Noodle Soup",
+    "nameChinese": "신라면",
+    "category": "Late-night Snack",
+    "cuisine": "Korean",
+    "ingredients": [
+      "wheat noodles",
+      "chili seasoning",
+      "mushroom",
+      "soy",
+      "beef flavor seasoning"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat",
+      "soy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "buffalo-chicken-wings",
+    "name": "Buffalo Chicken Wings",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "American",
+    "ingredients": [
+      "chicken wings",
+      "cayenne hot sauce",
+      "butter",
+      "blue cheese dressing"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "chili-cheese-fries",
+    "name": "Chili Cheese Fries",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "American",
+    "ingredients": [
+      "potato fries",
+      "beef chili",
+      "cheddar",
+      "onion"
+    ],
+    "dietaryTags": [
+      "Spicy",
+      "Fast Food"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "caramel-popcorn",
+    "name": "Caramel Popcorn",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "American",
+    "ingredients": [
+      "popcorn",
+      "sugar",
+      "butter",
+      "corn syrup"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "kettle-cooked-salt-and-vinegar-chips",
+    "name": "Kettle-Cooked Salt and Vinegar Chips",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "American",
+    "ingredients": [
+      "potatoes",
+      "vegetable oil",
+      "vinegar powder",
+      "sea salt"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "classic-grilled-cheddar-sandwich",
+    "name": "Classic Grilled Cheddar Sandwich",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "American",
+    "ingredients": [
+      "wheat bread",
+      "cheddar",
+      "butter"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "new-york-cheesecake",
+    "name": "New York Cheesecake",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "American",
+    "ingredients": [
+      "cream cheese",
+      "egg",
+      "sour cream",
+      "sugar",
+      "wheat cracker crust"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "root-beer-float",
+    "name": "Root Beer Float",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "American",
+    "ingredients": [
+      "root beer",
+      "vanilla ice cream"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "liege-pearl-sugar-waffle",
+    "name": "Liège Pearl Sugar Waffle",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Belgian",
+    "ingredients": [
+      "wheat flour",
+      "egg",
+      "milk",
+      "butter",
+      "pearl sugar"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "churros-with-dark-chocolate",
+    "name": "Churros with Dark Chocolate",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Spanish",
+    "ingredients": [
+      "wheat flour",
+      "oil",
+      "sugar",
+      "dark chocolate",
+      "milk"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "patatas-bravas",
+    "name": "Patatas Bravas",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Spanish",
+    "ingredients": [
+      "potato",
+      "olive oil",
+      "tomato",
+      "paprika",
+      "garlic",
+      "cayenne"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "elote-with-cotija",
+    "name": "Elote with Cotija",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Mexican",
+    "ingredients": [
+      "corn",
+      "mayonnaise",
+      "Cotija",
+      "lime",
+      "chili powder"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "oaxacan-tlayuda",
+    "name": "Oaxacan Tlayuda",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Mexican",
+    "ingredients": [
+      "large corn tortilla",
+      "black beans",
+      "pork fat",
+      "Oaxaca cheese",
+      "cabbage",
+      "tomato"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "pistachio-baklava",
+    "name": "Pistachio Baklava",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Turkish",
+    "ingredients": [
+      "wheat filo",
+      "pistachio",
+      "butter",
+      "sugar",
+      "lemon"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "dairy",
+      "tree nuts"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "punjabi-potato-samosa",
+    "name": "Punjabi Potato Samosa",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Indian",
+    "ingredients": [
+      "wheat flour",
+      "potato",
+      "peas",
+      "cumin",
+      "green chili"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "pani-puri",
+    "name": "Pani Puri",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Indian",
+    "ingredients": [
+      "semolina shells",
+      "potato",
+      "chickpea",
+      "tamarind",
+      "mint",
+      "green chili"
+    ],
+    "dietaryTags": [
+      "Vegetarian",
+      "Spicy"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "halo-halo",
+    "name": "Halo-Halo",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Filipino",
+    "ingredients": [
+      "shaved ice",
+      "evaporated milk",
+      "sweet beans",
+      "coconut jelly",
+      "purple yam",
+      "leche flan"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "vietnamese-salt-coffee",
+    "name": "Vietnamese Salt Coffee",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Vietnamese",
+    "ingredients": [
+      "coffee",
+      "condensed milk",
+      "cream",
+      "salt"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "thai-mango-sticky-rice",
+    "name": "Thai Mango Sticky Rice",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Thai",
+    "ingredients": [
+      "mango",
+      "glutinous rice",
+      "coconut milk",
+      "mung beans"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "pao-de-queijo",
+    "name": "Pão de Queijo",
+    "nameChinese": null,
+    "category": "Late-night Snack",
+    "cuisine": "Brazilian",
+    "ingredients": [
+      "tapioca flour",
+      "cheese",
+      "egg",
+      "milk",
+      "oil"
+    ],
+    "dietaryTags": [
+      "Vegetarian"
+    ],
+    "allergens": [
+      "eggs",
+      "dairy"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  }
+]
