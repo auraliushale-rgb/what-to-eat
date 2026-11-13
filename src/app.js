@@ -39,9 +39,8 @@ const t = value => language === 'zh' && extraLabels[value] ? extraLabels[value] 
 const brandName = name => language === 'zh' ? brands.find(brand => brand.name === name)?.nameChinese || name : name;
 const regionLabel = item => {
   if (item.availability !== 'regional') return '';
-  const region = copy(item.region, item.regionChinese);
-  return region ? copy('Regional exclusive: ', '区域限定：') + region :
-    copy('Regional exclusive · Location not specified', '区域限定 · 文档未注明地区');
+  const region = copy(item.region, item.regionChinese)?.trim();
+  return region ? copy('Regional exclusive: ', '区域限定：') + region : '';
 };
 const withRegion = (label, item) => [label, regionLabel(item)].filter(Boolean).join(' · ');
 const cuisineCorrections = {
