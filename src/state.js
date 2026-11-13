@@ -25,10 +25,11 @@ export function loadState(storage) {
       if (typeof raw[field] === 'boolean') state[field] = raw[field];
     }
     for (const category of categories) {
-      for (const field of ['last', 'plan']) {
-        const id = raw[field]?.[category];
-        if (byId.get(id)?.category === category) state[field][category] = id;
-      }
+      const last = raw.last?.[category];
+      if (byId.get(last)?.category === category) state.last[category] = last;
+      const saved = raw.plan?.[category];
+      const picks = [...new Set((Array.isArray(saved) ? saved : [saved]).filter(id => byId.get(id)?.category === category))];
+      if (picks.length) state.plan[category] = picks;
     }
     return state;
   } catch {

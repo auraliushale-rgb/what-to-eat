@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400..900&display=swap");
+
 :root {
   --paper:#f5f3ee;
   --surface:#fffdf8;
@@ -185,8 +187,7 @@ dialog::backdrop{background:#392d255e;animation:backdrop-in 180ms ease-out both}
   *,*::before,*::after{animation-duration:0ms!important;transition-duration:0ms!important;scroll-behavior:auto!important}
 }
 /* Warm palette and language controls */
-:root{--paper:#faf6ee;--surface:#fffdf8;--field:#fbf7ef;--soft:#f3eade;--line:#e9ddcc;--selection:#eee1d0;--navy:#604839;--ink:#45362e;--muted:#69584b;--hover-edge:#cdb599;font-family:"Times New Roman",SimSun,"Songti SC","Noto Serif CJK SC",serif}
-[lang="zh"],[lang="zh-CN"]{font-family:"Times New Roman",SimSun,"Songti SC","Noto Serif CJK SC",serif}
+:root{--paper:#faf6ee;--surface:#fffdf8;--field:#fbf7ef;--soft:#f3eade;--line:#e9ddcc;--selection:#eee1d0;--navy:#604839;--ink:#45362e;--muted:#69584b;--hover-edge:#cdb599;font-family:"Times New Roman","Noto Serif SC","Songti SC",STSong,SimSun,serif}
 .logo{width:46px;height:46px;object-fit:contain;background:transparent;border-radius:12px}
 #language {
   position: relative;
@@ -213,7 +214,7 @@ dialog::backdrop{background:#392d255e;animation:backdrop-in 180ms ease-out both}
 }
 #language[data-animated]::before { transition: transform var(--motion); }
 #language[aria-pressed="true"]::before { transform: translateX(0); }
-#language span { display: grid; place-items: center; padding: 5px 8px; font-weight: bold; }
+#language span { display: grid; place-items: center; padding: 3px 5px; font-size: 13px; font-weight: bold; }
 #language[aria-pressed="true"] [lang="zh"],
 #language[aria-pressed="false"] [lang="en"] { color: var(--navy); }
 .button.primary:hover:not(:disabled){background:#755746}
@@ -289,7 +290,6 @@ dialog[open]{animation:dialog-in 260ms cubic-bezier(.2,.7,.3,1) both}
 #menu-feedback:empty { display:none; }
 #menu-feedback { margin-top:8px; }
 #plan-brand-field { margin-top:12px; }
-:lang(zh-CN), :lang(zh) { font-family:"Times New Roman",SimSun,"Songti SC","STSong","Noto Serif CJK SC",serif; }
 @media(max-width:540px) {
   .hero-art { min-height:0; }
   .hero-art img { max-height:340px; }
@@ -300,7 +300,21 @@ dialog[open]{animation:dialog-in 260ms cubic-bezier(.2,.7,.3,1) both}
 .site-select summary { display:flex; justify-content:space-between; gap:8px; align-items:center; min-height:44px; cursor:pointer; padding:8px 12px; border:1px solid var(--line); border-radius:8px; background:var(--surface); }
 .site-select summary::after { content:"⌄"; transition:rotate var(--motion); }
 .site-select[open] summary::after { rotate:180deg; }
-.site-select-options { position:absolute; inset-inline:0; top:100%; z-index:3; max-height:230px; overflow:auto; border:1px solid var(--line); border-radius:8px; background:var(--surface); box-shadow:0 8px 24px #38291e22; }
-.site-select[open] .site-select-options { animation:arrive var(--motion) both; }
+.site-select-panel { position:absolute; inset-inline:0; top:100%; z-index:3; overflow:hidden; border:1px solid var(--line); border-radius:8px; background:var(--surface); box-shadow:0 8px 24px #38291e22; }
+.site-select-options { max-height:min(230px, 32vh); overflow:auto; overscroll-behavior:contain; }
+.site-select-more { display:block; width:100%; min-height:44px; border:0; background:var(--selection); color:var(--navy); font-weight:700; }
+#details .site-select-panel { position:relative; top:auto; }
+@media (max-width:680px) { .site-select-panel { position:relative; top:auto; } }
+.site-select[open] .site-select-panel { animation:arrive var(--motion) both; }
 .site-select-options button { display:block; width:100%; min-height:44px; text-align:start; border:0; background:none; padding:6px 12px; }
 .site-select-options button:is(:hover,[aria-pressed="true"]) { background:var(--selection); }
+
+.plan-card-heading { display:flex; justify-content:space-between; align-items:center; gap:8px; }
+.plan-add { text-decoration:none; }
+.wheel-tabs .tea-nav { margin-inline-start:12px; }
+
+.settings-grid > section { grid-column: 1 / -1; }
+.check-grid > [data-action=custom] { grid-column: 1 / -1; margin-top: 4px; }
+
+:lang(zh) { font-family: "Noto Serif SC", "Songti SC", STSong, SimSun, serif; letter-spacing: normal; }
+:lang(en), .wordmark, .footer { font-family: "Times New Roman", serif; }

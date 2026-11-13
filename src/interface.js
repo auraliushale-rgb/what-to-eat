@@ -220,6 +220,12 @@ No Dairy|不吃奶制品
 No Peanuts|不吃花生
 No Mushrooms|不吃菌菇
 No Spicy Food|不吃辣
+Fruit Tea|水果茶
+Ice Cream|冰淇淋
+Other|其他
+Wheel segments|转盘候选
+Name or brand|名称或品牌
+No brands match your restrictions.|没有符合当前限制的品牌。
 `.trim().split('\n').map(line => line.split('|')));
 
 export function translate(value, language) {
