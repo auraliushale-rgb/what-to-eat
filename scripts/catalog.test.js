@@ -13,9 +13,14 @@ test('catalog meets meal minimums and each named record is unique', () => {
   assert.equal(brands.length, 12);
   const names = new Set();
   const originalNames = new Set();
+  const auditedIds = new Set();
   for (const [i, category] of categories.entries()) {
     assert.ok(catalog[category].length >= (sizes[i] ?? 1));
     for (const item of catalog[category]) {
+      assert.ok(byId.has(item.id));
+      assert.equal(item.category, category);
+      if (auditedIds.has(item.id)) continue;
+      auditedIds.add(item.id);
       assert.equal(item.category, category);
       assert.match(item.id, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
       assert.ok(item.name && (item.brand || !noPlaceholders.test(item.name)), item.name);
