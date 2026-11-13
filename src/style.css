@@ -142,6 +142,26 @@ legend{padding:0 6px;font-weight:700;color:var(--navy);font-size:19px}
 dialog{width:min(100% - 24px,570px);padding:0;max-height:90dvh;color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden;box-shadow:0 22px 70px #38291e33}
 dialog[open]{display:flex;flex-direction:column;animation:arrive var(--motion) both}
 dialog::backdrop{background:#392d255e;animation:backdrop-in var(--motion) both}
+@supports (transition-behavior:allow-discrete) and (overlay:auto){
+  dialog{
+    opacity:0;
+    transform:translateY(4px);
+    transition:opacity var(--motion),transform var(--motion),
+      display var(--motion) allow-discrete,overlay var(--motion) allow-discrete;
+  }
+  dialog[open]{opacity:1;transform:none;animation:none}
+  dialog::backdrop{
+    opacity:0;
+    animation:none;
+    transition:opacity var(--motion),display var(--motion) allow-discrete,
+      overlay var(--motion) allow-discrete;
+  }
+  dialog[open]::backdrop{opacity:1}
+  @starting-style{
+    dialog[open]{opacity:0;transform:translateY(4px)}
+    dialog[open]::backdrop{opacity:0}
+  }
+}
 .dialog-head,.dialog-actions{padding:16px 20px;display:flex;gap:10px;justify-content:space-between;border-bottom:1px solid var(--line)}
 .dialog-body{min-height:0;padding:16px 20px;overflow:auto;overscroll-behavior:contain}
 .dialog-body h3{margin:12px 0 4px}
@@ -186,7 +206,7 @@ dialog::backdrop{background:#392d255e;animation:backdrop-in var(--motion) both}
   .check-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media(prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:0ms!important;transition-duration:0ms!important;scroll-behavior:auto!important}
+  *,*::before,*::after,dialog::backdrop{animation-duration:0ms!important;transition-duration:0ms!important;scroll-behavior:auto!important}
 }
 /* Warm palette and language controls */
 :root{--paper:#faf6ee;--surface:#fffdf8;--field:#fbf7ef;--soft:#f3eade;--line:#e9ddcc;--selection:#eee1d0;--navy:#604839;--ink:#45362e;--muted:#69584b;--hover-edge:#cdb599;font-family:"Times New Roman","Noto Serif SC","Songti SC",STSong,SimSun,serif}

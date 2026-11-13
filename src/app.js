@@ -26,7 +26,12 @@ function interfaceMotion() {
     easing: style.getPropertyValue('--motion-easing').trim()
   };
 }
-let languageAnimation;
+let pageAnimation;
+function animatePage(keyframes) {
+  if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    pageAnimation = main.animate(keyframes, interfaceMotion());
+  }
+}
 try { if (storage?.getItem('what-to-eat:language') === 'zh') language = 'zh'; } catch {}
 const copy = (en, zh) => language === 'zh' ? zh : en;
 const extraLabels = {'Chinese Home Cooking':'家常菜', 'Ice Cream':'冰淇淋', Other:'其他', Me:'我'};
@@ -220,7 +225,7 @@ function me() {
   library = accountSection;
   return '<nav class="segmented account-nav" aria-label="' + copy('My account','我的栏目') + '">' + sections.map(([key,label]) =>
     '<button aria-pressed="' + (accountSection === key) + '" data-action="account-section" data-value="' + key + '">' + label + '</button>').join('') +
-    '</nav><div class="arrive">' + (accountSection === 'preferences' ? settings() : favorites()) + '</div>';
+    '</nav><div class="account-content">' + (accountSection === 'preferences' ? settings() : favorites()) + '</div>';
 }
 function favorites() {
   const history = library === 'history';
@@ -324,6 +329,7 @@ function enhanceSelects(root) {
   }
 }
 function render({navigate = false, refocus} = {}) {
+  pageAnimation?.cancel();
   const mainRoutes = ['home', 'roulette', 'plan', 'me'];
   const active = {tea:'roulette', favorites:'me', preferences:'me'}[current.page] || current.page;
   navigation.innerHTML = mainRoutes.map(page => '<a href="#' + page + '"' + (page === active ? ' aria-current="page"' : '') +
@@ -354,8 +360,7 @@ function render({navigate = false, refocus} = {}) {
   if (navigate) {
     window.scrollTo(0, 0);
     main.focus({preventScroll:true});
-    main.classList.remove('arrive');
-    requestAnimationFrame(() => main.classList.add('arrive'));
+    animatePage([{opacity:0, transform:'translateY(4px)'}, {opacity:1, transform:'none'}]);
   } else if (refocus) {
     document.querySelector(refocus)?.focus({preventScroll:true});
   }
@@ -527,14 +532,16 @@ document.addEventListener('click', event => {
     language = language === 'en' ? 'zh' : 'en';
     try { storage?.setItem('what-to-eat:language', language); } catch {}
     render();
-    languageAnimation?.cancel();
-    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      languageAnimation = main.animate([{opacity: .35}, {opacity: 1}], interfaceMotion());
-    }
+    animatePage([{opacity:.35}, {opacity:1}]);
     return;
   }
   if (action === 'spin') { void spin(value); return; }
-  if (action === 'account-section') { accountSection = value; rerenderAction(control); return; }
+  if (action === 'account-section') {
+    accountSection = value;
+    rerenderAction(control);
+    main.querySelector('.account-content')?.classList.add('arrive');
+    return;
+  }
   if (action === 'clear-menu' || action === 'clear-category' || action === 'remove-menu') {
     if (action === 'clear-menu') state.plan = {};
     else if (action === 'clear-category') delete state.plan[value];
