@@ -1,22 +1,90 @@
 [
   {
-    "id": "cantonese-sweet-and-sour-pork",
-    "name": "Cantonese Sweet and Sour Pork",
-    "nameChinese": "咕噜肉",
+    "id": "wuhan-three-delicacy-doupi",
+    "name": "Wuhan Three-Delicacy Doupi",
+    "nameChinese": "三鲜豆皮",
     "category": "Dinner",
-    "cuisine": "Cantonese",
+    "cuisine": "Hubei",
     "ingredients": [
+      "glutinous rice",
+      "mung beans",
+      "egg",
       "pork",
-      "pineapple",
-      "bell pepper",
-      "vinegar",
-      "wheat flour",
-      "egg"
+      "shiitake"
     ],
     "dietaryTags": [],
     "allergens": [
-      "wheat",
       "eggs"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "bang-bang-chicken",
+    "name": "Bang Bang Chicken",
+    "nameChinese": "棒棒鸡",
+    "category": "Dinner",
+    "cuisine": "Sichuan",
+    "ingredients": [
+      "chicken",
+      "sesame paste",
+      "chili oil",
+      "scallion"
+    ],
+    "dietaryTags": [
+      "Spicy"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "xiamen-satay-noodle-soup",
+    "name": "Xiamen Satay Noodle Soup",
+    "nameChinese": "沙茶面",
+    "category": "Dinner",
+    "cuisine": "Fujian",
+    "ingredients": [
+      "wheat noodles",
+      "peanut satay",
+      "pork",
+      "tofu",
+      "shrimp"
+    ],
+    "dietaryTags": [
+      "Seafood"
+    ],
+    "allergens": [
+      "wheat",
+      "peanuts",
+      "soy",
+      "crustaceans"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
+  },
+  {
+    "id": "thai-green-chicken-curry",
+    "name": "Thai Green Chicken Curry",
+    "nameChinese": null,
+    "category": "Dinner",
+    "cuisine": "Thai",
+    "ingredients": [
+      "chicken",
+      "green chili paste",
+      "shrimp paste",
+      "coconut milk",
+      "Thai eggplant",
+      "basil"
+    ],
+    "dietaryTags": [
+      "Spicy",
+      "Seafood"
+    ],
+    "allergens": [
+      "crustaceans"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -26,7 +94,7 @@
     "name": "Stuffed Tofu with Pork",
     "nameChinese": "客家酿豆腐",
     "category": "Dinner",
-    "cuisine": "Cantonese",
+    "cuisine": "Fujian",
     "ingredients": [
       "tofu",
       "pork",
@@ -41,468 +109,6 @@
       "wheat",
       "soy",
       "crustaceans"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "cantonese-salt-baked-chicken",
-    "name": "Cantonese Salt-Baked Chicken",
-    "nameChinese": "盐焗鸡",
-    "category": "Dinner",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "chicken",
-      "sand ginger",
-      "sea salt"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "cantonese-lotus-root-and-pork-soup",
-    "name": "Cantonese Lotus Root and Pork Soup",
-    "nameChinese": "莲藕排骨汤",
-    "category": "Dinner",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "lotus root",
-      "pork ribs",
-      "peanuts",
-      "dried squid"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "peanuts",
-      "molluscs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chopped-chili-fish-head",
-    "name": "Chopped Chili Fish Head",
-    "nameChinese": "剁椒鱼头",
-    "category": "Dinner",
-    "cuisine": "Hunan",
-    "ingredients": [
-      "bighead carp",
-      "salted chopped chili",
-      "ginger",
-      "garlic"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "hunan-dongan-chicken",
-    "name": "Hunan Dong'an Chicken",
-    "nameChinese": "东安鸡",
-    "category": "Dinner",
-    "cuisine": "Hunan",
-    "ingredients": [
-      "chicken",
-      "rice vinegar",
-      "dried chili",
-      "Sichuan pepper",
-      "ginger"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "hunan-smoked-pork-with-garlic-shoots",
-    "name": "Hunan Smoked Pork with Garlic Shoots",
-    "nameChinese": "蒜苗炒腊肉",
-    "category": "Dinner",
-    "cuisine": "Hunan",
-    "ingredients": [
-      "smoked pork",
-      "garlic shoots",
-      "dried chili",
-      "fermented black beans"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "hunan-steamed-cured-meats",
-    "name": "Hunan Steamed Cured Meats",
-    "nameChinese": "腊味合蒸",
-    "category": "Dinner",
-    "cuisine": "Hunan",
-    "ingredients": [
-      "cured pork belly",
-      "cured fish",
-      "Chinese sausage",
-      "fermented black beans",
-      "dried chili"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood",
-      "Healthy"
-    ],
-    "allergens": [
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "dongpo-pork",
-    "name": "Dongpo Pork",
-    "nameChinese": "东坡肉",
-    "category": "Dinner",
-    "cuisine": "Zhejiang",
-    "ingredients": [
-      "pork belly",
-      "Shaoxing wine",
-      "soy sauce",
-      "rock sugar",
-      "scallion"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "west-lake-fish-in-vinegar-gravy",
-    "name": "West Lake Fish in Vinegar Gravy",
-    "nameChinese": "西湖醋鱼",
-    "category": "Dinner",
-    "cuisine": "Zhejiang",
-    "ingredients": [
-      "grass carp",
-      "black vinegar",
-      "sugar",
-      "soy sauce",
-      "ginger"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "soy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "song-sister-fish-soup",
-    "name": "Song Sister Fish Soup",
-    "nameChinese": "宋嫂鱼羹",
-    "category": "Dinner",
-    "cuisine": "Zhejiang",
-    "ingredients": [
-      "mandarin fish",
-      "ham",
-      "shiitake",
-      "bamboo shoots",
-      "egg",
-      "vinegar"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "eggs",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "ningbo-yellow-croaker-with-pickled-mustard",
-    "name": "Ningbo Yellow Croaker with Pickled Mustard",
-    "nameChinese": "雪菜大黄鱼",
-    "category": "Dinner",
-    "cuisine": "Zhejiang",
-    "ingredients": [
-      "yellow croaker",
-      "pickled mustard greens",
-      "ginger",
-      "rice wine"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "fish",
-      "mustard"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "squirrel-shaped-mandarin-fish",
-    "name": "Squirrel-Shaped Mandarin Fish",
-    "nameChinese": "松鼠鳜鱼",
-    "category": "Dinner",
-    "cuisine": "Jiangsu",
-    "ingredients": [
-      "mandarin fish",
-      "starch",
-      "vinegar",
-      "sugar",
-      "tomato",
-      "peas"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "suzhou-stuffed-gluten-puffs",
-    "name": "Suzhou Stuffed Gluten Puffs",
-    "nameChinese": "肉酿面筋",
-    "category": "Dinner",
-    "cuisine": "Jiangsu",
-    "ingredients": [
-      "wheat gluten puffs",
-      "ground pork",
-      "ginger",
-      "soy sauce"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "fuzhou-red-wine-lees-chicken",
-    "name": "Fuzhou Red Wine Lees Chicken",
-    "nameChinese": "红糟鸡",
-    "category": "Dinner",
-    "cuisine": "Fujian",
-    "ingredients": [
-      "chicken",
-      "red rice wine lees",
-      "ginger",
-      "sesame oil"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "sesame"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "harbin-red-sausage-with-garlic",
-    "name": "Harbin Red Sausage with Garlic",
-    "nameChinese": "哈尔滨红肠",
-    "category": "Dinner",
-    "cuisine": "Northeastern Chinese",
-    "ingredients": [
-      "pork",
-      "beef",
-      "garlic",
-      "black pepper",
-      "sausage casing"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shanghai-red-braised-pork",
-    "name": "Shanghai Red-Braised Pork",
-    "nameChinese": "本帮红烧肉",
-    "category": "Dinner",
-    "cuisine": "Shanghai",
-    "ingredients": [
-      "pork belly",
-      "soy sauce",
-      "rock sugar",
-      "Shaoxing wine"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chongqing-mala-beef-tallow-hot-pot",
-    "name": "Chongqing Mala Beef Tallow Hot Pot",
-    "nameChinese": "重庆牛油火锅",
-    "category": "Dinner",
-    "cuisine": "Chongqing",
-    "ingredients": [
-      "beef tallow",
-      "dried chili",
-      "Sichuan pepper",
-      "beef",
-      "tripe",
-      "tofu",
-      "vegetables"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chongqing-grilled-fish",
-    "name": "Chongqing Grilled Fish",
-    "nameChinese": "重庆烤鱼",
-    "category": "Dinner",
-    "cuisine": "Chongqing",
-    "ingredients": [
-      "grass carp",
-      "dried chili",
-      "Sichuan pepper",
-      "celery",
-      "bean sprouts"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "yunnan-steam-pot-chicken",
-    "name": "Yunnan Steam-Pot Chicken",
-    "nameChinese": "汽锅鸡",
-    "category": "Dinner",
-    "cuisine": "Yunnan",
-    "ingredients": [
-      "chicken",
-      "ginger",
-      "scallion",
-      "salt"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "yunnan-mint-and-beef-stir-fry",
-    "name": "Yunnan Mint and Beef Stir-Fry",
-    "nameChinese": "薄荷牛肉",
-    "category": "Dinner",
-    "cuisine": "Yunnan",
-    "ingredients": [
-      "beef",
-      "mint",
-      "dried chili",
-      "garlic",
-      "soy sauce"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "yunnan-fried-rubing-cheese",
-    "name": "Yunnan Fried Rubing Cheese",
-    "nameChinese": "煎乳饼",
-    "category": "Dinner",
-    "cuisine": "Yunnan",
-    "ingredients": [
-      "goat milk cheese",
-      "salt",
-      "vegetable oil"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "xinjiang-big-plate-chicken",
-    "name": "Xinjiang Big Plate Chicken",
-    "nameChinese": "大盘鸡",
-    "category": "Dinner",
-    "cuisine": "Xinjiang",
-    "ingredients": [
-      "chicken",
-      "potato",
-      "green pepper",
-      "dried chili",
-      "wheat belt noodles"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "wheat"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "xinjiang-baked-lamb-samsa",
-    "name": "Xinjiang Baked Lamb Samsa",
-    "nameChinese": "烤包子",
-    "category": "Dinner",
-    "cuisine": "Xinjiang",
-    "ingredients": [
-      "wheat dough",
-      "lamb",
-      "onion",
-      "cumin"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -585,7 +191,7 @@
     "name": "Nanchang Beer-Braised Duck",
     "nameChinese": "啤酒鸭",
     "category": "Dinner",
-    "cuisine": "Jiangxi",
+    "cuisine": "Sichuan",
     "ingredients": [
       "duck",
       "beer",
@@ -600,504 +206,6 @@
       "wheat",
       "soy"
     ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "braised-tofu-with-shiitake",
-    "name": "Braised Tofu with Shiitake",
-    "nameChinese": "香菇烧豆腐",
-    "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
-    "ingredients": [
-      "tofu",
-      "shiitake",
-      "soy sauce",
-      "ginger"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "stir-fried-snow-pea-shoots-with-garlic",
-    "name": "Stir-Fried Snow Pea Shoots with Garlic",
-    "nameChinese": "蒜蓉豆苗",
-    "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
-    "ingredients": [
-      "snow pea shoots",
-      "garlic",
-      "vegetable oil"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chinese-steamed-egg-custard",
-    "name": "Chinese Steamed Egg Custard",
-    "nameChinese": "蒸水蛋",
-    "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
-    "ingredients": [
-      "egg",
-      "water",
-      "scallion",
-      "soy sauce",
-      "sesame oil"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Healthy"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "soy",
-      "sesame"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "stir-fried-bitter-melon-and-egg",
-    "name": "Stir-Fried Bitter Melon and Egg",
-    "nameChinese": "苦瓜炒蛋",
-    "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
-    "ingredients": [
-      "bitter melon",
-      "egg",
-      "garlic",
-      "vegetable oil"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "miso-black-cod",
-    "name": "Miso Black Cod",
-    "nameChinese": "銀だらの西京焼き",
-    "category": "Dinner",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "black cod",
-      "white miso",
-      "mirin",
-      "sake"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "soy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "japanese-pork-and-cabbage-okonomiyaki",
-    "name": "Japanese Pork and Cabbage Okonomiyaki",
-    "nameChinese": "豚玉お好み焼き",
-    "category": "Dinner",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "wheat flour",
-      "egg",
-      "cabbage",
-      "pork belly",
-      "bonito",
-      "mayonnaise"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "tempura-soba",
-    "name": "Tempura Soba",
-    "nameChinese": "天ぷらそば",
-    "category": "Dinner",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "buckwheat noodles",
-      "shrimp",
-      "wheat flour",
-      "egg",
-      "bonito broth"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "fish",
-      "crustaceans"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "japanese-hamburg-steak",
-    "name": "Japanese Hamburg Steak",
-    "nameChinese": "ハンバーグ",
-    "category": "Dinner",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "ground beef",
-      "pork",
-      "onion",
-      "egg",
-      "panko",
-      "milk"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "eel-kabayaki-rice-bowl",
-    "name": "Eel Kabayaki Rice Bowl",
-    "nameChinese": "鰻丼",
-    "category": "Dinner",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "eel",
-      "rice",
-      "soy sauce",
-      "mirin",
-      "sugar"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "soy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "japanese-beef-and-potato-stew",
-    "name": "Japanese Beef and Potato Stew",
-    "nameChinese": "肉じゃが",
-    "category": "Dinner",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "beef",
-      "potato",
-      "carrot",
-      "onion",
-      "soy sauce",
-      "mirin"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "korean-army-stew",
-    "name": "Korean Army Stew",
-    "nameChinese": "부대찌개",
-    "category": "Dinner",
-    "cuisine": "Korean",
-    "ingredients": [
-      "luncheon pork",
-      "sausage",
-      "kimchi",
-      "wheat ramen",
-      "tofu",
-      "gochujang"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "samgyeopsal-with-lettuce-wraps",
-    "name": "Samgyeopsal with Lettuce Wraps",
-    "nameChinese": "삼겹살",
-    "category": "Dinner",
-    "cuisine": "Korean",
-    "ingredients": [
-      "pork belly",
-      "lettuce",
-      "garlic",
-      "fermented soybean paste",
-      "chili paste"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "korean-braised-short-ribs",
-    "name": "Korean Braised Short Ribs",
-    "nameChinese": "갈비찜",
-    "category": "Dinner",
-    "cuisine": "Korean",
-    "ingredients": [
-      "beef short ribs",
-      "carrot",
-      "chestnut",
-      "soy sauce",
-      "pear"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy",
-      "tree nuts"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "korean-soft-tofu-stew-with-clams",
-    "name": "Korean Soft Tofu Stew with Clams",
-    "nameChinese": "순두부찌개",
-    "category": "Dinner",
-    "cuisine": "Korean",
-    "ingredients": [
-      "soft tofu",
-      "clams",
-      "anchovy broth",
-      "egg",
-      "gochugaru"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "eggs",
-      "soy",
-      "fish",
-      "molluscs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "korean-fried-chicken-with-yangnyeom-sauce",
-    "name": "Korean Fried Chicken with Yangnyeom Sauce",
-    "nameChinese": "양념치킨",
-    "category": "Dinner",
-    "cuisine": "Korean",
-    "ingredients": [
-      "chicken",
-      "wheat flour",
-      "gochujang",
-      "garlic",
-      "sugar"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Fast Food"
-    ],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "samgyetang",
-    "name": "Samgyetang",
-    "nameChinese": "삼계탕",
-    "category": "Dinner",
-    "cuisine": "Korean",
-    "ingredients": [
-      "whole chicken",
-      "glutinous rice",
-      "ginseng",
-      "garlic",
-      "jujube"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "doenjang-jjigae",
-    "name": "Doenjang Jjigae",
-    "nameChinese": "된장찌개",
-    "category": "Dinner",
-    "cuisine": "Korean",
-    "ingredients": [
-      "soybean paste",
-      "tofu",
-      "zucchini",
-      "potato",
-      "anchovy broth",
-      "chili"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "soy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "saffron-risotto-alla-milanese",
-    "name": "Saffron Risotto alla Milanese",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Italian",
-    "ingredients": [
-      "Arborio rice",
-      "saffron",
-      "beef stock",
-      "beef marrow",
-      "butter",
-      "Parmesan"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "sicilian-pasta-alla-norma",
-    "name": "Sicilian Pasta alla Norma",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Italian",
-    "ingredients": [
-      "wheat pasta",
-      "eggplant",
-      "tomato",
-      "ricotta salata",
-      "basil"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "roman-cacio-e-pepe",
-    "name": "Roman Cacio e Pepe",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Italian",
-    "ingredients": [
-      "wheat pasta",
-      "Pecorino Romano",
-      "black pepper"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "lasagna-alla-bolognese",
-    "name": "Lasagna alla Bolognese",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Italian",
-    "ingredients": [
-      "egg pasta",
-      "beef",
-      "pork",
-      "milk",
-      "butter",
-      "tomato",
-      "Parmesan"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "osso-buco",
-    "name": "Osso Buco",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Italian",
-    "ingredients": [
-      "veal shank",
-      "white wine",
-      "stock",
-      "onion",
-      "flour",
-      "lemon",
-      "parsley"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
     "ingredientEvidence": "typical-recipe",
     "source": null
   },
@@ -1145,27 +253,6 @@
     "source": null
   },
   {
-    "id": "provencal-ratatouille",
-    "name": "Provençal Ratatouille",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "French",
-    "ingredients": [
-      "eggplant",
-      "zucchini",
-      "tomato",
-      "bell pepper",
-      "onion",
-      "olive oil"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "bouillabaisse",
     "name": "Bouillabaisse",
     "nameChinese": "马赛鱼汤",
@@ -1187,248 +274,6 @@
       "wheat",
       "crustaceans",
       "molluscs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "valencian-paella",
-    "name": "Valencian Paella",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Spanish",
-    "ingredients": [
-      "rice",
-      "chicken",
-      "rabbit",
-      "green beans",
-      "butter beans",
-      "saffron"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "basque-bacalao-al-pil-pil",
-    "name": "Basque Bacalao al Pil Pil",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Spanish",
-    "ingredients": [
-      "salt cod",
-      "olive oil",
-      "garlic",
-      "dried chili"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "smoked-texas-beef-brisket",
-    "name": "Smoked Texas Beef Brisket",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "American",
-    "ingredients": [
-      "beef brisket",
-      "coarse pepper",
-      "salt"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "new-orleans-shrimp-and-sausage-gumbo",
-    "name": "New Orleans Shrimp and Sausage Gumbo",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "American",
-    "ingredients": [
-      "shrimp",
-      "andouille",
-      "okra",
-      "wheat flour",
-      "celery",
-      "onion",
-      "rice"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "crustaceans"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chicken-pot-pie",
-    "name": "Chicken Pot Pie",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "American",
-    "ingredients": [
-      "chicken",
-      "pastry",
-      "butter",
-      "milk",
-      "carrot",
-      "peas"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "greek-moussaka",
-    "name": "Greek Moussaka",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Greek",
-    "ingredients": [
-      "eggplant",
-      "minced lamb",
-      "tomato",
-      "milk",
-      "butter",
-      "wheat flour",
-      "egg"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chicken-tagine-with-preserved-lemon",
-    "name": "Chicken Tagine with Preserved Lemon",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Moroccan",
-    "ingredients": [
-      "chicken",
-      "preserved lemon",
-      "olives",
-      "onion",
-      "ginger",
-      "saffron"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "hyderabadi-chicken-biryani",
-    "name": "Hyderabadi Chicken Biryani",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Indian",
-    "ingredients": [
-      "basmati rice",
-      "chicken",
-      "yogurt",
-      "green chili",
-      "saffron",
-      "mint"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "dal-makhani",
-    "name": "Dal Makhani",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Indian",
-    "ingredients": [
-      "black lentils",
-      "kidney beans",
-      "butter",
-      "cream",
-      "tomato",
-      "chili"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "kerala-fish-molee",
-    "name": "Kerala Fish Molee",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Indian",
-    "ingredients": [
-      "white fish",
-      "coconut milk",
-      "green chili",
-      "curry leaves",
-      "onion"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "massaman-beef-curry",
-    "name": "Massaman Beef Curry",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Thai",
-    "ingredients": [
-      "beef",
-      "coconut milk",
-      "peanuts",
-      "potato",
-      "massaman chili paste",
-      "fish sauce"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "peanuts",
-      "fish"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -1459,27 +304,6 @@
     "source": null
   },
   {
-    "id": "filipino-chicken-adobo",
-    "name": "Filipino Chicken Adobo",
-    "nameChinese": null,
-    "category": "Dinner",
-    "cuisine": "Filipino",
-    "ingredients": [
-      "chicken",
-      "vinegar",
-      "soy sauce",
-      "garlic",
-      "bay leaf"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "doro-wat",
     "name": "Doro Wat",
     "nameChinese": "埃塞俄比亚炖鸡",
@@ -1500,94 +324,73 @@
       "dairy"
     ],
     "ingredientEvidence": "typical-recipe",
-    "source": null,
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "source": null
   },
   {
     "id": "dinner-doc-yebeg-wat",
     "name": "Yebeg Wat",
     "nameChinese": "埃塞俄比亚炖羊肉",
     "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
+    "cuisine": "Ethiopian",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "dinner-doc-misir-wat",
     "name": "Misir Wat",
     "nameChinese": "埃塞俄比亚扁豆泥",
     "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
+    "cuisine": "Ethiopian",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "dinner-doc-shiro-wat",
     "name": "Shiro Wat",
     "nameChinese": "埃塞俄比亚鹰嘴豆泥",
     "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
+    "cuisine": "Ethiopian",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "dinner-doc-kitfo",
     "name": "Kitfo",
     "nameChinese": "埃塞俄比亚生牛肉",
     "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
+    "cuisine": "Ethiopian",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "dinner-doc-quanta-firfir",
     "name": "Quanta Firfir",
     "nameChinese": "埃塞俄比亚干煸牛肉",
     "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
+    "cuisine": "Ethiopian",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "dinner-doc-alicha-doro-wat",
     "name": "Alicha Doro Wat",
     "nameChinese": "埃塞俄比亚香料黄油鸡",
     "category": "Dinner",
-    "cuisine": "Chinese Home Cooking",
+    "cuisine": "Ethiopian",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "dinner-doc-chongqing-hot-pot",
@@ -1843,7 +646,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Shandong"
+    ]
   },
   {
     "id": "dinner-doc-dry-fried-shredded-beef",
@@ -4359,17 +3165,6 @@
     "nameChinese": "霸王别姬",
     "category": "Dinner",
     "cuisine": "Jiangsu",
-    "ingredients": [],
-    "allergens": [],
-    "dietaryTags": [],
-    "ingredientEvidence": "unknown"
-  },
-  {
-    "id": "dinner-doc-green-curry-chicken",
-    "name": "Green Curry Chicken",
-    "nameChinese": "泰式绿咖喱鸡",
-    "category": "Dinner",
-    "cuisine": "Thai",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],

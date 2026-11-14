@@ -1,26 +1,10 @@
 [
   {
-    "id": "beijing-mung-bean-milk",
-    "name": "Beijing Mung Bean Milk",
-    "nameChinese": "豆汁",
-    "category": "Breakfast",
-    "cuisine": "Northern Chinese",
-    "ingredients": [
-      "mung beans"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "tianjin-jianbing-guozi",
     "name": "Tianjin Jianbing Guozi",
     "nameChinese": "煎饼果子",
     "category": "Breakfast",
-    "cuisine": "Northern Chinese",
+    "cuisine": "Henan",
     "ingredients": [
       "mung bean flour",
       "egg",
@@ -46,7 +30,7 @@
     "name": "Shandong Scallion Pancake",
     "nameChinese": "葱油饼",
     "category": "Breakfast",
-    "cuisine": "Northern Chinese",
+    "cuisine": "Henan",
     "ingredients": [
       "wheat flour",
       "scallion",
@@ -61,6 +45,9 @@
     "ingredientEvidence": "typical-recipe",
     "source": null,
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -69,7 +56,7 @@
     "name": "Chinese Fried Dough Sticks",
     "nameChinese": "油条",
     "category": "Breakfast",
-    "cuisine": "Northern Chinese",
+    "cuisine": "Henan",
     "ingredients": [
       "wheat flour",
       "baking powder",
@@ -84,127 +71,11 @@
     "ingredientEvidence": "typical-recipe",
     "source": null,
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
-  },
-  {
-    "id": "savory-soy-milk",
-    "name": "Savory Soy Milk",
-    "nameChinese": "咸豆浆",
-    "category": "Breakfast",
-    "cuisine": "Northern Chinese",
-    "ingredients": [
-      "soy milk",
-      "preserved mustard greens",
-      "dried shrimp",
-      "vinegar"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "dairy",
-      "soy",
-      "crustaceans",
-      "mustard"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "millet-porridge-with-red-dates",
-    "name": "Millet Porridge with Red Dates",
-    "nameChinese": "红枣小米粥",
-    "category": "Breakfast",
-    "cuisine": "Northern Chinese",
-    "ingredients": [
-      "millet",
-      "red dates",
-      "water"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Healthy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "beijing-miancha",
-    "name": "Beijing Miancha",
-    "nameChinese": "面茶",
-    "category": "Breakfast",
-    "cuisine": "Northern Chinese",
-    "ingredients": [
-      "millet flour",
-      "sesame paste",
-      "sesame salt"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "sesame"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "hebei-donkey-burger",
-    "name": "Hebei Donkey Burger",
-    "nameChinese": "驴肉火烧",
-    "category": "Breakfast",
-    "cuisine": "Northern Chinese",
-    "ingredients": [
-      "braised donkey meat",
-      "wheat flatbread",
-      "green pepper"
-    ],
-    "dietaryTags": [
-      "Fast Food"
-    ],
-    "allergens": [
-      "wheat"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "jinzhong-tounao-soup",
-    "name": "Jinzhong Tounao Soup",
-    "nameChinese": "头脑",
-    "category": "Breakfast",
-    "cuisine": "Northern Chinese",
-    "ingredients": [
-      "lamb",
-      "Chinese yam",
-      "lotus root",
-      "yellow rice wine"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "pork-and-scallion-baozi",
-    "name": "Pork and Scallion Baozi",
-    "nameChinese": "猪肉大葱包子",
-    "category": "Breakfast",
-    "cuisine": "Northern Chinese",
-    "ingredients": [
-      "wheat flour",
-      "pork",
-      "scallion",
-      "ginger"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
   },
   {
     "id": "shanghai-sticky-rice-roll",
@@ -245,7 +116,10 @@
       "soy"
     ],
     "ingredientEvidence": "typical-recipe",
-    "source": null
+    "source": null,
+    "cuisineAliases": [
+      "Jiangsu"
+    ]
   },
   {
     "id": "sheng-jian-bao",
@@ -268,6 +142,7 @@
     "ingredientEvidence": "typical-recipe",
     "source": null,
     "cuisineAliases": [
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -298,7 +173,7 @@
     "name": "Century Egg and Pork Congee",
     "nameChinese": "皮蛋瘦肉粥",
     "category": "Breakfast",
-    "cuisine": "Cantonese",
+    "cuisine": "Chinese Home Cooking",
     "ingredients": [
       "rice",
       "preserved duck egg",
@@ -310,31 +185,6 @@
       "eggs"
     ],
     "ingredientEvidence": "typical-recipe",
-    "source": null,
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
-  },
-  {
-    "id": "steamed-beef-rice-rolls",
-    "name": "Steamed Beef Rice Rolls",
-    "nameChinese": "牛肉肠粉",
-    "category": "Breakfast",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "rice flour",
-      "beef",
-      "scallion",
-      "soy sauce"
-    ],
-    "dietaryTags": [
-      "Healthy"
-    ],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
     "source": null
   },
   {
@@ -342,7 +192,7 @@
     "name": "Cantonese Turnip Cake",
     "nameChinese": "萝卜糕",
     "category": "Breakfast",
-    "cuisine": "Cantonese",
+    "cuisine": "Taiwanese",
     "ingredients": [
       "daikon",
       "rice flour",
@@ -363,7 +213,7 @@
     "name": "Lotus Leaf Sticky Rice with Chicken",
     "nameChinese": "糯米鸡",
     "category": "Breakfast",
-    "cuisine": "Cantonese",
+    "cuisine": "Malaysian",
     "ingredients": [
       "glutinous rice",
       "chicken",
@@ -372,110 +222,6 @@
     ],
     "dietaryTags": [],
     "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "steamed-black-bean-pork-ribs",
-    "name": "Steamed Black Bean Pork Ribs",
-    "nameChinese": "豉汁蒸排骨",
-    "category": "Breakfast",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "pork ribs",
-      "fermented black beans",
-      "garlic"
-    ],
-    "dietaryTags": [
-      "Healthy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "har-gow",
-    "name": "Har Gow",
-    "nameChinese": "虾饺",
-    "category": "Breakfast",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "shrimp",
-      "wheat starch",
-      "bamboo shoots",
-      "pork fat"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "crustaceans"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "cantonese-beef-siu-mai",
-    "name": "Cantonese Beef Siu Mai",
-    "nameChinese": "牛肉烧卖",
-    "category": "Breakfast",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "beef",
-      "wheat wrappers",
-      "water chestnut",
-      "soy sauce"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy",
-      "tree nuts"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "hong-kong-pineapple-bun-with-butter",
-    "name": "Hong Kong Pineapple Bun with Butter",
-    "nameChinese": "菠萝油",
-    "category": "Breakfast",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "wheat flour",
-      "sugar",
-      "egg",
-      "butter"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "hong-kong-satay-beef-noodle-soup",
-    "name": "Hong Kong Satay Beef Noodle Soup",
-    "nameChinese": "沙嗲牛肉面",
-    "category": "Breakfast",
-    "cuisine": "Cantonese",
-    "ingredients": [
-      "beef",
-      "instant wheat noodles",
-      "satay sauce",
-      "peanut"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "peanuts"
-    ],
     "ingredientEvidence": "typical-recipe",
     "source": null
   },
@@ -540,65 +286,6 @@
     "source": null
   },
   {
-    "id": "suzhou-red-broth-noodles-with-pork",
-    "name": "Suzhou Red Broth Noodles with Pork",
-    "nameChinese": "苏式焖肉面",
-    "category": "Breakfast",
-    "cuisine": "Jiangsu",
-    "ingredients": [
-      "wheat noodles",
-      "braised pork",
-      "soy sauce",
-      "pork stock"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "hangzhou-pian-er-chuan",
-    "name": "Hangzhou Pian Er Chuan",
-    "nameChinese": "片儿川",
-    "category": "Breakfast",
-    "cuisine": "Zhejiang",
-    "ingredients": [
-      "wheat noodles",
-      "pork",
-      "bamboo shoots",
-      "pickled mustard greens"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "mustard"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "ningbo-sweet-glutinous-rice-balls",
-    "name": "Ningbo Sweet Glutinous Rice Balls",
-    "nameChinese": "宁波汤圆",
-    "category": "Breakfast",
-    "cuisine": "Zhejiang",
-    "ingredients": [
-      "glutinous rice flour",
-      "black sesame",
-      "sugar",
-      "pork fat"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "sesame"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "wuhan-hot-dry-noodles",
     "name": "Wuhan Hot Dry Noodles",
     "nameChinese": "热干面",
@@ -625,26 +312,6 @@
     ]
   },
   {
-    "id": "wuhan-three-delicacy-doupi",
-    "name": "Wuhan Three-Delicacy Doupi",
-    "nameChinese": "三鲜豆皮",
-    "category": "Breakfast",
-    "cuisine": "Hubei",
-    "ingredients": [
-      "glutinous rice",
-      "mung beans",
-      "egg",
-      "pork",
-      "shiitake"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "henan-pepper-soup",
     "name": "Henan Pepper Soup",
     "nameChinese": "胡辣汤",
@@ -666,45 +333,6 @@
     "cuisineAliases": [
       "Chinese Home Cooking"
     ]
-  },
-  {
-    "id": "luoyang-beef-soup",
-    "name": "Luoyang Beef Soup",
-    "nameChinese": "洛阳牛肉汤",
-    "category": "Breakfast",
-    "cuisine": "Henan",
-    "ingredients": [
-      "beef",
-      "beef bones",
-      "cilantro",
-      "scallion"
-    ],
-    "dietaryTags": [],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "fuzhou-dingbianhu",
-    "name": "Fuzhou Dingbianhu",
-    "nameChinese": "鼎边糊",
-    "category": "Breakfast",
-    "cuisine": "Fujian",
-    "ingredients": [
-      "rice batter",
-      "clams",
-      "dried shrimp",
-      "celery"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "crustaceans",
-      "molluscs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
   },
   {
     "id": "shaxian-peanut-sauce-noodles",
@@ -773,189 +401,6 @@
     "source": null
   },
   {
-    "id": "taiwanese-radish-omelet",
-    "name": "Taiwanese Radish Omelet",
-    "nameChinese": "菜脯蛋",
-    "category": "Breakfast",
-    "cuisine": "Taiwanese",
-    "ingredients": [
-      "egg",
-      "preserved daikon",
-      "scallion",
-      "vegetable oil"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "grilled-salmon-japanese-breakfast",
-    "name": "Grilled Salmon Japanese Breakfast",
-    "nameChinese": "焼き鮭定食",
-    "category": "Breakfast",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "salmon",
-      "rice",
-      "miso",
-      "kombu",
-      "bonito",
-      "tofu"
-    ],
-    "dietaryTags": [
-      "Seafood",
-      "Healthy"
-    ],
-    "allergens": [
-      "soy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "natto-over-rice",
-    "name": "Natto over Rice",
-    "nameChinese": "納豆ご飯",
-    "category": "Breakfast",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "fermented soybeans",
-      "rice",
-      "mustard",
-      "soy sauce"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "soy",
-      "mustard"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "tamago-kake-gohan",
-    "name": "Tamago Kake Gohan",
-    "nameChinese": "卵かけご飯",
-    "category": "Breakfast",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "egg",
-      "rice",
-      "soy sauce"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "japanese-seven-herb-porridge",
-    "name": "Japanese Seven-Herb Porridge",
-    "nameChinese": "七草粥",
-    "category": "Breakfast",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "rice",
-      "Japanese parsley",
-      "shepherd's purse",
-      "turnip",
-      "daikon",
-      "chickweed",
-      "cudweed",
-      "nipplewort"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Healthy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shio-kombu-onigiri",
-    "name": "Shio Kombu Onigiri",
-    "nameChinese": "塩昆布おにぎり",
-    "category": "Breakfast",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "rice",
-      "salted kombu",
-      "nori"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shirasu-don",
-    "name": "Shirasu Don",
-    "nameChinese": "しらす丼",
-    "category": "Breakfast",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "whitebait",
-      "rice",
-      "shiso",
-      "egg yolk",
-      "soy sauce"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "soy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "dashimaki-tamago",
-    "name": "Dashimaki Tamago",
-    "nameChinese": "だし巻き卵",
-    "category": "Breakfast",
-    "cuisine": "Japanese",
-    "ingredients": [
-      "egg",
-      "kombu",
-      "bonito",
-      "soy sauce",
-      "mirin"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "soy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "butter-croissant",
     "name": "Butter Croissant",
     "nameChinese": "黄油可颂",
@@ -1002,626 +447,6 @@
     "source": null
   },
   {
-    "id": "croque-madame",
-    "name": "Croque Madame",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "French",
-    "ingredients": [
-      "bread",
-      "ham",
-      "Gruyère",
-      "milk",
-      "butter",
-      "egg"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "buckwheat-galette-complete",
-    "name": "Buckwheat Galette Complète",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "French",
-    "ingredients": [
-      "buckwheat flour",
-      "ham",
-      "Gruyère",
-      "egg",
-      "butter"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "eggs-benedict",
-    "name": "Eggs Benedict",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "American",
-    "ingredients": [
-      "English muffin",
-      "Canadian bacon",
-      "egg",
-      "butter",
-      "lemon"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "buttermilk-pancakes",
-    "name": "Buttermilk Pancakes",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "American",
-    "ingredients": [
-      "wheat flour",
-      "buttermilk",
-      "egg",
-      "butter",
-      "maple syrup"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "avocado-toast-with-poached-egg",
-    "name": "Avocado Toast with Poached Egg",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "American",
-    "ingredients": [
-      "sourdough",
-      "avocado",
-      "egg",
-      "lemon"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "biscuits-and-sausage-gravy",
-    "name": "Biscuits and Sausage Gravy",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "American",
-    "ingredients": [
-      "wheat flour",
-      "buttermilk",
-      "pork sausage",
-      "milk",
-      "butter"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "corned-beef-hash",
-    "name": "Corned Beef Hash",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "American",
-    "ingredients": [
-      "corned beef",
-      "potato",
-      "onion",
-      "butter",
-      "egg"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shrimp-and-grits",
-    "name": "Shrimp and Grits",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "American",
-    "ingredients": [
-      "shrimp",
-      "corn grits",
-      "cheddar",
-      "butter",
-      "bacon"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "dairy",
-      "crustaceans"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "pecan-baked-oatmeal",
-    "name": "Pecan Baked Oatmeal",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "American",
-    "ingredients": [
-      "oats",
-      "pecans",
-      "milk",
-      "egg",
-      "maple syrup"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "eggs",
-      "dairy",
-      "tree nuts"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "southwestern-breakfast-burrito",
-    "name": "Southwestern Breakfast Burrito",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "American",
-    "ingredients": [
-      "wheat tortilla",
-      "egg",
-      "potato",
-      "cheddar",
-      "bacon",
-      "green chili"
-    ],
-    "dietaryTags": [
-      "Spicy"
-    ],
-    "allergens": [
-      "wheat",
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "full-english-breakfast",
-    "name": "Full English Breakfast",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "British",
-    "ingredients": [
-      "pork sausage",
-      "back bacon",
-      "egg",
-      "tomato",
-      "mushroom",
-      "baked beans",
-      "toast"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "kedgeree",
-    "name": "Kedgeree",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "British",
-    "ingredients": [
-      "smoked haddock",
-      "rice",
-      "egg",
-      "curry powder",
-      "butter"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "eggs",
-      "dairy",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "menemen",
-    "name": "Menemen",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Turkish",
-    "ingredients": [
-      "egg",
-      "tomato",
-      "green pepper",
-      "olive oil"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "turkish-eggs-with-yogurt",
-    "name": "Turkish Eggs with Yogurt",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Turkish",
-    "ingredients": [
-      "egg",
-      "strained yogurt",
-      "garlic",
-      "butter",
-      "Aleppo pepper"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "simit-with-white-cheese",
-    "name": "Simit with White Cheese",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Turkish",
-    "ingredients": [
-      "wheat flour",
-      "sesame",
-      "grape molasses",
-      "white cheese"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "wheat",
-      "dairy",
-      "sesame"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "masala-dosa",
-    "name": "Masala Dosa",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Indian",
-    "ingredients": [
-      "rice",
-      "urad dal",
-      "potato",
-      "mustard seed",
-      "curry leaves",
-      "green chili"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [
-      "mustard"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "idli-with-sambar",
-    "name": "Idli with Sambar",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Indian",
-    "ingredients": [
-      "rice",
-      "urad dal",
-      "toor dal",
-      "tamarind",
-      "vegetables",
-      "dried chili"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "kanda-poha",
-    "name": "Kanda Poha",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Indian",
-    "ingredients": [
-      "flattened rice",
-      "onion",
-      "peanuts",
-      "mustard seeds",
-      "green chili"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [
-      "peanuts",
-      "mustard"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chole-bhature",
-    "name": "Chole Bhature",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Indian",
-    "ingredients": [
-      "chickpeas",
-      "wheat flour",
-      "yogurt",
-      "onion",
-      "green chili"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [
-      "wheat",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "aloo-paratha-with-curd",
-    "name": "Aloo Paratha with Curd",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Indian",
-    "ingredients": [
-      "wheat flour",
-      "potato",
-      "cumin",
-      "green chili",
-      "yogurt"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [
-      "wheat",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "vietnamese-beef-pho",
-    "name": "Vietnamese Beef Pho",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Vietnamese",
-    "ingredients": [
-      "rice noodles",
-      "beef",
-      "beef stock",
-      "star anise",
-      "ginger",
-      "fish sauce"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "banh-cuon-with-pork",
-    "name": "Banh Cuon with Pork",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Vietnamese",
-    "ingredients": [
-      "rice flour",
-      "ground pork",
-      "wood ear mushroom",
-      "shallot",
-      "fish sauce"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "nasi-lemak-with-anchovy-sambal",
-    "name": "Nasi Lemak with Anchovy Sambal",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Malaysian",
-    "ingredients": [
-      "rice",
-      "coconut milk",
-      "anchovies",
-      "peanuts",
-      "egg",
-      "chili"
-    ],
-    "dietaryTags": [
-      "Spicy",
-      "Seafood"
-    ],
-    "allergens": [
-      "eggs",
-      "peanuts",
-      "fish"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chilaquiles-verdes",
-    "name": "Chilaquiles Verdes",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Mexican",
-    "ingredients": [
-      "corn tortilla",
-      "tomatillo",
-      "serrano chili",
-      "crema",
-      "queso fresco",
-      "egg"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "shakshuka",
-    "name": "Shakshuka",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Israeli",
-    "ingredients": [
-      "egg",
-      "tomato",
-      "bell pepper",
-      "onion",
-      "cumin",
-      "chili"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "spanish-potato-tortilla",
-    "name": "Spanish Potato Tortilla",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Spanish",
-    "ingredients": [
-      "potato",
-      "egg",
-      "onion",
-      "olive oil"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "eggs"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "finnish-karelian-rice-pasty",
-    "name": "Finnish Karelian Rice Pasty",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Nordic",
-    "ingredients": [
-      "rye flour",
-      "rice",
-      "milk",
-      "butter",
-      "egg"
-    ],
-    "dietaryTags": [
-      "Vegetarian"
-    ],
-    "allergens": [
-      "eggs",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
     "id": "vegemite-toast",
     "name": "Vegemite Toast",
     "nameChinese": "维吉麦吐司",
@@ -1638,96 +463,6 @@
     "allergens": [
       "wheat",
       "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "chechebsa-with-yogurt",
-    "name": "Chechebsa with Yogurt",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Ethiopian",
-    "ingredients": [
-      "wheat flatbread",
-      "spiced butter",
-      "berbere chili",
-      "yogurt"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Spicy"
-    ],
-    "allergens": [
-      "wheat",
-      "dairy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "bubur-ayam",
-    "name": "Bubur Ayam",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Indonesian",
-    "ingredients": [
-      "rice",
-      "chicken",
-      "broth",
-      "fried shallots",
-      "soy sauce"
-    ],
-    "dietaryTags": [],
-    "allergens": [
-      "wheat",
-      "soy"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "jeonbok-juk",
-    "name": "Jeonbok Juk",
-    "nameChinese": "전복죽",
-    "category": "Breakfast",
-    "cuisine": "Korean",
-    "ingredients": [
-      "abalone",
-      "rice",
-      "sesame oil",
-      "kelp"
-    ],
-    "dietaryTags": [
-      "Seafood"
-    ],
-    "allergens": [
-      "molluscs",
-      "sesame"
-    ],
-    "ingredientEvidence": "typical-recipe",
-    "source": null
-  },
-  {
-    "id": "bircher-muesli",
-    "name": "Bircher Muesli",
-    "nameChinese": null,
-    "category": "Breakfast",
-    "cuisine": "Swiss",
-    "ingredients": [
-      "rolled oats",
-      "apple",
-      "hazelnuts",
-      "yogurt",
-      "lemon"
-    ],
-    "dietaryTags": [
-      "Vegetarian",
-      "Healthy"
-    ],
-    "allergens": [
-      "dairy",
-      "tree nuts"
     ],
     "ingredientEvidence": "typical-recipe",
     "source": null
@@ -1906,7 +641,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Hubei"
+    ]
   },
   {
     "id": "breakfast-doc-popcorn",
@@ -1917,7 +655,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-chickpea-salad",
@@ -1963,6 +704,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Henan",
+      "Hubei",
+      "Swiss",
       "Chinese Home Cooking"
     ]
   },
@@ -1997,7 +741,12 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Australian",
+      "Mexican",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-siga-tibs",
@@ -2173,7 +922,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Australian",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-lentils-with-sweet-potato",
@@ -2206,7 +959,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Mexican"
+    ]
   },
   {
     "id": "breakfast-doc-mixed-grain-injera",
@@ -2228,7 +984,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Mexican"
+    ]
   },
   {
     "id": "breakfast-doc-bacon-and-egg-roll",
@@ -2283,7 +1042,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-grilled-kangaroo",
@@ -2305,7 +1068,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Nordic",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-macadamia-oatmeal",
@@ -2349,7 +1116,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-fried-fish",
@@ -2393,7 +1163,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "French",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-aussie-sandwich",
@@ -2415,7 +1189,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-fruit-salad",
@@ -2459,7 +1236,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-croissant",
@@ -2470,7 +1250,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "French",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-baked-oats",
@@ -2494,6 +1278,11 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "French",
+      "Japanese",
+      "Swiss",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -2506,7 +1295,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Taiwanese"
+    ]
   },
   {
     "id": "breakfast-doc-veggie-wrap",
@@ -2528,7 +1320,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-egg-tart",
@@ -2561,7 +1356,12 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "French",
+      "American",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-baked-potato",
@@ -2572,7 +1372,12 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Nordic",
+      "American",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-chunky-meat-pie",
@@ -2638,7 +1443,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-boiled-prawns",
@@ -2726,7 +1534,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-muesli-bar",
@@ -2748,7 +1559,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "French"
+    ]
   },
   {
     "id": "breakfast-doc-smoked-salmon",
@@ -2781,7 +1595,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-lingonberry-jam",
@@ -2814,7 +1631,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-cinnamon-roll",
@@ -2825,7 +1645,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-crispbread",
@@ -2858,7 +1682,12 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Korean",
+      "Japanese",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-smoked-ham",
@@ -2924,7 +1753,12 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "French",
+      "Mexican",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-nordic-sausage",
@@ -3056,7 +1890,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Korean"
+    ]
   },
   {
     "id": "breakfast-doc-pickled-beets",
@@ -3177,7 +2014,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-oat-biscuit",
@@ -3210,7 +2050,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-rye-sandwich",
@@ -3300,6 +2143,7 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Shanghai",
       "Chinese Home Cooking"
     ]
   },
@@ -3312,7 +2156,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-madeleine",
@@ -3345,7 +2192,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-jambon",
@@ -3411,7 +2261,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-sausage",
@@ -3422,7 +2275,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-saut-ed-potatoes",
@@ -3620,7 +2477,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-p-t",
@@ -3785,7 +2645,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Japanese"
+    ]
   },
   {
     "id": "breakfast-doc-bulgogi",
@@ -3884,7 +2747,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Japanese"
+    ]
   },
   {
     "id": "breakfast-doc-spicy-fish-cake",
@@ -3906,7 +2772,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Japanese"
+    ]
   },
   {
     "id": "breakfast-doc-pickled-radish",
@@ -3917,7 +2786,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Japanese"
+    ]
   },
   {
     "id": "breakfast-doc-bean-sprout-salad",
@@ -4038,7 +2910,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Hubei",
+      "Taiwanese"
+    ]
   },
   {
     "id": "breakfast-doc-jajangmyeon",
@@ -4093,7 +2969,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Henan"
+    ]
   },
   {
     "id": "breakfast-doc-braised-potatoes",
@@ -4184,7 +3063,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Hubei",
+      "Taiwanese"
+    ]
   },
   {
     "id": "breakfast-doc-you-mo-tou",
@@ -4208,6 +3091,8 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4220,7 +3105,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Hubei",
+      "Shanghai"
+    ]
   },
   {
     "id": "breakfast-doc-braised-noodles",
@@ -4231,7 +3120,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Fujian"
+    ]
   },
   {
     "id": "breakfast-doc-steamed-dumplings",
@@ -4244,6 +3136,10 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Taiwanese",
       "Chinese Home Cooking"
     ]
   },
@@ -4280,6 +3176,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Shanghai",
+      "Jiangsu",
+      "Taiwanese",
       "Chinese Home Cooking"
     ]
   },
@@ -4294,6 +3193,7 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4308,6 +3208,7 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Shanghai",
       "Chinese Home Cooking"
     ]
   },
@@ -4344,6 +3245,10 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
+      "Taiwanese",
       "Chinese Home Cooking"
     ]
   },
@@ -4358,6 +3263,10 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Japanese",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4403,7 +3312,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Hubei",
+      "Jiangsu"
+    ]
   },
   {
     "id": "breakfast-doc-shredded-pancake",
@@ -4416,6 +3329,7 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4430,6 +3344,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4444,6 +3361,8 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
       "Chinese Home Cooking"
     ]
   },
@@ -4458,6 +3377,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4472,6 +3394,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4497,6 +3422,7 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Shanghai",
       "Chinese Home Cooking"
     ]
   },
@@ -4511,6 +3437,8 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4525,6 +3453,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Fujian",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4551,7 +3482,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Hubei"
+    ]
   },
   {
     "id": "breakfast-doc-hu-la-soup-with-youtiao",
@@ -4597,6 +3531,8 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4611,6 +3547,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Swiss",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4625,6 +3564,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4637,7 +3579,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Shanghai"
+    ]
   },
   {
     "id": "breakfast-doc-meat-bun",
@@ -4650,6 +3595,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Hubei",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4662,7 +3610,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Hubei",
+      "Shanghai"
+    ]
   },
   {
     "id": "breakfast-doc-red-bean-bun",
@@ -4673,7 +3625,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Shanghai",
+      "Jiangsu"
+    ]
   },
   {
     "id": "breakfast-doc-flatbread-with-meat",
@@ -4929,6 +3885,9 @@
     "dietaryTags": [],
     "ingredientEvidence": "unknown",
     "cuisineAliases": [
+      "Fujian",
+      "Shanghai",
+      "Jiangsu",
       "Chinese Home Cooking"
     ]
   },
@@ -4977,7 +3936,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Fujian"
+    ]
   },
   {
     "id": "breakfast-doc-meat-balls",
@@ -5153,7 +4115,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Shanghai"
+    ]
   },
   {
     "id": "breakfast-doc-chee-cheong-fun",
@@ -5208,7 +4173,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Taiwanese"
+    ]
   },
   {
     "id": "breakfast-doc-yong-tau-foo",
@@ -5241,7 +4209,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-nasi-goreng",
@@ -5362,7 +4333,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American",
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-half-boiled-eggs",
@@ -5494,7 +4469,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Jiangsu"
+    ]
   },
   {
     "id": "breakfast-doc-vegetable-curry",
@@ -5516,7 +4494,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Fujian"
+    ]
   },
   {
     "id": "breakfast-doc-pancakes",
@@ -5538,7 +4519,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Shanghai"
+    ]
   },
   {
     "id": "breakfast-doc-bagel",
@@ -5648,7 +4632,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-waffle-fries",
@@ -5747,7 +4734,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Japanese"
+    ]
   },
   {
     "id": "breakfast-doc-chicken-tenders",
@@ -5776,11 +4766,14 @@
     "name": "Meatloaf",
     "nameChinese": "肉饼",
     "category": "Breakfast",
-    "cuisine": "American",
+    "cuisine": "Henan",
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "American"
+    ]
   },
   {
     "id": "breakfast-doc-burrito",
@@ -5791,7 +4784,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Mexican"
+    ]
   },
   {
     "id": "breakfast-doc-taco",
@@ -6110,7 +5106,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Shanghai"
+    ]
   },
   {
     "id": "breakfast-doc-peanut-butter-noodles",
@@ -6187,7 +5186,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Japanese"
+    ]
   },
   {
     "id": "breakfast-doc-lychee-pork",
@@ -6253,7 +5255,11 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Jiangsu",
+      "Taiwanese"
+    ]
   },
   {
     "id": "breakfast-doc-taro-cake",
@@ -6737,7 +5743,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Swiss"
+    ]
   },
   {
     "id": "breakfast-doc-pickled-carrots",
@@ -6803,7 +5812,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Taiwanese"
+    ]
   },
   {
     "id": "breakfast-doc-miso-soup",
@@ -6968,7 +5980,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Taiwanese"
+    ]
   },
   {
     "id": "breakfast-doc-pork-cutlet",
@@ -7540,7 +6555,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Taiwanese"
+    ]
   },
   {
     "id": "breakfast-doc-tiger-claw-bread",
@@ -7694,7 +6712,10 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown"
+    "ingredientEvidence": "unknown",
+    "cuisineAliases": [
+      "Jiangsu"
+    ]
   },
   {
     "id": "breakfast-doc-sugar-dumpling",
@@ -8354,10 +7375,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-wontons",
@@ -8368,10 +7386,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-rice-noodle-roll",
@@ -8382,10 +7397,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-stir-fried-liver",
@@ -8396,10 +7408,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-plain-rice-porridge",
@@ -8410,10 +7419,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-millet-porridge",
@@ -8424,10 +7430,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-eight-treasure-porridge",
@@ -8438,10 +7441,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-sugar-fried-pancake",
@@ -8452,10 +7452,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-grilled-cold-noodles",
@@ -8466,10 +7463,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-steamed-corn-bread",
@@ -8480,10 +7474,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-lvdagun-glutinous-rice-rolls",
@@ -8494,10 +7485,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-aiwowo-steamed-rice-cakes",
@@ -8508,10 +7496,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "breakfast-doc-pea-cake",
@@ -8522,10 +7507,7 @@
     "ingredients": [],
     "allergens": [],
     "dietaryTags": [],
-    "ingredientEvidence": "unknown",
-    "cuisineAliases": [
-      "Chinese Home Cooking"
-    ]
+    "ingredientEvidence": "unknown"
   },
   {
     "id": "document-food-1401",
@@ -8691,5 +7673,28 @@
     "allergens": [],
     "dietaryTags": [],
     "ingredientEvidence": "unknown"
+  },
+  {
+    "id": "japchae",
+    "name": "Japchae",
+    "nameChinese": "잡채",
+    "category": "Breakfast",
+    "cuisine": "Korean",
+    "ingredients": [
+      "sweet potato noodles",
+      "beef",
+      "spinach",
+      "mushroom",
+      "soy sauce",
+      "sesame oil"
+    ],
+    "dietaryTags": [],
+    "allergens": [
+      "wheat",
+      "soy",
+      "sesame"
+    ],
+    "ingredientEvidence": "typical-recipe",
+    "source": null
   }
 ]
