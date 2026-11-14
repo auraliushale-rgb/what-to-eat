@@ -2,7 +2,7 @@ import { namesZh, ingredientsZh } from './catalog-zh.js';
 import heroImage from './home-menu.jpeg';
 import supportCode from './support-qr.jpg';
 import { translate, localize, celebrate } from './interface.js';
-import { brands, items, byId, catalog, categories, eligible, menuEligible, preferences, restrictions, searchable, normalize, shuffle, stopAngle, wheelDraw } from './catalog.js';
+import { brands, items, byId, catalog, categories, eligible, preferences, restrictions, searchable, normalize, shuffle, stopAngle, wheelDraw } from './catalog.js';
 import { loadState, record, saveState } from './state.js';
 
 const main = document.querySelector('main');
@@ -50,10 +50,10 @@ const cuisineCorrections = {
 };
 const cuisineOf = item => cuisineCorrections[item.cuisine] || item.cuisine;
 const groupsOf = item => [item.productCategory || cuisineOf(item), ...(item.cuisineAliases || [])];
+const wheelCuisine = item => t(subgroup && groupsOf(item).includes(subgroup) ? subgroup : cuisineOf(item));
 const homeGroup = category => ['Breakfast','Lunch','Dinner'].includes(category) ? 'Chinese Home Cooking' : '';
 const itemName = item => language === 'zh' ? (namesZh[item.id] || item.nameChinese || item.name) : item.name;
 let subgroup = '';
-const subtype = item => item.productCategory || cuisineOf(item);
 const wheelPool = category => eligible(category, state).filter(item => !subgroup || groupsOf(item).includes(subgroup));
 const routes = {home: 'Home', roulette: 'Food Roulette', plan: 'Daily Meal Plan', tea: 'Milk Tea Explorer', favorites: 'Favorites', preferences: 'Preferences'};
 const symbols = {
@@ -81,7 +81,6 @@ const count = (number, label) => number + ' ' + label + (number === 1 ? '' : 's'
 const categoryLink = category => category === 'Milk Tea' ? 'roulette/milk-tea' : 'roulette/' + category.toLowerCase().split(' ').join('-');
 const heading = (title, subtitle, actions = '') => '<div class="page-heading"><div><h1>' + title + '</h1><p class="lede">' + subtitle + '</p></div>' + (actions ? '<div class="actions">' + actions + '</div>' : '') + '</div>';
 const option = (value, label, selected) => '<option value="' + escape(value) + '"' + (selected ? ' selected' : '') + '>' + escape(label) + '</option>';
-const statusLabel = value => ({'menu-listed':'Menu listed', regional:'Regional listing', seasonal:'Seasonal release', archived:'Archived', unavailable:'Unavailable'})[value] ?? 'Availability unconfirmed';
 const activePlanCategories = () => categories.filter(category => category === 'Milk Tea' ? state.includeTea : category !== 'Late-night Snack' || state.includeSnack);
 let current = {page:'', category:'Breakfast'};
 let spinning = null;
@@ -134,14 +133,14 @@ function grouped(items) {
       groups.get(key).push(item);
     }
   }
-  return [...groups].sort(([a],[b]) => t(a).localeCompare(t(b),language)).map(([group, entries]) => '<details class="food-group"><summary>' + escape(t(group)) + ' <span>' + entries.length + '</span></summary>' + entries.map(item => tile(item, '', true)).join('') + '</details>').join('');
+  return [...groups].sort(([a],[b]) => t(a).localeCompare(t(b),language)).map(([group, entries]) => '<details class="food-group"><summary>' + escape(t(group)) + ' <span>' + entries.length + '</span></summary>' + entries.map(item => tile(item, t(group), true)).join('') + '</details>').join('');
 }
 
 function wheelPanel(category) {
   const pool = wheelPool(category);
   const groups = [...new Set(eligible(category, state).flatMap(groupsOf))].sort((a,b) => t(a).localeCompare(t(b),language));
   const previous = pool.find(item => item.id === state.last[category]);
-  const visibleResult = previous && pool.some(item => item.id === previous.id) ? previous : null;
+  const visibleResult = previous || null;
   const hasFrame = frame?.category === category && (!visibleResult || frame.result === visibleResult.id || spinning === frame) && frame.segments.every(item => pool.some(candidate => candidate.id === item.id));
   const preview = visibleResult ? [visibleResult, ...shuffle(pool.filter(item => item.id !== visibleResult.id)).slice(0, 7)] : shuffle(pool).slice(0, 8);
   const selection = hasFrame ? frame : {category, segments:preview, angle: preview.length ? -180 / preview.length : 0, result:visibleResult?.id};
@@ -152,7 +151,7 @@ function wheelPanel(category) {
     '<div class="wheel-wrap"><div class="wheel-shell"><span class="pointer" aria-hidden="true"></span><canvas id="wheel" width="840" height="840" aria-label="' + t('Wheel segments') + ': ' +
     escape(selection.segments.map(itemName).join(', ')) + '" role="img"></canvas><span class="wheel-hub" aria-hidden="true">' + icon(categoryIcons[categories.indexOf(category)]) + '</span></div></div>' +
     '<div class="wheel-copy"><label class="wheel-filter">' + t(category === 'Milk Tea' ? 'Product type' : 'Cuisine') + '<select id="wheel-group"' + (spinning ? ' disabled' : '') + '>' + option('', t('All types'), !subgroup) + groups.map(group => option(group,t(group),subgroup === group)).join('') + '</select></label><span class="pill">' + count(pool.length, 'eligible option') + '</span><h2>' + category + ' wheel</h2><p class="lede">Choose a category, then spin.</p>' +
-    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(itemName(result)) + '</h3><p class="muted">' + escape(withRegion(result.brand ? brandName(result.brand) : t(cuisineOf(result)), result)) + '</p>' :
+    '<div class="result" id="result" aria-live="polite">' + (result ? '<p class="eyebrow">LAST PICK</p><h3>' + escape(itemName(result)) + '</h3><p class="muted">' + escape(withRegion(result.brand ? brandName(result.brand) : wheelCuisine(result), result)) + '</p>' :
     '<p class="muted">' + (busy ? 'Spinning…' : pool.length ? 'Ready when you are.' : 'No eligible items. Try another brand or review your preferences and exclusions.') + '</p>') + '</div>' +
     '<div class="actions"><button id="spin" class="button primary" data-action="spin" data-value="' + category + '"' + (pool.length && !spinning ? '' : ' disabled') + '>' +
     icon('roulette') + (previous ? ' Spin Again' : ' Spin the Wheel') + '</button>' +
@@ -185,7 +184,7 @@ function renderTeaItems() {
   const container = document.querySelector('#tea-items');
   if (!container) return;
   const query = normalize(teaSearch);
-  const products = [...catalog['Milk Tea']].sort((a,b) => subtype(a).localeCompare(subtype(b))).filter(item => (!state.brand || item.brand === state.brand) && (!teaType || item.productCategory === teaType) && (!query || (searchable(item).includes(query) || normalize(itemName(item)).includes(query) || normalize(brandName(item.brand)).includes(query) || normalize(item.region || '').includes(query) || normalize(item.regionChinese || '').includes(query))));
+  const products = [...catalog['Milk Tea']].sort((a,b) => a.productCategory.localeCompare(b.productCategory)).filter(item => (!state.brand || item.brand === state.brand) && (!teaType || item.productCategory === teaType) && (!query || (searchable(item).includes(query) || normalize(itemName(item)).includes(query) || normalize(brandName(item.brand)).includes(query) || normalize(item.region || '').includes(query) || normalize(item.regionChinese || '').includes(query))));
   container.innerHTML = '<p class="list-count" aria-live="polite">' + count(products.length, 'product') + '</p>' +
     (products.length ? '<div class="tile-grid">' + grouped(products.slice(0, teaLimit)) + '</div>' : '<p class="card empty">No matching menu products.</p>') +
     (products.length > teaLimit ? '<div class="actions">' + button('Show more products', 'tea-more') + '</div>' : '');
@@ -459,7 +458,7 @@ async function spin(category) {
     const refocus = focused?.id ? '#' + CSS.escape(focused.id) : undefined;
     render({refocus});
     if (reveal && !dialog.open) {
-      detail(draw.result, document.querySelector('#spin'), true);
+      detail(draw.result, document.querySelector('#spin'));
       celebrate(dialog);
     }
   }
@@ -504,7 +503,7 @@ dialog.addEventListener('close', () => {
   dialogTrigger = null;
 });
 function detail(item, trigger) {
-  const identity = item.brand ? brandName(item.brand) + ' · ' + t(item.productCategory) : t(cuisineOf(item));
+  const identity = item.brand ? brandName(item.brand) + ' · ' + t(item.productCategory) : wheelCuisine(item);
   showDialog('<div class="dialog-head"><div><p class="eyebrow">' + t('Your pick') +
     '</p><h2 id="detail-title">' + escape(itemName(item)) + '</h2><p class="muted">' + escape(withRegion(identity, item)) +
     '</p></div>' +
@@ -626,7 +625,7 @@ document.addEventListener('click', event => {
   }
   if (action === 'clear-history') { dialog.close(); state.history = []; persist('History cleared.'); }
   if (action === 'random-brand') {
-    const available = [...new Set(eligible('Milk Tea', state, '').filter(menuEligible).map(item => item.brand))];
+    const available = [...new Set(eligible('Milk Tea', state, '').map(item => item.brand))];
     const other = available.filter(brand => brand !== state.brand);
     if (!available.length) { notify('No brands match your restrictions.'); return; }
     subgroup = '';
@@ -651,7 +650,8 @@ document.addEventListener('click', event => {
   }
   if (dialog.open) {
     render();
-    detail(byId.get(value), dialogTrigger);
+    const item = catalog[current.category]?.find(entry => entry.id === value) ?? byId.get(value);
+    detail(item, dialogTrigger);
     dialog.querySelector(action === 'favorite' ? '[data-action="favorite"]' : '.dialog-actions .secondary')?.focus();
   } else rerenderAction(control);
 });

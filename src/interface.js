@@ -114,22 +114,6 @@ Save restrictions|保存限制
 Excluded items|已排除食品
 Restore|恢复
 Items you exclude from a wheel or product detail appear here.|从转盘或详情中排除的食品会显示在这里。
-Typical recipe ingredients|常见配料
-Published ingredient highlights|公开的主要配料
-Ingredient information|配料信息
-Ingredient information unavailable.|暂无配料信息。
-Verified ingredient declaration|已核实的配料表
-Recorded allergens|已记录的过敏原
-Unavailable|暂无信息
-Ingredient and cross-contact information is incomplete.|配料和交叉接触信息尚不完整。
-Menu reference|菜单来源
-View source|查看来源
-Price unavailable|暂无价格
-Menu listed|菜单在列
-Regional listing|地区限定
-Seasonal release|季节限定
-Archived|已归档
-Availability unconfirmed|供应情况待确认
 Remove Favorite|取消收藏
 Save Favorite|加入收藏
 Remove favorite|取消收藏
@@ -222,6 +206,7 @@ No Peanuts|不吃花生
 No Mushrooms|不吃菌菇
 No Spicy Food|不吃辣
 Fruit Tea|水果茶
+Pure Tea|纯茶
 Ice Cream|冰淇淋
 Other|其他
 Wheel segments|转盘候选
