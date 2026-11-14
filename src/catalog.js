@@ -67,7 +67,7 @@ function blocks(item, state) {
   const hasFullDeclaration = item.ingredientEvidence === 'verified-complete';
   const evidence = normalize([item.name, ...item.ingredients, ...item.allergens, ...item.dietaryTags].join(' '));
   if (state.restrictions.some(rule => (!hasFullDeclaration && strict.has(rule)) || restrictionMatches[rule]?.test(evidence))) return true;
-  return terms.length > 0 && (item.brand && !hasFullDeclaration || terms.some(term => searchable(item).includes(term) || evidence.includes(term)));
+  return terms.some(term => searchable(item).includes(term) || evidence.includes(term));
 }
 export function eligible(category, state, brand = state.brand) {
   const pool = (catalog[category] ?? []).filter(item => (!item.brand || !brand || item.brand === brand) && !blocks(item, state));
