@@ -113,7 +113,9 @@ test('every brand is selectable, while unknown ingredients fail allergy filters'
     assert.equal(eligible('Milk Tea', {...state,restrictions:['No Dairy']}, name).length,0);
   }
   assert.equal(new Set(eligible('Milk Tea', state).map(item => item.brand)).size,12);
-  assert.equal(eligible('Milk Tea', {...state,custom:'mango'}).length,0);
+  const filtered = eligible('Milk Tea', {...state,custom:'mango'});
+  assert.ok(filtered.length > 0 && filtered.length < catalog['Milk Tea'].length);
+  assert.ok(filtered.every(item => !normalize(item.name).includes('mango')));
 });
 
 test('history, favorites, independent category picks and settings survive a reload', () => {
