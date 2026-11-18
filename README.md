@@ -1,12 +1,11 @@
 # What to Eat
 
-本项目由 Silas Huang 制作，OpenAI Codex 参与开发。
+本项目由 Codex 参与开发。
 
 What to Eat 是一个开源的中英双语美食选择工具，适配手机和桌面。你可以用转盘决定早餐、午餐、晚餐、夜宵或茶饮，也可以一键安排一日菜单、查询品牌茶饮、收藏喜欢的条目，并把不想吃的选项从转盘中排除。偏好与历史记录保存在当前浏览器。
 
 [打开 What to Eat](https://auraliushale-rgb.github.io/what-to-eat/)
 
-本项目是温州肯恩大学 ESL 0303 W43 课程作业《Infomercial Group Invention》的一部分，指导老师为 Benjamin Dudley。
 
 ## 食品数据库
 
@@ -45,10 +44,6 @@ npm run preview
 
 将源码推送到公开仓库的 `main` 分支，在仓库的 Pages 设置中将部署来源设为 GitHub Actions。部署流程会运行数据库与转盘测试，再构建并发布 `dist/`。Vite 使用相对路径，仓库子路径下可直接打开各页面与转盘。
 
-## 项目贡献者
-
-- 制作者：Silas Huang
-- 协助制作：Nike Chen、Yulin Gu、Codex（OpenAI）
 
 欢迎提交改进。增补菜品或修订品牌菜单时，请参考[数据库说明](docs/catalog.md)，保留已有条目的 ID。提交拉取请求前请运行 `npm test` 和 `npm run build`，并为菜单变更附上来源链接。
 
